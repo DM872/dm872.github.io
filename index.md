@@ -2,12 +2,16 @@
 # You don't need to edit this file, it's empty on purpose.
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+title: "DM872"
 layout: default
+excerpt: "Mathematical Optimization at work"
+sitemap: false
+permalink: /
 ---
 
 
 
-## General information
+### General information
 
 - [Official course description](https://odinlister.sdu.dk/fagbesk/internkode/DM872/)
 
@@ -18,43 +22,33 @@ layout: default
 
 
 
-## Schedule
+### Schedule
 
 
 
 <a href="https://mitsdu.sdu.dk/skema/activity/N340032101/f20">MitSDU</a>
 
 
-<button onclick="myFunction('h1')" class="w3-btn w3-cell
-w3-left-align">Weekly view<i class="fa fa-caret-down"></i></button>
-<div id="h1" class="w3-container w3-hide">
-
-<div class="w3-responsive">
-
-To come 
-<!-- <div w3-include-html="./assets/dm872_h1.html"></div>  
-<script>
-w3.includeHTML();
-</script>
--->
-</div>
-</div>
 
 
 
 
 
-## Contents
+### Contents
 
-### Introductory Classes
+#### Introductory Classes
 
 | Week	 | Topics and Slides                                                            | 	Recommended reading                                            |
 |--------------+------------------------------------------------------------------------------+------------------------------------------------------------------------|
 |           14 | MILP Languages and Solvers. MILP Formulations for Traveling Salesman Problem | [Pyomo](https://imada.sdu.dk/~marco/DM871/Training/dm545_lab_scip.pdf) |
-|              | Cutting Planes for TSP                                                       | [TSP ][5]; [P] or [DFJ] or [MTZ] or [A] or [ABCC] or [OAL]             |
-|              | Exercises                                                                    | [Sheet 1][1]; [Solutions][2];                                          |
+|              | Cutting Planes for TSP                                                       |              |
+|              | Exercises                                                                    |                                          |
 |--------------+------------------------------------------------------------------------------+------------------------------------------------------------------------|
 
+<!--
+[TSP ][5]; [P] or [DFJ] or [MTZ] or [A] or [ABCC] or [OAL]
+ [Sheet 1][1]; [Solutions][2];
+-->
 
 <!--
 
@@ -94,16 +88,16 @@ w3.includeHTML();
 
 -->
 
-## Literature
+### References
 
 
+- [Py] Hart, William E., Carl D. Laird, Jean-Paul Watson, David
+  L. Woodruff, Gabriel A. Hackebeil, Bethany L. Nicholson, and John
+  D. Siirola. [Pyomo – Optimization Modeling in
+  Python](https://www.springer.com/gp/book/9783319588193). Second
+  Edition.  Vol. 67. Springer, 2017.
 
-- [PRKM] João Pedro Pedroso, Abdur Rais, Mikio Kubo and Masakazu
-  Muramatsu. [*Mathematical Optimization: Solving Problems using SCIP and Python*](https://scipbook.readthedocs.io)
-
-
-### Further Reading
-
+<!--
 - [A] David L. L. Applegate, Robert E. E. Bixby, Vasek Chvátal, William
   J. J. Cook. [The traveling salesman problem: a computational
   study](https://ebookcentral.proquest.com/lib/sdub/detail.action?docID=768550).
@@ -224,14 +218,23 @@ w3.includeHTML();
   Multilevel Methods: With Applications to Economics and
   Management](http://pure.iiasa.ac.at/id/eprint/1017/1/XB-79-106.pdf). Chichester,
   UK: John Wiley & Sons. ISBN 978-0-471-27626-5
+
+-->
+
 <!-- https://core.ac.uk/download/pdf/52942860.pdf -->
 
-## Links:
 
-- [RM] PySCIPOpt: Python Interface to the SCIP Optimization
-  Suite. [Reference
-  Manual](https://imada.sdu.dk/~marco/Misc/PySCIPOpt/index.html); [SCIP Parameters](https://scip.zib.de/doc/html/PARAMETERS.php)
 
+### Links:
+
+
+- [Pyomo documentation](http://www.pyomo.org/documentation)
+
+<!--
+ - [RM] PySCIPOpt: Python Interface to the SCIP Optimization
+   Suite. [Reference
+   Manual](https://imada.sdu.dk/~marco/Misc/PySCIPOpt/index.html); [SCIP Parameters](https://scip.zib.de/doc/html/PARAMETERS.php)
+-->
 
 
 
