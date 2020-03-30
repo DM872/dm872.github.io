@@ -40,7 +40,7 @@ permalink: /
 
 | Week	 | Topics and Slides                                                            | 	Material                                            |
 |--------------+------------------------------------------------------------------------------+------------------------------------------------------------------------|
-|           14 | MILP Languages and Solvers.  | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)][1];  [Pyomo](https://imada.sdu.dk/~marco/DM871/Training/dm545_lab_scip.pdf) |
+|           14 | MILP Languages and Solvers.  | [<img src="https://colab.research.google.com/assets/colab-badge.svg" rel="Open in CoLab">][1];  [Pyomo](https://imada.sdu.dk/~marco/DM871/Training/dm545_lab_scip.pdf) |
 |              | MILP Formulations for Traveling Salesman Problem; Cutting Planes for TSP                                                       |              |
 |              | Exercises                                                                    |                                          |
 |--------------+------------------------------------------------------------------------------+------------------------------------------------------------------------|
@@ -237,7 +237,7 @@ permalink: /
 -->
 
 
-[1]: {{ https://colab.research.google.com/github/DM872/Material/blob/master/Python/Python_in_a_Nutshell.ipynb | absolute_url }}
+[1]: {{ "https://colab.research.google.com/github/DM872/Material/blob/master/Python/Python_in_a_Nutshell.ipynb" | absolute_url }}
 [2]: {{ "https://www.imada.sdu.dk/~marco/Teaching/AY2018-2019/DM872/assets/tsp.html" | absolute_url }}
 [3]: {{ "https://www.imada.sdu.dk/~marco/Teaching/AY2018-2019/DM872/assets/tsp_sol.html" | absolute_url }}
 [4]: {{ "/assets/dm872-cut-n-solve-handout.pdf" | absolute_url }}
