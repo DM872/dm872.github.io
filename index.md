@@ -38,10 +38,10 @@ permalink: /
 
 #### Introductory Classes
 
-| Week	 | Topics and Slides                                                            | 	Recommended reading                                            |
+| Week	 | Topics and Slides                                                            | 	Material                                            |
 |--------------+------------------------------------------------------------------------------+------------------------------------------------------------------------|
-|           14 | MILP Languages and Solvers. MILP Formulations for Traveling Salesman Problem | [Pyomo](https://imada.sdu.dk/~marco/DM871/Training/dm545_lab_scip.pdf) |
-|              | Cutting Planes for TSP                                                       |              |
+|           14 | MILP Languages and Solvers.  | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)][1];  [Pyomo](https://imada.sdu.dk/~marco/DM871/Training/dm545_lab_scip.pdf) |
+|              | MILP Formulations for Traveling Salesman Problem; Cutting Planes for TSP                                                       |              |
 |              | Exercises                                                                    |                                          |
 |--------------+------------------------------------------------------------------------------+------------------------------------------------------------------------|
 
@@ -237,24 +237,25 @@ permalink: /
 -->
 
 
+[1]: {{ https://colab.research.google.com/github/DM872/Material/blob/master/Python/Python_in_a_Nutshell.ipynb | absolute_url }}
+[2]: {{ "https://www.imada.sdu.dk/~marco/Teaching/AY2018-2019/DM872/assets/tsp.html" | absolute_url }}
+[3]: {{ "https://www.imada.sdu.dk/~marco/Teaching/AY2018-2019/DM872/assets/tsp_sol.html" | absolute_url }}
+[4]: {{ "/assets/dm872-cut-n-solve-handout.pdf" | absolute_url }}
+[5]: {{ "/assets/dm872-timetabling-handout.pdf" | absolute_url }}
+[6]: {{ "/assets/dm872-tsp-handout.pdf" | absolute_url }}
+[7]: {{ "/assets/dm872-modeling_2-handout.pdf" | absolute_url }}
+[8]: {{ "/assets/dm872-preprocessing-handout.pdf" | absolute_url }}
+[9]: {{ "/assets/dm872-timetabling-handout.pdf" | absolute_url }}
+[10]: {{ "/assets/dm872-theory-handout.pdf" | absolute_url }}
+[11]: {{ "/assets/dm872-timetabling_2-handout.pdf" | absolute_url }}
+[12]: {{ "/assets/02-CVRP-models.pdf" | absolute_url }}
+[13]: {{ "/assets/03-CVRP-CG.pdf" | absolute_url }}
+[14]: {{ "/assets/04-CVRP-IntegerSolutionsWithCG.pdf" | absolute_url }}
+[15]: {{ "/assets/vehicle-scheduling.pdf" | absolute_url }}
+[16]: {{ "/assets/crew-scheduling.pdf" | absolute_url }}
+[17]: {{ "/assets/rcsp.pdf" | absolute_url }}
+[18]: {{ "https://www.youtube.com/watch?v=vQzpydNOWDY" | absolute_url }}
+[19]: {{ "https://www.imada.sdu.dk/~marco/Teaching/AY2018-2019/DM872/assets/Lagrangian.html" | absolute_url }}
+[20]: {{ "https://www.imada.sdu.dk/~marco/Teaching/AY2018-2019/DM872/assets/extended.py" | absolute_url }}
+[21]: {{ "https://www.imada.sdu.dk/~marco/Teaching/AY2018-2019/DM872/assets/extended_callback.py" | absolute_url }}
 
-[1]: {{ "https://www.imada.sdu.dk/~marco/Teaching/AY2018-2019/DM872/assets/tsp.html" | absolute_url }}
-[2]: {{ "https://www.imada.sdu.dk/~marco/Teaching/AY2018-2019/DM872/assets/tsp_sol.html" | absolute_url }}
-[3]: {{ "/assets/dm872-cut-n-solve-handout.pdf" | absolute_url }}
-[4]: {{ "/assets/dm872-timetabling-handout.pdf" | absolute_url }}
-[5]: {{ "/assets/dm872-tsp-handout.pdf" | absolute_url }}
-[6]: {{ "/assets/dm872-modeling_2-handout.pdf" | absolute_url }}
-[7]: {{ "/assets/dm872-preprocessing-handout.pdf" | absolute_url }}
-[8]: {{ "/assets/dm872-timetabling-handout.pdf" | absolute_url }}
-[9]: {{ "/assets/dm872-theory-handout.pdf" | absolute_url }}
-[10]: {{ "/assets/dm872-timetabling_2-handout.pdf" | absolute_url }}
-[11]: {{ "/assets/02-CVRP-models.pdf" | absolute_url }}
-[12]: {{ "/assets/03-CVRP-CG.pdf" | absolute_url }}
-[13]: {{ "/assets/04-CVRP-IntegerSolutionsWithCG.pdf" | absolute_url }}
-[14]: {{ "/assets/vehicle-scheduling.pdf" | absolute_url }}
-[15]: {{ "/assets/crew-scheduling.pdf" | absolute_url }}
-[16]: {{ "/assets/rcsp.pdf" | absolute_url }}
-[17]: {{ "https://www.youtube.com/watch?v=vQzpydNOWDY" | absolute_url }}
-[18]: {{ "https://www.imada.sdu.dk/~marco/Teaching/AY2018-2019/DM872/assets/Lagrangian.html" | absolute_url }}
-[19]: {{ "https://www.imada.sdu.dk/~marco/Teaching/AY2018-2019/DM872/assets/extended.py" | absolute_url }}
-[20]: {{ "https://www.imada.sdu.dk/~marco/Teaching/AY2018-2019/DM872/assets/extended_callback.py" | absolute_url }}
