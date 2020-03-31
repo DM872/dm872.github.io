@@ -38,12 +38,16 @@ permalink: /
 
 #### Introductory Classes
 
-| Week	 | Topics and Slides                                                            | 	Material                                            |
-|--------------+------------------------------------------------------------------------------+------------------------------------------------------------------------|
-|           14 | MILP Languages and Solvers.  | [<img src="https://colab.research.google.com/assets/colab-badge.svg" rel="Open in CoLab">][1];  [Pyomo](https://imada.sdu.dk/~marco/DM871/Training/dm545_lab_scip.pdf) |
-|              | MILP Formulations for Traveling Salesman Problem; Cutting Planes for TSP                                                       |              |
-|              | Exercises                                                                    |                                          |
-|--------------+------------------------------------------------------------------------------+------------------------------------------------------------------------|
+Other material for this course is available through the associated
+[Git repository](https://github.com/DM872/Material)
+
+
+| Week	 | Topics and Slides                                                        | 	Material                                                        |
+|--------------+--------------------------------------------------------------------------+-------------------------------------------------------------------------|
+|           14 | MILP Languages and Solvers.                                              | [Intro to Python][1];  [Pyomo](http://www.pyomo.org/documentation); [Sheet 1][2] |
+|              | Model Fitting                                                            | [Sheet 2]({{ site.url }}{% post_url 2020-03-31-fitting %})              |
+|              | MILP Formulations for Traveling Salesman Problem; Cutting Planes for TSP |                                                                         |
+|--------------+--------------------------------------------------------------------------+-------------------------------------------------------------------------|
 
 <!--
 [TSP ][5]; [P] or [DFJ] or [MTZ] or [A] or [ABCC] or [OAL]
@@ -238,6 +242,11 @@ permalink: /
 
 
 [1]: {{ "https://colab.research.google.com/github/DM872/Material/blob/master/Python/Python_in_a_Nutshell.ipynb" | absolute_url }}
+[2]: {{ "https://imada.sdu.dk/~marco/DM871/Training/dm545_lab_scip.pdf" | absolute_url }}
+
+
+<!--
+
 [2]: {{ "https://www.imada.sdu.dk/~marco/Teaching/AY2018-2019/DM872/assets/tsp.html" | absolute_url }}
 [3]: {{ "https://www.imada.sdu.dk/~marco/Teaching/AY2018-2019/DM872/assets/tsp_sol.html" | absolute_url }}
 [4]: {{ "/assets/dm872-cut-n-solve-handout.pdf" | absolute_url }}
@@ -259,3 +268,4 @@ permalink: /
 [20]: {{ "https://www.imada.sdu.dk/~marco/Teaching/AY2018-2019/DM872/assets/extended.py" | absolute_url }}
 [21]: {{ "https://www.imada.sdu.dk/~marco/Teaching/AY2018-2019/DM872/assets/extended_callback.py" | absolute_url }}
 
+-->
