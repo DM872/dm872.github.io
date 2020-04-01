@@ -45,7 +45,7 @@ Other material for this course is available through the associated
 | Week	 | Topics and Slides                                                        | 	Material                                                        |
 |--------------+--------------------------------------------------------------------------+-------------------------------------------------------------------------|
 |           14 | MILP Languages and Solvers.                                              | [Intro to Python][1];  [Pyomo](http://www.pyomo.org/documentation); [Sheet 1][2] |
-|              | Model Fitting                                                            | [Sheet 2]({{ site.url }}{% post_url 2020-03-31-fitting %})              |
+|              | Model Fitting                                                            | [Sheet 2][3]              |
 |              | MILP Formulations for Traveling Salesman Problem; Cutting Planes for TSP |                                                                         |
 |--------------+--------------------------------------------------------------------------+-------------------------------------------------------------------------|
 
@@ -243,7 +243,11 @@ Other material for this course is available through the associated
 
 [1]: {{ "https://colab.research.google.com/github/DM872/Material/blob/master/Python/Python_in_a_Nutshell.ipynb" | absolute_url }}
 [2]: {{ "https://imada.sdu.dk/~marco/DM871/Training/dm545_lab_scip.pdf" | absolute_url }}
+[3]: {{ "https://github.com/DM872/Material/blob/master/Python/Sheet2.ipynb" | absolute_url }}
 
+
+
+({{ site.url }}{% post_url 2020-03-31-fitting %})
 
 <!--
 
