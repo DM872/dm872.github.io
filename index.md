@@ -243,13 +243,12 @@ Other material for this course is available through the associated
 
 [1]: {{ "https://colab.research.google.com/github/DM872/Material/blob/master/Python/Python_in_a_Nutshell.ipynb" | absolute_url }}
 [2]: {{ "https://imada.sdu.dk/~marco/DM871/Training/dm545_lab_scip.pdf" | absolute_url }}
-[3]: {{ "https://github.com/DM872/Material/blob/master/Python/Sheet2.ipynb" | absolute_url }}
-
-
-
-({{ site.url }}{% post_url 2020-03-31-fitting %})
+[3]: {{ site.url }}{% post_url 2020-03-31-fitting %}
 
 <!--
+
+{{ "https://github.com/DM872/Material/blob/master/Python/Sheet2.ipynb" | absolute_url }}
+
 
 [2]: {{ "https://www.imada.sdu.dk/~marco/Teaching/AY2018-2019/DM872/assets/tsp.html" | absolute_url }}
 [3]: {{ "https://www.imada.sdu.dk/~marco/Teaching/AY2018-2019/DM872/assets/tsp_sol.html" | absolute_url }}
