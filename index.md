@@ -42,15 +42,18 @@ Other material for this course is available through the associated
 [Git repository](https://github.com/DM872/Material)
 
 
-| Week	 | Topics and Slides                                                        | 	Material                                                        |
-|--------------+--------------------------------------------------------------------------+-------------------------------------------------------------------------|
-|           14 | MILP Languages and Solvers.                                              | [Intro to Python][1];  [Pyomo](http://www.pyomo.org/documentation); [Sheet 1][2] |
-|              | Model Fitting                                                            | [Sheet 2][3]              |
-|              | MILP Formulations for Traveling Salesman Problem; Cutting Planes for TSP |                                                                         |
-|--------------+--------------------------------------------------------------------------+-------------------------------------------------------------------------|
+| Week	 | Topics and Slides                                                        | 	Material                                                                 |
+|--------------+--------------------------------------------------------------------------+----------------------------------------------------------------------------------|
+|           14 | [Introduction][51]. Pyomo (slides).                                      | [Intro to Python][10];  [Pyomo](http://www.pyomo.org/documentation); [Sheet 1][11] |
+|              | Pyomo (examples).  Model Fitting (linear and non linear models).         | [Sheet 2][12]                                                                    |
+|              | Installations. [Preprocessing][52].                                      |                                                                                  |
+|--------------+--------------------------------------------------------------------------+----------------------------------------------------------------------------------|
+|           16 | [MILP Formulations for Traveling Salesman Problem][53]; Cutting Planes for TSP | [Sheet 3][13]; [P] or [DFJ] or [MTZ] or [A] or [ABCC] or [OAL]                                                                                 |
+
+
 
 <!--
-[TSP ][5]; [P] or [DFJ] or [MTZ] or [A] or [ABCC] or [OAL]
+[Tsp ][5]; [P] or [DFJ] or [MTZ] or [A] or [ABCC] or [OAL]
  [Sheet 1][1]; [Solutions][2];
 -->
 
@@ -59,7 +62,7 @@ Other material for this course is available through the associated
 | Week	 | Topics and Slides                                                             | 	Recommended reading                                                                                                                                        |
 |--------------+-------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |           14 | MILP Languages and Solvers. MILP Formulations for Traveling Salesman Problem  | [Pyomo](https://imada.sdu.dk/~marco/DM871/Training/dm545_lab_scip.pdf)                                                                                             |
-|              | Cutting Planes for TSP                                                        | [TSP ][5]; [P] or [DFJ] or [MTZ] or [A] or [ABCC] or [OAL]                                                                                                         |
+|              | Cutting Planes for TSP                                                        |                                                                                                      |
 |              | Exercises                                                                     | [Sheet 1][1]; [Solutions][2];                                                                                                                                      |
 |--------------+-------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |           15 | Cut-and-Solve                                                                 | [Cut-n-solve][3]; [CZ]                                                                                                                                             |
@@ -101,7 +104,7 @@ Other material for this course is available through the associated
   Python](https://www.springer.com/gp/book/9783319588193). Second
   Edition.  Vol. 67. Springer, 2017.
 
-<!--
+
 - [A] David L. L. Applegate, Robert E. E. Bixby, Vasek Chvátal, William
   J. J. Cook. [The traveling salesman problem: a computational
   study](https://ebookcentral.proquest.com/lib/sdub/detail.action?docID=768550).
@@ -135,6 +138,7 @@ Other material for this course is available through the associated
   formulations](https://doi.org/10.1016/j.cor.2007.11.008) Computers & Operations Research 36 (2009) 6
 
 
+<!--
 
 - [CZ] Sharlee Climer, Weixiong Zhang. Cut-and-solve: [An iterative
   search strategy for combinatorial optimization
@@ -241,20 +245,30 @@ Other material for this course is available through the associated
 -->
 
 
-[1]: {{ "https://colab.research.google.com/github/DM872/Material/blob/master/Python/Python_in_a_Nutshell.ipynb" | absolute_url }}
-[2]: {{ "https://imada.sdu.dk/~marco/DM871/Training/dm545_lab_scip.pdf" | absolute_url }}
-[3]: {{ site.url }}{% post_url 2020-03-31-fitting %}
+[10]: {{ "https://colab.research.google.com/github/DM872/Material/blob/master/Python/Python_in_a_Nutshell.ipynb" | absolute_url }}
+[11]: {{ "https://github.com/DM872/Material/blob/master/sheet1/Production.ipynb" | absolute_url }}
+[12]: {{ site.url }}{% post_url 2020-03-31-fitting %}
+[13]: {{ "https://github.com/DM872/Material/blob/master/TSP/tsp.ipynb" | absolute_url }}
+
+
+[32]: {{ "https://github.com/DM872/Material/blob/master/sheet2/infection.ipynb" }}
+
+
+
+[51]: {{ "/assets/dm872-lec1-handout.pdf" | absolute_url }}
+[52]: {{ "/assets/dm872-preprocessing-handout.pdf" | absolute_url }}
+[53]: {{ "/assets/dm872-tsp-handout.pdf" | absolute_url }}
 
 <!--
 
 {{ "https://github.com/DM872/Material/blob/master/Python/Sheet2.ipynb" | absolute_url }}
 
 
-[2]: {{ "https://www.imada.sdu.dk/~marco/Teaching/AY2018-2019/DM872/assets/tsp.html" | absolute_url }}
+
 [3]: {{ "https://www.imada.sdu.dk/~marco/Teaching/AY2018-2019/DM872/assets/tsp_sol.html" | absolute_url }}
 [4]: {{ "/assets/dm872-cut-n-solve-handout.pdf" | absolute_url }}
 [5]: {{ "/assets/dm872-timetabling-handout.pdf" | absolute_url }}
-[6]: {{ "/assets/dm872-tsp-handout.pdf" | absolute_url }}
+
 [7]: {{ "/assets/dm872-modeling_2-handout.pdf" | absolute_url }}
 [8]: {{ "/assets/dm872-preprocessing-handout.pdf" | absolute_url }}
 [9]: {{ "/assets/dm872-timetabling-handout.pdf" | absolute_url }}
@@ -270,5 +284,7 @@ Other material for this course is available through the associated
 [19]: {{ "https://www.imada.sdu.dk/~marco/Teaching/AY2018-2019/DM872/assets/Lagrangian.html" | absolute_url }}
 [20]: {{ "https://www.imada.sdu.dk/~marco/Teaching/AY2018-2019/DM872/assets/extended.py" | absolute_url }}
 [21]: {{ "https://www.imada.sdu.dk/~marco/Teaching/AY2018-2019/DM872/assets/extended_callback.py" | absolute_url }}
+
+[13]: {{ "https://www.imada.sdu.dk/~marco/Teaching/AY2018-2019/DM872/assets/tsp.html" | absolute_url }}
 
 -->
