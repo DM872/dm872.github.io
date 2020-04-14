@@ -259,7 +259,7 @@ Other material for this course is available through the associated
 
 [51]: {{ "/assets/dm872-lec1-handout.pdf" | absolute_url }}
 [52]: {{ "/assets/dm872-preprocessing-handout.pdf" | absolute_url }}
-[53]: {{ "/assets/dm872-TSP-Formulations.pdf" | absolute_url }}
+[53]: {{ "/assets/dm872-TSP_Formulations.pdf" | absolute_url }}
 
 <!--
 
