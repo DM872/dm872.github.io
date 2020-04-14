@@ -42,13 +42,13 @@ Other material for this course is available through the associated
 [Git repository](https://github.com/DM872/Material)
 
 
-| Week	 | Topics and Slides                                                        | 	Material                                                                 |
-|--------------+--------------------------------------------------------------------------+----------------------------------------------------------------------------------|
-|           14 | [Introduction][51]. Pyomo (slides).                                      | [Intro to Python][10];  [Pyomo](http://www.pyomo.org/documentation); [Sheet 1][11] |
-|              | Pyomo (examples).  Model Fitting (linear and non linear models).         | [Sheet 2][12]                                                                    |
-|              | Installations. [Preprocessing][52].                                      |                                                                                  |
-|--------------+--------------------------------------------------------------------------+----------------------------------------------------------------------------------|
-|           16 | [MILP Formulations for Traveling Salesman Problem][53]; Cutting Planes for TSP | [Sheet 3][13]; [P] or [DFJ] or [MTZ] or [A] or [ABCC] or [OAL]                                                                                 |
+| Week	 | Topics and Slides                                                              | 	Material                                                                   |
+|--------------+--------------------------------------------------------------------------------+------------------------------------------------------------------------------------|
+|           14 | [Introduction][51]. Pyomo (slides).                                            | [Intro to Python][10];  [Pyomo](http://www.pyomo.org/documentation); [Sheet 1][11] |
+|              | Pyomo (examples).  Model Fitting (linear and non linear models).               | [Sheet 2][12]; [Solution][32]                                                      |
+|              | Installations. [Preprocessing][52].                                            |                                                                                    |
+|--------------+--------------------------------------------------------------------------------+------------------------------------------------------------------------------------|
+|           16 | [MILP Formulations for Traveling Salesman Problem][53]; Cutting Planes for TSP | [Sheet 3][13]; [P] or [DFJ] or [MTZ] or [A] or [ABCC] or [OAL]                     |
 
 
 
