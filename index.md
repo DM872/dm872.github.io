@@ -49,7 +49,9 @@ Other material for this course is available through the associated
 |              | Installations. [Preprocessing][52].                                            |                                                                                    |
 |--------------+--------------------------------------------------------------------------------+------------------------------------------------------------------------------------|
 |           16 | [MILP Formulations for Traveling Salesman Problem][53]; Cutting Planes for TSP | [Sheet 3][13]; [P] or [DFJ] or [MTZ] or [A] or [ABCC] or [OAL]                     |
-
+|              | TSP                                                                            |                                                                                    |
+|              | TSP                                                                            |                                                                                    |
+|--------------+--------------------------------------------------------------------------------+------------------------------------------------------------------------------------|
 
 
 <!--
@@ -257,7 +259,7 @@ Other material for this course is available through the associated
 
 [51]: {{ "/assets/dm872-lec1-handout.pdf" | absolute_url }}
 [52]: {{ "/assets/dm872-preprocessing-handout.pdf" | absolute_url }}
-[53]: {{ "/assets/dm872-tsp-handout.pdf" | absolute_url }}
+[53]: {{ "/assets/dm872-TSP-Formulations.pdf" | absolute_url }}
 
 <!--
 
