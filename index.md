@@ -45,12 +45,12 @@ Other material for this course is available through the associated
 | Week	 | Topics and Slides                                                              | 	Material                                                                   |
 |--------------+--------------------------------------------------------------------------------+------------------------------------------------------------------------------------|
 |           14 | [Introduction][51]. Pyomo (slides).                                            | [Intro to Python][10];  [Pyomo](http://www.pyomo.org/documentation); [Sheet 1][11] |
-|              | Pyomo (examples).  Model Fitting (linear and non linear models).               | [Sheet 2][12]; [Solution][32]                                                      |
+|              | Pyomo (examples).  Model Fitting (linear and non linear models).               | [Sheet 2][12]; [Solution S.2][32]                                                      |
 |              | Installations. [Preprocessing][52].                                            |                                                                                    |
 |--------------+--------------------------------------------------------------------------------+------------------------------------------------------------------------------------|
 |           16 | [MILP Formulations for Traveling Salesman Problem][53]; Cutting Planes for TSP | [Sheet 3][13]; [P] or [DFJ] or [MTZ] or [A] or [ABCC] or [OAL]                     |
 |              | TSP                                                                            |                                                                                    |
-|              | TSP                                                                            |                                                                                    |
+|              | TSP                                                                            |         [Solution S.3][33]                                                                              |
 |--------------+--------------------------------------------------------------------------------+------------------------------------------------------------------------------------|
 
 
@@ -254,7 +254,7 @@ Other material for this course is available through the associated
 
 
 [32]: {{ "https://github.com/DM872/Material/blob/master/sheet2/infection.ipynb" }}
-
+[33]: {{ "https://github.com/DM872/Material/blob/master/TSP/tsp_sol.ipynb" | absolute_url }}
 
 
 [51]: {{ "/assets/dm872-lec1-handout.pdf" | absolute_url }}
