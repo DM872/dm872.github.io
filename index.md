@@ -42,18 +42,20 @@ Other material for this course is available through the associated
 [Git repository](https://github.com/DM872/Material)
 
 
-| Week	 | Topics and Slides                                                              | 	Material                                                                   |
-|--------------+--------------------------------------------------------------------------------+------------------------------------------------------------------------------------|
-|           14 | [Introduction][51]. Pyomo (slides).                                            | [Intro to Python][10];  [Pyomo](http://www.pyomo.org/documentation); [Sheet 1][11] |
-|              | Pyomo (examples).  Model Fitting (linear and non linear models).               | [Sheet 2][12]; [Solution S.2][32]                                                      |
-|              | Installations. [Preprocessing][52].                                            |                                                                                    |
-|--------------+--------------------------------------------------------------------------------+------------------------------------------------------------------------------------|
-|           16 | [MILP Formulations for Traveling Salesman Problem][53]; Cutting Planes for TSP | [Sheet 3][13]; [P] or [DFJ] or [MTZ] or [A] or [ABCC] or [OAL]                     |
-|              | TSP                                                                            |                                                                                    |
-|              | TSP. [Network Flows duality][54]                                                                            |         [Solution S.3][33]                                                                              |
-|--------------+--------------------------------------------------------------------------------+------------------------------------------------------------------------------------|
-
-
+| Week	 | Topics and Slides                                                | 	Material                                                                   |
+|--------------+------------------------------------------------------------------+------------------------------------------------------------------------------------|
+|           14 | [Introduction][51]. Pyomo (slides).                              | [Intro to Python][10];  [Pyomo](http://www.pyomo.org/documentation); [Sheet 1][11] |
+|              | Pyomo (examples).  Model Fitting (linear and non linear models). | [Sheet 2][12]; [Solution S.2][32]                                                  |
+|              | Installations. [Preprocessing][52].                              |                                                                                    |
+|--------------+------------------------------------------------------------------+------------------------------------------------------------------------------------|
+|           16 | [MILP Formulations for Traveling Salesman Problem][53]           | [Sheet 3][13]; [P] or [DFJ] or [MTZ] or [A] or [ABCC] or [OAL]                     |
+|              | Cutting Planes for TSP                                           |                                                                                    |
+|              | More on TSP. [Network Flows duality][54]                         | [Solution S.3][33]                                                                 |
+|--------------+------------------------------------------------------------------+------------------------------------------------------------------------------------|
+|           17 | [Cut-and-Solve][55]                                              | [Sheet 4][14]; [Cut-n-solve][3]; [CZ]                                              |
+|              | [Modeling tricks][56]                                            | [Modeling][6];    [KN1,KN2,ABGRW]                                                  |
+|              |                                                                  |                                                                                    |
+|--------------+------------------------------------------------------------------+------------------------------------------------------------------------------------|
 
 
 <!--
@@ -69,8 +71,8 @@ Other material for this course is available through the associated
 |              | Cutting Planes for TSP                                                        |                                                                                                      |
 |              | Exercises                                                                     | [Sheet 1][1]; [Solutions][2];                                                                                                                                      |
 |--------------+-------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|           15 | Cut-and-Solve                                                                 | [Cut-n-solve][3]; [CZ]                                                                                                                                             |
-|              | Modeling and Preprocessing                                                    | [Modeling][6];  [Preprocessing][7]   [KN1,KN2,ABGRW]                                                                                                               |
+|           15 | 
+|              | 
 |              | Exercises                                                                     | [Sheet 2]({{ site.url }}{% post_url 2019-04-10-sheet2 %})                                                                                                          |
 |--------------+-------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |           17 | Modeling Timetabling                                                          | [Timetabling][8]; [Timetabling][10]; [LL]                                                                                                                          |
@@ -142,7 +144,7 @@ Other material for this course is available through the associated
   formulations](https://doi.org/10.1016/j.cor.2007.11.008) Computers & Operations Research 36 (2009) 6
 
 
-<!--
+
 
 - [CZ] Sharlee Climer, Weixiong Zhang. Cut-and-solve: [An iterative
   search strategy for combinatorial optimization
@@ -172,6 +174,11 @@ Other material for this course is available through the associated
 
 - [AMO] R.K. Ahuja, T.L. Magnanti and J.B. Orlin. Network Flows: Theory,
   Algorithms, and Applications. Chapters 16 and 17 (in BB). Prentice Hall, 1993 
+
+
+
+<--
+
 
 - [Fi] M.L. Fisher. [The Lagrangian Relaxation Method for Solving Integer
   Programming
@@ -263,6 +270,8 @@ Other material for this course is available through the associated
 [52]: {{ "/assets/dm872-preprocessing-handout.pdf" | absolute_url }}
 [53]: {{ "/assets/dm872-TSP_Formulations.pdf" | absolute_url }}
 [54]: {{ "/assets/dm872-netflow_plus.pdf" | absolute_url }}
+[55]: {{ "/assets/dm872-cut-n-solve-handout.pdf" | absolute_url }}
+[56]: {{ "/assets/dm872-modeling_2-handout.pdf" | absolute_url }}
 
 <!--
 
