@@ -50,8 +50,10 @@ Other material for this course is available through the associated
 |--------------+--------------------------------------------------------------------------------+------------------------------------------------------------------------------------|
 |           16 | [MILP Formulations for Traveling Salesman Problem][53]; Cutting Planes for TSP | [Sheet 3][13]; [P] or [DFJ] or [MTZ] or [A] or [ABCC] or [OAL]                     |
 |              | TSP                                                                            |                                                                                    |
-|              | TSP                                                                            |         [Solution S.3][33]                                                                              |
+|              | TSP. [Network Flows duality][54]                                                                            |         [Solution S.3][33]                                                                              |
 |--------------+--------------------------------------------------------------------------------+------------------------------------------------------------------------------------|
+
+
 
 
 <!--
@@ -260,6 +262,7 @@ Other material for this course is available through the associated
 [51]: {{ "/assets/dm872-lec1-handout.pdf" | absolute_url }}
 [52]: {{ "/assets/dm872-preprocessing-handout.pdf" | absolute_url }}
 [53]: {{ "/assets/dm872-TSP_Formulations.pdf" | absolute_url }}
+[54]: {{ "/assets/dm872-netflow_plus.pdf" | absolute_url }}
 
 <!--
 
