@@ -260,6 +260,7 @@ Other material for this course is available through the associated
 [11]: {{ "https://github.com/DM872/Material/blob/master/sheet1/Production.ipynb" | absolute_url }}
 [12]: {{ site.url }}{% post_url 2020-03-31-fitting %}
 [13]: {{ "https://github.com/DM872/Material/blob/master/TSP/tsp.ipynb" | absolute_url }}
+[14]: {{ site.url }}{% post_url 2020-04-20-sheet4 %}
 
 
 [32]: {{ "https://github.com/DM872/Material/blob/master/sheet2/infection.ipynb" }}
