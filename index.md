@@ -186,7 +186,7 @@ Other material for this course is available through the associated
   Operational Research Volume 19, Issue 2, February 1985, Pages
   151-162
 
-<--
+<!--
 
 
 - [Fi] M.L. Fisher. [The Lagrangian Relaxation Method for Solving Integer
