@@ -53,8 +53,8 @@ Other material for this course is available through the associated
 |              | More on TSP. [Network Flows duality][54]                         | [Solution S.3][33]                                                                 |
 |--------------+------------------------------------------------------------------+------------------------------------------------------------------------------------|
 |           17 | [Cut-and-Solve][55]                                              | [Sheet 4][14]; [Cut-n-solve][3]; [CZ]                                              |
-|              | [Modeling tricks][56]                                            | [Modeling][6];    [KN1,KN2,ABGRW]                                                  |
-|              |                                                                  |                                                                                    |
+|              | [Modeling tricks][56]. [Timetabling][57]                         | [Modeling][6];    [KN1,KN2,ABGRW]                                                  |
+|              | Practice                                                         |                                                                                    |
 |--------------+------------------------------------------------------------------+------------------------------------------------------------------------------------|
 
 
@@ -176,6 +176,16 @@ Other material for this course is available through the associated
 
 
 
+- [LL] G. Lach and M. Lübbecke. [Optimal University Course Timetables
+  and the Partial Transversal
+  Polytope](http://dx.doi.org/10.1007/978-3-540-68552-4_18). C. McGeoch
+  (ed.). 7th International Workshop on Efficient and Experimental
+  Algorithms (WEA08), Springer, 2008, 5038() , 235-248
+
+- [dW] D. de Werra. An introduction to timetaling. European Journal of
+  Operational Research Volume 19, Issue 2, February 1985, Pages
+  151-162
+
 <--
 
 
@@ -194,12 +204,6 @@ Other material for this course is available through the associated
   problems](https://doi.org/10.1007/s10288-010-0130-z). 4OR-Q J Oper Res
   (2010) 8: 407.
 
-
-- [LL] G. Lach and M. Lübbecke. [Optimal University Course Timetables
-  and the Partial Transversal
-  Polytope](http://dx.doi.org/10.1007/978-3-540-68552-4_18). C. McGeoch
-  (ed.). 7th International Workshop on Efficient and Experimental
-  Algorithms (WEA08), Springer, 2008, 5038() , 235-248
 
 
 - [Wo] L.A. Wolsey. Integer programming. Chapters 10 and 11 (in
@@ -272,7 +276,7 @@ Other material for this course is available through the associated
 [54]: {{ "/assets/dm872-netflow_plus.pdf" | absolute_url }}
 [55]: {{ "/assets/dm872-cut-n-solve-handout.pdf" | absolute_url }}
 [56]: {{ "/assets/dm872-modeling_2-handout.pdf" | absolute_url }}
-
+[57]: {{ "/assets/dm872-timetabling_2-handout.pdf" | absolute_url }}
 <!--
 
 {{ "https://github.com/DM872/Material/blob/master/Python/Sheet2.ipynb" | absolute_url }}
@@ -287,7 +291,7 @@ Other material for this course is available through the associated
 [8]: {{ "/assets/dm872-preprocessing-handout.pdf" | absolute_url }}
 [9]: {{ "/assets/dm872-timetabling-handout.pdf" | absolute_url }}
 [10]: {{ "/assets/dm872-theory-handout.pdf" | absolute_url }}
-[11]: {{ "/assets/dm872-timetabling_2-handout.pdf" | absolute_url }}
+
 [12]: {{ "/assets/02-CVRP-models.pdf" | absolute_url }}
 [13]: {{ "/assets/03-CVRP-CG.pdf" | absolute_url }}
 [14]: {{ "/assets/04-CVRP-IntegerSolutionsWithCG.pdf" | absolute_url }}
