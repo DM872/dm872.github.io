@@ -46,7 +46,7 @@ Other material for this course is available through the associated
 |--------------+------------------------------------------------------------------+------------------------------------------------------------------------------------|
 |           14 | [Introduction][51]. Pyomo (slides).                              | [Intro to Python][10];  [Pyomo](http://www.pyomo.org/documentation); [Sheet 1][11] |
 |              | Pyomo (examples).  Model Fitting (linear and non linear models). | [Sheet 2][12]; [Solution S.2][32]                                                  |
-|              | Installations. [Preprocessing][52].                              |                                                                                    |
+|              | Installations. [Preprocessing][52].                              | [ABGRW]                                                                            |
 |--------------+------------------------------------------------------------------+------------------------------------------------------------------------------------|
 |           16 | [MILP Formulations for Traveling Salesman Problem][53]           | [Sheet 3][13]; [P] or [DFJ] or [MTZ] or [A] or [ABCC] or [OAL]                     |
 |              | Cutting Planes for TSP                                           |                                                                                    |
@@ -110,6 +110,13 @@ Other material for this course is available through the associated
   Edition.  Vol. 67. Springer, 2017.
 
 
+- [ABGRW] Tobias Achterberg, Robert E. Bixby, Zonghao Gu, Edward
+  Rothberg, Dieter Weninger [Presolve Reductions in Mixed Integer
+  Programming](https://opus4.kobv.de/opus4-zib/frontdoor/index/index/docId/7262)
+  INFORMS Journal on Computing, 2019 (accepted for publication, preprint
+  available as ZIB-Report 16-44)
+
+
 - [A] David L. L. Applegate, Robert E. E. Bixby, Vasek Chvátal, William
   J. J. Cook. [The traveling salesman problem: a computational
   study](https://ebookcentral.proquest.com/lib/sdub/detail.action?docID=768550).
@@ -143,8 +150,6 @@ Other material for this course is available through the associated
   formulations](https://doi.org/10.1016/j.cor.2007.11.008) Computers & Operations Research 36 (2009) 6
 
 
-
-
 - [CZ] Sharlee Climer, Weixiong Zhang. Cut-and-solve: [An iterative
   search strategy for combinatorial optimization
   problems.](https://doi.org/10.1016/j.artint.2006.02.005) Artificial
@@ -164,18 +169,6 @@ Other material for this course is available through the associated
   October 2013, Pages 18-32
 
 
-- [ABGRW] Tobias Achterberg, Robert E. Bixby, Zonghao Gu, Edward
-  Rothberg, Dieter Weninger [Presolve Reductions in Mixed Integer
-  Programming](https://opus4.kobv.de/opus4-zib/frontdoor/index/index/docId/7262)
-  INFORMS Journal on Computing, 2019 (accepted for publication, preprint
-  available as ZIB-Report 16-44)
-
-
-- [AMO] R.K. Ahuja, T.L. Magnanti and J.B. Orlin. Network Flows: Theory,
-  Algorithms, and Applications. Chapters 16 and 17 (in BB). Prentice Hall, 1993 
-
-
-
 - [LL] G. Lach and M. Lübbecke. [Optimal University Course Timetables
   and the Partial Transversal
   Polytope](http://dx.doi.org/10.1007/978-3-540-68552-4_18). C. McGeoch
@@ -185,6 +178,16 @@ Other material for this course is available through the associated
 - [dW] D. de Werra. An introduction to timetaling. European Journal of
   Operational Research Volume 19, Issue 2, February 1985, Pages
   151-162
+
+
+
+
+- [AMO] R.K. Ahuja, T.L. Magnanti and J.B. Orlin. Network Flows: Theory,
+  Algorithms, and Applications. Chapters 16 and 17 (in BB). Prentice Hall, 1993 
+
+
+
+
 
 <!--
 
