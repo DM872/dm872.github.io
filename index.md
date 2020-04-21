@@ -52,8 +52,8 @@ Other material for this course is available through the associated
 |              | Cutting Planes for TSP                                           |                                                                                    |
 |              | More on TSP. [Network Flows duality][54]                         | [Solution S.3][33]                                                                 |
 |--------------+------------------------------------------------------------------+------------------------------------------------------------------------------------|
-|           17 | [Cut-and-Solve][55]                                              | [Sheet 4][14]; [Cut-n-solve][3]; [CZ]                                              |
-|              | [Modeling tricks][56]. [Timetabling][57]                         | [Modeling][6];    [KN1,KN2,ABGRW]                                                  |
+|           17 | [Cut-and-Solve][55]                                              | [Sheet 4][14]; [CZ]                                                                |
+|              | [Modeling tricks][56]. [Timetabling][57]                         | [KN1,KN2,ABGRW]                                                                    |
 |              | Practice                                                         |                                                                                    |
 |--------------+------------------------------------------------------------------+------------------------------------------------------------------------------------|
 
