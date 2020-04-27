@@ -169,16 +169,16 @@ Other material for this course is available through the associated
   October 2013, Pages 18-32
 
 
+- [dW] D. de Werra. An introduction to timetaling. European Journal of
+  Operational Research Volume 19, Issue 2, February 1985, Pages
+  151-162
+
+
 - [LL] G. Lach and M. Lübbecke. [Optimal University Course Timetables
   and the Partial Transversal
   Polytope](http://dx.doi.org/10.1007/978-3-540-68552-4_18). C. McGeoch
   (ed.). 7th International Workshop on Efficient and Experimental
   Algorithms (WEA08), Springer, 2008, 5038() , 235-248
-
-- [dW] D. de Werra. An introduction to timetaling. European Journal of
-  Operational Research Volume 19, Issue 2, February 1985, Pages
-  151-162
-
 
 
 
