@@ -56,6 +56,10 @@ Other material for this course is available through the associated
 |              | [Modeling tricks][56]. [Timetabling][57]                         | [KN1,KN2,ABGRW]                                                                    |
 |              | Practice                                                         |                                                                                    |
 |--------------+------------------------------------------------------------------+------------------------------------------------------------------------------------|
+|           18 | Timetabling                                                      |                                                                                    |
+|              | Timetabling                                                      | [Assignment 1][15]                                                                 |
+|              | Practice                                                         |                                                                                    |
+|--------------+------------------------------------------------------------------+------------------------------------------------------------------------------------|
 
 
 <!--
@@ -267,6 +271,7 @@ Other material for this course is available through the associated
 [12]: {{ site.url }}{% post_url 2020-03-31-fitting %}
 [13]: {{ "https://github.com/DM872/Material/blob/master/TSP/tsp.ipynb" | absolute_url }}
 [14]: {{ site.url }}{% post_url 2020-04-20-sheet4 %}
+[15]: {{ site.url }}{% post_url 2020-04-28-timetabling %}
 
 
 [32]: {{ "https://github.com/DM872/Material/blob/master/sheet2/infection.ipynb" }}
@@ -280,6 +285,7 @@ Other material for this course is available through the associated
 [55]: {{ "/assets/dm872-cut-n-solve-handout.pdf" | absolute_url }}
 [56]: {{ "/assets/dm872-modeling_2-handout.pdf" | absolute_url }}
 [57]: {{ "/assets/dm872-timetabling_2-handout.pdf" | absolute_url }}
+
 <!--
 
 {{ "https://github.com/DM872/Material/blob/master/Python/Sheet2.ipynb" | absolute_url }}
