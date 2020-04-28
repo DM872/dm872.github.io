@@ -86,20 +86,20 @@ good with respect to the criteria given below.
 
 Constraints (hard constraints):
 
-- Enforce all events scheduled
-- Prevent room conflicts
-- Prevent staff conflicts
-- Enforce max one event x day x crs
-- Enforce precedences
-- Enforce banned slots
-- Enforce pairings
+- all events are scheduled
+- there are no room conflicts
+- there are no teacher conflicts
+- there is at most one event per day per course
+- the precendences within the weeks are met
+- forbidden slots are not used
+- paired courses are sychronized 
 
 
 Desirability criteria (soft constraints):
 
 - Student conflicts
 - Weekly stability 
-- Events x day x teacher 
+- Minimize the number of events per day per teacher 
 - Bad slots: in the figure below, darker shades of green indicate higher undesirability.
 
 
