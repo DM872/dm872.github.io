@@ -60,7 +60,7 @@ Other material for this course is available through the associated
 |              | [Timetabling][58]                                                | [Assignment 1][15]                                                                 |
 |              | Practice                                                         |                                                                                    |
 |--------------+------------------------------------------------------------------+------------------------------------------------------------------------------------|
-|           19 | [Lagrangian Relaxation for MILP][59]                             | [AMO ch 15]; [Wo ch 10]; [Fi]                                                      |
+|           19 | [Lagrangian Relaxation for MILP][59]                             | [AMO ch 16]; [Wo ch 10]; [Fi]                                                      |
 |              | Exercises                                                        | [Sheet 5]({{ site.url }}{% post_url 2020-05-04-lagrangian %}); [IB]; [Fi2]; [JB]   |
 |              | Exercises                                                        |                                                                                    |
 |--------------+------------------------------------------------------------------+------------------------------------------------------------------------------------|
