@@ -1,18 +1,18 @@
 ---
 layout: default
 mathjax: true
-title:  Sheet 3
-date:   2019-04-29 09:33:19 +0100
+title:  Lagrangian Relaxation - Exercises
+date:   2020-05-04 09:33:19 +0100
 categories: exercises 
 ---
 
-## Sheet 4
+## Sheet 5
 
 
 ### Task 1
 
 The following is based on a tutorial on Lagrangian Relaxation by J E
-Beasley.
+Beasley [JB].
 
 Consider the following set covering problem (SCP):
 

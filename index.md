@@ -60,11 +60,22 @@ Other material for this course is available through the associated
 |              | [Timetabling][58]                                                | [Assignment 1][15]                                                                 |
 |              | Practice                                                         |                                                                                    |
 |--------------+------------------------------------------------------------------+------------------------------------------------------------------------------------|
+|           19 | [Lagrangian Relaxation for MILP][59]                             | [AMO ch 15]; [Wo ch 10]; [Fi]                                                      |
+|              | Exercises                                                        | [Sheet 5]({{ site.url }}{% post_url 2020-05-04-lagrangian %}); [IB]; [Fi2]; [JB]   |
+|              | Exercises                                                        |                                                                                    |
+|--------------+------------------------------------------------------------------+------------------------------------------------------------------------------------|
+|           20 | Dantzig Wolfe decomposition                                      | [Wo ch 11]                                                                         |
+|--------------+------------------------------------------------------------------+------------------------------------------------------------------------------------|
+
 
 
 <!--
 [Tsp ][5]; [P] or [DFJ] or [MTZ] or [A] or [ABCC] or [OAL]
  [Sheet 1][1]; [Solutions][2];
+
+ [Sheet 3]({{ site.url }}{% post_url 2019-04-22-sheet3 %})
+
+<br> [Solutions][18] |
 -->
 
 <!--
@@ -82,9 +93,9 @@ Other material for this course is available through the associated
 |              | Advanced Methods for MILP                                                     | [Theory][9]; [AMO ch 15]; [Wo ch 10]                                                                                                                               |
 |              | Exercises                                                                     | [Sheet 3]({{ site.url }}{% post_url 2019-04-22-sheet3 %})                                                                                                          |
 |--------------+-------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|           18 | Dantzig Wolfe decomposition and Column Generation                             | [Theory][9]; [Wo ch 11]                                                                                                                                            |
+|           18 |  and Column Generation                             | [Theory][9]; [Wo ch 11]                                                                                                                                            |
 |              | Column Generation                                                             | [Theory][9]; [Wo ch 11]                                                                                                                                            |
-|              | Exercises on Lagrangian Relaxation                                            | [Sheet 4]({{ site.url }}{% post_url 2019-04-29-sheet4 %}); [IB]; [Fi2]; [JB]; <br> [Solutions][18] <br> [Assignment]({{ site.url }}{% post_url 2019-05-03-ass1 %}) |
+|              | Exercises on Lagrangian Relaxation                                            | <br> [Assignment]({{ site.url }}{% post_url 2019-05-03-ass1 %}) |                                                                                   |
 |--------------+-------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |           19 | Vehicle Routing                                                               | [CVRP][11]; [CVRP-CG][12]; [Fe]                                                                                                                                    |
 |              | Vehicle Routing                                                               | [CVRP-BB][13]; [Fe]                                                                                                                                                |
@@ -189,12 +200,8 @@ Other material for this course is available through the associated
 - [AMO] R.K. Ahuja, T.L. Magnanti and J.B. Orlin. Network Flows: Theory,
   Algorithms, and Applications. Chapters 16 and 17 (in BB). Prentice Hall, 1993 
 
-
-
-
-
-<!--
-
+- [Wo] L.A. Wolsey. Integer programming. Chapters 10 and 11 (in
+  BB). John Wiley & Sons, New York, USA, 1998
 
 - [Fi] M.L. Fisher. [The Lagrangian Relaxation Method for Solving Integer
   Programming
@@ -206,6 +213,18 @@ Other material for this course is available through the associated
   Interfaces 15:2, 10-21, 1985.
 
 
+- [IB] S. Ilker Birbil. [Lagrangian
+  Relaxation](https://personal.eur.nl/birbil/bolbilim/teaa/02_Lag_Rel.pdf). 2016
+
+- [JB] J. E. Beasley. [Integer Programming Solution
+  Methods](http://people.brunel.ac.uk/~mastjjb/jeb/natcor_ip_rest.pdf). 
+
+
+
+
+<!--
+
+
 - [Fe] Feillet, D. [A tutorial on column generation and branch-and-price for
   vehicle routing
   problems](https://doi.org/10.1007/s10288-010-0130-z). 4OR-Q J Oper Res
@@ -213,8 +232,6 @@ Other material for this course is available through the associated
 
 
 
-- [Wo] L.A. Wolsey. Integer programming. Chapters 10 and 11 (in
-  BB). John Wiley & Sons, New York, USA, 1998
 
 - [BCG] A.A. Bertossi, P. Carraresi and G. Gallo. [On some matching
   problems arising in vehicle scheduling
@@ -235,13 +252,6 @@ Other material for this course is available through the associated
   Paths with a Super Additive Objective
   Function](http://dx.doi.org/10.1007/978-3-642-33558-7_24). M. Milano
   (ed.). CP, Springer, 2012, 7514, 299-315
-
-- [IB] S. Ilker Birbil. [Lagrangian
-  Relaxation](https://personal.eur.nl/birbil/bolbilim/teaa/02_Lag_Rel.pdf). 2016
-
-- [JB] J. E. Beasley. [Integer Programming Solution
-  Methods](http://people.brunel.ac.uk/~mastjjb/jeb/natcor_ip_rest.pdf). 
-
 
 - [DJ] Dirickx YMI & Jennergren LP (1979). [Systems Analysis by
   Multilevel Methods: With Applications to Economics and
@@ -286,6 +296,7 @@ Other material for this course is available through the associated
 [56]: {{ "/assets/dm872-modeling_2-handout.pdf" | absolute_url }}
 [57]: {{ "/assets/dm872-timetabling_2-handout.pdf" | absolute_url }}
 [58]: {{ "/assets/dm872-timetabling_3-handout.pdf" | absolute_url }}
+[59]: {{ "/assets/dm872-lagrangian_handout.pdf" | absolute_url }}
 
 <!--
 
