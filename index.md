@@ -297,7 +297,7 @@ Other material for this course is available through the associated
 [56]: {{ "/assets/dm872-modeling_2-handout.pdf" | absolute_url }}
 [57]: {{ "/assets/dm872-timetabling_2-handout.pdf" | absolute_url }}
 [58]: {{ "/assets/dm872-timetabling_3-handout.pdf" | absolute_url }}
-[59]: {{ "/assets/dm872-lagrangian_handout.pdf" | absolute_url }}
+[59]: {{ "/assets/dm872-lagrangian-handout.pdf" | absolute_url }}
 
 <!--
 
