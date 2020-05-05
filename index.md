@@ -52,7 +52,7 @@ Other material for this course is available through the associated
 |              | Cutting Planes for TSP                                           |                                                                                    |
 |              | More on TSP. [Network Flows duality][54]                         | [Solution S.3][33]                                                                 |
 |--------------+------------------------------------------------------------------+------------------------------------------------------------------------------------|
-|           17 | [Cut-and-Solve][55]                                              | [Sheet 4][14]; [CZ]                                                                |
+|           17 | [Cut-and-Solve][55]                                              | [Sheet 4][14]; [CZ]; [Solution S.4][34]                                                                |
 |              | [Modeling tricks][56]. [Timetabling][57]                         | [KN1,KN2,ABGRW]                                                                    |
 |              | Practice                                                         |                                                                                    |
 |--------------+------------------------------------------------------------------+------------------------------------------------------------------------------------|
@@ -286,6 +286,7 @@ Other material for this course is available through the associated
 
 [32]: {{ "https://github.com/DM872/Material/blob/master/sheet2/infection.ipynb" }}
 [33]: {{ "https://github.com/DM872/Material/blob/master/TSP/tsp_sol.ipynb" | absolute_url }}
+[34]: {{ "https://github.com/DM872/Material/blob/master/TSP/formulations_sol.ipynb" | absolute_url }}
 
 
 [51]: {{ "/assets/dm872-lec1-handout.pdf" | absolute_url }}

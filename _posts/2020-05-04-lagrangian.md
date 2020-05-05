@@ -43,20 +43,19 @@ $$
 1. Generate a Lagrangian relaxation of this SCP. Write it in general
    terms for a SCP and for the numerical example given. 
 
-2. Let the problem determined at the previous point be called LLBP
-   (Lagrangian lower bound problem). Consider the arbitrarily decided
-   set of values for the Lagrangian multipliers
-   $\lambda_1=1.5,\lambda_2=1.6,\lambda_3=2.2$.
-   Find the solution to the LLBP and the corresponding lower bound $z_{LLBP}$ to the
-   original problem.
-   Is this a lower bound? Is the solution found for the LLBP feasible
-   for the original problem? Is the solution found for the LLBP optimal
-   for the original problem? 
+2. Let the problem determined at the previous point be called LR
+   (Lagrangian relaxation problem or Lagrangian lower bound
+   problem). Consider the arbitrarily decided set of values for the
+   Lagrangian multipliers $\lambda_1=1.5,\lambda_2=1.6,\lambda_3=2.2$.
+   Find the solution to the LR and the corresponding lower bound
+   $z_{LR}$ to the original problem.  Is this a lower bound? Is the
+   solution found for the LR feasible for the original problem? Is the
+   solution found for the LR optimal for the original problem?
 
   
 3. Repeat the task at the point 2. for the set of values: 
    $\lambda_1=10,\lambda_2=10,\lambda_3=10$. Under what
-   circumstances does the solutions to the LLBP being feasible for the
+   circumstances does the solutions to the LR being feasible for the
    original problem also imply that it is optimal for the original
    problem?
 
