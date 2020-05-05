@@ -59,8 +59,9 @@ $$
    original problem also imply that it is optimal for the original
    problem?
 
-4. Find the optimal solution to the original problem by solving the
-   Lagrangian dual problem by subgradient optimization.
+4. Solve the Lagrangian dual problem by *subgradient
+   optimization*. Use the procedure suggested by Held and Karp.
+
    Set the step size to the value:
    
    $$
@@ -77,6 +78,10 @@ $$
    \lambda_i=\max\{\lambda_i+\theta\gamma_i,0\}\qquad i=1,..,m
    $$
 
+   Terminate when $\mu$ has converged to zero. 
+
+   Is the final solution optimal for the original problem?  
+
 
 
 
@@ -87,7 +92,7 @@ Guide to Lagrangian Relaxation. Interfaces, 15:2, 1985):
 
 $$
 \begin{array}{lllll}
-z_P=&\text{max} &16x_1+10x_2+4x_4\\
+z_{IP}=&\text{max} &16x_1+10x_2+4x_4\\
 &\text{s.t.}&8x_1+2x_2+x_3+x_4\leq 10\\
 &&x_1+x_2\leq 1\\
 &&x_3+x_4\leq 1\\
@@ -101,4 +106,4 @@ $$
 2. Relax the second and third constraints and calculate the Lagrangian
    dual bound. Which among the two relaxations provides the best dual
    bound and how do they compare with respect to the dual bound given by
-   the linear relaxation of the original problem P? 
+   the linear relaxation of the original problem IP? 
