@@ -52,7 +52,7 @@ Other material for this course is available through the associated
 |              | Cutting Planes for TSP                                           |                                                                                    |
 |              | More on TSP. [Network Flows duality][54]                         | [Solution S.3][33]                                                                 |
 |--------------+------------------------------------------------------------------+------------------------------------------------------------------------------------|
-|           17 | [Cut-and-Solve][55]                                              | [Sheet 4][14]; [CZ]; [Solution S.4][34]                                                                |
+|           17 | [Cut-and-Solve][55]                                              | [Sheet 4][14]; [CZ]; [Solution S.4][34]                                            |
 |              | [Modeling tricks][56]. [Timetabling][57]                         | [KN1,KN2,ABGRW]                                                                    |
 |              | Practice                                                         |                                                                                    |
 |--------------+------------------------------------------------------------------+------------------------------------------------------------------------------------|
@@ -60,9 +60,13 @@ Other material for this course is available through the associated
 |              | [Timetabling][58]                                                | [Assignment 1][15]                                                                 |
 |              | Practice                                                         |                                                                                    |
 |--------------+------------------------------------------------------------------+------------------------------------------------------------------------------------|
-|           19 | [Lagrangian Relaxation for MILP][59]                             | [AMO ch 16]; [Wo ch 10]; [Fi]                                                      |
+|           19 | [Lagrangian Relaxation for MILP][59]                             | [AMO ch 16];  [Fi]                                                                 |
 |              | Exercises                                                        | [Sheet 5]({{ site.url }}{% post_url 2020-05-04-lagrangian %}); [IB]; [Fi2]; [JB]   |
-|              | Exercises                                                        |                                                                                    |
+|              | Implementation, LR for TSP                                       | [Solution S.5][35]; [Wo ch 10]                                                     |
+|--------------+------------------------------------------------------------------+------------------------------------------------------------------------------------|
+|           20 | Vehicle Scheduling                                               | <!-- [Slides][14];--> [BCG]; [CG]                                                  |
+|              | Vehicle Scheduling                                               |                                                                                    |
+|              | Exercises                                                        | <!-- [Sheet 6]({{ site.url }}{% post_url 2019-05-15-sheet6 %}) -->                 |
 |--------------+------------------------------------------------------------------+------------------------------------------------------------------------------------|
 |           20 | Dantzig Wolfe decomposition                                      | [Wo ch 11]                                                                         |
 |--------------+------------------------------------------------------------------+------------------------------------------------------------------------------------|
@@ -100,10 +104,6 @@ Other material for this course is available through the associated
 |           19 | Vehicle Routing                                                               | [CVRP][11]; [CVRP-CG][12]; [Fe]                                                                                                                                    |
 |              | Vehicle Routing                                                               | [CVRP-BB][13]; [Fe]                                                                                                                                                |
 |              | Exercises on Column Generation                                                | [Sheet 5]({{ site.url }}{% post_url 2019-05-08-sheet5 %}); [Solutions 1][19]; [Solutions 2][20]                                                                    |
-|--------------+-------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|           20 | Vehicle Scheduling                                                            | [Slides][14]; [BCG]; [CG]                                                                                                                                          |
-|              | Vehicle Scheduling                                                            |                                                                                                                                                                    |
-|              | Exercises                                                                     | [Sheet 6]({{ site.url }}{% post_url 2019-05-15-sheet6 %})                                                                                                          |
 |--------------+-------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |           21 | Crew Scheduling                                                               | [Slides][15]; [RCSP][16]; [SGSK]; [GM]                                                                                                                             |
 |              | Crew Scheduling                                                               |                                                                                                                                                                    |
@@ -287,6 +287,7 @@ Other material for this course is available through the associated
 [32]: {{ "https://github.com/DM872/Material/blob/master/sheet2/infection.ipynb" }}
 [33]: {{ "https://github.com/DM872/Material/blob/master/TSP/tsp_sol.ipynb" | absolute_url }}
 [34]: {{ "https://github.com/DM872/Material/blob/master/TSP/formulations_sol.ipynb" | absolute_url }}
+[35]: {{ "https://github.com/DM872/Material/blob/master/Lagrange/Lagrangian.ipynb" | absolute_url }}
 
 
 [51]: {{ "/assets/dm872-lec1-handout.pdf" | absolute_url }}
