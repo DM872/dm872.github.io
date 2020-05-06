@@ -220,6 +220,16 @@ Other material for this course is available through the associated
   Methods](http://people.brunel.ac.uk/~mastjjb/jeb/natcor_ip_rest.pdf). 
 
 
+- [BCG] A.A. Bertossi, P. Carraresi and G. Gallo. [On some matching
+  problems arising in vehicle scheduling
+  models](http://dx.doi.org/10.1002/net.3230170303). Networks, Wiley,
+  1987, 17(3), 271-281
+
+- [CG] P. Carraresi and G. Gallo. [Network models for vehicle and crew
+  scheduling](http://dx.doi.org/10.1016/0377-2217(84)90068-7). European
+  Journal of Operational Research , 1984, 16(2) , 139 - 151
+
+
 
 
 <!--
@@ -231,16 +241,6 @@ Other material for this course is available through the associated
   (2010) 8: 407.
 
 
-
-
-- [BCG] A.A. Bertossi, P. Carraresi and G. Gallo. [On some matching
-  problems arising in vehicle scheduling
-  models](http://dx.doi.org/10.1002/net.3230170303). Networks, Wiley,
-  1987, 17(3), 271-281
-
-- [CG] P. Carraresi and G. Gallo. [Network models for vehicle and crew
-  scheduling](http://dx.doi.org/10.1016/0377-2217(84)90068-7). European
-  Journal of Operational Research , 1984, 16(2) , 139 - 151
 
 - [SGSK] I. Steinzen, V. Gintner, L. Suhl and N. Kliewer. [A Time-Space
   Network Approach for the Integrated Vehicle- and Crew-Scheduling
