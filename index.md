@@ -36,9 +36,9 @@ permalink: /
 
 ### Contents
 
-#### Introductory Classes
 
-Other material for this course is available through the associated
+
+Other material for this course is available at the associated
 [Git repository](https://github.com/DM872/Material)
 
 
@@ -68,7 +68,7 @@ Other material for this course is available through the associated
 |              | Vehicle Scheduling                                               |                                                                                    |
 |              | Exercises                                                        | <!-- [Sheet 6]({{ site.url }}{% post_url 2019-05-15-sheet6 %}) -->                 |
 |--------------+------------------------------------------------------------------+------------------------------------------------------------------------------------|
-|           20 | Dantzig Wolfe decomposition                                      | [Wo ch 11]                                                                         |
+|           21 | Dantzig Wolfe decomposition                                      | [Wo ch 11]                                                                         |
 |--------------+------------------------------------------------------------------+------------------------------------------------------------------------------------|
 
 
