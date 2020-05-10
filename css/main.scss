@@ -147,9 +147,13 @@ th, tbody {
 tr:hover {background-color: #e5e5e5;}
 
 
-thead, th {
-/*background: #3b5998;*/
+table a:not(.btn), .table a:not(.btn) {
+    text-decoration: none;
 }
+
+/*thead, th {
+background: #3b5998;
+}*/
 
 
 td.left {

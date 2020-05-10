@@ -62,7 +62,10 @@ Given:
     $\ell(e)$, $e \in E$ and a week where it has to take place. [File:
     `events.json`.]
 
-- A set of *rooms* $R$. [File: `rooms.json` (not yet available).] 
+- A set of *rooms* $R$. <span style="color: red">Each room has a set
+  of timeslots where it is busy (Rooms
+  should also have a capacity that makes them suitable or not for a
+  course. This important detail will be ignored in this assignment.) [File: `rooms.json`.]</span>
 
 - A *precedence digraph* $D=(E,A)$ where each arc $uv \in A$
     for $u,v \in E$ represents a precedence constraint that $u$ must be
