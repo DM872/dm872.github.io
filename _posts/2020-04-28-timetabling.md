@@ -110,19 +110,20 @@ good with respect to the desirability criteria given below.
 Constraints (hard constraints):
 
 - all events are scheduled
-- there are no room conflicts
-- there are no teacher conflicts
-- <span style="color: red">there are no course conflicts and there is at most one event per day per course</span>
-- the precendences within the weeks are met
 - forbidden slots are not used
-- paired courses are sychronized 
-
+- resource room: there are no room conflicts
+- resource teacher: there are no teacher conflicts
+- resource course:
+  - the precendences within the weeks are met
+  - paired courses are sychronized 
+  - <span style="color: red">there is at most one event per course per day for each student</span>
+  - <span style="color: blue">(the requirement of no course conflicts was withheld: it is implied by no teacher and student conflicts)</span>
 
 Desirability criteria (soft constraints):
 
-- student conflicts are minimized 
-- weekly stability is promoted
-- the number of events per day per teacher is minimized 
+- resource student: student conflicts are minimized 
+- resource course: weekly stability is promoted
+- resource teacher: the number of events per day per teacher is minimized 
 - <span style="color: red">bad slots are avoided in a way proportional to their degree of discomfort (in the figure below, darker shades of green indicate higher undesirability/discomfort).</span>
 
 
