@@ -69,7 +69,7 @@ Given:
 
 - A *precedence digraph* $D=(E,A)$ where each arc $uv \in A$
     for $u,v \in E$ represents a precedence constraint that $u$ must be
-    scheduled before $v$.
+    scheduled before $v$. <span style="color: red">[File: `events.json`, the digraph is given as a list associated to every event denoting the incoming arcs, that is, the events that must be scheduled before.]</span> 
 
 - Two sets of people: a set of *students* $S$, a set of
     *teachers* $T$, together with:
