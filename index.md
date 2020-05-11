@@ -64,11 +64,11 @@ Other material for this course is available at the associated
 |              | Exercises                                                        | [Sheet 5]({{ site.url }}{% post_url 2020-05-04-lagrangian %}); [IB]; [Fi2]; [JB]   |
 |              | Implementation, LR for TSP                                       | [Solution S.5][35]; [Wo ch 10]                                                     |
 |--------------+------------------------------------------------------------------+------------------------------------------------------------------------------------|
-|           20 | Vehicle Scheduling                                               | <!-- [Slides][14];--> [BCG]; [CG]                                                  |
-|              | Vehicle Scheduling                                               |                                                                                    |
-|              | Exercises                                                        | <!-- [Sheet 6]({{ site.url }}{% post_url 2019-05-15-sheet6 %}) -->                 |
+|           20 | Vehicle Scheduling                                               | [Slides][14]; [BCG]; [CG]                                                          |
+|              | Exercises                                                        | [Sheet 6]({{ site.url }}{% post_url 2019-05-15-sheet6 %})                          |
+|              | Dantzig Wolfe decomposition                                      | [Wo ch 11]                                                                         |
 |--------------+------------------------------------------------------------------+------------------------------------------------------------------------------------|
-|           21 | Dantzig Wolfe decomposition                                      | [Wo ch 11]                                                                         |
+|           21 |                                                                  |                                                                                    |
 |--------------+------------------------------------------------------------------+------------------------------------------------------------------------------------|
 
 
