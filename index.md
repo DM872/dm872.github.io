@@ -66,7 +66,7 @@ Other material for this course is available at the associated
 |--------------+------------------------------------------------------------------+------------------------------------------------------------------------------------|
 |           20 | [Vehicle Scheduling][60]                                         | [BCG]; [CG]                                                                        |
 |              | Exercises                                                        | [Sheet 6]({{ site.url }}{% post_url 2019-05-15-sheet6 %})                          |
-|              | Dantzig Wolfe decomposition                                      | [Wo ch 11]                                                                         |
+|              | [Dantzig Wolfe decomposition][61]                                | [Wo ch 11]                                                                         |
 |--------------+------------------------------------------------------------------+------------------------------------------------------------------------------------|
 |           21 |                                                                  |                                                                                    |
 |--------------+------------------------------------------------------------------+------------------------------------------------------------------------------------|
@@ -300,6 +300,7 @@ Other material for this course is available at the associated
 [58]: {{ "/assets/dm872-timetabling_3-handout.pdf" | absolute_url }}
 [59]: {{ "/assets/dm872-lagrangian-handout.pdf" | absolute_url }}
 [60]: {{ "/assets/dm872-vehicle-scheduling-handout.pdf" | absolute_url }}
+[61]: {{ "/assets/dm872-dantzig_wolfe-handout.pdf" | absolute_url }}
 
 <!--
 
