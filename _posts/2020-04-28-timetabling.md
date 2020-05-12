@@ -80,7 +80,7 @@ Given:
     - a collection of *teaching duties* ${\cal D}=\\\{D_t \subset E \mid t \in
   T\\\}$. [File: `teachers.json`.] 
 
-    - teacher *unavailabilites* ${\cal U}=\\\{U_t \subset P \mid t \in  T\\\}$
+    - teacher *unavailabilites* ${\cal U}=\\\{U_t \subset P \mid t \in  T\\\}$. <span style="color: blue">Not available for this assignment.</span>
 
 
 <!--
@@ -112,7 +112,7 @@ Constraints (hard constraints):
 - all events are scheduled
 - forbidden slots are not used
 - resource room: there are no room conflicts
-- resource teacher: there are no teacher conflicts
+- resource teacher: there are no teacher conflicts. <span style="color: blue">Note: some event does not have a teacher (they should be attended by instructors which are not included in this assignment).</span>
 - resource course:
   - the precendences within the weeks are met
   - paired courses are sychronized 
