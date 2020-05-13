@@ -66,12 +66,22 @@ Other material for this course is available at the associated
 |--------------+------------------------------------------------------------------+------------------------------------------------------------------------------------|
 |           20 | [Vehicle Scheduling][60]                                         | [BCG]; [CG]                                                                        |
 |              | Exercises                                                        | [Sheet 6]({{ site.url }}{% post_url 2019-05-15-sheet6 %})                          |
-|              | [Dantzig Wolfe decomposition][61]                                | [Wo ch 11]                                                                         |
+|              | [Dantzig Wolfe decomposition][61]                                | [AMO ch 17]; [Wo ch 11]; [LD]                                                      |
 |--------------+------------------------------------------------------------------+------------------------------------------------------------------------------------|
-|           21 |                                                                  |                                                                                    |
+|           21 | Vehicle Routing                                                  |                                                                                    |
+|              | Vehicle Routing                                                  |                                                                                    |
+|              | Exercises on Column Generation                                   |                                                                                    |
 |--------------+------------------------------------------------------------------+------------------------------------------------------------------------------------|
 
 
+
+<!--
+
+[CVRP][11]; [CVRP-CG][12]; [Fe]                                                                
+[CVRP-BB][13]; [Fe]                                                                            
+[Sheet 5]({{ site.url }}{% post_url 2019-05-08-sheet5 %}); [Solutions 1][19]; [Solutions 2][20]
+
+-->
 
 <!--
 [Tsp ][5]; [P] or [DFJ] or [MTZ] or [A] or [ABCC] or [OAL]
@@ -100,10 +110,6 @@ Other material for this course is available at the associated
 |           18 | and Column Generation                                                        | [Theory][9]; [Wo ch 11]                                                                         |   |
 |              | Column Generation                                                            | [Theory][9]; [Wo ch 11]                                                                         |   |
 |              | Exercises on Lagrangian Relaxation                                           | <br> [Assignment]({{ site.url }}{% post_url 2019-05-03-ass1 %})                                 |   |
-|--------------+------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+---|
-|           19 | [Vehicle Routing]                                                            | [CVRP][11]; [CVRP-CG][12]; [Fe]                                                                 |   |
-|              | Vehicle Routing                                                              | [CVRP-BB][13]; [Fe]                                                                             |   |
-|              | Exercises on Column Generation                                               | [Sheet 5]({{ site.url }}{% post_url 2019-05-08-sheet5 %}); [Solutions 1][19]; [Solutions 2][20] |   |
 |--------------+------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+---|
 |           21 | Crew Scheduling                                                              | [Slides][15]; [RCSP][16]; [SGSK]; [GM]                                                          |   |
 |              | Crew Scheduling                                                              |                                                                                                 |   |
@@ -230,9 +236,7 @@ Other material for this course is available at the associated
   Journal of Operational Research , 1984, 16(2) , 139 - 151
 
 
-
-
-<!--
+- [LD] M.E. Lübbecke, J. Desrosiers [Selected Topics in Column Generation](https://doi.org/10.1287/opre.1050.0234). Operations Research. Vol. 53, No. 6, 2005
 
 
 - [Fe] Feillet, D. [A tutorial on column generation and branch-and-price for
@@ -241,6 +245,8 @@ Other material for this course is available at the associated
   (2010) 8: 407.
 
 
+
+<!--
 
 - [SGSK] I. Steinzen, V. Gintner, L. Suhl and N. Kliewer. [A Time-Space
   Network Approach for the Integrated Vehicle- and Crew-Scheduling
