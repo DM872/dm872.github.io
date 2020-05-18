@@ -129,3 +129,59 @@ Desirability criteria (soft constraints):
 
 ![trends]({{ "/assets/bad_slots.jpg" | absolute_url }}){:width="60%" .center-image}
 
+
+
+
+
+### Output
+
+Use at most one hour of computation time for any of your models.
+
+You should report in the final document the computational results of
+the models you developed. This includes evidence that the solution is
+correct, for example by assessing a posteriori that the constraints
+are satisfied or reporting statistics on the degree of dissatisfaction
+of those that are not satisfied (for example, the soft constraints).
+If some constraints create issues (the model becomes to lengthy to
+write or the solution becomes too difficult) then remove them and
+report the results without them; it is important however that you keep
+the mathematical modeling of these constraints in the report.
+
+Report also statistics about the solution process: number of variables
+and constraints before preprocessing and after preprocessing, whether
+the final solution was optimal, what was the dual bound given by the
+linear relaxation and the initial optimality gap, eventually the
+development of primal and dual bound through the solution process, and
+the number of nodes in the examined in the branch and bound tree.
+
+If you have installed more than one solver you could try solving your
+model with different solvers and compare the results (but do not
+invest too much time on this).
+
+
+
+### Remarks
+
+* To meet the minimum requirements for acceptance your work should at
+  least:
+
+  * set up the model correctly for the most important constraints (the
+     first four)
+     
+  * present the model in an understandable and structured way,
+     including introduction of the mathematical symbols, mathematical
+     expressions, and explanation of the expressions.
+
+  * contain an implementation of the model in one of the solvers
+     available and an assessment of the computational results. If the
+     implementation does not work there must be an explanation about
+     where the problem is.
+
+
+* An excellent performance includes the minimum requirements for
+  acceptance including a correct implementation of all of
+  them. Additionally, all constraints are handled. It can still
+  contain issues related to the implementation or small mathematical
+  imperfections.
+
+
