@@ -42,44 +42,47 @@ Other material for this course is available at the associated
 [Git repository](https://github.com/DM872/Material)
 
 
-| Week	 | Topics and Slides                                                | 	Material                                                                   |
-|--------------+------------------------------------------------------------------+------------------------------------------------------------------------------------|
-|           14 | [Introduction][51]. Pyomo (slides).                              | [Intro to Python][10];  [Pyomo](http://www.pyomo.org/documentation); [Sheet 1][11] |
-|              | Pyomo (examples).  Model Fitting (linear and non linear models). | [Sheet 2][12]; [Solution S.2][32]                                                  |
-|              | Installations. [Preprocessing][52].                              | [ABGRW]                                                                            |
-|--------------+------------------------------------------------------------------+------------------------------------------------------------------------------------|
-|           16 | [MILP Formulations for Traveling Salesman Problem][53]           | [Sheet 3][13]; [P] or [DFJ] or [MTZ] or [A] or [ABCC] or [OAL]                     |
-|              | Cutting Planes for TSP                                           |                                                                                    |
-|              | More on TSP. [Network Flows duality][54]                         | [Solution S.3][33]                                                                 |
-|--------------+------------------------------------------------------------------+------------------------------------------------------------------------------------|
-|           17 | [Cut-and-Solve][55]                                              | [Sheet 4][14]; [CZ]; [Solution S.4][34]                                            |
-|              | [Modeling tricks][56]. [Timetabling][57]                         | [KN1,KN2,ABGRW]                                                                    |
-|              | Practice                                                         |                                                                                    |
-|--------------+------------------------------------------------------------------+------------------------------------------------------------------------------------|
-|           18 | Timetabling                                                      |                                                                                    |
-|              | [Timetabling][58]                                                | [Assignment 1][15]                                                                 |
-|              | Practice                                                         |                                                                                    |
-|--------------+------------------------------------------------------------------+------------------------------------------------------------------------------------|
-|           19 | [Lagrangian Relaxation for MILP][59]                             | [AMO ch 16];  [Fi]                                                                 |
-|              | Exercises                                                        | [Sheet 5]({{ site.url }}{% post_url 2020-05-04-lagrangian %}); [IB]; [Fi2]; [JB]   |
-|              | Implementation, LR for TSP                                       | [Solution S.5][35]; [Wo ch 10]                                                     |
-|--------------+------------------------------------------------------------------+------------------------------------------------------------------------------------|
-|           20 | [Vehicle Scheduling][60]                                         | [BCG]; [CG]                                                                        |
-|              | Exercises                                                        | [Sheet 6]({{ site.url }}{% post_url 2019-05-15-sheet6 %})                          |
-|              | [Dantzig Wolfe decomposition][61]                                | [AMO ch 17]; [Wo ch 11]; [LD]                                                      |
-|--------------+------------------------------------------------------------------+------------------------------------------------------------------------------------|
-|           21 | Vehicle Routing                                                  |                                                                                    |
-|              | Vehicle Routing                                                  |                                                                                    |
-|              | Exercises on Column Generation                                   |                                                                                    |
-|--------------+------------------------------------------------------------------+------------------------------------------------------------------------------------|
-
+| Week	 | Topics and Slides                                                | 	Material                                                                                         |
+|--------------+------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------|
+|           14 | [Introduction][51]. Pyomo (slides).                              | [Intro to Python][10];  [Pyomo](http://www.pyomo.org/documentation); [Sheet 1][11]                       |
+|              | Pyomo (examples).  Model Fitting (linear and non linear models). | [Sheet 2][12]; [Solution S.2][32]                                                                        |
+|              | Installations. [Preprocessing][52].                              | [ABGRW]                                                                                                  |
+|--------------+------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------|
+|           16 | [MILP Formulations for Traveling Salesman Problem][53]           | [Sheet 3][13]; [P] or [DFJ] or [MTZ] or [A] or [ABCC] or [OAL]                                           |
+|              | Cutting Planes for TSP                                           |                                                                                                          |
+|              | More on TSP. [Network Flows duality][54]                         | [Solution S.3][33]                                                                                       |
+|--------------+------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------|
+|           17 | [Cut-and-Solve][55]                                              | [Sheet 4][14]; [CZ]; [Solution S.4][34]                                                                  |
+|              | [Modeling tricks][56]. [Timetabling][57]                         | [KN1,KN2,ABGRW]                                                                                          |
+|              | Practice                                                         |                                                                                                          |
+|--------------+------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------|
+|           18 | Timetabling                                                      |                                                                                                          |
+|              | [Timetabling][58]                                                | [Assignment 1][15]                                                                                       |
+|              | Practice                                                         |                                                                                                          |
+|--------------+------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------|
+|           19 | [Lagrangian Relaxation for MILP][59]                             | [AMO ch 16];  [Fi]                                                                                       |
+|              | Exercises                                                        | [Sheet 5]({{ site.url }}{% post_url 2020-05-04-lagrangian %}); [IB]; [Fi2]; [JB]                         |
+|              | Implementation, LR for TSP                                       | [Solution S.5][35]; [Wo ch 10]                                                                           |
+|--------------+------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------|
+|           20 | [Vehicle Scheduling][60]                                         | [BCG]; [CG]                                                                                              |
+|              | Exercises                                                        | [Sheet 6]({{ site.url }}{% post_url 2019-05-15-sheet6 %})                                                |
+|              | [Dantzig Wolfe decomposition][61]                                | [AMO ch 17]; [Wo ch 11]; [LD]                                                                            |
+|--------------+------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------|
+|           21 | Vehicle Routing                                                  | [CVRP][63]; [CVRP-CG][63]; [Fe]                                                                          |
+|              | Vehicle Routing                                                  | [CVRP-BB][64]; [Fe]                                                                                      |
+|              | Exercises on Column Generation                                   | [Sheet 7]({{ site.url }}{% post_url 2020-05-18-sheet7 %}); <!-- [Solutions 1][19]; [Solutions 2][20] --> |
+|--------------+------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------|
+|           22 | Crew Scheduling                                                  | <!-- [Slides][15]; [RCSP][16]; [SGSK]; [GM] -->                                                          |
+|              | Benders Decomposition                                            | <!-- [DJ, sec 3.5]; [Video][17] -->                                                                      |
+|              | Exercises                                                        | <!-- [Sheet 7]({{ site.url }}{% post_url 2019-05-21-sheet7 %}) -->                                       |
+|--------------+------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------|
 
 
 <!--
 
-[CVRP][11]; [CVRP-CG][12]; [Fe]                                                                
-[CVRP-BB][13]; [Fe]                                                                            
-[Sheet 5]({{ site.url }}{% post_url 2019-05-08-sheet5 %}); [Solutions 1][19]; [Solutions 2][20]
+                                                               
+                                                                            
+
 
 -->
 
@@ -110,13 +113,6 @@ Other material for this course is available at the associated
 |           18 | and Column Generation                                                        | [Theory][9]; [Wo ch 11]                                                                         |   |
 |              | Column Generation                                                            | [Theory][9]; [Wo ch 11]                                                                         |   |
 |              | Exercises on Lagrangian Relaxation                                           | <br> [Assignment]({{ site.url }}{% post_url 2019-05-03-ass1 %})                                 |   |
-|--------------+------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+---|
-|           21 | Crew Scheduling                                                              | [Slides][15]; [RCSP][16]; [SGSK]; [GM]                                                          |   |
-|              | Crew Scheduling                                                              |                                                                                                 |   |
-|              | Exercises                                                                    | [Sheet 7]({{ site.url }}{% post_url 2019-05-21-sheet7 %})                                       |   |
-|--------------+------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+---|
-|           22 | Benders Decomposition                                                        | [DJ, sec 3.5]; [Video][17]                                                                      |   |
-|              | Exercise                                                                     |                                                                                                 |   |
 |--------------+------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+---|
 
 -->
@@ -307,6 +303,11 @@ Other material for this course is available at the associated
 [59]: {{ "/assets/dm872-lagrangian-handout.pdf" | absolute_url }}
 [60]: {{ "/assets/dm872-vehicle-scheduling-handout.pdf" | absolute_url }}
 [61]: {{ "/assets/dm872-dantzig_wolfe-handout.pdf" | absolute_url }}
+
+[62]: {{ "https://imada.sdu.dk/~marco/Teaching/AY2019-2020/DM872/assets/protected/02-CVRP-models.pdf" }}
+[63]: {{ "https://imada.sdu.dk/~marco/Teaching/AY2019-2020/DM872/assets/protected/03-CVRP-CG.pdf" }}
+[64]: {{ "https://imada.sdu.dk/~marco/Teaching/AY2019-2020/DM872/assets/protected/04-CVRP-IntegerSolutionsWithCG.pdf" }}
+  
 
 <!--
 
