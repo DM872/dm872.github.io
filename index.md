@@ -57,7 +57,7 @@ Other material for this course is available at the associated
 |              | Practice                                                         |                                                                                                          |
 |--------------+------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------|
 |           18 | Timetabling                                                      |                                                                                                          |
-|              | [Timetabling][58]                                                | [Assignment 1][15]                                                                                       |
+|              | [Timetabling][58]                                                | [Assignment* 1][15]                                                                                       |
 |              | Practice                                                         |                                                                                                          |
 |--------------+------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------|
 |           19 | [Lagrangian Relaxation for MILP][59]                             | [AMO ch 16];  [Fi]                                                                                       |
@@ -72,7 +72,7 @@ Other material for this course is available at the associated
 |              | Vehicle Routing                                                  | [CVRP-BB][64]; [Fe]                                                                                      |
 |              | Exercises on Column Generation                                   | [Sheet 7]({{ site.url }}{% post_url 2020-05-18-sheet7 %}); <!-- [Solutions 1][19]; [Solutions 2][20] --> |
 |--------------+------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------|
-|           22 | Crew Scheduling                                                  | <!-- [Slides][15]; [RCSP][16]; [SGSK]; [GM] -->                                                          |
+|           22 | Crew Scheduling                                                  | <!-- [Assignment 2][16]  [Slides][15]; [RCSP][16]; [SGSK]; [GM] -->                                       |
 |              | Benders Decomposition                                            | <!-- [DJ, sec 3.5]; [Video][17] -->                                                                      |
 |              | Exercises                                                        | <!-- [Sheet 7]({{ site.url }}{% post_url 2019-05-21-sheet7 %}) -->                                       |
 |--------------+------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------|
@@ -112,7 +112,7 @@ Other material for this course is available at the associated
 |--------------+------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+---|
 |           18 | and Column Generation                                                        | [Theory][9]; [Wo ch 11]                                                                         |   |
 |              | Column Generation                                                            | [Theory][9]; [Wo ch 11]                                                                         |   |
-|              | Exercises on Lagrangian Relaxation                                           | <br> [Assignment]({{ site.url }}{% post_url 2019-05-03-ass1 %})                                 |   |
+|              | Exercises on Lagrangian Relaxation                                           |                                  |   |
 |--------------+------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+---|
 
 -->
@@ -284,6 +284,7 @@ Other material for this course is available at the associated
 [13]: {{ "https://github.com/DM872/Material/blob/master/TSP/tsp.ipynb" | absolute_url }}
 [14]: {{ site.url }}{% post_url 2020-04-20-sheet4 %}
 [15]: {{ site.url }}{% post_url 2020-04-28-timetabling %}
+[16]: {{ site.url }}{% post_url 2020-05-21-vrptw %}
 
 
 [32]: {{ "https://github.com/DM872/Material/blob/master/sheet2/infection.ipynb" }}
