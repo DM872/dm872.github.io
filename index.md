@@ -72,7 +72,7 @@ Other material for this course is available at the associated
 |              | Vehicle Routing                                                  | [CVRP-BB][64]; [Fe]                                                                                      |
 |              | Exercises on Column Generation                                   | [Sheet 7]({{ site.url }}{% post_url 2020-05-18-sheet7 %}); <!-- [Solutions 1][19]; [Solutions 2][20] --> |
 |--------------+------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------|
-|           22 | Crew Scheduling                                                  | <!-- [Assignment 2][16]  [Slides][15]; [RCSP][16]; [SGSK]; [GM] -->                                       |
+|           22 | Crew Scheduling                                                  | [Assignment 2][16] <!-- [Slides][15]; [RCSP][16]; [SGSK]; [GM] -->                                       |
 |              | Benders Decomposition                                            | <!-- [DJ, sec 3.5]; [Video][17] -->                                                                      |
 |              | Exercises                                                        | <!-- [Sheet 7]({{ site.url }}{% post_url 2019-05-21-sheet7 %}) -->                                       |
 |--------------+------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------|
