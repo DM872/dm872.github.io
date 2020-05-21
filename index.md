@@ -2,7 +2,7 @@
 # You don't need to edit this file, it's empty on purpose.
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-title: "DM872 - Mathematical Optimization at work""
+title: "DM872 - Mathematical Optimization at work"
 layout: default
 excerpt: "Main Page"
 sitemap: false
@@ -57,7 +57,7 @@ Other material for this course is available at the associated
 |              | Practice                                                         |                                                                                                          |
 |--------------+------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------|
 |           18 | Timetabling                                                      |                                                                                                          |
-|              | [Timetabling][58]                                                | [Assignment* 1][15]                                                                                       |
+|              | [Timetabling][58]                                                | [Assignment 1][15]                                                                                       |
 |              | Practice                                                         |                                                                                                          |
 |--------------+------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------|
 |           19 | [Lagrangian Relaxation for MILP][59]                             | [AMO ch 16];  [Fi]                                                                                       |
