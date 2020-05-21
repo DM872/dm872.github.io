@@ -52,12 +52,12 @@ Other material for this course is available at the associated
 |              | Cutting Planes for TSP                                                           |                                                                                                          |
 |              | More on TSP. [Network Flows duality][54]                                         | [Solution S.3][33]                                                                                       |
 |--------------+----------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------|
-|           17 | [Cut-and-Solve][55]                                                              | [Sheet 4][14]; [CZ]; [Solution S.4][34]                                                                  |
+|           17 | [Cut-and-Solve][55]                                                              | [CZ]; [Sheet 4][14]; [Solution S.4][34]                                                                  |
 |              | [Modeling tricks][56]. [Timetabling][57]                                         | [KN1,KN2,ABGRW]                                                                                          |
 |              | Practice                                                                         |                                                                                                          |
 |--------------+----------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------|
 |           18 | Timetabling                                                                      |                                                                                                          |
-|              | [Timetabling][58]                                                                | [Assignment 1][15]                                                                                       |
+|              | [Timetabling][58]                                                                | [*Assignment 1*][15]                                                                                     |
 |              | Practice                                                                         |                                                                                                          |
 |--------------+----------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------|
 |           19 | [Lagrangian Relaxation for MILP][59]                                             | [AMO ch 16];  [Fi]                                                                                       |
@@ -70,7 +70,7 @@ Other material for this course is available at the associated
 |--------------+----------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------|
 |           21 | Vehicle Routing: [Compact models][62]; [Set Partitioning formulation and CG][63] | [Fe]                                                                                                     |
 |              | Vehicle Routing: [Cutting and Branching][64]                                     | [Fe]                                                                                                     |
-|              | Exercises on Column Generation                                                   | [Sheet 7]({{ site.url }}{% post_url 2020-05-18-sheet7 %}); <!-- [Solutions 1][19]; [Solutions 2][20] --> |
+|              | Exercises on Column Generation                                                   | [Sheet 7]({{ site.url }}{% post_url 2020-05-18-sheet7 %}) <!-- [Solutions 1][19]; [Solutions 2][20] -->  |
 |--------------+----------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------|
 |           22 | Crew Scheduling                                                                  | <!-- [Assignment 2][16] --> <!-- [Slides][15]; [RCSP][16]; [SGSK]; [GM] -->                              |
 |              | Benders Decomposition                                                            | <!-- [DJ, sec 3.5]; [Video][17] -->                                                                      |
