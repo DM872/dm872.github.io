@@ -282,7 +282,7 @@ Other material for this course is available at the associated
 [14]: {{ site.url }}{% post_url 2020-04-20-sheet4 %}
 [15]: {{ site.url }}{% post_url 2020-04-28-timetabling %}
 [16]: {{ site.url }}{% post_url 2020-05-21-vrptw %}
-
+[17]: {{ "https://www.youtube.com/watch?v=vQzpydNOWDY" | absolute_url }}
 
 [32]: {{ "https://github.com/DM872/Material/blob/master/sheet2/infection.ipynb" }}
 [33]: {{ "https://github.com/DM872/Material/blob/master/TSP/tsp_sol.ipynb" | absolute_url }}
@@ -328,7 +328,7 @@ Other material for this course is available at the associated
 [13]: {{ "/assets/03-CVRP-CG.pdf" | absolute_url }}
 [14]: {{ "/assets/04-CVRP-IntegerSolutionsWithCG.pdf" | absolute_url }}
 
-[18]: {{ "https://www.youtube.com/watch?v=vQzpydNOWDY" | absolute_url }}
+
 [19]: {{ "https://www.imada.sdu.dk/~marco/Teaching/AY2018-2019/DM872/assets/Lagrangian.html" | absolute_url }}
 [20]: {{ "https://www.imada.sdu.dk/~marco/Teaching/AY2018-2019/DM872/assets/extended.py" | absolute_url }}
 [21]: {{ "https://www.imada.sdu.dk/~marco/Teaching/AY2018-2019/DM872/assets/extended_callback.py" | absolute_url }}
