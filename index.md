@@ -53,7 +53,7 @@ Other material for this course is available at the associated
 |              | More on TSP. [Network Flows duality][54]                                         | [Solution S.3][33]                                                                                      |
 |--------------+----------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------|
 |           17 | [Cut-and-Solve][55]                                                              | [CZ]; [Sheet 4][14]; [Solution S.4][34]                                                                 |
-|              | [Modeling tricks][56].                                                           | [KN1,KN2,ABGRW]                                                                                         |
+|              | [Modeling tricks][56]                                                            | [KN1,KN2,ABGRW]                                                                                         |
 |              | Practice                                                                         |                                                                                                         |
 |--------------+----------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------|
 |           18 | [Timetabling][57]                                                                | [dW]; [LL]                                                                                              |
@@ -72,8 +72,8 @@ Other material for this course is available at the associated
 |              | Vehicle Routing: [Cutting and Branching][64]                                     | [Fe]                                                                                                    |
 |              | Exercises on Column Generation                                                   | [Sheet 7]({{ site.url }}{% post_url 2020-05-18-sheet7 %}) <!-- [Solutions 1][19]; [Solutions 2][20] --> |
 |--------------+----------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------|
-|           22 | Crew Scheduling                                                                  | [**Assignment 2**][16]  <!-- [Slides][15]; [RCSP][16]; [SGSK]; [GM] -->                             |
-|              | Benders Decomposition                                                            | <!-- [DJ, sec 3.5]; [Video][17] -->                                                                     |
+|           22 | [Crew Scheduling][65]; [RCSP][66]                                                | [SGSK]; [GM]; [**Assignment 2**][16]                                                                    |
+|              | Benders Decomposition                                                            | [DJ, sec 3.5]; [Video][17]                                                                              |
 |              | Exercises                                                                        | <!-- [Sheet 7]({{ site.url }}{% post_url 2019-05-21-sheet7 %}) -->                                      |
 |--------------+----------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------|
 
@@ -241,9 +241,6 @@ Other material for this course is available at the associated
   (2010) 8: 407.
 
 
-
-<!--
-
 - [SGSK] I. Steinzen, V. Gintner, L. Suhl and N. Kliewer. [A Time-Space
   Network Approach for the Integrated Vehicle- and Crew-Scheduling
   Problem with Multiple
@@ -260,7 +257,7 @@ Other material for this course is available at the associated
   Management](http://pure.iiasa.ac.at/id/eprint/1017/1/XB-79-106.pdf). Chichester,
   UK: John Wiley & Sons. ISBN 978-0-471-27626-5
 
--->
+
 
 <!-- https://core.ac.uk/download/pdf/52942860.pdf -->
 
@@ -308,6 +305,8 @@ Other material for this course is available at the associated
 [62]: {{ "https://imada.sdu.dk/~marco/Teaching/AY2019-2020/DM872/assets/protected/02-CVRP-models.pdf" }}
 [63]: {{ "https://imada.sdu.dk/~marco/Teaching/AY2019-2020/DM872/assets/protected/03-CVRP-CG.pdf" }}
 [64]: {{ "https://imada.sdu.dk/~marco/Teaching/AY2019-2020/DM872/assets/protected/04-CVRP-IntegerSolutionsWithCG.pdf" }}
+[65]: {{ "/assets/dm872-crew-scheduling-handout.pdf" | absolute_url }}
+[66]: {{ "/assets/dm872-rcsp-handout.pdf" | absolute_url }}
   
 
 <!--
@@ -329,8 +328,6 @@ Other material for this course is available at the associated
 [13]: {{ "/assets/03-CVRP-CG.pdf" | absolute_url }}
 [14]: {{ "/assets/04-CVRP-IntegerSolutionsWithCG.pdf" | absolute_url }}
 
-[16]: {{ "/assets/crew-scheduling.pdf" | absolute_url }}
-[17]: {{ "/assets/rcsp.pdf" | absolute_url }}
 [18]: {{ "https://www.youtube.com/watch?v=vQzpydNOWDY" | absolute_url }}
 [19]: {{ "https://www.imada.sdu.dk/~marco/Teaching/AY2018-2019/DM872/assets/Lagrangian.html" | absolute_url }}
 [20]: {{ "https://www.imada.sdu.dk/~marco/Teaching/AY2018-2019/DM872/assets/extended.py" | absolute_url }}
