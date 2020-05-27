@@ -39,7 +39,7 @@ permalink: /
 
 
 Other material for this course is available at the associated
-[Git repository](https://github.com/DM872/Material)
+[Git repository](https://github.com/DM872/Material). The drawings made during the video lectures are collected in this [document][67].
 
 
 | Week	 | Topics and Slides                                                                | 	Material                                                                                        |
@@ -74,7 +74,6 @@ Other material for this course is available at the associated
 |--------------+----------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------|
 |           22 | [Crew Scheduling][65]; [RCSP][66]                                                | [SGSK]; [GM]; [**Assignment 2**][16]                                                                    |
 |              | Benders Decomposition                                                            | [DJ, sec 3.5]; [Video][17]                                                                              |
-|              | Exercises                                                                        | <!-- [Sheet 7]({{ site.url }}{% post_url 2019-05-21-sheet7 %}) -->                                      |
 |--------------+----------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------|
 
 
@@ -301,13 +300,12 @@ Other material for this course is available at the associated
 [59]: {{ "/assets/dm872-lagrangian-handout.pdf" | absolute_url }}
 [60]: {{ "/assets/dm872-vehicle-scheduling-handout.pdf" | absolute_url }}
 [61]: {{ "/assets/dm872-dantzig_wolfe-handout.pdf" | absolute_url }}
-
 [62]: {{ "https://imada.sdu.dk/~marco/Teaching/AY2019-2020/DM872/assets/protected/02-CVRP-models.pdf" }}
 [63]: {{ "https://imada.sdu.dk/~marco/Teaching/AY2019-2020/DM872/assets/protected/03-CVRP-CG.pdf" }}
 [64]: {{ "https://imada.sdu.dk/~marco/Teaching/AY2019-2020/DM872/assets/protected/04-CVRP-IntegerSolutionsWithCG.pdf" }}
 [65]: {{ "/assets/dm872-crew-scheduling-handout.pdf" | absolute_url }}
 [66]: {{ "/assets/dm872-rcsp-handout.pdf" | absolute_url }}
-  
+[67]: {{ "/assets/dm872-drawings.pdf" | absolute_url }}
 
 <!--
 
