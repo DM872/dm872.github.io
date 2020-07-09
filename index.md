@@ -72,7 +72,7 @@ Other material for this course is available at the associated
 |              | Vehicle Routing: [Cutting and Branching][64]                                     | [Fe]                                                                                                    |
 |              | Exercises on Column Generation                                                   | [Sheet 7]({{ site.url }}{% post_url 2020-05-18-sheet7 %}) <!-- [Solutions 1][19]; [Solutions 2][20] --> |
 |--------------+----------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------|
-|           22 | [Crew Scheduling][65]; [RCSP][66]                                                | [SGSK]; [GM]; [**Assignment 2**][16]                                                                    |
+|           22 | [Crew Scheduling][65]; [RCSP][66]                                                | [SGSK]; [GM]; [*Assignment 2*][16]                                                                    |
 |              | Benders Decomposition                                                            | [DJ, sec 3.5]; [Video][17]                                                                              |
 |--------------+----------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------|
 
