@@ -72,7 +72,7 @@ Other material for this course is available at the associated
 |              | Vehicle Routing: [Cutting and Branching][64]                                     | [Fe]                                                                                                    |
 |              | Exercises on Column Generation                                                   | [Sheet 7]({{ site.url }}{% post_url 2020-05-18-sheet7 %}) <!-- [Solutions 1][19]; [Solutions 2][20] --> |
 |--------------+----------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------|
-|           22 | [Crew Scheduling][65]; [RCSP][66]                                                | [SGSK]; [GM]; [*Assignment 2*][16]                                                                    |
+|           22 | [Crew Scheduling][65]; [RCSP][66]                                                | [SGSK]; [GM]; [*Assignment 2*][16]; [Solution Asg 2][36]                                                                    |
 |              | Benders Decomposition                                                            | [DJ, sec 3.5]; [Video][17]                                                                              |
 |--------------+----------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------|
 
@@ -287,6 +287,7 @@ Other material for this course is available at the associated
 [33]: {{ "https://github.com/DM872/Material/blob/master/TSP/tsp_sol.ipynb" | absolute_url }}
 [34]: {{ "https://github.com/DM872/Material/blob/master/TSP/formulations_sol.ipynb" | absolute_url }}
 [35]: {{ "https://github.com/DM872/Material/blob/master/Lagrange/Lagrangian.ipynb" | absolute_url }}
+[36]: {{ "https://github.com/DM872/Material/blob/master/VRPTW/nb/VRPTW_sol.ipynb" | absolute_url }}
 
 
 [51]: {{ "/assets/dm872-lec1-handout.pdf" | absolute_url }}
