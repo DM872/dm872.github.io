@@ -15,8 +15,9 @@ permalink: /
 
 - [Official course description](https://odinlister.sdu.dk/fagbesk/internkode/DM872/)
 
-- [BlackBoard](https://e-learn.sdu.dk/webapps/blackboard/execute/courseMain?course_id=_414555_1)
+# https://odin.sdu.dk/sitecore/index.php?a=searchfagbesk&internkode=dm872
   
+- [ItsLearning](https://sdu.itslearning.com/main.aspx?CourseID=9315)
 
 - Teacher: [Marco Chiarandini](https://imada.sdu.dk/~marco)
 
@@ -25,9 +26,23 @@ permalink: /
 ### Schedule
 
 
+<p>
+<a href="https://mitsdu.sdu.dk/skema/activity/N340032101/f21">MitSDU</a>
+</p>
 
-<a href="https://mitsdu.sdu.dk/skema/activity/N340032101/f20">MitSDU</a>
 
+<button onclick="myFunction('h1')" class="w3-btn w3-cell
+w3-left-align">Overall view <i class="fa fa-caret-down"></i></button>
+<div id="h1" class="w3-container w3-hide">
+
+<div class="w3-responsive">
+
+<div w3-include-html="./assets/dm872.html"></div>
+<script>
+w3.includeHTML();
+</script>
+</div>
+</div>
 
 
 
