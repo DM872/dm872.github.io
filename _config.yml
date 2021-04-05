@@ -89,10 +89,10 @@ kramdown:
 ## Build settings
 #markdown: kramdown
 ## theme: minima
-#theme: jekyll-theme-slate
-#plugins:
-#  - jekyll-feed
-#  - jekyll-github-metadata
+theme: jekyll-theme-slate
+plugins:
+  - jekyll-feed
+  - jekyll-github-metadata
 #
 #
 # Exclude from processing.
