@@ -14,8 +14,6 @@ permalink: /
 ### General information
 
 - [Official course description](https://odinlister.sdu.dk/fagbesk/internkode/DM872/)
-
-# https://odin.sdu.dk/sitecore/index.php?a=searchfagbesk&internkode=dm872
   
 - [ItsLearning](https://sdu.itslearning.com/main.aspx?CourseID=9315)
 
