@@ -2,7 +2,7 @@
 # You don't need to edit this file, it's empty on purpose.
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-title: "DM872 - Mathematical Optimization at work"
+title: "DM872 - Mathematical Optimization at Work"
 layout: default
 excerpt: "Main Page"
 sitemap: false
@@ -51,15 +51,12 @@ w3.includeHTML();
 
 
 
-Other material for this course is available at the associated
-[Git repository](https://github.com/DM872/Material). The drawings made during the video lectures are collected in this [document][67].
 
-
-| Week | Topics and Slides                                                                | Material                                                                                                |
+| Week | Topics and Slides                                                                | Resources                                                                                               |
 |------+----------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------|
-|   14 | [Introduction][51]. Pyomo (slides).                                              | [Intro to Python][10];  [Pyomo](http://www.pyomo.org/documentation); [Sheet 1][11]                      |
-|      | Pyomo (examples).  Model Fitting (linear and non linear models).                 | [Sheet 2][12]; [Solution S.2][32]                                                                       |
-|      | Installations. [Preprocessing][52].                                              | [ABGRW]                                                                                                 |
+|   14 | [Introduction][51].                                                              | [Intro to Python][10];  [Pyomo](http://www.pyomo.org/documentation); [Sheet 1][11]                      |
+|      |                                                                                  | [Sheet 2][12]; [Solution S.2][32]                                                                       |
+|      | [Preprocessing][52].                                                             | [ABGRW]                                                                                                 |
 |------+----------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------|
 |   16 | [MILP Formulations for Traveling Salesman Problem][53]                           | [Sheet 3][13]; [P] or [DFJ] or [MTZ] or [A] or [ABCC] or [OAL]                                          |
 |      | Cutting Planes for TSP                                                           |                                                                                                         |
@@ -90,54 +87,22 @@ Other material for this course is available at the associated
 |------+----------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------|
 
 
-<!--
-
-                                                               
-                                                                            
-
-
--->
-
-<!--
-[Tsp ][5]; [P] or [DFJ] or [MTZ] or [A] or [ABCC] or [OAL]
- [Sheet 1][1]; [Solutions][2];
-
- [Sheet 3]({{ site.url }}{% post_url 2019-04-22-sheet3 %})
-
-<br> [Solutions][18] |
--->
-
-<!--
-
-| Week	 | Topics and Slides                                                            | 	Recommended reading                                                                     |   |
-|--------------+------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+---|
-|           14 | MILP Languages and Solvers. MILP Formulations for Traveling Salesman Problem | [Pyomo](https://imada.sdu.dk/~marco/DM871/Training/dm545_lab_scip.pdf)                          |   |
-|              | Cutting Planes for TSP                                                       |                                                                                                 |   |
-|              | Exercises                                                                    | [Sheet 1][1]; [Solutions][2];                                                                   |   |
-|--------------+------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+---|
-|              | 15                                                                           |                                                                                                 |   |
-|              |                                                                              |                                                                                                 |   |
-|--------------+------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+---|
-|           17 | Modeling Timetabling                                                         | [Timetabling][8]; [Timetabling][10]; [LL]                                                       |   |
-|              | Advanced Methods for MILP                                                    | [Theory][9]; [AMO ch 15]; [Wo ch 10]                                                            |   |
-|              | Exercises                                                                    | [Sheet 3]({{ site.url }}{% post_url 2019-04-22-sheet3 %})                                       |   |
-|--------------+------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+---|
-|           18 | and Column Generation                                                        | [Theory][9]; [Wo ch 11]                                                                         |   |
-|              | Column Generation                                                            | [Theory][9]; [Wo ch 11]                                                                         |   |
-|              | Exercises on Lagrangian Relaxation                                           |                                  |   |
-|--------------+------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+---|
-
--->
-
 ### References
 
 
-- [Py] Hart, William E., Carl D. Laird, Jean-Paul Watson, David
-  L. Woodruff, Gabriel A. Hackebeil, Bethany L. Nicholson, and John
-  D. Siirola. [Pyomo – Optimization Modeling in
-  Python](https://www.springer.com/gp/book/9783319588193). Second
-  Edition.  Vol. 67. Springer, 2017.
 
+
+- [KN1] Ed Klotz, Alexandra M. Newman. [Practical guidelines for solving
+  difficult linear
+  programs](https://doi.org/10.1016/j.sorms.2012.11.001) Surveys in
+  Operations Research and Management Science, 18 (1–2) (2013), pp. 1-17
+
+
+- [KN2] Ed Klotz Alexandra M. Newman. [Practical guidelines for solving
+  difficult mixed integer linear
+  programs](https://doi.org/10.1016/j.sorms.2012.12.001) Surveys in
+  Operations Research and Management Science Volume 18, Issues 1–2,
+  October 2013, Pages 18-32
 
 - [ABGRW] Tobias Achterberg, Robert E. Bixby, Zonghao Gu, Edward
   Rothberg, Dieter Weninger [Presolve Reductions in Mixed Integer
@@ -179,99 +144,22 @@ Other material for this course is available at the associated
   formulations](https://doi.org/10.1016/j.cor.2007.11.008) Computers & Operations Research 36 (2009) 6
 
 
-- [CZ] Sharlee Climer, Weixiong Zhang. Cut-and-solve: [An iterative
-  search strategy for combinatorial optimization
-  problems.](https://doi.org/10.1016/j.artint.2006.02.005) Artificial
-  Intelligence Volume 170, Issues 8–9, June 2006, Pages 714-738
-
-
-- [KN1] Ed Klotz, Alexandra M. Newman. [Practical guidelines for solving
-  difficult linear
-  programs](https://doi.org/10.1016/j.sorms.2012.11.001) Surveys in
-  Operations Research and Management Science, 18 (1–2) (2013), pp. 1-17
-
-
-- [KN2] Ed Klotz Alexandra M. Newman. [Practical guidelines for solving
-  difficult mixed integer linear
-  programs](https://doi.org/10.1016/j.sorms.2012.12.001) Surveys in
-  Operations Research and Management Science Volume 18, Issues 1–2,
-  October 2013, Pages 18-32
-
-
-- [dW] D. de Werra. An introduction to timetaling. European Journal of
-  Operational Research Volume 19, Issue 2, February 1985, Pages
-  151-162
-
-
-- [LL] G. Lach and M. Lübbecke. [Optimal University Course Timetables
-  and the Partial Transversal
-  Polytope](http://dx.doi.org/10.1007/978-3-540-68552-4_18). C. McGeoch
-  (ed.). 7th International Workshop on Efficient and Experimental
-  Algorithms (WEA08), Springer, 2008, 5038() , 235-248
 
 
 
-- [AMO] R.K. Ahuja, T.L. Magnanti and J.B. Orlin. Network Flows: Theory,
-  Algorithms, and Applications. Chapters 16 and 17 (in BB). Prentice Hall, 1993 
-
-- [Wo] L.A. Wolsey. Integer programming. Chapters 10 and 11 (in
-  BB). John Wiley & Sons, New York, USA, 1998
-
-- [Fi] M.L. Fisher. [The Lagrangian Relaxation Method for Solving Integer
-  Programming
-  Problems](http://dx.doi.org/10.1287/mnsc.1040.0263). Management
-  Science, 2004, 50(12), 1861-1871
-
-- [Fi2] M.L. Fisher. [An applications oriented guide to Lagrangian
-  relaxation](http://www.cs.uleth.ca/~benkoczi/OR/read/lagrange-relax-introduct-fisher85.pdf)
-  Interfaces 15:2, 10-21, 1985.
-
-
-- [IB] S. Ilker Birbil. [Lagrangian
-  Relaxation](https://personal.eur.nl/birbil/bolbilim/teaa/02_Lag_Rel.pdf). 2016
-
-- [JB] J. E. Beasley. [Integer Programming Solution
-  Methods](http://people.brunel.ac.uk/~mastjjb/jeb/natcor_ip_rest.pdf). 
-
-
-- [BCG] A.A. Bertossi, P. Carraresi and G. Gallo. [On some matching
-  problems arising in vehicle scheduling
-  models](http://dx.doi.org/10.1002/net.3230170303). Networks, Wiley,
-  1987, 17(3), 271-281
-
-- [CG] P. Carraresi and G. Gallo. [Network models for vehicle and crew
-  scheduling](http://dx.doi.org/10.1016/0377-2217(84)90068-7). European
-  Journal of Operational Research , 1984, 16(2) , 139 - 151
-
-
-- [LD] M.E. Lübbecke, J. Desrosiers [Selected Topics in Column Generation](https://doi.org/10.1287/opre.1050.0234). Operations Research. Vol. 53, No. 6, 2005
-
-
-- [Fe] Feillet, D. [A tutorial on column generation and branch-and-price for
-  vehicle routing
-  problems](https://doi.org/10.1007/s10288-010-0130-z). 4OR-Q J Oper Res
-  (2010) 8: 407.
-
-
-- [SGSK] I. Steinzen, V. Gintner, L. Suhl and N. Kliewer. [A Time-Space
-  Network Approach for the Integrated Vehicle- and Crew-Scheduling
-  Problem with Multiple
-  Depots](http://dx.doi.org/10.1287/trsc.1090.0304). Transportation
-  Science, 2010, 44(3), 367-382
-
-- [GM] S. Gualandi and F. Malucelli. [Resource Constrained Shortest
-  Paths with a Super Additive Objective
-  Function](http://dx.doi.org/10.1007/978-3-642-33558-7_24). M. Milano
-  (ed.). CP, Springer, 2012, 7514, 299-315
-
-- [DJ] Dirickx YMI & Jennergren LP (1979). [Systems Analysis by
-  Multilevel Methods: With Applications to Economics and
-  Management](http://pure.iiasa.ac.at/id/eprint/1017/1/XB-79-106.pdf). Chichester,
-  UK: John Wiley & Sons. ISBN 978-0-471-27626-5
+### Python
 
 
 
-<!-- https://core.ac.uk/download/pdf/52942860.pdf -->
+- General tutorials from slides in DM561: 
+  - [Part 1](https://dm561.github.io/assets/dm561-lec1.pdf): basics, data types, control flow, std library, OO programming
+  - [Part 2](https://dm561.github.io/assets/dm561-lec2.pdf): exceptions, file i/o, numpy
+  - [Part 3](https://dm561.github.io/assets/dm561-lec3.pdf): graphics, data viz, pandas
+
+- [P0] [Colab on Python Basics](https://colab.research.google.com/github/DM561/dm561.github.io/blob/master/assets/Python_in_a_Nutshell.ipynb)
+
+- [GRB] Solving MILP Problems in Python with Gurobi: [Part 1](./assets/lab_gurobi_1.html); [Part 2](./assets/lab_gurobi_2.html)
+
 
 
 
