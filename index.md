@@ -52,40 +52,39 @@ w3.includeHTML();
 
 
 
-| Week | Topics and Slides                                                                | Resources                                                                                               |
-|------+----------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------|
-|   14 | [Introduction][51].                                                              | [Intro to Python][10];  [Pyomo](http://www.pyomo.org/documentation); [Sheet 1][11]                      |
-|      |                                                                                  | [Sheet 2][12]; [Solution S.2][32]                                                                       |
-|      | [Preprocessing][52].                                                             | [ABGRW]                                                                                                 |
-|------+----------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------|
-|   16 | [MILP Formulations for Traveling Salesman Problem][53]                           | [Sheet 3][13]; [P] or [DFJ] or [MTZ] or [A] or [ABCC] or [OAL]                                          |
-|      | Cutting Planes for TSP                                                           |                                                                                                         |
-|      | More on TSP. [Network Flows duality][54]                                         | [Solution S.3][33]                                                                                      |
-|------+----------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------|
-|   17 | [Cut-and-Solve][55]                                                              | [CZ]; [Sheet 4][14]; [Solution S.4][34]                                                                 |
-|      | [Modeling tricks][56]                                                            | [KN1,KN2,ABGRW]                                                                                         |
-|      | Practice                                                                         |                                                                                                         |
-|------+----------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------|
-|   18 | [Timetabling][57]                                                                | [dW]; [LL]                                                                                              |
-|      | [Timetabling][58]                                                                | [*Assignment 1*][15]                                                                                    |
-|      | Practice                                                                         |                                                                                                         |
-|------+----------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------|
-|   19 | [Lagrangian Relaxation for MILP][59]                                             | [AMO ch 16];  [Fi]                                                                                      |
-|      | Exercises                                                                        | [Sheet 5]({{ site.url }}{% post_url 2020-05-04-lagrangian %}); [IB]; [Fi2]; [JB]                        |
-|      | Implementation, LR for TSP                                                       | [Solution S.5][35]; [Wo ch 10]                                                                          |
-|------+----------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------|
-|   20 | [Vehicle Scheduling][60]                                                         | [BCG]; [CG]                                                                                             |
-|      | Exercises                                                                        | [Sheet 6]({{ site.url }}{% post_url 2019-05-15-sheet6 %})                                               |
-|      | [Dantzig Wolfe decomposition][61]                                                | [AMO ch 17]; [Wo ch 11]; [LD]                                                                           |
-|------+----------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------|
-|   21 | Vehicle Routing: [Compact models][62]; [Set Partitioning formulation and CG][63] | [Fe]                                                                                                    |
-|      | Vehicle Routing: [Cutting and Branching][64]                                     | [Fe]                                                                                                    |
-|      | Exercises on Column Generation                                                   | [Sheet 7]({{ site.url }}{% post_url 2020-05-18-sheet7 %}) <!-- [Solutions 1][19]; [Solutions 2][20] --> |
-|------+----------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------|
-|   22 | [Crew Scheduling][65]; [RCSP][66]                                                | [SGSK]; [GM]; [*Assignment 2*][16]; [Solution Asg 2][36]                                                |
-|      | Benders Decomposition                                                            | [DJ, sec 3.5]; [Video][17]                                                                              |
-|------+----------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------|
-
+| Week | Topics and Slides                                                    | Resources           |
+|------+----------------------------------------------------------------------+---------------------|
+|   14 | Introduction. MILP Modeling.                                         | [GRB], [KN1], [KN2] |
+|      | Presolving                                                           | [ABGRW]             |
+|      |                                                                      |                     |
+|------+----------------------------------------------------------------------+---------------------|
+|   15 | MILP Formulations for Traveling Salesman Problem                     |                     |
+|      | Cutting Planes for TSP                                               |                     |
+|      | More on TSP. Network Flows duality                                   |                     |
+|------+----------------------------------------------------------------------+---------------------|
+|   16 | Lagrangian Relaxation for MILP                                       |                     |
+|      | Exercises                                                            |                     |
+|      | Implementation, LR for TSP                                           |                     |
+|------+----------------------------------------------------------------------+---------------------|
+|   17 | Vehicle Scheduling                                                   |                     |
+|      | Exercises                                                            |                     |
+|      | Dantzig Wolfe decomposition                                          |                     |
+|------+----------------------------------------------------------------------+---------------------|
+|   18 | Vehicle Routing: Compact models; Set Partitioning formulation and CG |                     |
+|      | Vehicle Routing: Cutting and Branching                               |                     |
+|      | Exercises on Column Generation                                       |                     |
+|------+----------------------------------------------------------------------+---------------------|
+|   19 | Crew Scheduling; RCSP                                                |                     |
+|      | Benders Decomposition                                                |                     |
+|------+----------------------------------------------------------------------+---------------------|
+|   20 | Cut-and-Solve                                                        |                     |
+|      |                                                                      |                     |
+|      |                                                                      |                     |
+|------+----------------------------------------------------------------------+---------------------|
+|   21 | Timetabling                                                          |                     |
+|      | Timetabling                                                          |                     |
+|      |                                                                      |                     |
+|------+----------------------------------------------------------------------+---------------------|
 
 ### References
 
@@ -106,9 +105,10 @@ w3.includeHTML();
 
 - [ABGRW] Tobias Achterberg, Robert E. Bixby, Zonghao Gu, Edward
   Rothberg, Dieter Weninger [Presolve Reductions in Mixed Integer
-  Programming](https://opus4.kobv.de/opus4-zib/frontdoor/index/index/docId/7262)
-  INFORMS Journal on Computing, 2019 (accepted for publication, preprint
-  available as ZIB-Report 16-44)
+  Programming](https://doi.org/10.1287/ijoc.2018.0857)
+  INFORMS Journal on Computing, 32(2), 2020 (preprint available as
+  [ZIB-Report
+  16-44](https://opus4.kobv.de/opus4-zib/frontdoor/index/index/docId/6037))
 
 
 - [A] David L. L. Applegate, Robert E. E. Bixby, Vasek Chvátal, William
@@ -151,7 +151,7 @@ w3.includeHTML();
 
 
 
-- General tutorials from slides in DM561: 
+- Python tutorial from DM561: 
   - [Part 1](https://dm561.github.io/assets/dm561-lec1.pdf): basics, data types, control flow, std library, OO programming
   - [Part 2](https://dm561.github.io/assets/dm561-lec2.pdf): exceptions, file i/o, numpy
   - [Part 3](https://dm561.github.io/assets/dm561-lec3.pdf): graphics, data viz, pandas
@@ -165,14 +165,10 @@ w3.includeHTML();
 
 ### Links:
 
+- [Pyomo](http://www.pyomo.org/)
 
-- [Pyomo documentation](http://www.pyomo.org/documentation)
+- [RM] PySCIPOpt: Python Interface to the SCIP Optimization Suite. [Reference Manual](https://imada.sdu.dk/~marco/Misc/PySCIPOpt/index.html); [SCIP Parameters](https://scip.zib.de/doc/html/PARAMETERS.php)
 
-<!--
- - [RM] PySCIPOpt: Python Interface to the SCIP Optimization
-   Suite. [Reference
-   Manual](https://imada.sdu.dk/~marco/Misc/PySCIPOpt/index.html); [SCIP Parameters](https://scip.zib.de/doc/html/PARAMETERS.php)
--->
 
 
 [10]: {{ "https://colab.research.google.com/github/DM872/Material/blob/master/Python/Python_in_a_Nutshell.ipynb" | absolute_url }}
