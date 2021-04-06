@@ -52,39 +52,39 @@ w3.includeHTML();
 
 
 
-| Week | Topics and Slides                                                    | Resources           |
-|------+----------------------------------------------------------------------+---------------------|
-|   14 | Introduction. MILP Modeling.                                         | [GRB], [KN1], [KN2] |
-|      | Presolving                                                           | [ABGRW]             |
-|      |                                                                      |                     |
-|------+----------------------------------------------------------------------+---------------------|
-|   15 | MILP Formulations for Traveling Salesman Problem                     |                     |
-|      | Cutting Planes for TSP                                               |                     |
-|      | More on TSP. Network Flows duality                                   |                     |
-|------+----------------------------------------------------------------------+---------------------|
-|   16 | Lagrangian Relaxation for MILP                                       |                     |
-|      | Exercises                                                            |                     |
-|      | Implementation, LR for TSP                                           |                     |
-|------+----------------------------------------------------------------------+---------------------|
-|   17 | Vehicle Scheduling                                                   |                     |
-|      | Exercises                                                            |                     |
-|      | Dantzig Wolfe decomposition                                          |                     |
-|------+----------------------------------------------------------------------+---------------------|
-|   18 | Vehicle Routing: Compact models; Set Partitioning formulation and CG |                     |
-|      | Vehicle Routing: Cutting and Branching                               |                     |
-|      | Exercises on Column Generation                                       |                     |
-|------+----------------------------------------------------------------------+---------------------|
-|   19 | Crew Scheduling; RCSP                                                |                     |
-|      | Benders Decomposition                                                |                     |
-|------+----------------------------------------------------------------------+---------------------|
-|   20 | Cut-and-Solve                                                        |                     |
-|      |                                                                      |                     |
-|      |                                                                      |                     |
-|------+----------------------------------------------------------------------+---------------------|
-|   21 | Timetabling                                                          |                     |
-|      | Timetabling                                                          |                     |
-|      |                                                                      |                     |
-|------+----------------------------------------------------------------------+---------------------|
+| Week | Topics and Slides                                                    | Resources               |
+|------+----------------------------------------------------------------------+-------------------------|
+|   14 | Introduction.                                                        | [GRB], *[KN1]*, *[KN2]* |
+|      | MILP Practical Guidelines                                            | *[ABGRW]*               |
+|      | Practice                                                             | Sheet 1                 |
+|------+----------------------------------------------------------------------+-------------------------|
+|   15 | MILP Formulations for Traveling Salesman Problem                     |                         |
+|      | Cutting Planes for TSP                                               |                         |
+|      | More on TSP. Network Flows duality                                   |                         |
+|------+----------------------------------------------------------------------+-------------------------|
+|   16 | Lagrangian Relaxation for MILP                                       |                         |
+|      | Exercises                                                            |                         |
+|      | Implementation, LR for TSP                                           |                         |
+|------+----------------------------------------------------------------------+-------------------------|
+|   17 | Vehicle Scheduling                                                   |                         |
+|      | Exercises                                                            |                         |
+|      | Dantzig Wolfe decomposition                                          |                         |
+|------+----------------------------------------------------------------------+-------------------------|
+|   18 | Vehicle Routing: Compact models; Set Partitioning formulation and CG |                         |
+|      | Vehicle Routing: Cutting and Branching                               |                         |
+|      | Exercises on Column Generation                                       |                         |
+|------+----------------------------------------------------------------------+-------------------------|
+|   19 | Crew Scheduling; RCSP                                                |                         |
+|      | Benders Decomposition                                                |                         |
+|------+----------------------------------------------------------------------+-------------------------|
+|   20 | Cut-and-Solve                                                        |                         |
+|      |                                                                      |                         |
+|      |                                                                      |                         |
+|------+----------------------------------------------------------------------+-------------------------|
+|   21 | Timetabling                                                          |                         |
+|      | Timetabling                                                          |                         |
+|      |                                                                      |                         |
+|------+----------------------------------------------------------------------+-------------------------|
 
 ### References
 
