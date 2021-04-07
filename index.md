@@ -56,7 +56,7 @@ w3.includeHTML();
 |------+----------------------------------------------------------------------+-----------------------------------|
 |   14 | Introduction.                                                        | [GRB], **[KN1]**, [HL], **[KN2]** |
 |      | MILP Practical Guidelines                                            | **[ABGRW]**                       |
-|      | Practice                                                             | Sheet 1                           |
+|      | Practice                                                             | [Sheet 1][11]                     |
 |------+----------------------------------------------------------------------+-----------------------------------|
 |   15 | MILP Formulations for Traveling Salesman Problem                     |                                   |
 |      | Cutting Planes for TSP                                               |                                   |
@@ -174,10 +174,12 @@ w3.includeHTML();
 - [RM] PySCIPOpt: Python Interface to the SCIP Optimization Suite. [Reference Manual](https://imada.sdu.dk/~marco/Misc/PySCIPOpt/index.html); [SCIP Parameters](https://scip.zib.de/doc/html/PARAMETERS.php)
 
 
-
+<!--
 [10]: {{ "https://colab.research.google.com/github/DM872/Material/blob/master/Python/Python_in_a_Nutshell.ipynb" | absolute_url }}
 [11]: {{ "https://github.com/DM872/Material/blob/master/sheet1/Production.ipynb" | absolute_url }}
-[12]: {{ site.url }}{% post_url 2020-03-31-fitting %}
+-->
+
+[11]: {{ site.url }}{% post_url 2020-03-31-fitting %}
 [13]: {{ "https://github.com/DM872/Material/blob/master/TSP/tsp.ipynb" | absolute_url }}
 [14]: {{ site.url }}{% post_url 2020-04-20-sheet4 %}
 [15]: {{ site.url }}{% post_url 2020-04-28-timetabling %}
