@@ -52,39 +52,39 @@ w3.includeHTML();
 
 
 
-| Week | Topics and Slides                                                    | Resources                         |
-|------+----------------------------------------------------------------------+-----------------------------------|
-|   14 | Introduction.                                                        | [GRB], **[KN1]**, [HL], **[KN2]** |
-|      | MILP Practical Guidelines                                            | **[ABGRW]**                       |
-|      | Practice                                                             | [Sheet 1][11]                     |
-|------+----------------------------------------------------------------------+-----------------------------------|
-|   15 | MILP Formulations for Traveling Salesman Problem                     |                                   |
-|      | Cutting Planes for TSP                                               |                                   |
-|      | More on TSP. Network Flows duality                                   |                                   |
-|------+----------------------------------------------------------------------+-----------------------------------|
-|   16 | Lagrangian Relaxation for MILP                                       |                                   |
-|      | Exercises                                                            |                                   |
-|      | Implementation, LR for TSP                                           |                                   |
-|------+----------------------------------------------------------------------+-----------------------------------|
-|   17 | Vehicle Scheduling                                                   |                                   |
-|      | Exercises                                                            |                                   |
-|      | Dantzig Wolfe decomposition                                          |                                   |
-|------+----------------------------------------------------------------------+-----------------------------------|
-|   18 | Vehicle Routing: Compact models; Set Partitioning formulation and CG |                                   |
-|      | Vehicle Routing: Cutting and Branching                               |                                   |
-|      | Exercises on Column Generation                                       |                                   |
-|------+----------------------------------------------------------------------+-----------------------------------|
-|   19 | Crew Scheduling; RCSP                                                |                                   |
-|      | Benders Decomposition                                                |                                   |
-|------+----------------------------------------------------------------------+-----------------------------------|
-|   20 | Cut-and-Solve                                                        |                                   |
-|      |                                                                      |                                   |
-|      |                                                                      |                                   |
-|------+----------------------------------------------------------------------+-----------------------------------|
-|   21 | Timetabling                                                          |                                   |
-|      | Timetabling                                                          |                                   |
-|      |                                                                      |                                   |
-|------+----------------------------------------------------------------------+-----------------------------------|
+| Week | Topics and Slides                                                        | Resources                                       |
+|------+--------------------------------------------------------------------------+-------------------------------------------------|
+|   14 | Introduction.                                                            | [GRB],                                          |
+|      | LP Practical Guidelines, Interior Point Methods, Sifting                 | **[KN1]**, [HL, sc 8.4], [BGLMS, sc 3]          |
+|      | Practice                                                                 | [Sheet 1][11]                                   |
+|------+--------------------------------------------------------------------------+-------------------------------------------------|
+|   15 | MILP Practical Guidelines, Modeling, Presolving                          | **[KN2]**, **[ABGRW]**                          |
+|      | MILP Formulations for Traveling Salesman Problem, Cutting Planes for TSP | [P] or [DFJ] or [MTZ] or [A] or [ABCC] or [OAL] |
+|      | Practice                                                                 | Sheet 2                                         |
+|------+--------------------------------------------------------------------------+-------------------------------------------------|
+|   16 | More on TSP. Network Flows duality                                       |                                                 |
+|      | Lagrangian Relaxation for MILP                                           |                                                 |
+|      | Implementation, LR for TSP                                               |                                                 |
+|------+--------------------------------------------------------------------------+-------------------------------------------------|
+|   17 | Vehicle Scheduling                                                       |                                                 |
+|      | Exercises                                                                |                                                 |
+|      | Dantzig Wolfe decomposition                                              |                                                 |
+|------+--------------------------------------------------------------------------+-------------------------------------------------|
+|   18 | Vehicle Routing: Compact models; Set Partitioning formulation and CG     |                                                 |
+|      | Vehicle Routing: Cutting and Branching                                   |                                                 |
+|      | Exercises on Column Generation                                           |                                                 |
+|------+--------------------------------------------------------------------------+-------------------------------------------------|
+|   19 | Crew Scheduling; RCSP                                                    |                                                 |
+|      | Benders Decomposition                                                    |                                                 |
+|------+--------------------------------------------------------------------------+-------------------------------------------------|
+|   20 | Cut-and-Solve                                                            |                                                 |
+|      |                                                                          |                                                 |
+|      |                                                                          |                                                 |
+|------+--------------------------------------------------------------------------+-------------------------------------------------|
+|   21 | Timetabling                                                              |                                                 |
+|      | Timetabling                                                              |                                                 |
+|      |                                                                          |                                                 |
+|------+--------------------------------------------------------------------------+-------------------------------------------------|
 
 ### References
 
@@ -96,10 +96,16 @@ w3.includeHTML();
   programs](https://doi.org/10.1016/j.sorms.2012.11.001) Surveys in
   Operations Research and Management Science, 18 (1–2) (2013), pp. 1-17
 
-  - [HL] Frederick S Hillier and Gerald J Lieberman, [Introduction to
-    Operations
-    Research](http://highered.mcgraw-hill.com/sites/0073376299/information_center_view0/),
-    9th edition, 2010. ISBN: 0073376299
+- [HL] Frederick S Hillier and Gerald J Lieberman, [Introduction to
+  Operations
+  Research](http://highered.mcgraw-hill.com/sites/0073376299/information_center_view0/),
+  9th edition, 2010. ISBN: 0073376299
+
+- [BGLMS] Bixby, R. E., Gregory, J. W., Lustig, I. J., Marsten, R. E.,
+  & Shanno, D. F. (1992). [Very large-scale linear programming: A case
+  study in combining interior point and simplex
+  methods](https://scholarship.rice.edu/bitstream/handle/1911/101715/TR91-11.pdf). Technical
+  Report 91-11 (Also in Operations Research, 40(5), 885.)
 
 - [KN2] Ed Klotz Alexandra M. Newman. [Practical guidelines for solving
   difficult mixed integer linear
