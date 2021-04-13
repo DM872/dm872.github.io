@@ -176,7 +176,7 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><a href="https://github.com/DM872/dm872.github.io/tree/master/_notebooks/feat_sel.ipynb">,
+<p><a href="https://colab.research.google.com/github/DM872/dm872.github.io/tree/master/_notebooks/feat_sel.ipynb">,
     <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"\>,
     </a></p>
 
@@ -226,7 +226,7 @@ $$<p>Alternatively we can define as a Special Ordered Set of type one (meaning t
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">matplotlib</span> inline
@@ -249,7 +249,7 @@ $$<p>Alternatively we can define as a Special Ordered Set of type one (meaning t
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Load data and split into train (80%) and test (20%)</span>
@@ -266,7 +266,7 @@ $$<p>Alternatively we can define as a Special Ordered Set of type one (meaning t
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">scaler</span> <span class="o">=</span> <span class="n">StandardScaler</span><span class="p">()</span>
@@ -282,7 +282,7 @@ $$<p>Alternatively we can define as a Special Ordered Set of type one (meaning t
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">Xtrain_std</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
@@ -296,7 +296,7 @@ $$<p>Alternatively we can define as a Special Ordered Set of type one (meaning t
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[9]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[14]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -311,7 +311,7 @@ $$<p>Alternatively we can define as a Special Ordered Set of type one (meaning t
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">m</span> <span class="o">=</span> <span class="n">gp</span><span class="o">.</span><span class="n">Model</span><span class="p">(</span><span class="s2">&quot;fitting&quot;</span><span class="p">)</span>
@@ -409,7 +409,7 @@ Presolve time: 0.01s
 Presolved: 431 rows, 861 columns, 6555 nonzeros
 Variable types: 848 continuous, 13 integer (13 binary)
 
-Root relaxation: objective 1.248587e+03, 454 iterations, 0.03 seconds
+Root relaxation: objective 1.248587e+03, 454 iterations, 0.05 seconds
 
     Nodes    |    Current Node    |     Objective Bounds      |     Work
  Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
@@ -430,7 +430,7 @@ H    0     0                    1331.8642570 1248.58702  6.25%     -    0s
 Cutting planes:
   Flow cover: 5
 
-Explored 139 nodes (1957 simplex iterations) in 0.77 seconds
+Explored 139 nodes (1957 simplex iterations) in 0.61 seconds
 Thread count was 4 (of 4 available processors)
 
 Solution count 4: 1288.84 1300.36 1331.86 9112.8 
