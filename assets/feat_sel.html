@@ -176,7 +176,7 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><a href="https://colab.research.google.com/github/DM872/dm872.github.io/blob/master/notebooks/feat_sel.ipynb">,
+<p><a href="https://github.com/DM872/dm872.github.io/tree/master/_notebooks/feat_sel.ipynb">,
     <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"\>,
     </a></p>
 
@@ -226,7 +226,7 @@ $$<p>Alternatively we can define as a Special Ordered Set of type one (meaning t
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[30]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">matplotlib</span> inline
@@ -249,7 +249,7 @@ $$<p>Alternatively we can define as a Special Ordered Set of type one (meaning t
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Load data and split into train (80%) and test (20%)</span>
@@ -266,7 +266,7 @@ $$<p>Alternatively we can define as a Special Ordered Set of type one (meaning t
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">scaler</span> <span class="o">=</span> <span class="n">StandardScaler</span><span class="p">()</span>
@@ -282,7 +282,7 @@ $$<p>Alternatively we can define as a Special Ordered Set of type one (meaning t
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">Xtrain_std</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
@@ -296,7 +296,7 @@ $$<p>Alternatively we can define as a Special Ordered Set of type one (meaning t
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[15]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[9]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -311,156 +311,7 @@ $$<p>Alternatively we can define as a Special Ordered Set of type one (meaning t
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[38]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">m</span> <span class="o">=</span> <span class="n">gp</span><span class="o">.</span><span class="n">Model</span><span class="p">(</span><span class="s2">&quot;fitting&quot;</span><span class="p">)</span>
-
-<span class="c1"># Sets</span>
-<span class="n">p</span> <span class="o">=</span> <span class="n">Xtrain_std</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="c1"># n of features</span>
-<span class="n">n</span> <span class="o">=</span> <span class="n">Xtrain_std</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="c1"># n of observations (data points)</span>
-
-<span class="n">I</span><span class="o">=</span><span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
-<span class="n">J</span><span class="o">=</span><span class="nb">range</span><span class="p">(</span><span class="n">p</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
-<span class="n">L</span><span class="o">=</span><span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="n">p</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
-
-<span class="c1"># Parameters</span>
-<span class="n">M</span><span class="o">=</span><span class="mi">10000</span>
-<span class="n">s</span><span class="o">=</span><span class="mi">5</span> <span class="c1"># features in the model</span>
-
-<span class="c1"># Create the decision variables</span>
-<span class="n">beta</span> <span class="o">=</span> <span class="p">{}</span>
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">I</span><span class="p">:</span>
-    <span class="n">beta</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">m</span><span class="o">.</span><span class="n">addVar</span><span class="p">(</span><span class="n">lb</span><span class="o">=-</span><span class="nb">float</span><span class="p">(</span><span class="s1">&#39;inf&#39;</span><span class="p">),</span> <span class="n">vtype</span><span class="o">=</span><span class="n">GRB</span><span class="o">.</span><span class="n">CONTINUOUS</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">))</span>
-
-<span class="n">errp</span> <span class="o">=</span> <span class="n">m</span><span class="o">.</span><span class="n">addVars</span><span class="p">(</span><span class="n">I</span><span class="p">,</span> <span class="n">lb</span><span class="o">=</span><span class="mf">0.0</span><span class="p">,</span> <span class="n">vtype</span><span class="o">=</span><span class="n">GRB</span><span class="o">.</span><span class="n">CONTINUOUS</span><span class="p">)</span>
-<span class="n">errn</span> <span class="o">=</span> <span class="n">m</span><span class="o">.</span><span class="n">addVars</span><span class="p">(</span><span class="n">I</span><span class="p">,</span> <span class="n">lb</span><span class="o">=</span><span class="mf">0.0</span><span class="p">,</span> <span class="n">vtype</span><span class="o">=</span><span class="n">GRB</span><span class="o">.</span><span class="n">CONTINUOUS</span><span class="p">)</span>
-
-<span class="n">betap</span> <span class="o">=</span> <span class="n">m</span><span class="o">.</span><span class="n">addVars</span><span class="p">(</span><span class="n">L</span><span class="p">,</span> <span class="n">lb</span><span class="o">=</span><span class="mf">0.0</span><span class="p">,</span> <span class="n">vtype</span><span class="o">=</span><span class="n">GRB</span><span class="o">.</span><span class="n">CONTINUOUS</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;betap&quot;</span><span class="p">)</span>
-<span class="n">betan</span> <span class="o">=</span> <span class="n">m</span><span class="o">.</span><span class="n">addVars</span><span class="p">(</span><span class="n">L</span><span class="p">,</span> <span class="n">lb</span><span class="o">=</span><span class="mf">0.0</span><span class="p">,</span> <span class="n">vtype</span><span class="o">=</span><span class="n">GRB</span><span class="o">.</span><span class="n">CONTINUOUS</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;betan&quot;</span><span class="p">)</span>
- 
-
-<span class="n">zeta</span> <span class="o">=</span> <span class="p">{}</span>
-<span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="n">L</span><span class="p">:</span>
-    <span class="n">zeta</span><span class="p">[</span><span class="n">j</span><span class="p">]</span> <span class="o">=</span> <span class="n">m</span><span class="o">.</span><span class="n">addVar</span><span class="p">(</span><span class="n">vtype</span><span class="o">=</span><span class="n">GRB</span><span class="o">.</span><span class="n">BINARY</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;zeta&quot;</span><span class="o">+</span><span class="nb">str</span><span class="p">(</span><span class="n">j</span><span class="p">))</span>
-
-<span class="c1"># The objective is to minimize </span>
-<span class="n">m</span><span class="o">.</span><span class="n">modelSense</span><span class="o">=</span><span class="n">gp</span><span class="o">.</span><span class="n">GRB</span><span class="o">.</span><span class="n">MINIMIZE</span>
-<span class="n">m</span><span class="o">.</span><span class="n">setObjective</span><span class="p">(</span><span class="n">gp</span><span class="o">.</span><span class="n">quicksum</span><span class="p">(</span><span class="n">errp</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">+</span><span class="n">errn</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">)))</span>
-
-
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">I</span><span class="p">:</span>
-    <span class="n">m</span><span class="o">.</span><span class="n">addConstr</span><span class="p">(</span><span class="n">errp</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">-</span><span class="n">errn</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">==</span><span class="n">ytrain</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">-</span><span class="n">beta</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">-</span><span class="n">gp</span><span class="o">.</span><span class="n">quicksum</span><span class="p">(</span><span class="n">beta</span><span class="p">[</span><span class="n">j</span><span class="p">]</span><span class="o">*</span><span class="n">Xtrain_std</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="n">L</span> <span class="p">))</span>
-
-    
-<span class="n">m</span><span class="o">.</span><span class="n">addConstr</span><span class="p">(</span><span class="n">gp</span><span class="o">.</span><span class="n">quicksum</span><span class="p">(</span><span class="n">zeta</span><span class="p">[</span><span class="n">j</span><span class="p">]</span> <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="n">L</span><span class="p">)</span><span class="o">&lt;=</span><span class="n">p</span><span class="o">-</span><span class="n">s</span><span class="p">)</span>
-
-<span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="n">L</span><span class="p">:</span>
-    <span class="n">m</span><span class="o">.</span><span class="n">addConstr</span><span class="p">(</span><span class="n">betap</span><span class="p">[</span><span class="n">j</span><span class="p">]</span><span class="o">-</span><span class="n">betan</span><span class="p">[</span><span class="n">j</span><span class="p">]</span><span class="o">==</span><span class="n">beta</span><span class="p">[</span><span class="n">j</span><span class="p">])</span>
-    <span class="n">m</span><span class="o">.</span><span class="n">addConstr</span><span class="p">(</span><span class="n">betap</span><span class="p">[</span><span class="n">j</span><span class="p">]</span><span class="o">+</span><span class="n">betan</span><span class="p">[</span><span class="n">j</span><span class="p">]</span><span class="o">&lt;=</span><span class="n">M</span><span class="o">*</span><span class="n">zeta</span><span class="p">[</span><span class="n">j</span><span class="p">])</span>
-    
-
-<span class="c1"># Solve</span>
-<span class="c1">#m.update()</span>
-<span class="c1">#m.display()</span>
-<span class="n">m</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&quot;fitting.lp&quot;</span><span class="p">)</span>
-<span class="n">m</span><span class="o">.</span><span class="n">optimize</span><span class="p">()</span>
-
-
-<span class="k">if</span> <span class="n">m</span><span class="o">.</span><span class="n">status</span> <span class="o">==</span> <span class="n">gp</span><span class="o">.</span><span class="n">GRB</span><span class="o">.</span><span class="n">status</span><span class="o">.</span><span class="n">OPTIMAL</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">Sum of Absolute Residuals (Training Error): </span><span class="si">%g</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="n">m</span><span class="o">.</span><span class="n">ObjVal</span><span class="p">)</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">betas:&#39;</span><span class="p">)</span>
-    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">p</span><span class="o">+</span><span class="mi">1</span><span class="p">):</span>
-        <span class="k">if</span> <span class="n">math</span><span class="o">.</span><span class="n">fabs</span><span class="p">(</span><span class="n">beta</span><span class="p">[</span><span class="n">j</span><span class="p">]</span><span class="o">.</span><span class="n">X</span><span class="p">)</span><span class="o">&gt;</span><span class="mi">0</span><span class="o">+</span><span class="mf">0.0001</span><span class="p">:</span>
-            <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">%s</span><span class="s1"> </span><span class="si">%g</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="n">j</span><span class="p">,</span> <span class="n">beta</span><span class="p">[</span><span class="n">j</span><span class="p">]</span><span class="o">.</span><span class="n">X</span><span class="p">))</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">zetas:&#39;</span><span class="p">)</span>
-    <span class="c1">#for j in range(1,p+1):</span>
-    <span class="c1">#    if zeta[j].X&gt;0+0.0001:</span>
-    <span class="c1">#        print(&#39;%s &#39; % (j))</span>
-<span class="k">else</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;No solution&#39;</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Gurobi Optimizer version 9.1.1 build v9.1.1rc0 (mac64)
-Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
-Optimize a model with 431 rows, 1251 columns and 6555 nonzeros
-Model fingerprint: 0x22463e62
-Variable types: 1238 continuous, 13 integer (13 binary)
-Coefficient statistics:
-  Matrix range     [3e-04, 1e+04]
-  Objective range  [1e+00, 1e+00]
-  Bounds range     [1e+00, 1e+00]
-  RHS range        [5e+00, 5e+01]
-Found heuristic solution: objective 9112.8000000
-Presolve removed 0 rows and 390 columns
-Presolve time: 0.01s
-Presolved: 431 rows, 861 columns, 6555 nonzeros
-Variable types: 848 continuous, 13 integer (13 binary)
-
-Root relaxation: objective 1.248587e+03, 454 iterations, 0.04 seconds
-
-    Nodes    |    Current Node    |     Objective Bounds      |     Work
- Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
-
-     0     0 1248.58702    0    5 9112.80000 1248.58702  86.3%     -    0s
-H    0     0                    1331.8642570 1248.58702  6.25%     -    0s
-     0     0 1248.58702    0    5 1331.86426 1248.58702  6.25%     -    0s
-     0     0 1248.58702    0    5 1331.86426 1248.58702  6.25%     -    0s
-     0     0 1248.58702    0    5 1331.86426 1248.58702  6.25%     -    0s
-     0     0 1248.58702    0    5 1331.86426 1248.58702  6.25%     -    0s
-     0     0 1248.58702    0    7 1331.86426 1248.58702  6.25%     -    0s
-     0     0 1248.58702    0    7 1331.86426 1248.58702  6.25%     -    0s
-     0     0 1248.58702    0    7 1331.86426 1248.58702  6.25%     -    0s
-     0     2 1248.58702    0    7 1331.86426 1248.58702  6.25%     -    0s
-*   17    15               8    1300.3552434 1248.58702  3.98%  12.5    0s
-*   21    13               9    1288.8353477 1248.58702  3.12%  16.6    0s
-
-Cutting planes:
-  Flow cover: 5
-
-Explored 138 nodes (1963 simplex iterations) in 0.95 seconds
-Thread count was 4 (of 4 available processors)
-
-Solution count 4: 1288.84 1300.36 1331.86 9112.8 
-
-Optimal solution found (tolerance 1.00e-04)
-Best objective 1.288835347731e+03, best bound 1.288835347731e+03, gap 0.0000%
-
-Sum of Absolute Residuals (Training Error): 1288.84
-
-betas:
-0 21.8047
-2 1.3512
-6 3.36005
-8 -1.72618
-9 1.45641
-10 -2.47065
-11 -1.31018
-12 1.35121
-13 -3.23734
-
-zetas:
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[54]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">m</span> <span class="o">=</span> <span class="n">gp</span><span class="o">.</span><span class="n">Model</span><span class="p">(</span><span class="s2">&quot;fitting&quot;</span><span class="p">)</span>
@@ -579,7 +430,7 @@ H    0     0                    1331.8642570 1248.58702  6.25%     -    0s
 Cutting planes:
   Flow cover: 5
 
-Explored 139 nodes (1957 simplex iterations) in 0.83 seconds
+Explored 139 nodes (1957 simplex iterations) in 0.77 seconds
 Thread count was 4 (of 4 available processors)
 
 Solution count 4: 1288.84 1300.36 1331.86 9112.8 
@@ -618,32 +469,6 @@ zetas:
 </div>
 </div>
 
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-</div>
 </div>
 </div>
 
