@@ -52,39 +52,39 @@ w3.includeHTML();
 
 
 
-| Week | Topics and Slides                                                        | Resources                                       |
-|------+--------------------------------------------------------------------------+-------------------------------------------------|
-|   14 | Introduction.                                                            | [GRB],                                          |
-|      | LP Practical Guidelines, Interior Point Methods, Sifting                 | **[KN1]**, [HL, sc 8.4], [BGLMS, sc 3]          |
-|      | Practice                                                                 | [Sheet 1][11]                                   |
-|------+--------------------------------------------------------------------------+-------------------------------------------------|
-|   15 | MILP Practical Guidelines, Modeling, Presolving                          | **[KN2]**, **[ABGRW]**  **[Wi, ch7,9,10]**      |
-|      | MILP Formulations for Traveling Salesman Problem, Cutting Planes for TSP | [P] or [DFJ] or [MTZ] or [A] or [ABCC] or [OAL] |
-|      | Practice                                                                 | [Sheet 2][12]                                   |
-|------+--------------------------------------------------------------------------+-------------------------------------------------|
-|   16 | More on TSP. Network Flows duality                                       |                                                 |
-|      | Lagrangian Relaxation for MILP                                           |                                                 |
-|      | Implementation, LR for TSP                                               |                                                 |
-|------+--------------------------------------------------------------------------+-------------------------------------------------|
-|   17 | Vehicle Scheduling                                                       |                                                 |
-|      | Exercises                                                                |                                                 |
-|      | Dantzig Wolfe decomposition                                              |                                                 |
-|------+--------------------------------------------------------------------------+-------------------------------------------------|
-|   18 | Vehicle Routing: Compact models; Set Partitioning formulation and CG     |                                                 |
-|      | Vehicle Routing: Cutting and Branching                                   |                                                 |
-|      | Exercises on Column Generation                                           |                                                 |
-|------+--------------------------------------------------------------------------+-------------------------------------------------|
-|   19 | Crew Scheduling; RCSP                                                    |                                                 |
-|      | Benders Decomposition                                                    |                                                 |
-|------+--------------------------------------------------------------------------+-------------------------------------------------|
-|   20 | Cut-and-Solve                                                            |                                                 |
-|      |                                                                          |                                                 |
-|      |                                                                          |                                                 |
-|------+--------------------------------------------------------------------------+-------------------------------------------------|
-|   21 | Timetabling                                                              |                                                 |
-|      | Timetabling                                                              |                                                 |
-|      |                                                                          |                                                 |
-|------+--------------------------------------------------------------------------+-------------------------------------------------|
+| Week | Topics and Slides                                                        | Resources                                                    |
+|------+--------------------------------------------------------------------------+--------------------------------------------------------------|
+|   14 | Introduction.                                                            | [GRB],                                                       |
+|      | LP Practical Guidelines, Interior Point Methods, Sifting                 | **[KN1]**, [HL, sc 8.4], [BGLMS, sc 3]                       |
+|      | Practice                                                                 | [Sheet 1][11]; [Sol][81]                                     |
+|------+--------------------------------------------------------------------------+--------------------------------------------------------------|
+|   15 | MILP Practical Guidelines, Modeling, Presolving                          | **[KN2]**, **[ABGRW]**, **[Wi, ch7,9,10] or [GRB modeling]** |
+|      | MILP Formulations for Traveling Salesman Problem, Cutting Planes for TSP | [P] or [DFJ] or [MTZ] or [A] or [ABCC] or [OAL]              |
+|      | Practice                                                                 | [Sheet 2][12]                                                |
+|------+--------------------------------------------------------------------------+--------------------------------------------------------------|
+|   16 | More on TSP. Network Flows duality                                       |                                                              |
+|      | Lagrangian Relaxation for MILP                                           |                                                              |
+|      | Implementation, LR for TSP                                               |                                                              |
+|------+--------------------------------------------------------------------------+--------------------------------------------------------------|
+|   17 | Vehicle Scheduling                                                       |                                                              |
+|      | Exercises                                                                |                                                              |
+|      | Dantzig Wolfe decomposition                                              |                                                              |
+|------+--------------------------------------------------------------------------+--------------------------------------------------------------|
+|   18 | Vehicle Routing: Compact models; Set Partitioning formulation and CG     |                                                              |
+|      | Vehicle Routing: Cutting and Branching                                   |                                                              |
+|      | Exercises on Column Generation                                           |                                                              |
+|------+--------------------------------------------------------------------------+--------------------------------------------------------------|
+|   19 | Crew Scheduling; RCSP                                                    |                                                              |
+|      | Benders Decomposition                                                    |                                                              |
+|------+--------------------------------------------------------------------------+--------------------------------------------------------------|
+|   20 | Cut-and-Solve                                                            |                                                              |
+|      |                                                                          |                                                              |
+|      |                                                                          |                                                              |
+|------+--------------------------------------------------------------------------+--------------------------------------------------------------|
+|   21 | Timetabling                                                              |                                                              |
+|      | Timetabling                                                              |                                                              |
+|      |                                                                          |                                                              |
+|------+--------------------------------------------------------------------------+--------------------------------------------------------------|
 
 ### References
 
@@ -171,7 +171,7 @@ w3.includeHTML();
 
 - [P0] [Colab on Python Basics](https://colab.research.google.com/github/DM561/dm561.github.io/blob/master/assets/Python_in_a_Nutshell.ipynb)
 
-- [GRB] Solving MILP Problems in Python with Gurobi: [Part 1](./assets/lab_gurobi_1.html); [Part 2](./assets/lab_gurobi_2.html)
+- [GRB] Solving MILP Problems in Python with Gurobi: [Part 1](./assets/lab_gurobi_1.html); [Part 2](./assets/lab_gurobi_2.html); [Modelling 1](https://www.gurobi.com/pdfs/user-events/2017-frankfurt/Modeling-1.pdf); [Modelling 2](https://www.gurobi.com/pdfs/user-events/2017-frankfurt/Modeling-2.pdf)
 
 
 
@@ -196,6 +196,9 @@ w3.includeHTML();
 [15]: {{ site.url }}{% post_url 2020-04-28-timetabling %}
 [16]: {{ site.url }}{% post_url 2020-05-21-vrptw %}
 [17]: {{ "https://www.youtube.com/watch?v=vQzpydNOWDY" | absolute_url }}
+
+
+[81]: {{ "/assets/feat_sel.html" | absolute_url }}
 
 [32]: {{ "https://github.com/DM872/Material/blob/master/sheet2/infection.ipynb" }}
 [33]: {{ "https://github.com/DM872/Material/blob/master/TSP/tsp_sol.ipynb" | absolute_url }}
