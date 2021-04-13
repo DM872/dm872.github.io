@@ -58,9 +58,9 @@ w3.includeHTML();
 |      | LP Practical Guidelines, Interior Point Methods, Sifting                 | **[KN1]**, [HL, sc 8.4], [BGLMS, sc 3]          |
 |      | Practice                                                                 | [Sheet 1][11]                                   |
 |------+--------------------------------------------------------------------------+-------------------------------------------------|
-|   15 | MILP Practical Guidelines, Modeling, Presolving                          | **[KN2]**, **[ABGRW]**                          |
+|   15 | MILP Practical Guidelines, Modeling, Presolving                          | **[KN2]**, **[ABGRW]**  **[Wi, ch7,9,10]**      |
 |      | MILP Formulations for Traveling Salesman Problem, Cutting Planes for TSP | [P] or [DFJ] or [MTZ] or [A] or [ABCC] or [OAL] |
-|      | Practice                                                                 | Sheet 2                                         |
+|      | Practice                                                                 | [Sheet 2][12]                                   |
 |------+--------------------------------------------------------------------------+-------------------------------------------------|
 |   16 | More on TSP. Network Flows duality                                       |                                                 |
 |      | Lagrangian Relaxation for MILP                                           |                                                 |
@@ -119,7 +119,10 @@ w3.includeHTML();
   INFORMS Journal on Computing, 32(2), 2020 (preprint available as
   [ZIB-Report
   16-44](https://opus4.kobv.de/opus4-zib/frontdoor/index/index/docId/6037))
-
+ 
+- [Wi] H.P. Williams. [Model building in mathematical
+  programming](http://site.ebrary.com.proxy1-bib.sdu.dk:2048/lib/sdub/detail.action?docID=10657847). John
+  Wiley & Sons, Chichester, Fifth Edition, 2013
 
 - [A] David L. L. Applegate, Robert E. E. Bixby, Vasek Chvátal, William
   J. J. Cook. [The traveling salesman problem: a computational
@@ -151,7 +154,7 @@ w3.includeHTML();
 
 - [OAL] Temel Öncana, I. Kuban Altınelb, Gilbert Laporte. [A comparative
   analysis of several asymmetric traveling salesman problem
-  formulations](https://doi.org/10.1016/j.cor.2007.11.008) Computers & Operations Research 36 (2009) 6
+  formulations](https://doi.org/10.1016/j.cor.2007.11.008) Computers & Operations Research 36 (2009) 
 
 
 
@@ -183,9 +186,11 @@ w3.includeHTML();
 <!--
 [10]: {{ "https://colab.research.google.com/github/DM872/Material/blob/master/Python/Python_in_a_Nutshell.ipynb" | absolute_url }}
 [11]: {{ "https://github.com/DM872/Material/blob/master/sheet1/Production.ipynb" | absolute_url }}
+
 -->
 
 [11]: {{ site.url }}{% post_url 2020-03-31-fitting %}
+[12]: {{ "/assets/tsp.html" | absolute_url }}
 [13]: {{ "https://github.com/DM872/Material/blob/master/TSP/tsp.ipynb" | absolute_url }}
 [14]: {{ site.url }}{% post_url 2020-04-20-sheet4 %}
 [15]: {{ site.url }}{% post_url 2020-04-28-timetabling %}
