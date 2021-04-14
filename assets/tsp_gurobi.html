@@ -176,6 +176,18 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<p><a href="https://colab.research.google.com/github/DM872/Material/blob/main/TSP/tsp_gurobi.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="DM872-A-Cutting-Plane-Approach-for-the-Traveling-Salesman-Problem">DM872 A Cutting Plane Approach for the Traveling Salesman Problem<a class="anchor-link" href="#DM872-A-Cutting-Plane-Approach-for-the-Traveling-Salesman-Problem">&#182;</a></h1>
 </div>
 </div>
@@ -214,7 +226,7 @@ So a city can be represented by a two-dimensional point: a pair of $x$ and $y$ c
 Python already has the two-dimensional point as a built-in numeric data type, 
 but in a non-obvious way: as complex numbers, which inhabit the two-dimensional (real $\times$ imaginary) plane. We will use those but you will not have to care about this aspect as all functions to handle data are made available to you.</p>
 <p>We will work with three predetermined, historical instances, <code>dantzig42.dat berlin52.dat bier127.dat</code>, and with randomly generated instances.
-You find the three instances in the <code>data</code> directory of the git repository for this Sheet. 
+You find the three instances in the <code>data/</code> directory of the git repository for this sheet. 
 In the file <code>tsputil.py</code> from <code>src/</code> you will find the functions to read the instances from the files and to generate instances at random.<br>
 The constructor function <code>City</code>, creates a city object, so that <code>City(300, 0)</code> creates a city with x-coordinate of <code>300</code> and y-coordinate of <code>0</code>. 
 Then, <code>distance(A, B)</code> will be a function that uses the $x$ and $y$ coordinates to compute the distance between cities <code>A</code> and <code>B</code>.</p>
@@ -230,7 +242,8 @@ Then, <code>distance(A, B)</code> will be a function that uses the $x$ and $y$ c
 <div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pyomo.environ</span> <span class="k">as</span> <span class="nn">po</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">gurobipy</span> <span class="k">as</span> <span class="nn">gp</span>
+<span class="kn">from</span> <span class="nn">gurobi</span> <span class="k">import</span> <span class="n">GRB</span>
 <span class="kn">from</span> <span class="nn">collections</span> <span class="k">import</span> <span class="n">OrderedDict</span>
 
 <span class="o">%</span><span class="k">run</span> src/tsputil.py 
@@ -392,13 +405,14 @@ $$\begin{aligned}
 <div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">solve_tsp</span><span class="p">(</span><span class="n">points</span><span class="p">,</span> <span class="n">subtours</span><span class="o">=</span><span class="p">[],</span> <span class="n">vartype</span><span class="o">=</span><span class="n">po</span><span class="o">.</span><span class="n">Binary</span><span class="p">,</span> <span class="n">solver</span><span class="o">=</span><span class="s2">&quot;glpk&quot;</span><span class="p">,</span> <span class="n">silent</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">solve_tsp</span><span class="p">(</span><span class="n">points</span><span class="p">,</span> <span class="n">subtours</span><span class="o">=</span><span class="p">[],</span> <span class="n">vartype</span><span class="o">=</span><span class="n">GRB</span><span class="o">.</span><span class="n">BINARY</span><span class="p">,</span> <span class="n">solver</span><span class="o">=</span><span class="s2">&quot;glpk&quot;</span><span class="p">,</span> <span class="n">silent</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
     <span class="n">points</span><span class="o">=</span><span class="nb">list</span><span class="p">(</span><span class="n">points</span><span class="p">)</span>
     <span class="n">V</span> <span class="o">=</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">points</span><span class="p">))</span>
     <span class="n">E</span> <span class="o">=</span> <span class="p">[(</span><span class="n">i</span><span class="p">,</span><span class="n">j</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">V</span> <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="n">V</span> <span class="k">if</span> <span class="n">i</span><span class="o">&lt;</span><span class="n">j</span><span class="p">]</span> <span class="c1"># complete graph</span>
 
-    <span class="n">m</span> <span class="o">=</span> <span class="n">po</span><span class="o">.</span><span class="n">ConcreteModel</span><span class="p">(</span><span class="s2">&quot;TSP0&quot;</span><span class="p">)</span>
-    
+    <span class="n">m</span> <span class="o">=</span> <span class="n">gp</span><span class="o">.</span><span class="n">Model</span><span class="p">(</span><span class="s2">&quot;TSP0&quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">silent</span><span class="p">:</span>
+        <span class="n">m</span><span class="o">.</span><span class="n">setParam</span><span class="p">(</span><span class="n">GRB</span><span class="o">.</span><span class="n">Param</span><span class="o">.</span><span class="n">OutputFlag</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
     <span class="c1">######### BEGIN: Write here your model for Task 1</span>
     <span class="c1">## Vars</span>
     
@@ -408,16 +422,16 @@ $$\begin{aligned}
     
     <span class="c1">######### END</span>
     
-    <span class="n">m</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&quot;tsplp.lp&quot;</span><span class="p">)</span>
-    <span class="n">results</span> <span class="o">=</span> <span class="n">po</span><span class="o">.</span><span class="n">SolverFactory</span><span class="p">(</span><span class="n">solver</span><span class="p">)</span><span class="o">.</span><span class="n">solve</span><span class="p">(</span><span class="n">m</span><span class="p">,</span> <span class="n">tee</span><span class="o">=</span><span class="p">(</span><span class="ow">not</span> <span class="n">silent</span><span class="p">))</span>
-    <span class="c1">#results.write()</span>
+    <span class="n">m</span><span class="o">.</span><span class="n">display</span>
+    <span class="c1">#m.write(&quot;tsplp.lp&quot;)</span>
+    <span class="n">m</span><span class="o">.</span><span class="n">optimize</span><span class="p">()</span>
     
-    <span class="k">if</span> <span class="nb">str</span><span class="p">(</span><span class="n">results</span><span class="o">.</span><span class="n">Solver</span><span class="o">.</span><span class="n">status</span><span class="p">)</span> <span class="o">==</span> <span class="s1">&#39;ok&#39;</span><span class="p">:</span>
-        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;The optimal objective is </span><span class="si">%g</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="n">m</span><span class="o">.</span><span class="n">value</span><span class="p">())</span>
-        <span class="k">return</span> <span class="p">{</span><span class="n">e</span><span class="p">:</span> <span class="n">po</span><span class="o">.</span><span class="n">value</span><span class="p">(</span><span class="n">m</span><span class="o">.</span><span class="n">x</span><span class="p">[</span><span class="n">e</span><span class="p">])</span> <span class="k">for</span> <span class="n">e</span> <span class="ow">in</span> <span class="n">E</span><span class="p">}</span>
+    <span class="k">if</span> <span class="n">m</span><span class="o">.</span><span class="n">status</span> <span class="o">==</span> <span class="n">GRB</span><span class="o">.</span><span class="n">status</span><span class="o">.</span><span class="n">OPTIMAL</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;The optimal objective is </span><span class="si">%g</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="n">m</span><span class="o">.</span><span class="n">objVal</span>
+        <span class="k">return</span> <span class="p">{</span><span class="n">e</span><span class="p">:</span> <span class="n">m</span><span class="o">.</span><span class="n">x</span><span class="p">[</span><span class="n">e</span><span class="p">]</span> <span class="k">for</span> <span class="n">e</span> <span class="ow">in</span> <span class="n">E</span><span class="p">}</span>
     <span class="k">else</span><span class="p">:</span>
         <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Something wrong in solve_tsp&quot;</span><span class="p">)</span>
-        <span class="n">exit</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+        <span class="k">raise</span> <span class="ne">SystemExit</span>
 </pre></div>
 
 </div>
@@ -556,32 +570,33 @@ and solve the new problem TSPLP$_1$.</p>
 <div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">solve_separation</span><span class="p">(</span><span class="n">points</span><span class="p">,</span> <span class="n">x_star</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">vartype</span><span class="o">=</span><span class="n">po</span><span class="o">.</span><span class="n">Reals</span><span class="p">,</span> <span class="n">solver</span><span class="o">=</span><span class="s2">&quot;glpk&quot;</span><span class="p">,</span> <span class="n">silent</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">solve_separation</span><span class="p">(</span><span class="n">points</span><span class="p">,</span> <span class="n">x_star</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">vartype</span><span class="o">=</span><span class="n">GRB</span><span class="o">.</span><span class="n">CONTINUOUS</span><span class="p">,</span> <span class="n">solver</span><span class="o">=</span><span class="s2">&quot;glpk&quot;</span><span class="p">,</span> <span class="n">silent</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
     <span class="n">points</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">points</span><span class="p">)</span>
     <span class="n">V</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">points</span><span class="p">)))</span>
     <span class="n">Vprime</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">points</span><span class="p">)))</span>
     <span class="n">E</span> <span class="o">=</span> <span class="p">[(</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">V</span> <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="n">V</span> <span class="k">if</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">j</span><span class="p">]</span>
     <span class="n">Eprime</span> <span class="o">=</span> <span class="p">[(</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">Vprime</span> <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="n">Vprime</span> <span class="k">if</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">j</span><span class="p">]</span>
 
-    <span class="n">m</span> <span class="o">=</span> <span class="n">po</span><span class="o">.</span><span class="n">ConcreteModel</span><span class="p">(</span><span class="s2">&quot;SEP&quot;</span><span class="p">)</span>
-   
+    <span class="n">m</span> <span class="o">=</span> <span class="n">m</span><span class="o">.</span><span class="n">Model</span><span class="p">(</span><span class="s2">&quot;SEP&quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">silent</span><span class="p">:</span>
+        <span class="n">m</span><span class="o">.</span><span class="n">setParam</span><span class="p">(</span><span class="n">GRB</span><span class="o">.</span><span class="n">Param</span><span class="o">.</span><span class="n">OutputFlag</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
     <span class="c1"># BEGIN: Write here your model for Task 5</span>
    
     
     <span class="c1"># END</span>
-    <span class="n">results</span> <span class="o">=</span> <span class="n">po</span><span class="o">.</span><span class="n">SolverFactory</span><span class="p">(</span><span class="n">solver</span><span class="p">)</span><span class="o">.</span><span class="n">solve</span><span class="p">(</span><span class="n">m</span><span class="p">,</span> <span class="n">tee</span><span class="o">=</span><span class="p">(</span><span class="ow">not</span> <span class="n">silent</span><span class="p">))</span>
+    <span class="n">m</span><span class="o">.</span><span class="n">optimize</span><span class="p">()</span>
     
-    <span class="k">if</span> <span class="nb">str</span><span class="p">(</span><span class="n">results</span><span class="o">.</span><span class="n">Solver</span><span class="o">.</span><span class="n">status</span><span class="p">)</span> <span class="o">==</span> <span class="s1">&#39;ok&#39;</span><span class="p">:</span>
-        <span class="nb">print</span><span class="p">((</span><span class="s1">&#39;Separation problem solved for k=</span><span class="si">%d</span><span class="s1">, solution value </span><span class="si">%g</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="n">k</span><span class="p">,</span> <span class="n">m</span><span class="o">.</span><span class="n">value</span><span class="p">())))</span>
+    <span class="k">if</span> <span class="n">m</span><span class="o">.</span><span class="n">status</span> <span class="o">==</span> <span class="n">GRB</span><span class="o">.</span><span class="n">status</span><span class="o">.</span><span class="n">OPTIMAL</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">((</span><span class="s1">&#39;Separation problem solved for k=</span><span class="si">%d</span><span class="s1">, solution value </span><span class="si">%g</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="n">k</span><span class="p">,</span> <span class="n">m</span><span class="o">.</span><span class="n">objVal</span><span class="p">))</span>
         <span class="c1"># BEGIN: Write here the subtour found from the solution of the model</span>
         <span class="c1"># it must be a list of points</span>
         <span class="n">subtour</span> <span class="o">=</span> <span class="p">[]</span>
-        <span class="n">subtour</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">filter</span><span class="p">(</span><span class="k">lambda</span> <span class="n">i</span><span class="p">:</span> <span class="n">m</span><span class="o">.</span><span class="n">z</span><span class="p">[</span><span class="n">i</span><span class="p">]()</span> <span class="o">&gt;=</span> <span class="mf">0.99</span><span class="p">,</span> <span class="n">Vprime</span><span class="p">))</span>
+        <span class="n">subtour</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">filter</span><span class="p">(</span><span class="k">lambda</span> <span class="n">i</span><span class="p">:</span> <span class="n">z</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">X</span> <span class="o">&gt;=</span> <span class="mf">0.99</span><span class="p">,</span> <span class="n">Vprime</span><span class="p">))</span>
         <span class="c1"># END</span>
         <span class="k">return</span> <span class="n">m</span><span class="o">.</span><span class="n">value</span><span class="p">(),</span> <span class="n">subtour</span>
     <span class="k">else</span><span class="p">:</span>
         <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Something wrong in solve_separation&quot;</span><span class="p">)</span>
-        <span class="n">exit</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+        <span class="k">raise</span> <span class="ne">SystemExit</span>
     
 </pre></div>
 
@@ -622,13 +637,13 @@ Finish the implementation of the function. That is: add the condition for the
     <span class="n">subtours</span> <span class="o">=</span> <span class="p">[]</span>
     <span class="n">found</span> <span class="o">=</span> <span class="kc">True</span>
     <span class="k">while</span> <span class="n">found</span><span class="p">:</span>
-        <span class="n">lpsol</span> <span class="o">=</span> <span class="n">solve_tsp</span><span class="p">(</span><span class="n">points</span><span class="p">,</span> <span class="n">subtours</span><span class="p">,</span> <span class="n">vartype</span><span class="o">=</span><span class="n">po</span><span class="o">.</span><span class="n">Reals</span><span class="p">)</span>
+        <span class="n">lpsol</span> <span class="o">=</span> <span class="n">solve_tsp</span><span class="p">(</span><span class="n">points</span><span class="p">,</span> <span class="n">subtours</span><span class="p">,</span> <span class="n">vartype</span><span class="o">=</span><span class="n">GRB</span><span class="o">.</span><span class="n">CONTINUOUS</span><span class="p">)</span>
         <span class="n">plot_situation</span><span class="p">(</span><span class="n">points</span><span class="p">,</span> <span class="n">lpsol</span><span class="p">)</span>
         <span class="n">found</span> <span class="o">=</span> <span class="kc">False</span>
         <span class="n">tmp_subtours</span> <span class="o">=</span> <span class="p">[]</span>
         <span class="n">best_val</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="s1">&#39;-inf&#39;</span><span class="p">)</span>
         <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="n">Vprime</span><span class="p">:</span>
-            <span class="n">value</span><span class="p">,</span> <span class="n">subtour</span> <span class="o">=</span> <span class="n">solve_separation</span><span class="p">(</span><span class="n">points</span><span class="p">,</span><span class="n">lpsol</span><span class="p">,</span><span class="n">k</span><span class="p">,</span><span class="n">vartype</span><span class="o">=</span><span class="n">po</span><span class="o">.</span><span class="n">Reals</span><span class="p">,</span> <span class="n">silent</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+            <span class="n">value</span><span class="p">,</span> <span class="n">subtour</span> <span class="o">=</span> <span class="n">solve_separation</span><span class="p">(</span><span class="n">points</span><span class="p">,</span><span class="n">lpsol</span><span class="p">,</span><span class="n">k</span><span class="p">,</span><span class="n">vartype</span><span class="o">=</span><span class="n">GRB</span><span class="o">.</span><span class="n">CONTINUOUS</span><span class="p">,</span> <span class="n">silent</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
             <span class="n">best_val</span> <span class="o">=</span> <span class="n">value</span> <span class="k">if</span> <span class="n">value</span> <span class="o">&gt;</span> <span class="n">best_val</span> <span class="k">else</span> <span class="n">best_val</span>
             <span class="c1">######### BEGIN: write here the condition. Include a tollerance</span>
             <span class="k">if</span> <span class="kc">False</span><span class="p">:</span> 
@@ -673,7 +688,7 @@ Finish the implementation of the function. That is: add the condition for the
     having to solve many separation problems, which are in principle all
     integer programming problems and hence possibly hard to solve. It
     turns out that the SEP problems are actually solvable efficiently.
-    In task 5, you were given the tip to implement the LP relaxation of
+    In Task 5, you were given the tip to implement the LP relaxation of
     the SEP problem. Why are the solutions to SEP always integer? It
     turns out that the SEP corresponds to one problem treated during
     the course. Which one? In efficient implementations the SEP problem
