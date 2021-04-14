@@ -60,7 +60,7 @@ w3.includeHTML();
 |------+--------------------------------------------------------------------------------+--------------------------------------------------------------|
 |   15 | MILP Practical Guidelines, [Modeling][56], Presolving                          | **[KN2]**, **[ABGRW]**, **[Wi, ch7,9,10] or [GRB modeling]** |
 |      | [MILP Formulations for Traveling Salesman Problem, Cutting Planes for TSP][53] | [P] or [DFJ] or [MTZ] or [A] or [ABCC] or [OAL]              |
-|      | Practice                                                                       | [Sheet 2][12]                                                |
+|      | Practice                                                                       | [Sheet 2][12]; [GIT]                                         |
 |------+--------------------------------------------------------------------------------+--------------------------------------------------------------|
 |   16 | More on TSP. Network Flows duality                                             |                                                              |
 |      | Lagrangian Relaxation for MILP                                                 |                                                              |
@@ -85,6 +85,16 @@ w3.includeHTML();
 |      | Timetabling                                                                    |                                                              |
 |      |                                                                                |                                                              |
 |------+--------------------------------------------------------------------------------+--------------------------------------------------------------|
+
+
+
+### Code and Data
+
+- [GIT] [git repository](https://github.com/DM872/Material)
+
+
+
+
 
 ### References
 
@@ -190,7 +200,7 @@ w3.includeHTML();
 -->
 
 [11]: {{ site.url }}{% post_url 2020-03-31-fitting %}
-[12]: {{ "/assets/tsp.html" | absolute_url }}
+[12]: {{ "/assets/tsp_gurobi.html" | absolute_url }}
 [13]: {{ "https://github.com/DM872/Material/blob/master/TSP/tsp.ipynb" | absolute_url }}
 [14]: {{ site.url }}{% post_url 2020-04-20-sheet4 %}
 [15]: {{ site.url }}{% post_url 2020-04-28-timetabling %}
