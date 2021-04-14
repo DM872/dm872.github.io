@@ -60,7 +60,7 @@ w3.includeHTML();
 |------+--------------------------------------------------------------------------------+--------------------------------------------------------------|
 |   15 | MILP Practical Guidelines, [Modeling][56], Presolving                          | **[KN2]**, **[ABGRW]**, **[Wi, ch7,9,10] or [GRB modeling]** |
 |      | [MILP Formulations for Traveling Salesman Problem, Cutting Planes for TSP][53] | [P] or [DFJ] or [MTZ] or [A] or [ABCC] or [OAL]              |
-|      | Practice                                                                       | [Sheet 2][12]; [GIT](https://github.com/DM872/Material/TSP)  |
+|      | Practice                                                                       | [Sheet 2][12]; [GIT]                                         |
 |------+--------------------------------------------------------------------------------+--------------------------------------------------------------|
 |   16 | More on TSP. Network Flows duality                                             |                                                              |
 |      | Lagrangian Relaxation for MILP                                                 |                                                              |
@@ -87,11 +87,11 @@ w3.includeHTML();
 |------+--------------------------------------------------------------------------------+--------------------------------------------------------------|
 
 
-<!--
+
 ### Code and Data
 
-- [GIT] [git repository]
--->
+- [GIT] [git repository](https://github.com/DM872/Material/)
+
 
 
 
