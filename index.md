@@ -62,7 +62,7 @@ w3.includeHTML();
 |      | [MILP Formulations for Traveling Salesman Problem, Cutting Planes for TSP][53] | [P] or [DFJ] or [MTZ] or [A] or [ABCC] or [OAL]              |
 |      | Practice TSP                                                                   | [Sheet 2][12]; [GIT]                                         |
 |------+--------------------------------------------------------------------------------+--------------------------------------------------------------|
-|   16 | More on TSP                                                                    | [Sheet3][13]                                                 |
+|   16 | More on TSP                                                                    | [Sheet3][13]; [Sol][82]                                      |
 |      | Lagrangian Relaxation for MILP                                                 |                                                              |
 |      | Implementation, LR for TSP                                                     |                                                              |
 |------+--------------------------------------------------------------------------------+--------------------------------------------------------------|
@@ -210,6 +210,8 @@ w3.includeHTML();
 
 
 [81]: {{ "/assets/feat_sel.html" | absolute_url }}
+[82]: {{ "/assets/formulations_sol.html" | absolute_url }}
+
 
 [32]: {{ "https://github.com/DM872/Material/blob/master/sheet2/infection.ipynb" }}
 [33]: {{ "https://github.com/DM872/Material/blob/master/TSP/tsp_sol.ipynb" | absolute_url }}
