@@ -67,7 +67,7 @@ w3.includeHTML();
 |      | [Cutting Plane Algorithms for TSP][54]                               | [DFJ], [ABCC], [OAL]                                         |
 |------+----------------------------------------------------------------------+--------------------------------------------------------------|
 |   17 | [Lagrangian Relaxation for MILP][59]                                 | [Fi]                                                         |
-|      | Lagrangian Relaxation for MILP                                       |                                                              |
+|      | Lagrangian Relaxation for MILP                                       | [AMO ch 6 in ITS]                                            |
 |      | Implementations of LR                                                | [Sheet 4][14]                                                |
 |------+----------------------------------------------------------------------+--------------------------------------------------------------|
 |   18 | Vehicle Scheduling                                                   |                                                              |
