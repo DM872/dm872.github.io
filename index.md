@@ -62,11 +62,12 @@ w3.includeHTML();
 |      | [MILP Formulations for Traveling Salesman Problem][53]               | [P] or [DFJ] or [MTZ] or [A] or [ABCC] or [OAL]              |
 |      | Practice TSP                                                         | [Sheet 3][13]; [Sol][82]                                     |
 |------+----------------------------------------------------------------------+--------------------------------------------------------------|
-|   16 | Practice on TSP                                                      | [Sheet 2][12]; [GIT]                                         |
+|   16 | Practice on TSP                                                      | [Sheet 2][12]; [GIT]; [Sol][83]                              |
 |      | Practice on TSP                                                      |                                                              |
 |      | [Cutting Plane Algorithms for TSP][54]                               | [DFJ], [ABCC], [OAL]                                         |
 |------+----------------------------------------------------------------------+--------------------------------------------------------------|
-|   17 | Lagrangian Relaxation for MILP                                       |                                                              |
+|   17 | Lagrangian Relaxation for MILP                                       | [Fi] [Fi2]                                                   |
+|      | Lagrangian Relaxation for MILP                                       |                                                              |
 |      | Implementation, LR for TSP                                           |                                                              |
 |------+----------------------------------------------------------------------+--------------------------------------------------------------|
 |   18 | Vehicle Scheduling                                                   |                                                              |
@@ -166,6 +167,27 @@ w3.includeHTML();
   formulations](https://doi.org/10.1016/j.cor.2007.11.008) Computers & Operations Research 36 (2009) 
 
 
+- [Fi] M.L. Fisher. [The Lagrangian Relaxation Method for Solving Integer
+  Programming
+  Problems](http://dx.doi.org/10.1287/mnsc.1040.0263). Management
+  Science, 2004, 50(12), 1861-1871
+
+- [Fi2] M.L. Fisher. [An applications oriented guide to Lagrangian
+  relaxation](http://www.cs.uleth.ca/~benkoczi/OR/read/lagrange-relax-introduct-fisher85.pdf)
+  Interfaces 15:2, 10-21, 1985.
+
+
+- [AMO] R.K. Ahuja, T.L. Magnanti and J.B. Orlin. Network Flows: Theory,
+  Algorithms, and Applications. Chapters 16 and 17. Prentice Hall, 1993 
+
+
+
+
+- [IB] S. Ilker Birbil. [Lagrangian
+  Relaxation](https://personal.eur.nl/birbil/bolbilim/teaa/02_Lag_Rel.pdf). 2016
+
+- [JB] J. E. Beasley. [Integer Programming Solution
+  Methods](http://people.brunel.ac.uk/~mastjjb/jeb/natcor_ip_rest.pdf). 
 
 
 
@@ -210,6 +232,7 @@ w3.includeHTML();
 
 [81]: {{ "/assets/feat_sel.html" | absolute_url }}
 [82]: {{ "/assets/formulations_sol.html" | absolute_url }}
+[83]: {{ "/assets/tsp_sol.html" | absolute_url }}
 
 
 [32]: {{ "https://github.com/DM872/Material/blob/master/sheet2/infection.ipynb" }}
