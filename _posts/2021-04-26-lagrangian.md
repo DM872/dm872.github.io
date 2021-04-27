@@ -2,17 +2,23 @@
 layout: default
 mathjax: true
 title:  Lagrangian Relaxation - Exercises
-date:   2020-05-04 09:33:19 +0100
+date:   2021-04-26 09:33:19 +0100
 categories: exercises 
 ---
 
-## Sheet 5
+## Sheet 4
 
 
 ### Task 1
 
+Design a Lagrangian relaxation algorithm for the Multicommodity flow problem.
+
+### Task 2
+
+<!-- 
 The following is based on a tutorial on Lagrangian Relaxation by J E
 Beasley [JB].
+--> 
 
 Consider the following set covering problem (SCP):
 
@@ -85,10 +91,9 @@ $$
 
 
 
-### Task 2
+### Task 3
 
-Consider the following problem (Fisher M., An Applications Oriented
-Guide to Lagrangian Relaxation. Interfaces, 15:2, 1985):
+Consider the following problem: <!--  from [Fi2]: -->
 
 $$
 \begin{array}{lllll}

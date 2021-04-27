@@ -176,6 +176,18 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<p><a href="https://colab.research.google.com/github/DM872/Material/blob/main/TSP/tsp_gurobi.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="DM872-A-Cutting-Plane-Approach-for-the-Traveling-Salesman-Problem">DM872 A Cutting Plane Approach for the Traveling Salesman Problem<a class="anchor-link" href="#DM872-A-Cutting-Plane-Approach-for-the-Traveling-Salesman-Problem">&#182;</a></h1>
 </div>
 </div>
@@ -1919,6 +1931,16 @@ problem TSP$_5$ and continue the cutting plane procedure with branch and bound f
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Keeping the integrality constraints in the DFJ formulation but relaxaing the subtour elimination conditions we can solve the separation problem with an algorithm that determines the connected components of a graph, if we have more than one connected component, each connected components is a subtour to eliminate. Connected components can be found by breath first.</p>
 <p>An implementation of this procedure using the module <code>networkx</code> can be found in the repository: <a href="https://github.com/DM872/Material/blob/master/TSP/src/tsp_cc.py">tsp_cc.py</a></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>An implementation of this approach in Gurobi is available as one of the exercises in the <a href="https://www.gurobi.com/documentation/9.1/examples/tsp_py.html">Documentation</a>.  The example uses <a href="https://www.gurobi.com/documentation/9.1/examples/cb_s.html">callback functions</a>.</p>
 
 </div>
 </div>

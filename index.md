@@ -66,9 +66,9 @@ w3.includeHTML();
 |      | Practice on TSP                                                      |                                                              |
 |      | [Cutting Plane Algorithms for TSP][54]                               | [DFJ], [ABCC], [OAL]                                         |
 |------+----------------------------------------------------------------------+--------------------------------------------------------------|
-|   17 | Lagrangian Relaxation for MILP                                       | [Fi] [Fi2]                                                   |
+|   17 | [Lagrangian Relaxation for MILP][59]                                 | [Fi]                                                         |
 |      | Lagrangian Relaxation for MILP                                       |                                                              |
-|      | Implementation, LR for TSP                                           |                                                              |
+|      | Implementations of LR                                                | [Sheet 4][14]                                                |
 |------+----------------------------------------------------------------------+--------------------------------------------------------------|
 |   18 | Vehicle Scheduling                                                   |                                                              |
 |      | Exercises                                                            |                                                              |
@@ -181,8 +181,6 @@ w3.includeHTML();
   Algorithms, and Applications. Chapters 16 and 17. Prentice Hall, 1993 
 
 
-
-
 - [IB] S. Ilker Birbil. [Lagrangian
   Relaxation](https://personal.eur.nl/birbil/bolbilim/teaa/02_Lag_Rel.pdf). 2016
 
@@ -224,7 +222,7 @@ w3.includeHTML();
 [12]: {{ "/assets/tsp_gurobi.html" | absolute_url }}
 [13]: {{ site.url }}{% post_url 2021-04-15-tsp_formulations %}
 [133]: {{ "https://github.com/DM872/Material/blob/master/TSP/tsp.ipynb" | absolute_url }}
-[14]: {{ site.url }}{% post_url 2020-04-20-sheet4 %}
+[14]: {{ site.url }}{% post_url 2021-04-26-lagrangian %}
 [15]: {{ site.url }}{% post_url 2020-04-28-timetabling %}
 [16]: {{ site.url }}{% post_url 2020-05-21-vrptw %}
 [17]: {{ "https://www.youtube.com/watch?v=vQzpydNOWDY" | absolute_url }}
@@ -259,6 +257,7 @@ w3.includeHTML();
 [65]: {{ "/assets/dm872-crew-scheduling-handout.pdf" | absolute_url }}
 [66]: {{ "/assets/dm872-rcsp-handout.pdf" | absolute_url }}
 [67]: {{ "/assets/dm872-drawings.pdf" | absolute_url }}
+
 
 <!--
 
