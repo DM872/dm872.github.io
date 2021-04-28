@@ -66,8 +66,8 @@ w3.includeHTML();
 |      | Practice on TSP                                                      |                                                              |
 |      | [Cutting Plane Algorithms for TSP][54]                               | [DFJ], [ABCC], [OAL]                                         |
 |------+----------------------------------------------------------------------+--------------------------------------------------------------|
-|   17 | [Lagrangian Relaxation for MILP][59]                                 | [Fi]                                                         |
-|      | Lagrangian Relaxation for MILP                                       | [AMO ch 16 + 17.4 in ITS]                                    |
+|   17 | [Lagrangian Relaxation for MILP][55]                                 | [Fi]                                                         |
+|      | [Lagrangian Relaxation for Multicommodity Flows][56]                 | [AMO ch 16 + 17.4 in ITS]                                    |
 |      | Implementations of LR                                                | [Sheet 4][14]                                                |
 |------+----------------------------------------------------------------------+--------------------------------------------------------------|
 |   18 | Vehicle Scheduling                                                   |                                                              |
@@ -244,11 +244,16 @@ w3.includeHTML();
 [52]: {{ "/assets/dm872-preprocessing-handout.pdf" | absolute_url }}
 [53]: {{ "/assets/dm872-TSP_Formulations.pdf" | absolute_url }}
 [54]: {{ "/assets/TSP_210422_111820.pdf" | absolute_url }}
+[55]: {{ "/assets/dm872-lagrangian-handout.pdf" | absolute_url }}
+[56]: {{ "/assets/Notes_210428_114528.pdf" | absolute_url }}
+
+
+<!--
+
 [55]: {{ "/assets/dm872-cut-n-solve-handout.pdf" | absolute_url }}
 [56]: {{ "/assets/dm872-modeling_2-handout.pdf" | absolute_url }}
 [57]: {{ "/assets/dm872-timetabling_2-handout.pdf" | absolute_url }}
 [58]: {{ "/assets/dm872-timetabling_3-handout.pdf" | absolute_url }}
-[59]: {{ "/assets/dm872-lagrangian-handout.pdf" | absolute_url }}
 [60]: {{ "/assets/dm872-vehicle-scheduling-handout.pdf" | absolute_url }}
 [61]: {{ "/assets/dm872-dantzig_wolfe-handout.pdf" | absolute_url }}
 [62]: {{ "https://imada.sdu.dk/~marco/Teaching/AY2019-2020/DM872/assets/protected/02-CVRP-models.pdf" }}
@@ -259,7 +264,7 @@ w3.includeHTML();
 [67]: {{ "/assets/dm872-drawings.pdf" | absolute_url }}
 
 
-<!--
+
 
 {{ "https://github.com/DM872/Material/blob/master/Python/Sheet2.ipynb" | absolute_url }}
 
