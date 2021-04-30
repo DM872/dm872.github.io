@@ -67,7 +67,7 @@ w3.includeHTML();
 |      | [Cutting Plane Algorithms for TSP][54]                                   | [DFJ], [ABCC], [OAL]                                         |
 |------+--------------------------------------------------------------------------+--------------------------------------------------------------|
 |   17 | [Lagrangian Relaxation for MILP][55]                                     | [Fi]                                                         |
-|      | [Lagrangian Relaxation and Linear Programming, Multicommodity Flows][56] | [Sheet 4][14]; [AMO ch 16 + 17.4 in ITS]                     |
+|      | [Lagrangian Relaxation and Linear Programming, Multicommodity Flows][56] | [Sheet 4][14]; [Sol][84]; [AMO ch 16 + 17.4 in ITS]          |
 |      | [Lagramgian Relaxation and Integer Programming][57]                      | [Fi, sc 8]; [AMO sc 16.4]                                    |
 |------+--------------------------------------------------------------------------+--------------------------------------------------------------|
 |   18 | Vehicle Scheduling                                                       |                                                              |
@@ -231,6 +231,7 @@ w3.includeHTML();
 [81]: {{ "/assets/feat_sel.html" | absolute_url }}
 [82]: {{ "/assets/formulations_sol.html" | absolute_url }}
 [83]: {{ "/assets/tsp_sol.html" | absolute_url }}
+[84]: {{ "/assets/Lagrangian_grp.html" | absolute_url }}
 
 
 [32]: {{ "https://github.com/DM872/Material/blob/master/sheet2/infection.ipynb" }}
