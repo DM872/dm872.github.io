@@ -205,7 +205,7 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>For the sake of reference, let's solve first the original problem and its linear relaxation with gurobi.</p>
+<p>For the sake of reference, let's solve first the original problem and its linear relaxation with gurobi. We use a <a href="https://www.gurobi.com/resource/gurobi-python-interface-matrix-friendly-modeling-techniques/">matrix representation of the problem that can also be handled by gurobi</a>.</p>
 
 </div>
 </div>
@@ -2800,13 +2800,13 @@ $$
 &&0\leq x\leq 1 \qquad \text{and integer}
 \end{array}
 $$<p>There are three major questions to design a Lagrangian-relaxation-based system:
-a. which constraints should be relaxaed
-b. how to compute good multipliers $\lambda$
-c. how to deduce a good feasible solution to the original problem, given a solution to the Lagrangian relaxation problem.</p>
+    a. which constraints should be relaxaed
+    b. how to compute good multipliers $\lambda$
+    c. how to deduce a good feasible solution to the original problem, given a solution to the Lagrangian relaxation problem.</p>
 <p>The answers are:
-a. those whose relaxation makes the problem significantly easy but not too easy
-b. subgradient procedure
-c. problem specific heuristics</p>
+    a. those whose relaxation makes the problem significantly easy but not too easy
+    b. subgradient optimization procedure
+    c. problem specific heuristics</p>
 
 </div>
 </div>
@@ -2833,140 +2833,6 @@ However let's use the SCIP procedure developed above.</li>
 
 </div>
 </div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[68]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-<span class="kn">import</span> <span class="nn">pyomo.environ</span> <span class="k">as</span> <span class="nn">po</span>
-
-
-<span class="n">c</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span> <span class="mi">16</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">4</span> <span class="p">])</span>
-<span class="n">b</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">10</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">])</span>
-<span class="n">A</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">4</span> <span class="p">],</span>
-            <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">],</span>
-            <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">]])</span>
-
-<span class="k">def</span> <span class="nf">solve</span><span class="p">(</span><span class="n">vtype</span><span class="o">=</span><span class="n">po</span><span class="o">.</span><span class="n">Binary</span><span class="p">):</span>
-    <span class="c1"># Model</span>
-    <span class="n">model</span> <span class="o">=</span> <span class="n">po</span><span class="o">.</span><span class="n">ConcreteModel</span><span class="p">(</span><span class="s2">&quot;Original&quot;</span><span class="p">)</span>
-    <span class="c1"># Create decision variables</span>
-    <span class="n">model</span><span class="o">.</span><span class="n">x</span> <span class="o">=</span> <span class="n">po</span><span class="o">.</span><span class="n">Var</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">4</span><span class="p">),</span> <span class="n">bounds</span><span class="o">=</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">),</span> <span class="n">domain</span><span class="o">=</span><span class="n">po</span><span class="o">.</span><span class="n">Reals</span><span class="p">)</span>
-  
-    <span class="c1"># The objective is to minimize</span>
-    <span class="n">model</span><span class="o">.</span><span class="n">z</span> <span class="o">=</span> <span class="n">po</span><span class="o">.</span><span class="n">Objective</span><span class="p">(</span><span class="n">expr</span><span class="o">=</span><span class="nb">sum</span><span class="p">(</span><span class="n">c</span><span class="p">[</span><span class="n">j</span><span class="p">]</span><span class="o">*</span><span class="n">model</span><span class="o">.</span><span class="n">x</span><span class="p">[</span><span class="n">j</span><span class="p">]</span> <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">4</span><span class="p">)),</span> <span class="n">sense</span><span class="o">=</span><span class="n">po</span><span class="o">.</span><span class="n">maximize</span><span class="p">)</span>
-    <span class="c1"># Add constraints to the model</span>
-    <span class="n">model</span><span class="o">.</span><span class="n">constraints</span> <span class="o">=</span> <span class="n">po</span><span class="o">.</span><span class="n">ConstraintList</span><span class="p">()</span>
-    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">3</span><span class="p">):</span>
-        <span class="n">model</span><span class="o">.</span><span class="n">constraints</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">expr</span><span class="o">=</span><span class="nb">sum</span><span class="p">(</span><span class="n">A</span><span class="p">[</span><span class="n">i</span><span class="p">,</span><span class="n">j</span><span class="p">]</span><span class="o">*</span><span class="n">model</span><span class="o">.</span><span class="n">x</span><span class="p">[</span><span class="n">j</span><span class="p">]</span> <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">4</span><span class="p">))</span> <span class="o">&lt;=</span> <span class="n">b</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
-    
-    <span class="n">model</span><span class="o">.</span><span class="n">pprint</span><span class="p">()</span>
-    <span class="c1"># Solve</span>
-    <span class="n">solver</span> <span class="o">=</span> <span class="n">po</span><span class="o">.</span><span class="n">SolverFactory</span><span class="p">(</span><span class="s1">&#39;glpk&#39;</span><span class="p">)</span>
-    <span class="n">results</span> <span class="o">=</span> <span class="n">solver</span><span class="o">.</span><span class="n">solve</span><span class="p">(</span><span class="n">model</span><span class="p">,</span> <span class="n">tee</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-    
-    <span class="c1"># Let’s print the solution</span>
-    <span class="k">if</span> <span class="n">results</span><span class="o">.</span><span class="n">Solver</span><span class="o">.</span><span class="n">status</span> <span class="o">==</span> <span class="n">po</span><span class="o">.</span><span class="n">SolverStatus</span><span class="o">.</span><span class="n">ok</span><span class="p">:</span>
-        <span class="n">x</span> <span class="o">=</span> <span class="p">[</span><span class="n">v</span><span class="p">()</span> <span class="k">for</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">model</span><span class="o">.</span><span class="n">component_data_objects</span><span class="p">(</span><span class="n">po</span><span class="o">.</span><span class="n">Var</span><span class="p">,</span> <span class="n">active</span><span class="o">=</span><span class="kc">True</span><span class="p">)]</span>
-        <span class="k">return</span> <span class="n">x</span><span class="p">,</span> <span class="n">model</span><span class="o">.</span><span class="n">z</span><span class="p">()</span>
-    <span class="k">else</span><span class="p">:</span>
-        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Problem could not be solved to optimality&quot;</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[69]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">solve</span><span class="p">(</span><span class="n">po</span><span class="o">.</span><span class="n">Reals</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>2 Set Declarations
-    constraints_index : Dim=0, Dimen=1, Size=3, Domain=None, Ordered=False, Bounds=None
-        [1, 2, 3]
-    x_index : Dim=0, Dimen=1, Size=4, Domain=None, Ordered=False, Bounds=(0, 3)
-        [0, 1, 2, 3]
-
-1 Var Declarations
-    x : Size=4, Index=x_index
-        Key : Lower : Value : Upper : Fixed : Stale : Domain
-          0 :     0 :  None :     1 : False :  True :  Reals
-          1 :     0 :  None :     1 : False :  True :  Reals
-          2 :     0 :  None :     1 : False :  True :  Reals
-          3 :     0 :  None :     1 : False :  True :  Reals
-
-1 Objective Declarations
-    z : Size=1, Index=None, Active=True
-        Key  : Active : Sense    : Expression
-        None :   True : maximize : 16*x[0] + 10*x[1] + 4*x[3]
-
-1 Constraint Declarations
-    constraints : Size=3, Index=constraints_index, Active=True
-        Key : Lower : Body                            : Upper : Active
-          1 :  -Inf : 8*x[0] + 2*x[1] + x[2] + 4*x[3] :  10.0 :   True
-          2 :  -Inf :                     x[0] + x[1] :   1.0 :   True
-          3 :  -Inf :                     x[2] + x[3] :   1.0 :   True
-
-5 Declarations: x_index x z constraints_index constraints
-GLPSOL: GLPK LP/MIP Solver, v4.65
-Parameter(s) specified in the command line:
- --write /var/folders/w9/sxcp2ljj4wq3fdhy78rf5djh0000gn/T/tmpryouhlme.glpk.raw
- --wglp /var/folders/w9/sxcp2ljj4wq3fdhy78rf5djh0000gn/T/tmpcwpug6uf.glpk.glp
- --cpxlp /var/folders/w9/sxcp2ljj4wq3fdhy78rf5djh0000gn/T/tmpcqvpl42_.pyomo.lp
-Reading problem data from &apos;/var/folders/w9/sxcp2ljj4wq3fdhy78rf5djh0000gn/T/tmpcqvpl42_.pyomo.lp&apos;...
-4 rows, 5 columns, 9 non-zeros
-36 lines were read
-Writing problem data to &apos;/var/folders/w9/sxcp2ljj4wq3fdhy78rf5djh0000gn/T/tmpcwpug6uf.glpk.glp&apos;...
-32 lines were written
-GLPK Simplex Optimizer, v4.65
-4 rows, 5 columns, 9 non-zeros
-Preprocessing...
-3 rows, 4 columns, 8 non-zeros
-Scaling...
- A: min|aij| =  1.000e+00  max|aij| =  8.000e+00  ratio =  8.000e+00
-Problem data seem to be well scaled
-Constructing initial basis...
-Size of triangular part is 3
-*     0: obj =  -0.000000000e+00 inf =   0.000e+00 (3)
-*     3: obj =   1.800000000e+01 inf =   0.000e+00 (0)
-OPTIMAL LP SOLUTION FOUND
-Time used:   0.0 secs
-Memory used: 0.0 Mb (40424 bytes)
-Writing basic solution to &apos;/var/folders/w9/sxcp2ljj4wq3fdhy78rf5djh0000gn/T/tmpryouhlme.glpk.raw&apos;...
-18 lines were written
-</pre>
-</div>
-</div>
-
-<div class="output_area"><div class="prompt output_prompt">Out[69]:</div>
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>([1.0, 0.0, 0.0, 0.5], 18.0)</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
