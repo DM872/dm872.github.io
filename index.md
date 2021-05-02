@@ -68,7 +68,7 @@ w3.includeHTML();
 |------+--------------------------------------------------------------------------+------------------------------------------------------------------------------|
 |   17 | [Lagrangian Relaxation for MILP][55]                                     | **[Fi]**                                                                     |
 |      | [Lagrangian Relaxation and Linear Programming, Multicommodity Flows][56] | [Sheet 4][14]; [Sol][84] ([IB]; [JB]; [Fi2]); **[AMO ch 16 + 17.4 in LMS]**; |
-|      | [Lagramgian Relaxation and Integer Programming][57]                      | [Fi, sc 8]; [AMO sc 16.4];                                                   |
+|      | [Lagrangian Relaxation and Integer Programming][57]                      | [Fi, sc 8]; [AMO sc 16.4];                                                   |
 |------+--------------------------------------------------------------------------+------------------------------------------------------------------------------|
 |   18 | Dantzig Wolfe decomposition                                              | [BGLMS, sc 3]; **[AMO ch 17.5, 17.6]**; **[Wo ch 11 in LMS]**; [LD]               |
 |      | Column Generation                                                        |                                                                              |
