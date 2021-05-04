@@ -70,8 +70,8 @@ w3.includeHTML();
 |      | [Lagrangian Relaxation and Linear Programming, Multicommodity Flows][56] | [Sheet 4][14]; [Sol][84] ([IB]; [JB]; [Fi2]); **[AMO ch 16 + 17.4 in LMS]**; |
 |      | [Lagrangian Relaxation and Integer Programming][57]                      | [Fi, sc 8]; [AMO sc 16.4];                                                   |
 |------+--------------------------------------------------------------------------+------------------------------------------------------------------------------|
-|   18 | Dantzig Wolfe decomposition                                              | [BGLMS, sc 3]; **[AMO ch 17.5, 17.6]**; **[Wo ch 11 in LMS]**; [LD]               |
-|      | Column Generation                                                        |                                                                              |
+|   18 | [Dantzig Wolfe decomposition and Column Generation][58]                  | [BGLMS, sc 3];  **[Wo ch 11 in LMS]**; [LD]                                  |
+|      | Column Generation for Multicommodity Flows                               | **[AMO ch 17.5, 17.6]**;                                                     |
 |      | Practice on CG                                                           | [Sheet 5][15]                                                                |
 |------+--------------------------------------------------------------------------+------------------------------------------------------------------------------|
 |   19 | Vehicle Routing: Compact models; Set Partitioning formulation and CG     | **[Fe]**                                                                     |
@@ -270,7 +270,7 @@ w3.includeHTML();
 [55]: {{ "/assets/dm872-lagrangian-handout.pdf" | absolute_url }}
 [56]: {{ "/assets/Notes_210428_114528.pdf" | absolute_url }}
 [57]: {{ "/assets/Notes_210429_174511.pdf" | absolute_url }}
-
+[58]: {{ "/assets/dm872-dantzig_wolfe-handout.pdf" | absolute_url }}
 
 <!--
 
