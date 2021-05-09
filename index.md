@@ -74,7 +74,7 @@ w3.includeHTML();
 |      | [Dual Bound in Column Generation][59]                                    | **[AMO ch 17.5, 17.6]**;                                                     |
 |      | Practice on CG                                                           | [Sheet 5][15]                                                                |
 |------+--------------------------------------------------------------------------+------------------------------------------------------------------------------|
-|   19 | Vehicle Routing: Compact models; Set Partitioning formulation and CG     | **[Fe]**                                                                     |
+|   19 | Vehicle Routing: Compact models; Set Partitioning formulation and CG     | **[Assignment 1][100]**; **[Fe]**                                                                 |
 |      | Vehicle Routing: Cutting and Branching                                   |                                                                              |
 |      | Exercises on Column Generation                                           |                                                                              |
 |------+--------------------------------------------------------------------------+------------------------------------------------------------------------------|
@@ -240,15 +240,14 @@ w3.includeHTML();
 
 -->
 
-[11]: {{ site.url }}{% post_url 2020-03-31-fitting %}
+[11]: {{ site.baseurl }}{% post_url 2020-03-31-fitting %}
 [12]: {{ "/assets/tsp_gurobi.html" | absolute_url }}
-[13]: {{ site.url }}{% post_url 2021-04-15-tsp_formulations %}
+[13]: {{ site.baseurl }}{% post_url 2021-04-15-tsp_formulations %}
 [133]: {{ "https://github.com/DM872/Material/blob/master/TSP/tsp.ipynb" | absolute_url }}
-[14]: {{ site.url }}{% post_url 2021-04-26-lagrangian %}
-[15]: {{ site.url }}{% post_url 2021-05-02-colgen %}
-[16]: {{ site.url }}{% post_url 2020-05-21-vrptw %}
-[17]: {{ "https://www.youtube.com/watch?v=vQzpydNOWDY" | absolute_url }}
-[18]: {{ site.url }}{% post_url 2020-04-28-timetabling %}
+[14]: {{ site.baseurl }}{% post_url 2021-04-26-lagrangian %}
+[15]: {{ site.baseurl }}{% post_url 2021-05-02-colgen %}
+[16]: {{ "https://www.youtube.com/watch?v=vQzpydNOWDY" | absolute_url }}
+[17]: {{ site.baseurl }}{% post_url 2020-04-28-timetabling %}
 
 [81]: {{ "/assets/feat_sel.html" | absolute_url }}
 [82]: {{ "/assets/formulations_sol.html" | absolute_url }}
@@ -272,6 +271,10 @@ w3.includeHTML();
 [57]: {{ "/assets/Notes_210429_174511.pdf" | absolute_url }}
 [58]: {{ "/assets/dm872-dantzig_wolfe-handout.pdf" | absolute_url }}
 [59]: {{ "/assets/Notes_210505_115536.pdf" | absolute_url }}
+
+
+[100]: {{ site.baseurl }}{% post_url 2021-05-09-vrptw %}
+
 
 <!--
 
