@@ -68,19 +68,19 @@ w3.includeHTML();
 |------+----------------------------------------------------------------------------------+------------------------------------------------------------------------------|
 |   17 | [Lagrangian Relaxation for MILP][55]                                             | **[Fi]**                                                                     |
 |      | [Lagrangian Relaxation and Linear Programming, Multicommodity Flows][56]         | [Sheet 4][14]; [Sol][84] ([IB]; [JB]; [Fi2]); **[AMO ch 16 + 17.4 in LMS]**; |
-|      | [Lagrangian Relaxation and Integer Programming][57]                              | [Fi, sc 8]; [AMO sc 16.4];                                                   |
+|      | [Lagrangian Relaxation and Integer Programming][57]                              | [Fi, sc 8]; [AMO sc 16.4]; [Wo ch 10 in LMS]; [AMO sc 16.5]                  |
 |------+----------------------------------------------------------------------------------+------------------------------------------------------------------------------|
 |   18 | [Dantzig Wolfe decomposition and Column Generation][58]                          | [BGLMS, sc 3];  **[Wo ch 11 in LMS]**; [LD]                                  |
 |      | [Dual Bound in Column Generation][59]                                            | **[AMO ch 17.5, 17.6]**;                                                     |
 |      | Practice on CG                                                                   | [Sheet 5][15]                                                                |
 |------+----------------------------------------------------------------------------------+------------------------------------------------------------------------------|
-|   19 | Vehicle Routing: [Compact models][62]; [Set Partitioning formulation and CG][63] | **[Assignment 1][100]**; **[Fe]**                                            |
-|      | Vehicle Routing: Cutting and Branching                                           | **[Fe]**                                                                     |
-|      | Exercises on Column Generation                                                   |                                                                              |
+|   19 | Vehicle Routing: [Compact models][62]; [Set Partitioning formulation and CG][63] | **[Assignment 1][100]**; **[Fe]**, [TV]                                      |
+|      | Vehicle Routing: [Cutting and Branching][64]                                     | **[Fe]**                                                                     |
+|      | Applications of LR: [Vehicle Scheduling][60]                                     | [BCG]; [CG]                                                                  |
 |------+----------------------------------------------------------------------------------+------------------------------------------------------------------------------|
-|   20 | Applications of LR: [Vehicle Scheduling][60]                                     | [AMO sc 16.5]; [BCG]; [CG]; [Wo ch 10 in LMS]                                |
-|      | Crew Scheduling; RCSP                                                            |                                                                              |
+|   20 | Crew Scheduling; RCSP                                                            |                                                                              |
 |      | Benders Decomposition                                                            |                                                                              |
+|      |                                                                                  |                                                                              |
 |------+----------------------------------------------------------------------------------+------------------------------------------------------------------------------|
 |   21 | Timetabling                                                                      |                                                                              |
 |      | Timetabling                                                                      |                                                                              |
@@ -208,7 +208,9 @@ w3.includeHTML();
   problems](https://doi.org/10.1007/s10288-010-0130-z). 4OR-Q J Oper Res
   (2010) 8: 407.
 
-
+- [TV] Toth P. and Vigo D. (eds) Vehicle routing: Problems, Methods
+  and Applications, Second Edition, Society for Industrial and Applied
+  Mathematics, 2014
 
 
 ### Python
