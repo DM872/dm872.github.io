@@ -273,6 +273,9 @@ w3.includeHTML();
 [57]: {{ "/assets/Notes_210429_174511.pdf" | absolute_url }}
 [58]: {{ "/assets/dm872-dantzig_wolfe-handout.pdf" | absolute_url }}
 [59]: {{ "/assets/Notes_210505_115536.pdf" | absolute_url }}
+[60]: {{ "/assets/dm872-vehicle-scheduling-handout.pdf" | absolute_url }}
+
+
 
 [62]: {{ "https://sdu.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=207124" }}
 [63]: {{ "https://sdu.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=207125" }}
@@ -288,7 +291,7 @@ w3.includeHTML();
 [56]: {{ "/assets/dm872-modeling_2-handout.pdf" | absolute_url }}
 [57]: {{ "/assets/dm872-timetabling_2-handout.pdf" | absolute_url }}
 [58]: {{ "/assets/dm872-timetabling_3-handout.pdf" | absolute_url }}
-[60]: {{ "/assets/dm872-vehicle-scheduling-handout.pdf" | absolute_url }}
+
 [61]: {{ "/assets/dm872-dantzig_wolfe-handout.pdf" | absolute_url }}
 [65]: {{ "/assets/dm872-crew-scheduling-handout.pdf" | absolute_url }}
 [66]: {{ "/assets/dm872-rcsp-handout.pdf" | absolute_url }}
