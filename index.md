@@ -75,16 +75,16 @@ w3.includeHTML();
 |      | Practice on CG                                                                   | [Sheet 5][15]                                                                |
 |------+----------------------------------------------------------------------------------+------------------------------------------------------------------------------|
 |   19 | Vehicle Routing: [Compact models][62]; [Set Partitioning formulation and CG][63] | **[Assignment 1][100]**; **[Fe]**, [TV]                                      |
-|      | Vehicle Routing: [Cutting and Branching][64]                                     | **[Fe]**                                                                     |
+|      | Vehicle Routing: [Cutting and Branching][64]; [Notes on Branching][65]           | **[Fe]**; **[Wo p 121 & ch 11 in LMS]**; [C];                                |
 |      | Applications of LR: [Vehicle Scheduling][60]                                     | [BCG]; [CG]                                                                  |
 |------+----------------------------------------------------------------------------------+------------------------------------------------------------------------------|
 |   20 | Crew Scheduling; RCSP                                                            |                                                                              |
-|      | Benders Decomposition                                                            |                                                                              |
-|      |                                                                                  |                                                                              |
+|      | Benders Decomposition                                                            | **[Wo ch 12 in LMS]**; [Z]                                                   |
+|      | Benders Decomposition                                                            | [Sheet 6][16]                                                                |
 |------+----------------------------------------------------------------------------------+------------------------------------------------------------------------------|
-|   21 | Timetabling                                                                      |                                                                              |
-|      | Timetabling                                                                      |                                                                              |
-|      |                                                                                  |                                                                              |
+|   21 | Integer Programming and Heuristics                                               | **[Wo sc 13.4]**; **[FL]**;                                                  |
+|      | Integer Programming and Machine Learning                                         | **[Wo sc 14.6 in LMS]**; **[BD]**; **[FJ]**                                  |
+|      |                                                                                  | Assignment 2                                                                 |
 |------+----------------------------------------------------------------------------------+------------------------------------------------------------------------------|
 
 
@@ -212,6 +212,34 @@ w3.includeHTML();
   and Applications, Second Edition, Society for Industrial and Applied
   Mathematics, 2014
 
+- [C] J. Clausen. [Branch and Bound Algorithms-Principles and
+  Examples]({{ "/assets/Clausen1999.pdf" | absolute_url
+  }}). 1999. Technical Report. Department of Computer
+  Science. University of Copenhagen.
+
+- Zhang, Ray Jian, [Benders Decomposition: An Easy Example](https://youtu.be/vQzpydNOWDY). 2016. Video
+
+- [FL] M. Fischetti, A. Lodi, [Heuristics in Mixed Integer
+  Programming](https://homepages.cwi.nl/~dadush/workshop/discrepancy-ip/papers/heuristics-survey-fischetti-lodi-11.pdf),
+  Wiley Encyclopedia of Operations Research and Management Science
+  (James J. Cochran ed.), John Wiley & Sons, Vol. 8, 738-747, 2011.
+
+
+- [BD] Bertsimas, D. and Dunn, J. (2017). [Optimal classification
+  trees](https://dx.doi.org/10.1007/s10994-017-5633-9). Machine
+  Learning 106(7): 1039–1082.
+
+- [BD2] Bertsimas, D. and Dunn, J. (2019). Machine Learning Under a
+  Moden Optimization Lens. Dynamic Ideas LLC.
+
+- [FJ] Fischetti, M. and Jo, J. (2018). [Deep neural networks and
+  mixed integer linear
+  optimization](https://doi.org/10.1007/s10601-018-9285-6). Constraints
+  23: 296–309.
+
+
+
+
 
 ### Python
 
@@ -248,8 +276,8 @@ w3.includeHTML();
 [133]: {{ "https://github.com/DM872/Material/blob/master/TSP/tsp.ipynb" | absolute_url }}
 [14]: {{ site.baseurl }}{% post_url 2021-04-26-lagrangian %}
 [15]: {{ site.baseurl }}{% post_url 2021-05-02-colgen %}
-[16]: {{ "https://www.youtube.com/watch?v=vQzpydNOWDY" | absolute_url }}
-[17]: {{ site.baseurl }}{% post_url 2020-04-28-timetabling %}
+[16]: {{ site.baseurl }}{% post_url 2021-05-14-benders %}
+
 
 [81]: {{ "/assets/feat_sel.html" | absolute_url }}
 [82]: {{ "/assets/formulations_sol.html" | absolute_url }}
@@ -275,12 +303,10 @@ w3.includeHTML();
 [59]: {{ "/assets/Notes_210505_115536.pdf" | absolute_url }}
 [60]: {{ "/assets/dm872-vehicle-scheduling-handout.pdf" | absolute_url }}
 
-
-
 [62]: {{ "https://sdu.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=207124" }}
 [63]: {{ "https://sdu.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=207125" }}
 [64]: {{ "https://sdu.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=207126" }}
-
+[65]: {{ "/assets/Notes_210513_112748.pdf" | absolute_url }}
 
 [100]: {{ site.baseurl }}{% post_url 2021-05-09-vrptw %}
 
@@ -323,5 +349,10 @@ w3.includeHTML();
 [21]: {{ "https://www.imada.sdu.dk/~marco/Teaching/AY2018-2019/DM872/assets/extended_callback.py" | absolute_url }}
 
 [13]: {{ "https://www.imada.sdu.dk/~marco/Teaching/AY2018-2019/DM872/assets/tsp.html" | absolute_url }}
+
+
+[16]: {{ "https://www.youtube.com/watch?v=vQzpydNOWDY" | absolute_url }}
+[17]: {{ site.baseurl }}{% post_url 2020-04-28-timetabling %}
+
 
 -->
