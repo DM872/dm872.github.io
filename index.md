@@ -58,7 +58,7 @@ w3.includeHTML();
 |      | LP Practical Guidelines, Interior Point Methods, Sifting                         | **[KN1]**, [HL, sc 8.4], [BGLMS, sc 3]                                       |
 |      | Practice                                                                         | [Sheet 1][11]; [Sol][81]                                                     |
 |------+----------------------------------------------------------------------------------+------------------------------------------------------------------------------|
-|   15 | MILP Practical Guidelines, [Modeling][56], Presolving                            | **[KN2]**, **[ABGRW]**, **[Wi, ch7,9,10] or [GRB modeling]**                 |
+|   15 | MILP Practical Guidelines, [Modeling][56], [Presolving][60]                      | **[KN2]**, **[ABGRW]**, **[Wi, ch7,9,10] or [GRB modeling]**                 |
 |      | [MILP Formulations for Traveling Salesman Problem][53]                           | [P] or [DFJ] or [MTZ] or [A] or [ABCC] or [OAL]                              |
 |      | Practice TSP                                                                     | [Sheet 3][13]; [Sol][82]                                                     |
 |------+----------------------------------------------------------------------------------+------------------------------------------------------------------------------|
@@ -76,11 +76,11 @@ w3.includeHTML();
 |------+----------------------------------------------------------------------------------+------------------------------------------------------------------------------|
 |   19 | Vehicle Routing: [Compact models][62]; [Set Partitioning formulation and CG][63] | **[Assignment 1][100]**; **[Fe]**, [TV]                                      |
 |      | Vehicle Routing: [Cutting and Branching][64]; [Notes on Branching][65]           | **[Fe]**; **[Wo p 121 & ch 11 in LMS]**; [C];                                |
-|      | Applications of LR: [Vehicle Scheduling][60]                                     | [BCG]; [CG]                                                                  |
+|      | Applications of LR: [Vehicle Scheduling][66]                                     | [BCG]; [CG]                                                                  |
 |------+----------------------------------------------------------------------------------+------------------------------------------------------------------------------|
-|   20 | Crew Scheduling; RCSP                                                            |                                                                              |
+|   20 | [Crew Scheduling][67]; [RCSP][68]                                                | [SGSK]; [GM]                                                                 |
 |      | Benders Decomposition                                                            | **[Wo ch 12 in LMS]**; [Z]                                                   |
-|      | Benders Decomposition                                                            | [Sheet 6][16]                                                                |
+|      | Benders Decomposition Practice                                                   | [Sheet 6][16]                                                                |
 |------+----------------------------------------------------------------------------------+------------------------------------------------------------------------------|
 |   21 | Integer Programming and Heuristics                                               | **[Wo sc 13.4]**; **[FL]**;                                                  |
 |      | Integer Programming and Machine Learning                                         | **[Wo sc 14.6 in LMS]**; **[BD]**; **[FJ]**                                  |
@@ -187,8 +187,7 @@ w3.includeHTML();
 - [JB] J. E. Beasley. [Integer Programming Solution
   Methods](http://people.brunel.ac.uk/~mastjjb/jeb/natcor_ip_rest.pdf). 
 
-- [Wo] L.A. Wolsey. Integer programming. Chapters 10 and 11 (in
-  BB). John Wiley & Sons, New York, USA, 1998
+- [Wo] L.A. Wolsey. Integer programming. John Wiley & Sons, New York, USA, 1998
 
 - [BCG] A.A. Bertossi, P. Carraresi and G. Gallo. [On some matching
   problems arising in vehicle scheduling
@@ -216,6 +215,20 @@ w3.includeHTML();
   Examples]({{ "/assets/Clausen1999.pdf" | absolute_url
   }}). 1999. Technical Report. Department of Computer
   Science. University of Copenhagen.
+
+
+
+- [SGSK] I. Steinzen, V. Gintner, L. Suhl and N. Kliewer. [A Time-Space
+  Network Approach for the Integrated Vehicle- and Crew-Scheduling
+  Problem with Multiple
+  Depots](http://dx.doi.org/10.1287/trsc.1090.0304). Transportation
+  Science, 2010, 44(3), 367-382
+
+- [GM] S. Gualandi and F. Malucelli. [Resource Constrained Shortest
+  Paths with a Super Additive Objective
+  Function](http://dx.doi.org/10.1007/978-3-642-33558-7_24). M. Milano
+  (ed.). CP, Springer, 2012, 7514, 299-315
+
 
 - Zhang, Ray Jian, [Benders Decomposition: An Easy Example](https://youtu.be/vQzpydNOWDY). 2016. Video
 
@@ -301,12 +314,18 @@ w3.includeHTML();
 [57]: {{ "/assets/Notes_210429_174511.pdf" | absolute_url }}
 [58]: {{ "/assets/dm872-dantzig_wolfe-handout.pdf" | absolute_url }}
 [59]: {{ "/assets/Notes_210505_115536.pdf" | absolute_url }}
-[60]: {{ "/assets/dm872-vehicle-scheduling-handout.pdf" | absolute_url }}
+[60]: {{ "/assets/dm872-preprocessing-handout.pdf" | absolute_url }}
 
 [62]: {{ "https://sdu.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=207124" }}
 [63]: {{ "https://sdu.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=207125" }}
 [64]: {{ "https://sdu.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=207126" }}
 [65]: {{ "/assets/Notes_210513_112748.pdf" | absolute_url }}
+
+[66]: {{ "/assets/dm872-vehicle-scheduling-handout.pdf" | absolute_url }}
+[67]: {{ "/assets/dm872-crew-scheduling-handout.pdf" | absolute_url }}
+[68]: {{ "/assets/dm872-rcsp-handout.pdf" | absolute_url }}
+
+
 
 [100]: {{ site.baseurl }}{% post_url 2021-05-09-vrptw %}
 
@@ -319,14 +338,10 @@ w3.includeHTML();
 [58]: {{ "/assets/dm872-timetabling_3-handout.pdf" | absolute_url }}
 
 [61]: {{ "/assets/dm872-dantzig_wolfe-handout.pdf" | absolute_url }}
-[65]: {{ "/assets/dm872-crew-scheduling-handout.pdf" | absolute_url }}
-[66]: {{ "/assets/dm872-rcsp-handout.pdf" | absolute_url }}
 [67]: {{ "/assets/dm872-drawings.pdf" | absolute_url }}
 
 
-
-
-{{ "https://github.com/DM872/Material/blob/master/Python/Sheet2.ipynb" | absolute_url }}
+[66]: {{ "https://github.com/DM872/Material/blob/master/Python/Sheet2.ipynb" | absolute_url }}
 
 [54]: {{ "/assets/dm872-netflow_plus.pdf" | absolute_url }}
 
@@ -335,7 +350,7 @@ w3.includeHTML();
 [5]: {{ "/assets/dm872-timetabling-handout.pdf" | absolute_url }}
 
 [7]: {{ "/assets/dm872-modeling_2-handout.pdf" | absolute_url }}
-[8]: {{ "/assets/dm872-preprocessing-handout.pdf" | absolute_url }}
+
 [9]: {{ "/assets/dm872-timetabling-handout.pdf" | absolute_url }}
 [10]: {{ "/assets/dm872-theory-handout.pdf" | absolute_url }}
 
