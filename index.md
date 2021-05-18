@@ -79,7 +79,7 @@ w3.includeHTML();
 |      | Applications of LR: [Vehicle Scheduling][66]                                     | [BCG]; [CG]                                                                  |
 |------+----------------------------------------------------------------------------------+------------------------------------------------------------------------------|
 |   20 | [Crew Scheduling][67]; [RCSP][68]                                                | [SGSK]; [GM]                                                                 |
-|      | Benders Decomposition                                                            | **[Wo ch 12 in LMS]**; [Z]                                                   |
+|      | Benders Decomposition                                                            | **[Wo ch 12 in LMS]**; [DJ]; [Z]                                                   |
 |      | Benders Decomposition Practice                                                   | [Sheet 6][16]                                                                |
 |------+----------------------------------------------------------------------------------+------------------------------------------------------------------------------|
 |   21 | Integer Programming and Heuristics                                               | **[Wo sc 13.4]**; **[FL]**;                                                  |
@@ -228,6 +228,14 @@ w3.includeHTML();
   Paths with a Super Additive Objective
   Function](http://dx.doi.org/10.1007/978-3-642-33558-7_24). M. Milano
   (ed.). CP, Springer, 2012, 7514, 299-315
+
+
+
+- [DJ] Dirickx YMI & Jennergren LP (1979). [Systems Analysis by
+  Multilevel Methods: With Applications to Economics and
+  Management](http://pure.iiasa.ac.at/id/eprint/1017/1/XB-79-106.pdf). Chichester,
+  UK: John Wiley & Sons. ISBN 978-0-471-27626-5
+
 
 
 - Zhang, Ray Jian, [Benders Decomposition: An Easy Example](https://youtu.be/vQzpydNOWDY). 2016. Video
