@@ -79,7 +79,7 @@ w3.includeHTML();
 |      | Applications of LR: [Vehicle Scheduling][66]                                     | [BCG]; [CG]                                                                  |
 |------+----------------------------------------------------------------------------------+------------------------------------------------------------------------------|
 |   20 | [Crew Scheduling][67]; [RCSP][68]                                                | [SGSK]; [GM]                                                                 |
-|      | Benders Decomposition                                                            | **[Wo ch 12 in LMS]**; [DJ]; [Z]                                                   |
+|      | [Benders Decomposition][69]                                                            | **[Wo ch 12 in LMS]**; [DJ]; [Z]                                                   |
 |      | Benders Decomposition Practice                                                   | [Sheet 6][16]                                                                |
 |------+----------------------------------------------------------------------------------+------------------------------------------------------------------------------|
 |   21 | Integer Programming and Heuristics                                               | **[Wo sc 13.4]**; **[FL]**;                                                  |
@@ -332,7 +332,7 @@ w3.includeHTML();
 [66]: {{ "/assets/dm872-vehicle-scheduling-handout.pdf" | absolute_url }}
 [67]: {{ "/assets/dm872-crew-scheduling-handout.pdf" | absolute_url }}
 [68]: {{ "/assets/dm872-rcsp-handout.pdf" | absolute_url }}
-
+[69]: {{ "/assetts/Notes_210519_191343.pdf" | absolute_url }}
 
 
 [100]: {{ site.baseurl }}{% post_url 2021-05-09-vrptw %}
