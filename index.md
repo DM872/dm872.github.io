@@ -332,7 +332,7 @@ w3.includeHTML();
 [66]: {{ "/assets/dm872-vehicle-scheduling-handout.pdf" | absolute_url }}
 [67]: {{ "/assets/dm872-crew-scheduling-handout.pdf" | absolute_url }}
 [68]: {{ "/assets/dm872-rcsp-handout.pdf" | absolute_url }}
-[69]: {{ "/assets/Notes_210519_191343.pdf" | absolute_url }}
+[69]: {{ "/assets/Notes_210520_002409.pdf" | absolute_url }}
 
 
 [100]: {{ site.baseurl }}{% post_url 2021-05-09-vrptw %}
