@@ -79,8 +79,8 @@ w3.includeHTML();
 |      | Applications of LR: [Vehicle Scheduling][66]                                     | [BCG]; [CG]                                                                  |
 |------+----------------------------------------------------------------------------------+------------------------------------------------------------------------------|
 |   20 | [Crew Scheduling][67]; [RCSP][68]                                                | [SGSK]; [GM]                                                                 |
-|      | [Benders Decomposition][69]                                                            | **[Wo ch 12 in LMS]**; [DJ]; [Z]                                                   |
-|      | Benders Decomposition Practice                                                   | [Sheet 6][16]                                                                |
+|      | [Benders Decomposition][69]                                                      | **[Wo ch 12 in LMS]**; [DJ]; [Z]                                             |
+|      | Benders Decomposition Practice                                                   | [Sheet 6][16]; [Sol][86]                                                     |
 |------+----------------------------------------------------------------------------------+------------------------------------------------------------------------------|
 |   21 | Integer Programming and Heuristics                                               | **[Wo sc 13.4]**; **[FL]**;                                                  |
 |      | Integer Programming and Machine Learning                                         | **[Wo sc 14.6 in LMS]**; **[BD]**; **[FJ]**                                  |
@@ -304,7 +304,7 @@ w3.includeHTML();
 [82]: {{ "/assets/formulations_sol.html" | absolute_url }}
 [83]: {{ "/assets/tsp_sol.html" | absolute_url }}
 [84]: {{ "/assets/Lagrangian_grp.html" | absolute_url }}
-
+[86]: {{ "/assets/benders_example.html" | absolute_url }}
 
 [32]: {{ "https://github.com/DM872/Material/blob/master/sheet2/infection.ipynb" }}
 [33]: {{ "https://github.com/DM872/Material/blob/master/TSP/tsp_sol.ipynb" | absolute_url }}
