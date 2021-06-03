@@ -220,8 +220,8 @@ characterized as follows. Let:
 
 Then the set $U \subseteq V$ contains all nodes $u\in V$ that satisfy one of the following conditions:
 
-- $|a(\{u\})|=1$ and $|a^+(\{u\})|=|a^-(\{u\})|=0$
-- $|a(\{u\})|=0$ and $|a^+(\{u\})|=1$ and $a^+(\{u\})=a^-(\{u\})$
+- $\|a(\{u\})\|=1$ and $\|a^+(\{u\})\|=\|a^-(\{u\})\|=0$
+- $\|a(\{u\})\|=0$ and $\|a^+(\{u\})\|=1$ and $a^+(\{u\})=a^-(\{u\})$
 
 The set of nodes where U-turn must be avoided is $V\setminus U$.
 
