@@ -9,7 +9,7 @@ categories: assignments
 **Deadline: Monday, June 28, 2021, at 11:59 am.**
 
 For questions on the assignment, use the [Discussion Board under
-Resources in LMS](https://sdu.itslearning.com/discussion/list_discussions.aspx?DiscussionID=241569).
+Resources in LMS](https://sdu.itslearning.com/ContentArea/ContentArea.aspx?LocationID=9315&LocationType=1).
 
 ## Assignment 2
 
