@@ -70,7 +70,7 @@ to find a set of routes for the two vehicles such that each vehicle:
 
 - the required arcs are salted within 210 minutes (3 hours and a half) 
 
-- does not perform an U-turn
+- does not perform an U-turn at some selected nodes where they can be avoided
 
 and the total distance travelled by the two vehicles is minimized. The
 vehicles have to visit a depot before returning home, therefore they
@@ -212,8 +212,16 @@ In case of need, the python code contains also the *pairing algorithm*
   identifiers as keys and an array of selected arcs for each
   corresponding vehicle as values and prints the routes.
 
+The set of nodes $U\subseteq V$ at which U-turns cannot be avoided is
+characterized as follows. Let:
+- $a^+(\{u\})$ be the set of nodes that we can reach by an arc in $A \cup A_R$ leaving $u$ 
+- $a^-(\{u\})$ be the set of nodes from which we can reach $u$ by an arc in $A \cup A_R$ 
+- $a(\{u\})$ be the set of nodes linked to $u$ by an edge in $E_R$ 
+Then the set $U \subseteq V$ contains all nodes $u\in V$ that satisfy one of the following conditions:
+- $|a(\{u\})|=1$ and $|a^+(\{u\})|=$|a^-(\{u\})|=0$
+- $|a(\{u\})|=0$ and $|a^+(\{u\})|=1$ and $a^+(\{u\})=a^-(\{u\})$
 
-
+The set of nodes where U-turn must be avoided is $V\setminus U$.
 
 
 ### Your Tasks
