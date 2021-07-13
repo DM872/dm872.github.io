@@ -70,25 +70,27 @@ to find a set of routes for the two vehicles such that each vehicle:
 
 - the required arcs are salted within 210 minutes (3 hours and a half) 
 
-- does not perform an U-turn at some selected nodes where they can be avoided
+- does not perform U-turns at nodes where they can be avoided
 
-and the total distance travelled by the two vehicles is minimized. The
-vehicles have to visit a depot before returning home, therefore they
-start with a full cargo of salt and fuel. The path from the depot
-to home does not count in the traveling time and distance.
+and the total distance travelled by the two vehicles is minimized. 
 
+The vehicles have to visit a depot before returning home, therefore they
+end and start with a full cargo of salt and fuel. 
+
+<!-- The path from the
+depot to home does not count in the traveling time and distance.
+-->
 
 
 
 
 ### Data and code 
 
-In the course repository [GIT] you find the input data and some
-starting python code to: read the data, report some statistics and
-plot the network. The data are real life data but unfortunately
-the geographical coordinates are missing, hence plotting is done with
-graph drawing algorithms for the placement of the points that may be
-misleading.
+In the course repository [GIT] you find the input data and some starting
+python code to: read the data, report some statistics and plot the
+network. The data are real life data but unfortunately the geographical
+coordinates are missing, hence plotting is done with graph drawing
+algorithms and the placement of the points may be misleading.
 
 
 ![instance]({{ "/assets/images/data_excerpt.png" | absolute_url }}){:width="70%" .center-image }
@@ -120,20 +122,21 @@ The depots are in node 1 and in node 179 and the two drivers start and
 end at their homes at node 2 and 130, respectively.
 
 
-The data reader in python organizes the network data as a mixed graph
-with further information on the links. A *mixed graph* is a graph made
-of both edges and arcs. Edges can be traversed in either of the two
-directions while arcs can only be traversed in their direction.  In
-particular, the mixed graph provided by the reader is $G=(V,A \cup
+A data reader in python that reads the information outlined above is
+made available in the repository [GIT]. It organizes the network data as a
+mixed graph with further information on the links. A *mixed graph* is a
+graph made of both edges and arcs. Edges can be traversed in either of
+the two directions while arcs can only be traversed in their direction.
+In particular, the mixed graph provided by the reader is $G=(V,A \cup
 A_{R} \cup E_{R})$. The set of nodes $V$ includes the set of road
-intersections $I$, the set of refilling depots $D$ and the set of
-homes $H$, that is, $V=I \cup D \cup H$. Each vehicle has a single
-location $h$ from $H$ from which it departs and returns.  The set of
-arcs $A$ contains the arcs that can be traversed while $A_R$ and $E_R$
-arcs and edges, respectively, that are required to be
-traversed. (Hence, edges that can be traversed in either direction
-have been rewritten in $A$ as two antiparallel arcs.) Edge is $E_R$
-are labeled $ij$ with $i<j$. There are no self loops.
+intersections $I$, the set of refilling depots $D$ and the set of homes
+$H$, that is, $V=I \cup D \cup H$. Each vehicle has a single location
+$h$ from $H$ from which it departs and returns.  The set of arcs $A$
+contains the arcs that can be traversed while $A_R$ and $E_R$ arcs and
+edges, respectively, that are required to be traversed. (Hence, edges
+that can be traversed in either direction have been rewritten in $A$ as
+two antiparallel arcs.) Edges in $E_R$ are labeled $ij$ with
+$i<j$. There are no self loops.
 
 <!-- This graph is obtained 
 by substituting
@@ -212,10 +215,11 @@ In case of need, the python code contains also the *pairing algorithm*
   identifiers as keys and an array of selected arcs for each
   corresponding vehicle as values and prints the routes.
 
-The set of nodes $U\subseteq V$ at which U-turns cannot be avoided is
+The set of nodes $U\subseteq V$ at which U-turns are allowed is
 characterized as follows. Let:
-- $a^+(\{u\})$ be the set of nodes that we can reach by an arc in $A \cup A_R$ leaving $u$ 
-- $a^-(\{u\})$ be the set of nodes from which we can reach $u$ by an arc in $A \cup A_R$ 
+- $a^+(\{u\})$ be the set of nodes that can be reached from $u$ through an arc in $A \cup A_R$ 
+- $a^-(\{u\})$ be the set of nodes from which $u$ can be reached through
+  an arc in $A \cup A_R$
 - $a(\{u\})$ be the set of nodes linked to $u$ by an edge in $E_R$ 
 
 Then the set $U \subseteq V$ contains all nodes $u\in V$ that satisfy one of the following conditions:
@@ -223,8 +227,8 @@ Then the set $U \subseteq V$ contains all nodes $u\in V$ that satisfy one of the
 - $\|a(\{u\})\|=1$ and $\|a^+(\{u\})\|=\|a^-(\{u\})\|=0$
 - $\|a(\{u\})\|=0$ and $\|a^+(\{u\})\|=1$ and $a^+(\{u\})=a^-(\{u\})$
 
-The set of nodes where U-turn must be avoided is $V\setminus U$.
-
+Thus, the set of nodes where U-turn must be avoided is $V\setminus U$.
+The python code includes the calculation of $U$.
 
 ### Your Tasks
 
