@@ -2,7 +2,7 @@
 # You don't need to edit this file, it's empty on purpose.
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-title: "DM872 - Mathematical Optimization at Work"
+title: "DM872 (F22) -- Mathematical Optimization at Work"
 layout: default
 excerpt: "Main Page"
 sitemap: false
@@ -15,7 +15,7 @@ permalink: /
 
 - [Official course description](https://odinlister.sdu.dk/fagbesk/internkode/DM872/)
   
-- [ItsLearning](https://sdu.itslearning.com/main.aspx?CourseID=9315)
+- [ItsLearning](https://sdu.itslearning.com/main.aspx?CourseID=17799)
 
 - Teacher: [Marco Chiarandini](https://imada.sdu.dk/~marco)
 
@@ -25,7 +25,7 @@ permalink: /
 
 
 <p>
-<a href="https://mitsdu.sdu.dk/skema/activity/N340032101/f21">MitSDU</a>
+<a href="https://mitsdu.sdu.dk/skema/activity/N340032101/f22">MitSDU</a>
 </p>
 
 
@@ -54,7 +54,7 @@ w3.includeHTML();
 
 | Week | Topics and Slides                                                                | Resources                                                                    |
 |------+----------------------------------------------------------------------------------+------------------------------------------------------------------------------|
-|   14 | Introduction.                                                                    | [GRB],                                                                       |
+|   14 | Introduction.                                                                    | [GRB]                                                                       |
 |      | LP Practical Guidelines, Interior Point Methods, Sifting                         | **[KN1]**, [HL, sc 8.4], [BGLMS, sc 3]                                       |
 |      | Practice                                                                         | [Sheet 1][11]; [Sol][81]                                                     |
 |------+----------------------------------------------------------------------------------+------------------------------------------------------------------------------|
@@ -100,7 +100,7 @@ w3.includeHTML();
 ### References
 
 
-- [LMS] [Our learning management system](https://sdu.itslearning.com/main.aspx?CourseID=9315)
+- [LMS] [Our learning management system](https://sdu.itslearning.com/main.aspx?CourseID=17799)
 
 - [KN1] Ed Klotz, Alexandra M. Newman. [Practical guidelines for solving
   difficult linear
@@ -124,6 +124,7 @@ w3.includeHTML();
   Operations Research and Management Science Volume 18, Issues 1–2,
   October 2013, Pages 18-32
 
+<!-- 
 - [ABGRW] Tobias Achterberg, Robert E. Bixby, Zonghao Gu, Edward
   Rothberg, Dieter Weninger [Presolve Reductions in Mixed Integer
   Programming](https://doi.org/10.1287/ijoc.2018.0857)
@@ -258,7 +259,7 @@ w3.includeHTML();
   optimization](https://doi.org/10.1007/s10601-018-9285-6). Constraints
   23: 296–309.
 
-
+-->
 
 
 
@@ -273,7 +274,7 @@ w3.includeHTML();
 
 - [P0] [Colab on Python Basics](https://colab.research.google.com/github/DM561/dm561.github.io/blob/master/assets/Python_in_a_Nutshell.ipynb)
 
-- [GRB] Solving MILP Problems in Python with Gurobi: [Part 1](./assets/lab_gurobi_1.html); [Part 2](./assets/lab_gurobi_2.html); [Modelling 1](https://www.gurobi.com/pdfs/user-events/2017-frankfurt/Modeling-1.pdf); [Modelling 2](https://www.gurobi.com/pdfs/user-events/2017-frankfurt/Modeling-2.pdf)
+- [GRB] Solving MILP Problems in Python with Gurobi: [Modelling 1](https://www.gurobi.com/pdfs/user-events/2017-frankfurt/Modeling-1.pdf); [Modelling 2](https://www.gurobi.com/pdfs/user-events/2017-frankfurt/Modeling-2.pdf)
 
 
 
