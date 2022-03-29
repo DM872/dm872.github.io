@@ -54,9 +54,9 @@ w3.includeHTML();
 
 | Week | Topics and Slides                                                                | Resources                              |
 |------+----------------------------------------------------------------------------------+----------------------------------------|
-|   14 | Introduction.                                                                    | [GRB]                                  |
+|   14 | [Introduction][51].                                                                    | [GRB]                                  |
 |      | LP Practical Guidelines, Interior Point Methods, Sifting                         | **[KN1]**, [HL, sc 8.4], [BGLMS, sc 3] |
-|      | Practice                                                                         |                                        |
+|      | Practice                                                                         | [Sheet 1][11]            |
 |------+----------------------------------------------------------------------------------+----------------------------------------|
 |   15 | MILP Practical Guidelines, [Modeling], [Presolving]                              |                                        |
 |      | [MILP Formulations for Traveling Salesman Problem]                               |                                        |
