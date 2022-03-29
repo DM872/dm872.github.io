@@ -267,13 +267,17 @@ w3.includeHTML();
 ### Python
 
 
+- See reference in [DM871](https://dm871.github.io/)
 
+<!--
 - Python tutorial from DM561: 
   - [Part 1](https://dm561.github.io/assets/dm561-lec1.pdf): basics, data types, control flow, std library, OO programming
   - [Part 2](https://dm561.github.io/assets/dm561-lec2.pdf): exceptions, file i/o, numpy
   - [Part 3](https://dm561.github.io/assets/dm561-lec3.pdf): graphics, data viz, pandas
 
 - [P0] [Colab on Python Basics](https://colab.research.google.com/github/DM561/dm561.github.io/blob/master/assets/Python_in_a_Nutshell.ipynb)
+-->
+
 
 - [GRB] Solving MILP Problems in Python with Gurobi: [Modelling 1](https://www.gurobi.com/pdfs/user-events/2017-frankfurt/Modeling-1.pdf); [Modelling 2](https://www.gurobi.com/pdfs/user-events/2017-frankfurt/Modeling-2.pdf)
 
