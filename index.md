@@ -52,40 +52,40 @@ w3.includeHTML();
 
 
 
-| Week | Topics and Slides                                                                | Resources                              |
-|------+----------------------------------------------------------------------------------+----------------------------------------|
-|   14 | [Introduction][51].                                                                    | [GRB]                                  |
-|      | LP Practical Guidelines, Interior Point Methods, Sifting                         | **[KN1]**, [HL, sc 8.4], [BGLMS, sc 3] |
-|      | Practice                                                                         | [Sheet 1][11]            |
-|------+----------------------------------------------------------------------------------+----------------------------------------|
-|   15 | MILP Practical Guidelines, [Modeling], [Presolving]                              |                                        |
-|      | [MILP Formulations for Traveling Salesman Problem]                               |                                        |
-|      | Practice TSP                                                                     |                                        |
-|------+----------------------------------------------------------------------------------+----------------------------------------|
-|   16 | Practice on TSP                                                                  |                                        |
-|      | Practice on TSP                                                                  |                                        |
-|      | [Cutting Plane Algorithms for TSP]                                               |                                        |
-|------+----------------------------------------------------------------------------------+----------------------------------------|
-|   17 | [Lagrangian Relaxation for MILP]                                                 |                                        |
-|      | [Lagrangian Relaxation and Linear Programming, Multicommodity Flows]             |                                        |
-|      | [Lagrangian Relaxation and Integer Programming]                                  |                                        |
-|------+----------------------------------------------------------------------------------+----------------------------------------|
-|   18 | [Dantzig Wolfe decomposition and Column Generation]                              |                                        |
-|      | [Dual Bound in Column Generation]                                                |                                        |
-|      | Practice on CG                                                                   |                                        |
-|------+----------------------------------------------------------------------------------+----------------------------------------|
-|   19 | Vehicle Routing: [Compact models]; [Set Partitioning formulation and CG]         |                                        |
-|      | Vehicle Routing: [Cutting and Branching]; [Notes on Branching]                   |                                        |
-|      | Applications of LR: [Vehicle Scheduling]                                         |                                        |
-|------+----------------------------------------------------------------------------------+----------------------------------------|
-|   20 | [Crew Scheduling]; [RCSP]                                                        |                                        |
-|      | [Benders Decomposition]                                                          |                                        |
-|      | Benders Decomposition Practice                                                   |                                        |
-|------+----------------------------------------------------------------------------------+----------------------------------------|
-|   21 | Integer Programming and Heuristics                                               |                                        |
-|      | Integer Programming and Machine Learning                                         |                                        |
-|      |                                                                                  |                                        |
-|------+----------------------------------------------------------------------------------+----------------------------------------|
+| Week | Topics and Slides                                                        | Resources                                                  |
+|------+--------------------------------------------------------------------------+------------------------------------------------------------|
+|   14 | [Introduction][51].                                                      | [GRB]                                                      |
+|      | LP Practical Guidelines, Interior Point Methods, Sifting                 | **[KN1]**, [HL, sc 8.4], [MG, sc 7.2], [BGLMS, sc 3], [NW] |
+|      | Practice                                                                 | [Sheet 1][11]                                              |
+|------+--------------------------------------------------------------------------+------------------------------------------------------------|
+|   15 | MILP Practical Guidelines, [Modeling], [Presolving]                      |                                                            |
+|      | [MILP Formulations for Traveling Salesman Problem]                       |                                                            |
+|      | Practice TSP                                                             |                                                            |
+|------+--------------------------------------------------------------------------+------------------------------------------------------------|
+|   16 | Practice on TSP                                                          |                                                            |
+|      | Practice on TSP                                                          |                                                            |
+|      | [Cutting Plane Algorithms for TSP]                                       |                                                            |
+|------+--------------------------------------------------------------------------+------------------------------------------------------------|
+|   17 | [Lagrangian Relaxation for MILP]                                         |                                                            |
+|      | [Lagrangian Relaxation and Linear Programming, Multicommodity Flows]     |                                                            |
+|      | [Lagrangian Relaxation and Integer Programming]                          |                                                            |
+|------+--------------------------------------------------------------------------+------------------------------------------------------------|
+|   18 | [Dantzig Wolfe decomposition and Column Generation]                      |                                                            |
+|      | [Dual Bound in Column Generation]                                        |                                                            |
+|      | Practice on CG                                                           |                                                            |
+|------+--------------------------------------------------------------------------+------------------------------------------------------------|
+|   19 | Vehicle Routing: [Compact models]; [Set Partitioning formulation and CG] |                                                            |
+|      | Vehicle Routing: [Cutting and Branching]; [Notes on Branching]           |                                                            |
+|      | Applications of LR: [Vehicle Scheduling]                                 |                                                            |
+|------+--------------------------------------------------------------------------+------------------------------------------------------------|
+|   20 | [Crew Scheduling]; [RCSP]                                                |                                                            |
+|      | [Benders Decomposition]                                                  |                                                            |
+|      | Benders Decomposition Practice                                           |                                                            |
+|------+--------------------------------------------------------------------------+------------------------------------------------------------|
+|   21 | Integer Programming and Heuristics                                       |                                                            |
+|      | Integer Programming and Machine Learning                                 |                                                            |
+|      |                                                                          |                                                            |
+|------+--------------------------------------------------------------------------+------------------------------------------------------------|
 
 
 <!--
@@ -112,6 +112,12 @@ w3.includeHTML();
   Operations
   Research](http://highered.mcgraw-hill.com/sites/0073376299/information_center_view0/),
   9th edition, 2010. ISBN: 0073376299
+
+- [MG] J. Matousek and
+  B. Gartner. [Understanding and Using Linear Programming](http://dx.doi.org/10.1007/978-3-540-30717-4). Springer
+  Berlin Heidelberg, 2007
+
+- [NW] J. Nocedal and S. J. Wright, Numerical Optimization, Second Edition. Springer Series in Operations Research, 2006.
 
 - [BGLMS] Bixby, R. E., Gregory, J. W., Lustig, I. J., Marsten, R. E.,
   & Shanno, D. F. (1992). [Very large-scale linear programming: A case
@@ -279,8 +285,9 @@ w3.includeHTML();
 -->
 
 
-- [GRB] Solving MILP Problems in Python with Gurobi: [Modelling 1](https://www.gurobi.com/pdfs/user-events/2017-frankfurt/Modeling-1.pdf); [Modelling 2](https://www.gurobi.com/pdfs/user-events/2017-frankfurt/Modeling-2.pdf)
-
+- [GRB] Solving MILP Problems in Python with Gurobi: [Modelling 1](https://www.gurobi.com/pdfs/user-events/2017-frankfurt/Modeling-1.pdf); [Modelling 2](https://www.gurobi.com/pdfs/user-events/2017-frankfurt/Modeling-2.pdf);
+[Algorithms 1](https://assets.gurobi.com/pdfs/user-events/2017-frankfurt/Algorithms-I.pdf);
+[Algorithms 2](https://assets.gurobi.com/pdfs/user-events/2017-frankfurt/Algorithms-II.pdf)
 
 
 
