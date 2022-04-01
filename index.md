@@ -56,7 +56,7 @@ w3.includeHTML();
 |------+--------------------------------------------------------------------------+------------------------------------------------------------|
 |   14 | [Introduction][51].                                                      | [GRB]                                                      |
 |      | LP Practical Guidelines, Interior Point Methods, Sifting                 | **[KN1]**, [HL, sc 8.4], [MG, sc 7.2], [BGLMS, sc 3], [NW] |
-|      | Practice                                                                 | [Sheet 1][11]                                              |
+|      | Practice                                                                 | [Sheet 1][11]; [Notes on KKT][102]                         |
 |------+--------------------------------------------------------------------------+------------------------------------------------------------|
 |   15 | MILP Practical Guidelines, [Modeling], [Presolving]                      |                                                            |
 |      | [MILP Formulations for Traveling Salesman Problem]                       |                                                            |
@@ -350,6 +350,7 @@ w3.includeHTML();
 
 [100]: {{ site.baseurl }}{% post_url 2021-05-09-vrptw %}
 [101]: {{ site.baseurl }}{% post_url 2021-05-28-salt_spreading %}
+[102]: {{ "/assets/kkt.pdf" | absolute_url  }}
 
 <!--
 
