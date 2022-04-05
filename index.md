@@ -55,10 +55,10 @@ w3.includeHTML();
 | Week | Topics and Slides                                                        | Resources                                                    |
 |------+--------------------------------------------------------------------------+--------------------------------------------------------------|
 |   13 | [Introduction][51].                                                      | [GRB]                                                        |
-|      | LP Practical Guidelines, Interior Point Methods, Sifting                 | **[KN1]**, [HL, sc 8.4], [MG, sc 7.2], [BGLMS, sc 3], [NW]   |
+|      | [LP Practical Guidelines][104], Interior Point Methods, Sifting, KKT     | **[KN1]**, [HL, sc 8.4], [MG, sc 7.2], [BGLMS, sc 3], [NW]   |
 |      | Practice                                                                 | [Sheet 1][11];  [Sol][81]; [Notes on KKT][102]               |
 |------+--------------------------------------------------------------------------+--------------------------------------------------------------|
-|   14 | MILP Practical Guidelines,  [Presolving], [Modeling]                     | **[KN2]**, **[ABGRW]**, **[Wi, ch7,9,10] or [GRB modeling]** |
+|   14 | MILP Practical Guidelines,  [Presolving][60], [Modeling][56]             | **[KN2]**, **[ABGRW]**, **[Wi, ch7,9,10] or [GRB modeling]** |
 |      | [MILP Formulations for Traveling Salesman Problem]                       | [P] or [DFJ] or [MTZ] or [A] or [ABCC] or [OAL]              |
 |      | Practice TSP                                                             | [Sheet 3][13]                                                |
 |------+--------------------------------------------------------------------------+--------------------------------------------------------------|
@@ -353,6 +353,8 @@ w3.includeHTML();
 [100]: {{ site.baseurl }}{% post_url 2021-05-09-vrptw %}
 [101]: {{ site.baseurl }}{% post_url 2021-05-28-salt_spreading %}
 [102]: {{ "/assets/kkt.pdf" | absolute_url  }}
+<!-- [103]: {{ https://docs.google.com/presentation/d/1b6FRSO-KjgBJxeybW63oW3dBznAQxJ66HP0WHXTgsxY/edit?usp=sharing }} -->
+[104]: {{ "/assets/dm872-guidelines_lp.pdf" | absolute_url  }}
 
 <!--
 
