@@ -58,7 +58,7 @@ w3.includeHTML();
 |      | [LP Practical Guidelines][104], Interior Point Methods, Sifting, KKT     | **[KN1]**, [HL, sc 8.4], [MG, sc 7.2], [BGLMS, sc 3], [NW]   |
 |      | Practice                                                                 | [Sheet 1][11];  [Sol][81]; [Notes on KKT][102]               |
 |------+--------------------------------------------------------------------------+--------------------------------------------------------------|
-|   14 | MILP Practical Guidelines,  [Presolving][60], [Modeling][7]              | **[KN2]**, **[ABGRW]**, **[Wi, ch7,9,10] or [GRB modeling]** |
+|   14 | MILP Practical Guidelines,  [Presolving][60], [Modeling][56]             | **[KN2]**, **[ABGRW]**, **[Wi, ch7,9,10] or [GRB modeling]** |
 |      | [MILP Formulations for Traveling Salesman Problem]                       | [P] or [DFJ] or [MTZ] or [A] or [ABCC] or [OAL]              |
 |      | Practice TSP                                                             | [Sheet 3][13]                                                |
 |------+--------------------------------------------------------------------------+--------------------------------------------------------------|
@@ -356,7 +356,7 @@ w3.includeHTML();
 <!-- [103]: {{ https://docs.google.com/presentation/d/1b6FRSO-KjgBJxeybW63oW3dBznAQxJ66HP0WHXTgsxY/edit?usp=sharing }} -->
 [104]: {{ "/assets/dm872-guidelines_lp.pdf" | absolute_url  }}
 
-<!--
+
 
 [55]: {{ "/assets/dm872-cut-n-solve-handout.pdf" | absolute_url }}
 [56]: {{ "/assets/dm872-modeling_2-handout.pdf" | absolute_url }}
@@ -366,6 +366,7 @@ w3.includeHTML();
 [61]: {{ "/assets/dm872-dantzig_wolfe-handout.pdf" | absolute_url }}
 [67]: {{ "/assets/dm872-drawings.pdf" | absolute_url }}
 
+<!--
 
 [66]: {{ "https://github.com/DM872/Material/blob/master/Python/Sheet2.ipynb" | absolute_url }}
 
