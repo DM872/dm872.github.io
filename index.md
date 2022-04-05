@@ -175,7 +175,7 @@ w3.includeHTML();
   analysis of several asymmetric traveling salesman problem
   formulations](https://doi.org/10.1016/j.cor.2007.11.008) Computers & Operations Research 36 (2009) 
 
--->
+<!--
 
 
 - [Fi] M.L. Fisher. [The Lagrangian Relaxation Method for Solving Integer
