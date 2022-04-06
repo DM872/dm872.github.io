@@ -60,7 +60,7 @@ w3.includeHTML();
 |------+--------------------------------------------------------------------------+-----------------------------------------------------------------|
 |   14 | [MILP Practical Guidelines][105],  [Presolving][60], [Modeling][56]      | **[KN2]**, *[ABGRW]*, **[Wi, ch7,9,10] or [GRB, modeling 2]**   |
 |      | [MILP Formulations for Traveling Salesman Problem]                       | [P] or [DFJ] or [MTZ] or [A] or [ABCC] or [OAL]                 |
-|      | Practice TSP                                                             | [Sheet 2][13]                                                   |
+|      | Practice TSP                                                             | [Sheet 2][12]                                                   |
 |------+--------------------------------------------------------------------------+-----------------------------------------------------------------|
 |   15 | Practice on TSP                                                          |                                                                 |
 |      | Practice on TSP                                                          |                                                                 |
