@@ -60,29 +60,29 @@ w3.includeHTML();
 |------+--------------------------------------------------------------------------+---------------------------------------------------------------|
 |   14 | [MILP Practical Guidelines][105],  [Presolving][60], [Modeling][56]      | **[KN2]**, *[ABGRW]*, **[Wi, ch7,9,10] or [GRB, modeling 2]** |
 |      | [MILP Formulations for Traveling Salesman Problem][53]                   | [P] or [DFJ] or [MTZ] or [A] or [ABCC] or [OAL]               |
-|      | Practice TSP                                                             | [Sheet 2][12]                                                 |
+|      | Practice TSP                                                             | [Sheet 2][12]; [sol][82]                                      |
 |------+--------------------------------------------------------------------------+---------------------------------------------------------------|
-|   15 | Practice on TSP                                                          | [Sheet 3][13]                                                 |
+|   16 | [Practice on TSP][544]                                                   | [Sheet 3][13]; [sol][83]                                      |
 |      | Practice on TSP                                                          |                                                               |
-|      | [Cutting Plane Algorithms for TSP]                                       |                                                               |
-|------+--------------------------------------------------------------------------+---------------------------------------------------------------|
-|   16 | [Lagrangian Relaxation for MILP]                                         |                                                               |
-|      | [Lagrangian Relaxation and Linear Programming, Multicommodity Flows]     |                                                               |
-|      | [Lagrangian Relaxation and Integer Programming]                          |                                                               |
+|      | [Cutting Plane Algorithms for TSP][54]                                   | [DFJ], [ABCC], [OAL]                                          |
 |------+--------------------------------------------------------------------------+---------------------------------------------------------------|
 |   17 | [Dantzig Wolfe decomposition and Column Generation]                      |                                                               |
 |      | [Dual Bound in Column Generation]                                        |                                                               |
 |      | Practice on CG                                                           |                                                               |
 |------+--------------------------------------------------------------------------+---------------------------------------------------------------|
-|   18 | Vehicle Routing: [Compact models]; [Set Partitioning formulation and CG] |                                                               |
+|   18 | [Lagrangian Relaxation for MILP]                                         |                                                               |
+|      | [Lagrangian Relaxation and Linear Programming, Multicommodity Flows]     |                                                               |
+|      | [Lagrangian Relaxation and Integer Programming]                          |                                                               |
+|------+--------------------------------------------------------------------------+---------------------------------------------------------------|
+|   19 | Vehicle Routing: [Compact models]; [Set Partitioning formulation and CG] |                                                               |
 |      | Vehicle Routing: [Cutting and Branching]; [Notes on Branching]           |                                                               |
 |      | Applications of LR: [Vehicle Scheduling]                                 |                                                               |
 |------+--------------------------------------------------------------------------+---------------------------------------------------------------|
-|   19 | [Crew Scheduling]; [RCSP]                                                |                                                               |
+|   20 | [Crew Scheduling]; [RCSP]                                                |                                                               |
 |      | [Benders Decomposition]                                                  |                                                               |
 |      | Benders Decomposition Practice                                           |                                                               |
 |------+--------------------------------------------------------------------------+---------------------------------------------------------------|
-|   20 | Integer Programming and Heuristics                                       |                                                               |
+|   21 | Integer Programming and Heuristics                                       |                                                               |
 |      | Integer Programming and Machine Learning                                 |                                                               |
 |      |                                                                          |                                                               |
 |------+--------------------------------------------------------------------------+---------------------------------------------------------------|
@@ -305,8 +305,14 @@ w3.includeHTML();
 -->
 
 [11]: {{ site.baseurl }}{% post_url 2020-03-31-fitting %}
-[12]: {{ "/assets/tsp_gurobi.html" | absolute_url }}
-[13]: {{ site.baseurl }}{% post_url 2021-04-15-tsp_formulations %}
+[12]: {{ "/assets/tsp_formulations_gurobi.html" | absolute_url }}
+[82]: {{ "/assets/formulations_sol.html" | absolute_url }}
+<!-- [13]: {{ site.baseurl }}{% post_url 2021-04-15-tsp_formulations %} -->
+[13]: {{ "/assets/tsp_gurobi.html" | absolute_url }}
+[83]: {{ "/assets/tsp_sol_gurobi.html" | absolute_url }}
+
+
+
 [133]: {{ "https://github.com/DM872/Material/blob/master/TSP/tsp.ipynb" | absolute_url }}
 [14]: {{ site.baseurl }}{% post_url 2021-04-26-lagrangian %}
 [15]: {{ site.baseurl }}{% post_url 2021-05-02-colgen %}
@@ -314,8 +320,6 @@ w3.includeHTML();
 
 
 [81]: {{ "/assets/feat_sel.html" | absolute_url }}
-[82]: {{ "/assets/formulations_sol.html" | absolute_url }}
-[83]: {{ "/assets/tsp_sol.html" | absolute_url }}
 [84]: {{ "/assets/Lagrangian_grp.html" | absolute_url }}
 [86]: {{ "/assets/benders_example.html" | absolute_url }}
 
