@@ -62,7 +62,7 @@ w3.includeHTML();
 |      | [MILP Formulations for Traveling Salesman Problem][53]                   | [P] or [DFJ] or [MTZ] or [A] or [ABCC] or [OAL]               |
 |      | Practice TSP                                                             | [Sheet 2][12]; [sol][82]                                      |
 |------+--------------------------------------------------------------------------+---------------------------------------------------------------|
-|   16 | [Practice on TSP][544]                                                   | [Sheet 3][13]; [sol][83]                                      |
+|   16 | [Practice on TSP][144]                                                   | [Sheet 3][13]; [sol][83]                                      |
 |      | Practice on TSP                                                          |                                                               |
 |      | [Cutting Plane Algorithms for TSP][54]                                   | [DFJ], [ABCC], [OAL]                                          |
 |------+--------------------------------------------------------------------------+---------------------------------------------------------------|
@@ -334,6 +334,7 @@ w3.includeHTML();
 [52]: {{ "/assets/dm872-preprocessing-handout.pdf" | absolute_url }}
 [53]: {{ "/assets/dm872-TSP_Formulations.pdf" | absolute_url }}
 [54]: {{ "/assets/TSP_210422_111820.pdf" | absolute_url }}
+[144]: {{ "/assets/dm872-tsp-handout.pdf" | absolute_url }}
 [55]: {{ "/assets/dm872-lagrangian-handout.pdf" | absolute_url }}
 [56]: {{ "/assets/Notes_210428_114528.pdf" | absolute_url }}
 [57]: {{ "/assets/Notes_210429_174511.pdf" | absolute_url }}
