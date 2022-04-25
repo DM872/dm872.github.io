@@ -173,8 +173,23 @@ w3.includeHTML();
   analysis of several asymmetric traveling salesman problem
   formulations](https://doi.org/10.1016/j.cor.2007.11.008) Computers & Operations Research 36 (2009) 
 
+
+- [AMO] R.K. Ahuja, T.L. Magnanti and J.B. Orlin. Network Flows: Theory,
+  Algorithms, and Applications. Chapters 16 and 17. Prentice Hall, 1993 
+
+
+- [LD] M.E. Lübbecke, J. Desrosiers [Selected Topics in Column
+  Generation](https://doi.org/10.1287/opre.1050.0234). Operations
+  Research. Vol. 53, No. 6, 2005
+
+
 <!--
 
+
+- [Fe] Feillet, D. [A tutorial on column generation and branch-and-price for
+  vehicle routing
+  problems](https://doi.org/10.1007/s10288-010-0130-z). 4OR-Q J Oper Res
+  (2010) 8: 407.
 
 - [Fi] M.L. Fisher. [The Lagrangian Relaxation Method for Solving Integer
   Programming
@@ -185,9 +200,6 @@ w3.includeHTML();
   relaxation](http://www.cs.uleth.ca/~benkoczi/OR/read/lagrange-relax-introduct-fisher85.pdf)
   Interfaces 15:2, 10-21, 1985.
 
-
-- [AMO] R.K. Ahuja, T.L. Magnanti and J.B. Orlin. Network Flows: Theory,
-  Algorithms, and Applications. Chapters 16 and 17. Prentice Hall, 1993 
 
 - [IB] S. Ilker Birbil. [Lagrangian
   Relaxation](https://personal.eur.nl/birbil/bolbilim/teaa/02_Lag_Rel.pdf). 2016
@@ -205,15 +217,6 @@ w3.includeHTML();
 - [CG] P. Carraresi and G. Gallo. [Network models for vehicle and crew
   scheduling](http://dx.doi.org/10.1016/0377-2217(84)90068-7). European
   Journal of Operational Research , 1984, 16(2) , 139 - 151
-
-- [LD] M.E. Lübbecke, J. Desrosiers [Selected Topics in Column
-  Generation](https://doi.org/10.1287/opre.1050.0234). Operations
-  Research. Vol. 53, No. 6, 2005
-
-- [Fe] Feillet, D. [A tutorial on column generation and branch-and-price for
-  vehicle routing
-  problems](https://doi.org/10.1007/s10288-010-0130-z). 4OR-Q J Oper Res
-  (2010) 8: 407.
 
 - [TV] Toth P. and Vigo D. (eds) Vehicle routing: Problems, Methods
   and Applications, Second Edition, Society for Industrial and Applied
