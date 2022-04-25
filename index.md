@@ -66,9 +66,9 @@ w3.includeHTML();
 |      | Practice on TSP                                                          |                                                               |
 |      | [Cutting Plane Algorithms for TSP][54]                                   | [DFJ], [ABCC], [OAL]                                          |
 |------+--------------------------------------------------------------------------+---------------------------------------------------------------|
-|   17 | [Dantzig Wolfe decomposition and Column Generation]                      |                                                               |
-|      | [Dual Bound in Column Generation]                                        |                                                               |
-|      | Practice on CG                                                           |                                                               |
+|   17 | [Dantzig Wolfe decomposition and Column Generation][58]                  | [BGLMS, sc 3];  **[Wo ch 11 in LMS]**; [LD]                   |
+|      | [Dual Bound in Column Generation][59]                                    | **[AMO ch 17.5, 17.6]**;                                      |
+|      | Practice on CG                                                           | [Sheet 5][15]                                                 |
 |------+--------------------------------------------------------------------------+---------------------------------------------------------------|
 |   18 | [Lagrangian Relaxation for MILP]                                         |                                                               |
 |      | [Lagrangian Relaxation and Linear Programming, Multicommodity Flows]     |                                                               |
