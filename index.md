@@ -68,7 +68,7 @@ w3.includeHTML();
 |------+--------------------------------------------------------------------------+---------------------------------------------------------------|
 |   17 | [Dantzig Wolfe decomposition and Column Generation][58]                  | [BGLMS, sc 3];  **[Wo ch 11 in LMS]**; [LD]                   |
 |      | [Dual Bound in Column Generation][59]                                    | **[AMO ch 17.5, 17.6]**;                                      |
-|      | Practice on CG                                                           | [Sheet 4][15]                                                 |
+|      | Practice on CG                                                           | [Sheet 4][15]; [Sol][84]                                      |
 |------+--------------------------------------------------------------------------+---------------------------------------------------------------|
 |   19 | Vehicle Routing: [Compact models]; [Set Partitioning formulation and CG] | Assignment 1;                                                 |
 |      | Vehicle Routing: [Cutting and Branching]; [Notes on Branching]           |                                                               |
@@ -313,7 +313,7 @@ w3.includeHTML();
 <!-- [13]: {{ site.baseurl }}{% post_url 2021-04-15-tsp_formulations %} -->
 [13]: {{ "/assets/tsp_gurobi.html" | absolute_url }}
 [83]: {{ "/assets/tsp_sol_gurobi.html" | absolute_url }}
-
+[84]: {{ "/assets/Notes_220427_155254.pdf" | absolute_url }}
 
 
 [133]: {{ "https://github.com/DM872/Material/blob/master/TSP/tsp.ipynb" | absolute_url }}
