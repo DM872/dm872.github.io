@@ -70,13 +70,13 @@ w3.includeHTML();
 |      | [Dual Bound in Column Generation][59]                                    | **[AMO ch 17.5, 17.6]**;                                      |
 |      | Practice on CG                                                           | [Sheet 4][15]                                                 |
 |------+--------------------------------------------------------------------------+---------------------------------------------------------------|
+|   19 | Vehicle Routing: [Compact models]; [Set Partitioning formulation and CG] | Assignment 1;                                                 |
+|      | Vehicle Routing: [Cutting and Branching]; [Notes on Branching]           |                                                               |
+|      | Applications of LR: [Vehicle Scheduling]                                 |                                                               |
+|------+--------------------------------------------------------------------------+---------------------------------------------------------------|
 |   18 | [Lagrangian Relaxation for MILP]                                         |                                                               |
 |      | [Lagrangian Relaxation and Linear Programming, Multicommodity Flows]     |                                                               |
 |      | [Lagrangian Relaxation and Integer Programming]                          |                                                               |
-|------+--------------------------------------------------------------------------+---------------------------------------------------------------|
-|   19 | Vehicle Routing: [Compact models]; [Set Partitioning formulation and CG] |                                                               |
-|      | Vehicle Routing: [Cutting and Branching]; [Notes on Branching]           |                                                               |
-|      | Applications of LR: [Vehicle Scheduling]                                 |                                                               |
 |------+--------------------------------------------------------------------------+---------------------------------------------------------------|
 |   20 | [Crew Scheduling]; [RCSP]                                                |                                                               |
 |      | [Benders Decomposition]                                                  |                                                               |
@@ -342,7 +342,7 @@ w3.includeHTML();
 [56]: {{ "/assets/Notes_210428_114528.pdf" | absolute_url }}
 [57]: {{ "/assets/Notes_210429_174511.pdf" | absolute_url }}
 [58]: {{ "/assets/dm872-dantzig_wolfe-handout.pdf" | absolute_url }}
-[59]: {{ "/assets/Notes_210505_115536.pdf" | absolute_url }}
+[59]: {{ "/assets/Notes_220425_163727.pdf" | absolute_url }}
 [60]: {{ "/assets/dm872-preprocessing-handout.pdf" | absolute_url }}
 
 [62]: {{ "https://sdu.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=207124" }}

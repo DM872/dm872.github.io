@@ -321,7 +321,7 @@ w3.includeHTML();
 [56]: {{ "/assets/Notes_210428_114528.pdf" | absolute_url }}
 [57]: {{ "/assets/Notes_210429_174511.pdf" | absolute_url }}
 [58]: {{ "/assets/dm872-dantzig_wolfe-handout.pdf" | absolute_url }}
-[59]: {{ "/assets/Notes_220425_163727.pdf" | absolute_url }}
+[59]: {{ "/assets/Notes_210505_115536.pdf" | absolute_url }}
 [60]: {{ "/assets/dm872-preprocessing-handout.pdf" | absolute_url }}
 
 [62]: {{ "https://sdu.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=207124" }}
