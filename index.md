@@ -324,7 +324,7 @@ w3.includeHTML();
 
 
 [81]: {{ "/assets/feat_sel.html" | absolute_url }}
-[84]: {{ "/assets/Lagrangian_grp.html" | absolute_url }}
+[85]: {{ "/assets/Lagrangian_grp.html" | absolute_url }}
 [86]: {{ "/assets/benders_example.html" | absolute_url }}
 
 [32]: {{ "https://github.com/DM872/Material/blob/master/sheet2/infection.ipynb" }}
