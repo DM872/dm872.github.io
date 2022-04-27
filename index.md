@@ -70,9 +70,9 @@ w3.includeHTML();
 |      | [Dual Bound in Column Generation][59]                                    | **[AMO ch 17.5, 17.6]**;                                      |
 |      | Practice on CG                                                           | [Sheet 4][15]; [Sol][84]                                      |
 |------+--------------------------------------------------------------------------+---------------------------------------------------------------|
-|   19 | Vehicle Routing: [Compact models]; [Set Partitioning formulation and CG] | Assignment 1;                                                 |
-|      | Vehicle Routing: [Cutting and Branching]; [Notes on Branching]           |                                                               |
-|      | Applications of LR: [Vehicle Scheduling]                                 |                                                               |
+|   19 | Vehicle Routing: [Compact models]; [Set Partitioning formulation and CG] | **[Assignment 1][100]**; **[Fe]**, [TV]                       |
+|      | Vehicle Routing: [Cutting and Branching]; [Notes on Branching]           | **[Fe]**; **[Wo p 121 & ch 11 in LMS]**; [C]                  |
+|      | Applications of LR: [Vehicle Scheduling]                                 | [BCG]; [CG]                                                   |
 |------+--------------------------------------------------------------------------+---------------------------------------------------------------|
 |   18 | [Lagrangian Relaxation for MILP]                                         |                                                               |
 |      | [Lagrangian Relaxation and Linear Programming, Multicommodity Flows]     |                                                               |
@@ -183,31 +183,12 @@ w3.includeHTML();
   Research. Vol. 53, No. 6, 2005
 
 
-<!--
-
-
 - [Fe] Feillet, D. [A tutorial on column generation and branch-and-price for
   vehicle routing
   problems](https://doi.org/10.1007/s10288-010-0130-z). 4OR-Q J Oper Res
   (2010) 8: 407.
 
-- [Fi] M.L. Fisher. [The Lagrangian Relaxation Method for Solving Integer
-  Programming
-  Problems](http://dx.doi.org/10.1287/mnsc.1040.0263). Management
-  Science, 2004, 50(12), 1861-1871
-
-- [Fi2] M.L. Fisher. [An applications oriented guide to Lagrangian
-  relaxation](http://www.cs.uleth.ca/~benkoczi/OR/read/lagrange-relax-introduct-fisher85.pdf)
-  Interfaces 15:2, 10-21, 1985.
-
-
-- [IB] S. Ilker Birbil. [Lagrangian
-  Relaxation](https://personal.eur.nl/birbil/bolbilim/teaa/02_Lag_Rel.pdf). 2016
-
-- [JB] J. E. Beasley. [Integer Programming Solution
-  Methods](http://people.brunel.ac.uk/~mastjjb/jeb/natcor_ip_rest.pdf). 
-
-- [Wo] L.A. Wolsey. Integer programming. John Wiley & Sons, New York, USA, 1998
+- [Wo] L.A. Wolsey. Integer programming. John Wiley & Sons, New York, USA, 2021
 
 - [BCG] A.A. Bertossi, P. Carraresi and G. Gallo. [On some matching
   problems arising in vehicle scheduling
@@ -226,6 +207,26 @@ w3.includeHTML();
   Examples]({{ "/assets/Clausen1999.pdf" | absolute_url
   }}). 1999. Technical Report. Department of Computer
   Science. University of Copenhagen.
+
+
+<!--
+
+- [Fi] M.L. Fisher. [The Lagrangian Relaxation Method for Solving Integer
+  Programming
+  Problems](http://dx.doi.org/10.1287/mnsc.1040.0263). Management
+  Science, 2004, 50(12), 1861-1871
+
+- [Fi2] M.L. Fisher. [An applications oriented guide to Lagrangian
+  relaxation](http://www.cs.uleth.ca/~benkoczi/OR/read/lagrange-relax-introduct-fisher85.pdf)
+  Interfaces 15:2, 10-21, 1985.
+
+
+- [IB] S. Ilker Birbil. [Lagrangian
+  Relaxation](https://personal.eur.nl/birbil/bolbilim/teaa/02_Lag_Rel.pdf). 2016
+
+- [JB] J. E. Beasley. [Integer Programming Solution
+  Methods](http://people.brunel.ac.uk/~mastjjb/jeb/natcor_ip_rest.pdf). 
+
 
 
 
