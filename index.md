@@ -368,16 +368,17 @@ w3.includeHTML();
 [105]: {{ "/assets/dm872-guidelines_milp.pdf" | absolute_url  }}
 
 
-
+<!--
 [55]: {{ "/assets/dm872-cut-n-solve-handout.pdf" | absolute_url }}
 [56]: {{ "/assets/dm872-modeling_2-handout.pdf" | absolute_url }}
 [57]: {{ "/assets/dm872-timetabling_2-handout.pdf" | absolute_url }}
 [58]: {{ "/assets/dm872-timetabling_3-handout.pdf" | absolute_url }}
 
+
 [61]: {{ "/assets/dm872-dantzig_wolfe-handout.pdf" | absolute_url }}
 [67]: {{ "/assets/dm872-drawings.pdf" | absolute_url }}
 
-<!--
+
 
 [66]: {{ "https://github.com/DM872/Material/blob/master/Python/Sheet2.ipynb" | absolute_url }}
 
