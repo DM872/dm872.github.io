@@ -68,15 +68,15 @@ w3.includeHTML();
 |------+----------------------------------------------------------------------------------+---------------------------------------------------------------|
 |   17 | [Dantzig Wolfe decomposition and Column Generation][58]                          | [BGLMS, sc 3];  **[Wo ch 11 in LMS]**; [LD]                   |
 |      | [Dual Bound in Column Generation][59]                                            | **[AMO ch 17.5, 17.6]**;                                      |
-|      | Practice on CG                                                                   | [Sheet 4][15]; [Sol][84]                                      |
+|      | Practice on CG                                                                   | [Sheet 4][14]; [Sol][84]                                      |
 |------+----------------------------------------------------------------------------------+---------------------------------------------------------------|
-|   19 | Vehicle Routing: [Compact models][62]; [Set Partitioning formulation and CG][63] | **[Assignment 1][100]**; **[Fe]**, [TV]                       |
+|   18 | Vehicle Routing: [Compact models][62]; [Set Partitioning formulation and CG][63] | **[Assignment 1][100]**; **[Fe]**, [TV]                       |
 |      | Vehicle Routing: [Cutting and Branching][64]; [Notes on Branching][65]           | **[Fe]**; **[Wo p 121 & ch 11 in LMS]**; [C]                  |
-|      | Applications of LR: [Vehicle Scheduling]                                         | [BCG]; [CG]                                                   |
+|      | Practice on Branch-and-Price; [Lagrangian Relaxation for MILP][55]               | [Sheet 5][15]                                                 |
 |------+----------------------------------------------------------------------------------+---------------------------------------------------------------|
-|   18 | [Lagrangian Relaxation for MILP]                                                 |                                                               |
-|      | [Lagrangian Relaxation and Linear Programming, Multicommodity Flows]             |                                                               |
+|   19 | [Lagrangian Relaxation and Linear Programming, Multicommodity Flows]             |                                                               |
 |      | [Lagrangian Relaxation and Integer Programming]                                  |                                                               |
+|      | Applications of LR: [Vehicle Scheduling]                                         | [BCG]; [CG]                                                   |
 |------+----------------------------------------------------------------------------------+---------------------------------------------------------------|
 |   20 | [Crew Scheduling]; [RCSP]                                                        |                                                               |
 |      | [Benders Decomposition]                                                          |                                                               |
@@ -318,9 +318,10 @@ w3.includeHTML();
 
 
 [133]: {{ "https://github.com/DM872/Material/blob/master/TSP/tsp.ipynb" | absolute_url }}
-[14]: {{ site.baseurl }}{% post_url 2021-04-26-lagrangian %}
-[15]: {{ site.baseurl }}{% post_url 2021-05-02-colgen %}
-[16]: {{ site.baseurl }}{% post_url 2021-05-14-benders %}
+[14]: {{ site.baseurl }}{% post_url 2021-05-02-colgen %}
+[15]: {{ site.baseurl }}{% post_url 2022-05-04-bnprice %}
+[16]: {{ site.baseurl }}{% post_url 2021-04-26-lagrangian %}
+[17]: {{ site.baseurl }}{% post_url 2021-05-14-benders %}
 
 
 [81]: {{ "/assets/feat_sel.html" | absolute_url }}
