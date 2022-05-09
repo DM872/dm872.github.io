@@ -72,10 +72,10 @@ w3.includeHTML();
 |------+----------------------------------------------------------------------------------+---------------------------------------------------------------|
 |   18 | Vehicle Routing: [Compact models][62]; [Set Partitioning formulation and CG][63] | **[Assignment 1][100]**; **[Fe]**, [TV]                       |
 |      | Vehicle Routing: [Cutting and Branching][64]; [Notes on Branching][65]           | **[Fe]**; **[Wo p 121 & ch 11 in LMS]**; [C]                  |
-|      | Practice on Branch-and-Price; [Lagrangian Relaxation for MILP][55]               | [Sheet 5][15]                                                 |
+|      | Practice on Branch-and-Price; [Lagrangian Relaxation for MILP][55]               | [Sheet 5][15]  **[Fi]**                                               |
 |------+----------------------------------------------------------------------------------+---------------------------------------------------------------|
-|   19 | [Lagrangian Relaxation and Linear Programming, Multicommodity Flows]             |                                                               |
-|      | [Lagrangian Relaxation and Integer Programming]                                  |                                                               |
+|   19 | [Lagrangian Relaxation and Linear Programming, Multicommodity Flows][56]             |     **[AMO ch 16 + 17.4 in LMS]**;                                                           |
+|      | [Lagrangian Relaxation and Integer Programming][57]                                  | [Sheet 6][16] ([IB]; [JB]; [Fi2]); [Fi, sc 8]; [AMO sc 16.4]; [Wo ch 10 in LMS]; [AMO sc 16.5]            |
 |      | Applications of LR: [Vehicle Scheduling]                                         | [BCG]; [CG]                                                   |
 |------+----------------------------------------------------------------------------------+---------------------------------------------------------------|
 |   20 | [Crew Scheduling]; [RCSP]                                                        |                                                               |
@@ -209,7 +209,7 @@ w3.includeHTML();
   Science. University of Copenhagen.
 
 
-<!--
+
 
 - [Fi] M.L. Fisher. [The Lagrangian Relaxation Method for Solving Integer
   Programming
@@ -227,7 +227,7 @@ w3.includeHTML();
 - [JB] J. E. Beasley. [Integer Programming Solution
   Methods](http://people.brunel.ac.uk/~mastjjb/jeb/natcor_ip_rest.pdf). 
 
-
+<!--
 
 
 - [SGSK] I. Steinzen, V. Gintner, L. Suhl and N. Kliewer. [A Time-Space
