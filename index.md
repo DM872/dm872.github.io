@@ -52,40 +52,39 @@ w3.includeHTML();
 
 
 
-| Week | Topics and Slides                                                                | Resources                                                     |
-|------+----------------------------------------------------------------------------------+---------------------------------------------------------------|
-|   13 | [Introduction][51].                                                              | [GRB]                                                         |
-|      | [LP Practical Guidelines][104], Interior Point Methods, Sifting, KKT             | **[KN1]**, [HL, sc 8.4], [MG, sc 7.2], [BGLMS, sc 3], [NW]    |
-|      | Practice                                                                         | [Sheet 1][11];  [Sol][81]; [Notes on KKT][102]                |
-|------+----------------------------------------------------------------------------------+---------------------------------------------------------------|
-|   14 | [MILP Practical Guidelines][105],  [Presolving][60], [Modeling][56]              | **[KN2]**, *[ABGRW]*, **[Wi, ch7,9,10] or [GRB, modeling 2]** |
-|      | [MILP Formulations for Traveling Salesman Problem][53]                           | [P] or [DFJ] or [MTZ] or [A] or [ABCC] or [OAL]               |
-|      | Practice TSP                                                                     | [Sheet 2][12]; [sol][82]                                      |
-|------+----------------------------------------------------------------------------------+---------------------------------------------------------------|
-|   16 | [Practice on TSP][144]                                                           | [Sheet 3][13]; [sol][83]                                      |
-|      | Practice on TSP                                                                  |                                                               |
-|      | [Cutting Plane Algorithms for TSP][54]                                           | [DFJ], [ABCC], [OAL]                                          |
-|------+----------------------------------------------------------------------------------+---------------------------------------------------------------|
-|   17 | [Dantzig Wolfe decomposition and Column Generation][58]                          | [BGLMS, sc 3];  **[Wo ch 11 in LMS]**; [LD]                   |
-|      | [Dual Bound in Column Generation][59]                                            | **[AMO ch 17.5, 17.6]**;                                      |
-|      | Practice on CG                                                                   | [Sheet 4][14]; [Sol][84]                                      |
-|------+----------------------------------------------------------------------------------+---------------------------------------------------------------|
-|   18 | Vehicle Routing: [Compact models][62]; [Set Partitioning formulation and CG][63] | **[Assignment 1][100]**; **[Fe]**, [TV]                       |
-|      | Vehicle Routing: [Cutting and Branching][64]; [Notes on Branching][65]           | **[Fe]**; **[Wo p 121 & ch 11 in LMS]**; [C]                  |
-|      | Practice on Branch-and-Price; [Lagrangian Relaxation for MILP][55]               | [Sheet 5][15]  **[Fi]**                                               |
-|------+----------------------------------------------------------------------------------+---------------------------------------------------------------|
-|   19 | [Lagrangian Relaxation and Linear Programming, Multicommodity Flows][56]             |     **[AMO ch 16 + 17.4 in LMS]**;                                                           |
-|      | [Lagrangian Relaxation and Integer Programming][57]                                  | [Sheet 6][16] ([IB]; [JB]; [Fi2]); [Fi, sc 8]; [AMO sc 16.4]; [Wo ch 10 in LMS]; [AMO sc 16.5]            |
-|      | Applications of LR: [Vehicle Scheduling]                                         | [BCG]; [CG]                                                   |
-|------+----------------------------------------------------------------------------------+---------------------------------------------------------------|
-|   20 | [Crew Scheduling]; [RCSP]                                                        |                                                               |
-|      | [Benders Decomposition]                                                          |                                                               |
-|      | Benders Decomposition Practice                                                   |                                                               |
-|------+----------------------------------------------------------------------------------+---------------------------------------------------------------|
-|   21 | Integer Programming and Heuristics                                               |                                                               |
-|      | Integer Programming and Machine Learning                                         |                                                               |
-|      |                                                                                  |                                                               |
-|------+----------------------------------------------------------------------------------+---------------------------------------------------------------|
+| Week | Topics and Slides                                                                | Resources                                                                                                 |
+|------+----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------|
+|   13 | [Introduction][51].                                                              | [GRB]                                                                                                     |
+|      | [LP Practical Guidelines][104], Interior Point Methods, Sifting, KKT             | **[KN1]**, [HL, sc 8.4], [MG, sc 7.2], [BGLMS, sc 3], [NW]                                                |
+|      | Practice                                                                         | [Sheet 1][11];  [Sol][81]; [Notes on KKT][102]                                                            |
+|------+----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------|
+|   14 | [MILP Practical Guidelines][105],  [Presolving][60], [Modeling][56]              | **[KN2]**, *[ABGRW]*, **[Wi, ch7,9,10] or [GRB, modeling 2]**                                             |
+|      | [MILP Formulations for Traveling Salesman Problem][53]                           | [P] or [DFJ] or [MTZ] or [A] or [ABCC] or [OAL]                                                           |
+|      | Practice TSP                                                                     | [Sheet 2][12]; [sol][82]                                                                                  |
+|------+----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------|
+|   16 | [Practice on TSP][144]                                                           | [Sheet 3][13]; [sol][83]                                                                                  |
+|      | Practice on TSP                                                                  |                                                                                                           |
+|      | [Cutting Plane Algorithms for TSP][54]                                           | [DFJ], [ABCC], [OAL]                                                                                      |
+|------+----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------|
+|   17 | [Dantzig Wolfe decomposition and Column Generation][58]                          | [BGLMS, sc 3];  **[Wo ch 11 in LMS]**; [LD]                                                               |
+|      | [Dual Bound in Column Generation][59]                                            | **[AMO ch 17.5, 17.6]**;                                                                                  |
+|      | Practice on CG                                                                   | [Sheet 4][14]; [Sol][84]                                                                                  |
+|------+----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------|
+|   18 | Vehicle Routing: [Compact models][62]; [Set Partitioning formulation and CG][63] | **[Assignment 1][100]**; **[Fe]**, [TV]                                                                   |
+|      | Vehicle Routing: [Cutting and Branching][64]; [Notes on Branching][65]           | **[Fe]**; **[Wo p 121 & ch 11 in LMS]**; [C]                                                              |
+|      | Practice on Branch-and-Price; [Lagrangian Relaxation for MILP][55]               | [Sheet 5][15]  **[Fi]**                                                                                   |
+|------+----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------|
+|   19 | [Lagrangian Relaxation and Linear Programming, Multicommodity Flows][56]         | **[AMO ch 16 + 17.4 in LMS]**;                                                                            |
+|      | [Lagrangian Relaxation and Integer Programming][57]                              | [Sheet 6][16]; [Sol][84] ([IB]; [JB]; [Fi2]); [Fi, sc 8]; [AMO sc 16.4]; [Wo ch 10 in LMS]; [AMO sc 16.5] |
+|------+----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------|
+|   20 | Applications of LR: [Vehicle Scheduling][66], [Crew Scheduling][67], [RCSP][68]  | [BCG]; [CG]; [SGSK]; [GM]                                                                                 |
+|      | [Benders Decomposition]                                                          |                                                                                                           |
+|      | Benders Decomposition Practice                                                   |                                                                                                           |
+|------+----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------|
+|   21 | Integer Programming and Heuristics                                               |                                                                                                           |
+|      | Integer Programming and Machine Learning                                         |                                                                                                           |
+|      |                                                                                  |                                                                                                           |
+|------+----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------|
 
 
 
