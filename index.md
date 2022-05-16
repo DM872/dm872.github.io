@@ -75,7 +75,7 @@ w3.includeHTML();
 |      | Practice on Branch-and-Price; [Lagrangian Relaxation for MILP][55]               | [Sheet 5][15]  **[Fi]**                                                                                   |
 |------+----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------|
 |   19 | [Lagrangian Relaxation and Linear Programming, Multicommodity Flows][56]         | **[AMO ch 16 + 17.4 in LMS]**;                                                                            |
-|      | [Lagrangian Relaxation and Integer Programming][57]                              | [Sheet 6][16]; [Sol][84] ([IB]; [JB]; [Fi2]); [Fi, sc 8]; [AMO sc 16.4]; [Wo ch 10 in LMS]; [AMO sc 16.5] |
+|      | [Lagrangian Relaxation and Integer Programming][57]                              | [Sheet 6][16]; [Sol][35] ([IB]; [JB]; [Fi2]); [Fi, sc 8]; [AMO sc 16.4]; [Wo ch 10 in LMS]; [AMO sc 16.5] |
 |------+----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------|
 |   20 | Applications of LR: [Vehicle Scheduling][66], [Crew Scheduling][67], [RCSP][68]  | [BCG]; [CG]; [SGSK]; [GM]                                                                                 |
 |      | [Benders Decomposition]                                                          | **[Wo ch 12 in LMS]**; [DJ]; [Z]                                                                          |
