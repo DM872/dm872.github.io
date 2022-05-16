@@ -78,12 +78,13 @@ w3.includeHTML();
 |      | [Lagrangian Relaxation and Integer Programming][57]                              | [Sheet 6][16]; [Sol][84] ([IB]; [JB]; [Fi2]); [Fi, sc 8]; [AMO sc 16.4]; [Wo ch 10 in LMS]; [AMO sc 16.5] |
 |------+----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------|
 |   20 | Applications of LR: [Vehicle Scheduling][66], [Crew Scheduling][67], [RCSP][68]  | [BCG]; [CG]; [SGSK]; [GM]                                                                                 |
-|      | [Benders Decomposition]                                                          |                                                                                                           |
-|      | Benders Decomposition Practice                                                   |                                                                                                           |
+|      | [Benders Decomposition]                                                          | **[Wo ch 12 in LMS]**; [DJ]; [Z]                                                                          |
+|      | Benders Decomposition Practice                                                   | [Sheet 7][16];                                                                                            |
 |------+----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------|
 |   21 | Integer Programming and Heuristics                                               |                                                                                                           |
 |      | Integer Programming and Machine Learning                                         |                                                                                                           |
-|      |                                                                                  |                                                                                                           |
+|------+----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------|
+|   22 |                                                                                  | Assignment 2                                                                                              |
 |------+----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------|
 
 
@@ -226,7 +227,7 @@ w3.includeHTML();
 - [JB] J. E. Beasley. [Integer Programming Solution
   Methods](http://people.brunel.ac.uk/~mastjjb/jeb/natcor_ip_rest.pdf). 
 
-<!--
+
 
 
 - [SGSK] I. Steinzen, V. Gintner, L. Suhl and N. Kliewer. [A Time-Space
@@ -250,6 +251,9 @@ w3.includeHTML();
 
 
 - Zhang, Ray Jian, [Benders Decomposition: An Easy Example](https://youtu.be/vQzpydNOWDY). 2016. Video
+
+
+<!--
 
 - [FL] M. Fischetti, A. Lodi, [Heuristics in Mixed Integer
   Programming](https://homepages.cwi.nl/~dadush/workshop/discrepancy-ip/papers/heuristics-survey-fischetti-lodi-11.pdf),
