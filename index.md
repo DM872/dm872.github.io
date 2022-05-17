@@ -79,7 +79,7 @@ w3.includeHTML();
 |------+----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------|
 |   20 | Applications of LR: [Vehicle Scheduling][66], [Crew Scheduling][67], [RCSP][68]  | [BCG]; [CG]; [SGSK]; [GM]                                                                                 |
 |      | [Benders Decomposition]                                                          | **[Wo ch 12 in LMS]**; [DJ]; [Z]                                                                          |
-|      | Benders Decomposition Practice                                                   | [Sheet 7][16];                                                                                            |
+|      | Benders Decomposition Practice                                                   | [Sheet 7][17];                                                                                            |
 |------+----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------|
 |   21 | Integer Programming and Heuristics                                               |                                                                                                           |
 |      | Integer Programming and Machine Learning                                         |                                                                                                           |
