@@ -77,9 +77,9 @@ w3.includeHTML();
 |   19 | [Lagrangian Relaxation and Linear Programming, Multicommodity Flows][56]         | **[AMO ch 16 + 17.4 in LMS]**;                                                                            |
 |      | [Lagrangian Relaxation and Integer Programming][57]                              | [Sheet 6][16]; [Sol][85] ([IB]; [JB]; [Fi2]); [Fi, sc 8]; [AMO sc 16.4]; [Wo ch 10 in LMS]; [AMO sc 16.5] |
 |------+----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------|
-|   20 | Applications of LR: [Vehicle Scheduling][66], [Crew Scheduling][67], [RCSP][68]  | [BCG]; [CG]; [SGSK]; [GM]                                                                                 |
-|      | [Benders Decomposition]                                                          | **[Wo ch 12 in LMS]**; [DJ]; [Z]                                                                          |
-|      | Benders Decomposition Practice                                                   | [Sheet 7][17];                                                                                            |
+|   20 | Applications: [Vehicle Scheduling][66]                                           | [BCG]; [CG];                                                                                              |
+|      | [Crew Scheduling][67], [RCSP][68]                                                | [SGSK]; [GM]                                                                                              |
+|      | [Benders' Algorithm][69]; [Stochastic Programming][70]                           | **[Wo ch 12 in LMS]**; [DJ]; [Z]; [Sheet 7][17]                                                           |
 |------+----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------|
 |   21 | Integer Programming and Heuristics                                               |                                                                                                           |
 |      | Integer Programming and Machine Learning                                         |                                                                                                           |
@@ -358,8 +358,8 @@ w3.includeHTML();
 [66]: {{ "/assets/dm872-vehicle-scheduling-handout.pdf" | absolute_url }}
 [67]: {{ "/assets/dm872-crew-scheduling-handout.pdf" | absolute_url }}
 [68]: {{ "/assets/dm872-rcsp-handout.pdf" | absolute_url }}
-[69]: {{ "/assets/Notes_210520_002409.pdf" | absolute_url }}
-
+[69]: {{ "/assets/Notes_220518_190121.pdf" | absolute_url }}
+[70]: {{ "/assets/dm872-benders-handout.pdf" | absolute_url }}
 
 [100]: {{ site.baseurl }}{% post_url 2021-05-09-vrptw %}
 [101]: {{ site.baseurl }}{% post_url 2021-05-28-salt_spreading %}
