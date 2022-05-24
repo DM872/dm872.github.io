@@ -81,8 +81,8 @@ w3.includeHTML();
 |      | [Crew Scheduling][67], [RCSP][68]                                                | [SGSK]; [GM]                                                                                              |
 |      | [Benders' Algorithm][69]; [Stochastic Programming][70]                           | **[Wo ch 12 in LMS]**; [DJ]; [Z]; [Sheet 7][17]                                                           |
 |------+----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------|
-|   21 | Integer Programming and Heuristics                                               |                                                                                                           |
-|      | Integer Programming and Machine Learning                                         |                                                                                                           |
+|   21 | Integer Programming and Heuristics                                               | **[Wo sc 13.4]**; **[FL]**;                                                                               |
+|      | Integer Programming and Machine Learning                                         | **[Wo sc 14.6 in LMS]**; **[BD]**; **[FJ]**                                                               |
 |------+----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------|
 |   22 |                                                                                  | Assignment 2                                                                                              |
 |------+----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------|
@@ -253,7 +253,7 @@ w3.includeHTML();
 - Zhang, Ray Jian, [Benders Decomposition: An Easy Example](https://youtu.be/vQzpydNOWDY). 2016. Video
 
 
-<!--
+
 
 - [FL] M. Fischetti, A. Lodi, [Heuristics in Mixed Integer
   Programming](https://homepages.cwi.nl/~dadush/workshop/discrepancy-ip/papers/heuristics-survey-fischetti-lodi-11.pdf),
@@ -273,7 +273,7 @@ w3.includeHTML();
   optimization](https://doi.org/10.1007/s10601-018-9285-6). Constraints
   23: 296–309.
 
--->
+
 
 
 
