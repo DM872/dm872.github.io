@@ -79,9 +79,9 @@ w3.includeHTML();
 |------+----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------|
 |   20 | Applications: [Vehicle Scheduling][66]                                           | [BCG]; [CG];                                                                                              |
 |      | [Crew Scheduling][67], [RCSP][68]                                                | [SGSK]; [GM]                                                                                              |
-|      | [Benders' Algorithm][69]; [Stochastic Programming][70]                           | **[Wo ch 12 in LMS]**; [DJ]; [Z]; [Sheet 7][17]                                                           |
+|      | [Benders' Algorithm][69]; [Stochastic Programming][70]                           | **[Wo ch 12 in LMS]**; [DJ]; [Z]; [Sheet 7][17]; [Sol][86]                                                |
 |------+----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------|
-|   21 | Integer Programming and Heuristics                                               | **[Wo sc 13.4]**; **[FL]**;                                                                               |
+|   21 | [Integer Programming and Heuristics][71]; [Notes][72]                            | **[Wo sc 13.4]**; **[FL]**;                                                                               |
 |      | Integer Programming and Machine Learning                                         | **[Wo sc 14.6 in LMS]**; **[BD]**; **[FJ]**                                                               |
 |------+----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------|
 |   22 |                                                                                  | Assignment 2                                                                                              |
@@ -360,6 +360,8 @@ w3.includeHTML();
 [68]: {{ "/assets/dm872-rcsp-handout.pdf" | absolute_url }}
 [69]: {{ "/assets/Notes_220518_190121.pdf" | absolute_url }}
 [70]: {{ "/assets/dm872-benders-handout.pdf" | absolute_url }}
+[71]: {{ "/assets/dm872-cut-n-solve-handout.pdf" | absolute_url }}
+[72]: {{ "/assets/Notes_220524_135358.pdf" | absolute_url }}
 
 [100]: {{ site.baseurl }}{% post_url 2021-05-09-vrptw %}
 [101]: {{ site.baseurl }}{% post_url 2021-05-28-salt_spreading %}
