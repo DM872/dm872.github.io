@@ -81,10 +81,10 @@ w3.includeHTML();
 |      | [Crew Scheduling][67], [RCSP][68]                                                | [SGSK]; [GM]                                                                                              |
 |      | [Benders' Algorithm][69]; [Stochastic Programming][70]                           | **[Wo ch 12 in LMS]**; [DJ]; [Z]; [Sheet 7][17]; [Sol][86]                                                |
 |------+----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------|
-|   21 | [Integer Programming and Heuristics][71]; [Notes][72]                            | **[Wo sc 13.4]**; **[FL]**;                                                                               |
-|      | Integer Programming and Machine Learning                                         | **[Wo sc 14.6 in LMS]**; **[BD]**; **[FJ]**                                                               |
+|   21 | [Integer Programming and Heuristics][71]; [Notes][72]                            | **[Wo ch 13]**; **[FL]**;                                                                                 |
+|      | [Integer Programming and Machine Learning][73]                                   | **[Wo sc 14.6 in LMS]**; **[BD]**; **[FJ]**                                                               |
 |------+----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------|
-|   22 |                                                                                  | Assignment 2                                                                                              |
+|   22 | Formulating Equity and Fairness in Optimization Models                           | Assignment 2                                                                                              |
 |------+----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------|
 
 
@@ -362,6 +362,7 @@ w3.includeHTML();
 [70]: {{ "/assets/dm872-benders-handout.pdf" | absolute_url }}
 [71]: {{ "/assets/dm872-cut-n-solve-handout.pdf" | absolute_url }}
 [72]: {{ "/assets/Notes_220524_135358.pdf" | absolute_url }}
+[73]: {{ "/assets/dm872-ml-handout.pdf" | absolute_url }}
 
 [100]: {{ site.baseurl }}{% post_url 2021-05-09-vrptw %}
 [101]: {{ site.baseurl }}{% post_url 2021-05-28-salt_spreading %}
