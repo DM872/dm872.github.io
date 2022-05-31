@@ -84,7 +84,7 @@ w3.includeHTML();
 |   21 | [Integer Programming and Heuristics][71]; [Notes][72]                            | **[Wo ch 13]**; **[FL]**;                                                                                 |
 |      | [Integer Programming and Machine Learning][73]                                   | **[Wo sc 14.6 in LMS]**; **[BD]**; **[FJ]**                                                               |
 |------+----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------|
-|   22 | Formulating Equity and Fairness in Optimization Models                           | Assignment 2                                                                                              |
+|   22 | Formulating Equity and Fairness in Optimization Models                           | [CH] **Assignment 2**                                                                                     |
 |------+----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------|
 
 
@@ -249,11 +249,7 @@ w3.includeHTML();
   UK: John Wiley & Sons. ISBN 978-0-471-27626-5
 
 
-
 - Zhang, Ray Jian, [Benders Decomposition: An Easy Example](https://youtu.be/vQzpydNOWDY). 2016. Video
-
-
-
 
 - [FL] M. Fischetti, A. Lodi, [Heuristics in Mixed Integer
   Programming](https://homepages.cwi.nl/~dadush/workshop/discrepancy-ip/papers/heuristics-survey-fischetti-lodi-11.pdf),
@@ -273,7 +269,9 @@ w3.includeHTML();
   optimization](https://doi.org/10.1007/s10601-018-9285-6). Constraints
   23: 296–309.
 
-
+- [CH] Violet (Xinying) Chen and J. N. Hooker. [A Guide to Formulating
+  Equity and Fairness in an Optimization
+  Model](http://public.tepper.cmu.edu/jnh/equityGuideAOR.pdf). [Video](https://cp2021.lirmm.fr/submissions/2001)
 
 
 
