@@ -316,7 +316,7 @@ w3.includeHTML();
 [13]: {{ "/assets/tsp_gurobi.html" | absolute_url }}
 [83]: {{ "/assets/tsp_sol_gurobi.html" | absolute_url }}
 [84]: {{ "/assets/Notes_220427_155254.pdf" | absolute_url }}
-
+[7]: {{ "/assets/dm872-modeling_2-handout.pdf" | absolute_url }}
 
 [133]: {{ "https://github.com/DM872/Material/blob/master/TSP/tsp.ipynb" | absolute_url }}
 [14]: {{ site.baseurl }}{% post_url 2021-05-02-colgen %}
@@ -397,7 +397,7 @@ w3.includeHTML();
 [4]: {{ "/assets/dm872-cut-n-solve-handout.pdf" | absolute_url }}
 [5]: {{ "/assets/dm872-timetabling-handout.pdf" | absolute_url }}
 
-[7]: {{ "/assets/dm872-modeling_2-handout.pdf" | absolute_url }}
+
 
 [9]: {{ "/assets/dm872-timetabling-handout.pdf" | absolute_url }}
 [10]: {{ "/assets/dm872-theory-handout.pdf" | absolute_url }}
