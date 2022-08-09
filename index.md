@@ -296,11 +296,19 @@ w3.includeHTML();
 
 
 
-### Links:
+### Links
 
 - [Pyomo](http://www.pyomo.org/)
 
 - [RM] PySCIPOpt: Python Interface to the SCIP Optimization Suite. [Reference Manual](https://imada.sdu.dk/~marco/Misc/PySCIPOpt/index.html); [SCIP Parameters](https://scip.zib.de/doc/html/PARAMETERS.php)
+
+
+### Assessment
+
+- Ordinary exam: the two assignments linked above
+
+- Reexam: assignments in August 2022
+
 
 
 

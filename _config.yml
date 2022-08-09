@@ -23,7 +23,7 @@ description: Course on Mathematical Programming at Master Level in Computer Scie
 baseurl: "" # the subpath of your site, e.g. /blog
 # url: "https://dm561.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 url: "https://dm872.github.io"
-# baseurl: "/~marco/Teaching/AY2020-2021/DM872"
+# baseurl: "/~marco/Teaching/AY2021-2022/DM872"
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
