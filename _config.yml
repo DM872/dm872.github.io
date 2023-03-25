@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: DM872 @ SDU - Mathematical Optimization at Work
+title: DM872 (S23) @ SDU - Mathematical Optimization at Work
 email: marco@imada.sdu.dk
 description: Course on Mathematical Programming at Master Level in Computer Science at University of Southern Denmark
 # >- # this means to ignore newlines until "baseurl:"
