@@ -13,11 +13,11 @@ permalink: /
 
 ### General information
 
-- [Official course description](https://odinlister.sdu.dk/fagbesk/internkode/DM872/)
+- [Official course description](https://odinlister.sdu.dk/fagbesk/internkode/DM872/){:target="_blank"}
   
-- [ItsLearning](https://sdu.itslearning.com/main.aspx?CourseID=25676)
+- [ItsLearning](https://sdu.itslearning.com/main.aspx?CourseID=25676){:target="_blank"}
 
-- Teacher: [Marco Chiarandini](https://imada.sdu.dk/u/march)
+- Teacher: [Marco Chiarandini](https://imada.sdu.dk/u/march){:target="_blank"}
 
 
 
@@ -25,7 +25,7 @@ permalink: /
 
 
 <p>
-<a href="https://skemaplan.sdu.dk/N340032101/f23">Odin</a>
+<a href="https://skemaplan.sdu.dk/N340032101/f23" target="_blank">Odin</a>
 <!-- <a href="https://mitsdu.sdu.dk/skema/activity/N340032101/f22">MitSDU</a> -->
 </p>
 
@@ -56,8 +56,8 @@ w3.includeHTML();
 
 | Week | Topics and Slides                                                    | Resources                                                  |
 |------+----------------------------------------------------------------------+------------------------------------------------------------|
-|   13 | Introduction                                                         | [GRB]                                                      |
-|      | LP Practical Guidelines, Interior Point Methods, Sifting, KKT        | **[KN1]**, [HL, sc 8.4], [MG, sc 7.2], [BGLMS, sc 3], [NW] |
+|   13 | [Introduction][51]                                                         | [GRB]                                                      |
+|      | [LP Practical Guidelines][104], Interior Point Methods, Sifting, KKT        | **[KN1]**, [HL, sc 8.4], [MG, sc 7.2], [BGLMS, sc 3], [NW] |
 |      | Practice                                                             | [Sheet 1][11]                                                  |
 |------+----------------------------------------------------------------------+------------------------------------------------------------|
 |   14 | MILP Practical Guidelines; Presolving; Modeling                      |                                                            |
@@ -383,14 +383,14 @@ w3.includeHTML();
 [102]: {{ "/assets/kkt.pdf" | absolute_url  }}
 [108]: {{ site.baseurl }}{% post_url 2022-05-30-exams %}
 
-<!--
-[103]: {{ https://docs.google.com/presentation/d/1b6FRSO-KjgBJxeybW63oW3dBznAQxJ66HP0WHXTgsxY/edit?usp=sharing }}
-[103]: {{ https://docs.google.com/presentation/d/13UPVjMRNn524ej_-cPFZS1CWzPlMs1HxkhdyfWVJrro/edit?usp=sharing }}
--->
 
+[104]: {{ https://docs.google.com/presentation/d/1b6FRSO-KjgBJxeybW63oW3dBznAQxJ66HP0WHXTgsxY/edit?usp=sharing }}
+[105]: {{ https://docs.google.com/presentation/d/13UPVjMRNn524ej_-cPFZS1CWzPlMs1HxkhdyfWVJrro/edit?usp=sharing }}
+
+<!--
 [104]: {{ "/assets/dm872-guidelines_lp.pdf" | absolute_url  }}
 [105]: {{ "/assets/dm872-guidelines_milp.pdf" | absolute_url  }}
-
+-->
 
 <!--
 [55]: {{ "/assets/dm872-cut-n-solve-handout.pdf" | absolute_url }}
