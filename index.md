@@ -57,7 +57,7 @@ w3.includeHTML();
 | Week | Topics and Slides                                                    | Resources                                                  |
 |------+----------------------------------------------------------------------+------------------------------------------------------------|
 |   13 | [Introduction][51]                                                         | [GRB]                                                      |
-|      | [LP Practical Guidelines][104], Interior Point Methods, Sifting, KKT        | **[KN1]**, [HL, sc 8.4], [MG, sc 7.2], [BGLMS, sc 3], [NW] |
+|      | [LP Practical Guidelines][104], [Interior Point Methods][110], Sifting, KKT        | **[KN1]**, [HL, sc 8.4], [MG, sc 7.2], [BGLMS, sc 3], [NW] |
 |      | Practice                                                             | [Sheet 1][11]                                                  |
 |------+----------------------------------------------------------------------+------------------------------------------------------------|
 |   14 | MILP Practical Guidelines; Presolving; Modeling                      |                                                            |
@@ -384,8 +384,11 @@ w3.includeHTML();
 [108]: {{ site.baseurl }}{% post_url 2022-05-30-exams %}
 
 
-[104]: {{ https://docs.google.com/presentation/d/1b6FRSO-KjgBJxeybW63oW3dBznAQxJ66HP0WHXTgsxY/edit?usp=sharing }}
-[105]: {{ https://docs.google.com/presentation/d/13UPVjMRNn524ej_-cPFZS1CWzPlMs1HxkhdyfWVJrro/edit?usp=sharing }}
+[104]: {{ "https://docs.google.com/presentation/d/1b6FRSO-KjgBJxeybW63oW3dBznAQxJ66HP0WHXTgsxY/edit?usp=sharing" }}
+[105]: {{ "https://docs.google.com/presentation/d/13UPVjMRNn524ej_-cPFZS1CWzPlMs1HxkhdyfWVJrro/edit?usp=sharing" }}
+
+
+[110]: {{ "/assets/dm872-interior.pdf" | absolute_url }}
 
 <!--
 [104]: {{ "/assets/dm872-guidelines_lp.pdf" | absolute_url  }}
