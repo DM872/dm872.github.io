@@ -54,40 +54,39 @@ w3.includeHTML();
 
 
 
-| Week | Topics and Slides                                                    | Resources                               |
-|------+----------------------------------------------------------------------+-----------------------------------------|
-|   13 | [Introduction][51], [Farkas][512], [Interior Point Methods][511]     | [GRB], [HL, sc 8.4], [MG, sc 7.2], [NW] |
-|      | [LP Practical Guidelines][104],  Sifting, KKT                        | **[KN1]**,   [BGLMS, sc 3]              |
-|      | Practice| [Sheet 1][11]; [sol][81]                           |
-|------+----------------------------------------------------------------------+-----------------------------------------|
-|   14 | MILP Practical Guidelines; Presolving; Modeling                      |                                         |
-|      | MILP Formulations for Traveling Salesman Problem                     |                                         |
-|      | Practice TSP                                                         |                                         |
-|------+----------------------------------------------------------------------+-----------------------------------------|
-|   16 | Practice on TSP                                                      |                                         |
-|      | Practice on TSP                                                      |                                         |
-|      | Cutting Plane Algorithms for TSP                                     |                                         |
-|------+----------------------------------------------------------------------+-----------------------------------------|
-|   17 | Dantzig Wolfe decomposition and Column Generation                    |                                         |
-|      | Dual Bound in Column Generation                                      |                                         |
-|      | Practice on CG                                                       |                                         |
-|------+----------------------------------------------------------------------+-----------------------------------------|
-|   18 | Vehicle Routing: Compact models; Set Partitioning formulation and CG | Assignment 1                            |
-|      | Vehicle Routing: Cutting and Branching; Notes on Branching           |                                         |
-|      | Practice on Branch-and-Price; Lagrangian Relaxation for MILP         |                                         |
-|------+----------------------------------------------------------------------+-----------------------------------------|
-|   19 | Lagrangian Relaxation and Linear Programming, Multicommodity Flows   |                                         |
-|      | Lagrangian Relaxation and Integer Programming                        |                                         |
-|------+----------------------------------------------------------------------+-----------------------------------------|
-|   20 | Applications: Vehicle Scheduling                                     |                                         |
-|      | Crew Scheduling; RCSP                                                |                                         |
-|      | Benders' Algorithm; Stochastic Programming                           |                                         |
-|------+----------------------------------------------------------------------+-----------------------------------------|
-|   21 | Integer Programming and Heuristics; Notes                            |                                         |
-|      | Integer Programming and Machine Learning                             |                                         |
-|------+----------------------------------------------------------------------+-----------------------------------------|
-|   22 | Formulating Equity and Fairness in Optimization Models               | Assignment 2                            |
-|------+----------------------------------------------------------------------+-----------------------------------------|
+| Week | Topics and Slides                                                    | Resources                                                 |
+|------+----------------------------------------------------------------------+-----------------------------------------------------------|
+|   13 | [Introduction][51], [Farkas][512], [Interior Point Methods][511]     | [GRB], [HL, sc 8.4], [MG, sc 7.2], [NW]                   |
+|      | [LP Practical Guidelines][104],  Sifting, KKT                        | **[KN1]**,   [BGLMS, sc 3]                                |
+|      | Practice                                                             | [Sheet 1][11]; [sol][81]                                  |
+|------+----------------------------------------------------------------------+-----------------------------------------------------------|
+|   14 | [MILP Practical Guidelines][105]; [Presolving][60]; [Modeling][7]    | **[KN2]**, *[ABGRW]*, [Wi, ch7,9,10] or [GRB, modeling 2] |
+|      | MILP Formulations for Traveling Salesman Problem                     |                                                           |
+|------+----------------------------------------------------------------------+-----------------------------------------------------------|
+|   16 | Practice on TSP                                                      | [Sheet 2][12]                                             |
+|      | Practice on TSP                                                      |                                                           |
+|      | Cutting Plane Algorithms for TSP                                     |                                                           |
+|------+----------------------------------------------------------------------+-----------------------------------------------------------|
+|   17 | Dantzig Wolfe decomposition and Column Generation                    |                                                           |
+|      | Dual Bound in Column Generation                                      |                                                           |
+|      | Practice on CG                                                       |                                                           |
+|------+----------------------------------------------------------------------+-----------------------------------------------------------|
+|   18 | Vehicle Routing: Compact models; Set Partitioning formulation and CG | Assignment 1                                              |
+|      | Vehicle Routing: Cutting and Branching; Notes on Branching           |                                                           |
+|      | Practice on Branch-and-Price; Lagrangian Relaxation for MILP         |                                                           |
+|------+----------------------------------------------------------------------+-----------------------------------------------------------|
+|   19 | Lagrangian Relaxation and Linear Programming, Multicommodity Flows   |                                                           |
+|      | Lagrangian Relaxation and Integer Programming                        |                                                           |
+|------+----------------------------------------------------------------------+-----------------------------------------------------------|
+|   20 | Applications: Vehicle Scheduling                                     |                                                           |
+|      | Crew Scheduling; RCSP                                                |                                                           |
+|      | Benders' Algorithm; Stochastic Programming                           |                                                           |
+|------+----------------------------------------------------------------------+-----------------------------------------------------------|
+|   21 | Integer Programming and Heuristics; Notes                            |                                                           |
+|      | Integer Programming and Machine Learning                             |                                                           |
+|------+----------------------------------------------------------------------+-----------------------------------------------------------|
+|   22 | Formulating Equity and Fairness in Optimization Models               | Assignment 2                                              |
+|------+----------------------------------------------------------------------+-----------------------------------------------------------|
 
 
 
@@ -133,7 +132,7 @@ w3.includeHTML();
 
  
 - [ABGRW] Tobias Achterberg, Robert E. Bixby, Zonghao Gu, Edward
-  Rothberg, Dieter Weninger [Presolve Reductions in Mixed Integer
+  Rothberg, Dieter Weninger. [Presolve Reductions in Mixed Integer
   Programming](https://doi.org/10.1287/ijoc.2018.0857)
   INFORMS Journal on Computing, 32(2), 2020 (preprint available as
   [ZIB-Report
@@ -144,7 +143,7 @@ w3.includeHTML();
   Wiley & Sons, Chichester, Fifth Edition, 2013
 
 
-<!--
+
 
 - [A] David L. L. Applegate, Robert E. E. Bixby, Vasek Chvátal, William
   J. J. Cook. [The traveling salesman problem: a computational
@@ -182,6 +181,7 @@ w3.includeHTML();
 - [AMO] R.K. Ahuja, T.L. Magnanti and J.B. Orlin. Network Flows: Theory,
   Algorithms, and Applications. Chapters 16 and 17. Prentice Hall, 1993 
 
+<!--
 
 - [LD] M.E. Lübbecke, J. Desrosiers [Selected Topics in Column
   Generation](https://doi.org/10.1287/opre.1050.0234). Operations
@@ -312,7 +312,7 @@ w3.includeHTML();
 
 - Ordinary exam: the two assignments linked above
 
-- Reexam: assignments in August 2022
+- Reexam: assignments in August 2023
 
 
 
