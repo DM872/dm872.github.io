@@ -61,31 +61,31 @@ w3.includeHTML();
 |      | Practice                                                             | [Sheet 1][11]; [sol][81]                                      |
 |------+----------------------------------------------------------------------+---------------------------------------------------------------|
 |   15 | [MILP Practical Guidelines][105]; [Presolving][60]; [Modeling][7]    | **[KN2]**, *[ABGRW]*, **[Wi, ch7,9,10] or [GRB, modeling 2]** |
-|      | MILP Formulations for Traveling Salesman Problem                     | [P] or [DFJ] or [MTZ] or [A] or [ABCC] or [OAL]               |
+|      | [MILP Formulations for Traveling Salesman Problem][144]              | [P] or [DFJ] or [MTZ] or [A] or [ABCC] or [OAL]; [OS] [Talk]  |
 |------+----------------------------------------------------------------------+---------------------------------------------------------------|
-|   17 | Practice on TSP                                                      | [Sheet 2][12]                                                 |
-|      | Practice on TSP                                                      |                                                               |
+|   16 | Practice on TSP                                                      | [Sheet 2][12]                                                 |
 |      | Cutting Plane Algorithms for TSP                                     |                                                               |
+|      | Practice on TSP                                                      |                                                               |
 |------+----------------------------------------------------------------------+---------------------------------------------------------------|
-|   18 | Dantzig Wolfe decomposition and Column Generation                    |                                                               |
+|   17 | Dantzig Wolfe decomposition and Column Generation                    |                                                               |
 |      | Dual Bound in Column Generation                                      |                                                               |
 |      | Practice on CG                                                       |                                                               |
 |------+----------------------------------------------------------------------+---------------------------------------------------------------|
-|   19 | Vehicle Routing: Compact models; Set Partitioning formulation and CG | Assignment 1                                                  |
+|   18 | Vehicle Routing: Compact models; Set Partitioning formulation and CG | Assignment 1                                                  |
 |      | Vehicle Routing: Cutting and Branching; Notes on Branching           |                                                               |
 |      | Practice on Branch-and-Price; Lagrangian Relaxation for MILP         |                                                               |
 |------+----------------------------------------------------------------------+---------------------------------------------------------------|
-|   20 | Lagrangian Relaxation and Linear Programming, Multicommodity Flows   |                                                               |
+|   19 | Lagrangian Relaxation and Linear Programming, Multicommodity Flows   |                                                               |
 |      | Lagrangian Relaxation and Integer Programming                        |                                                               |
 |------+----------------------------------------------------------------------+---------------------------------------------------------------|
-|   21 | Applications: Vehicle Scheduling                                     |                                                               |
+|   20 | Applications: Vehicle Scheduling                                     |                                                               |
 |      | Crew Scheduling; RCSP                                                |                                                               |
 |      | Benders' Algorithm; Stochastic Programming                           |                                                               |
 |------+----------------------------------------------------------------------+---------------------------------------------------------------|
-|   22 | Integer Programming and Heuristics; Notes                            |                                                               |
+|   21 | Integer Programming and Heuristics; Notes                            |                                                               |
 |      | Integer Programming and Machine Learning                             |                                                               |
 |------+----------------------------------------------------------------------+---------------------------------------------------------------|
-|   23 | Formulating Equity and Fairness in Optimization Models               | Assignment 2                                                  |
+|   22 | Formulating Equity and Fairness in Optimization Models               | Assignment 2                                                  |
 |------+----------------------------------------------------------------------+---------------------------------------------------------------|
 
 
@@ -303,10 +303,10 @@ w3.includeHTML();
 
 ### Links
 
-- [Pyomo](http://www.pyomo.org/)
+- [OS] [Optimization Software: links to solvers and benachmarks](https://imada.sdu.dk/u/march/Blog/optimization/software/2023/02/12/optsoft.html)
 
-- [RM] PySCIPOpt: Python Interface to the SCIP Optimization Suite. [Reference Manual](https://imada.sdu.dk/~marco/Misc/PySCIPOpt/index.html); [SCIP Parameters](https://scip.zib.de/doc/html/PARAMETERS.php)
-
+- [Talk] [The Traveling Salesman Problem](https://www.lse.ac.uk/Events/2023/05/202305031830/salesman)
+  public lecture by William Cook on May 3rd 2023 at LSE.
 
 ### Assessment
 
@@ -354,10 +354,12 @@ w3.includeHTML();
 [51]: {{ "/assets/dm872-slides-lec1.pdf" | absolute_url }}
 [511]: {{ "/assets/dm872-slides-interior.pdf" | absolute_url }}
 [512]: {{ "/assets/dm872-slides-farkas.pdf" | absolute_url }}
-[52]: {{ "/assets/dm872-preprocessing-handout.pdf" | absolute_url }}
+[52]: {{ "/assets/dm872-slides-preprocessing.pdf" | absolute_url }}
+
+[144]: {{ "/assets/dm872-slides-tsp.pdf" | absolute_url }}
 [53]: {{ "/assets/dm872-TSP_Formulations.pdf" | absolute_url }}
 [54]: {{ "/assets/TSP_210422_111820.pdf" | absolute_url }}
-[144]: {{ "/assets/dm872-tsp-handout.pdf" | absolute_url }}
+
 [55]: {{ "/assets/dm872-lagrangian-handout.pdf" | absolute_url }}
 [56]: {{ "/assets/Notes_210428_114528.pdf" | absolute_url }}
 [57]: {{ "/assets/Notes_210429_174511.pdf" | absolute_url }}
