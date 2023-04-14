@@ -64,7 +64,7 @@ w3.includeHTML();
 |      | [MILP Formulations for Traveling Salesman Problem][144]              | [P] or [DFJ] or [MTZ] or [A] or [ABCC] or [OAL]; [OS] [Talk]  |
 |------+----------------------------------------------------------------------+---------------------------------------------------------------|
 |   16 | Practice on TSP                                                      | [Sheet 2][12]                                                 |
-|      | Cutting Plane Algorithms for TSP                                     |                                                               |
+|      | Lazy Constraints for TSP                                     |                                                               |
 |      | Practice on TSP                                                      |                                                               |
 |------+----------------------------------------------------------------------+---------------------------------------------------------------|
 |   17 | Dantzig Wolfe decomposition and Column Generation                    |                                                               |
