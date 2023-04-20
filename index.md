@@ -181,7 +181,7 @@ w3.includeHTML();
 - [AMO] R.K. Ahuja, T.L. Magnanti and J.B. Orlin. Network Flows: Theory,
   Algorithms, and Applications. Chapters 16 and 17. Prentice Hall, 1993 
 
-<!--
+
 
 - [LD] M.E. Lübbecke, J. Desrosiers [Selected Topics in Column
   Generation](https://doi.org/10.1287/opre.1050.0234). Operations
@@ -195,6 +195,8 @@ w3.includeHTML();
 
 - [Wo] L.A. Wolsey. Integer programming. John Wiley & Sons, New York, USA, 2021
 
+
+<!--
 - [BCG] A.A. Bertossi, P. Carraresi and G. Gallo. [On some matching
   problems arising in vehicle scheduling
   models](http://dx.doi.org/10.1002/net.3230170303). Networks, Wiley,
