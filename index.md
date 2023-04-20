@@ -64,8 +64,8 @@ w3.includeHTML();
 |      | [MILP Formulations for Traveling Salesman Problem][144]              | [P] or [DFJ] or [MTZ] or [A] or [ABCC] or [OAL]; [OS] [Talk]  |
 |------+----------------------------------------------------------------------+---------------------------------------------------------------|
 |   16 | Practice on TSP                                                      | [Sheet 2][12];   [sol][82]                                    |
-|      | [Lazy Constraints for TSP][54]                                       | [Sheet 3][13];                                                |
-|      | Dantzig Wolfe decomposition and Column Generation                    |                                                               |
+|      | [Lazy Constraints for TSP][54]                                       | [Sheet 3][13];   [sol][83]                                    |
+|      | [Dantzig Wolfe decomposition and Column Generation][58]              | [BGLMS, sc 3];  **[Wo ch 11 in LMS]**; [LD]                   |
 |------+----------------------------------------------------------------------+---------------------------------------------------------------|
 |   17 | Dual Bound in Column Generation                                      |                                                               |
 |      | Practice on CG                                                       |                                                               |
