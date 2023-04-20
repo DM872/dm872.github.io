@@ -65,15 +65,15 @@ w3.includeHTML();
 |------+----------------------------------------------------------------------+---------------------------------------------------------------|
 |   16 | Practice on TSP                                                      | [Sheet 2][12];   [sol][82]                                    |
 |      | [Lazy Constraints for TSP][54]                                       | [Sheet 3][13];                                                |
-|      | Practice on TSP                                                      |                                                               |
+|      | Dantzig Wolfe decomposition and Column Generation                    |                                                               |
 |------+----------------------------------------------------------------------+---------------------------------------------------------------|
-|   17 | Dantzig Wolfe decomposition and Column Generation                    |                                                               |
-|      | Dual Bound in Column Generation                                      |                                                               |
+|   17 | Dual Bound in Column Generation                                      |                                                               |
 |      | Practice on CG                                                       |                                                               |
+|      | Vehicle Routing: Compact models; Set Partitioning formulation and CG | Assignment 1                                                  |
 |------+----------------------------------------------------------------------+---------------------------------------------------------------|
-|   18 | Vehicle Routing: Compact models; Set Partitioning formulation and CG | Assignment 1                                                  |
-|      | Vehicle Routing: Cutting and Branching; Notes on Branching           |                                                               |
+|   18 | Vehicle Routing: Cutting and Branching; Notes on Branching           |                                                               |
 |      | Practice on Branch-and-Price; Lagrangian Relaxation for MILP         |                                                               |
+|      |                                                                      |                                                               |
 |------+----------------------------------------------------------------------+---------------------------------------------------------------|
 |   19 | Lagrangian Relaxation and Linear Programming, Multicommodity Flows   |                                                               |
 |      | Lagrangian Relaxation and Integer Programming                        |                                                               |
