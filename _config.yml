@@ -39,16 +39,21 @@ exclude: ["vendor", "slides", "assignments", "code", "misc", "tmp", "tmp2"]
 
 include:
   - .htaccess
-#  - _pages
+
+
+
+    #  - _pages
 
 
 #collections:
-#  - notes
+#  - sheets
 
-#collections:
-#  notes:
-#    output: true
-#    permalink: /:collection/:path
+#- notes
+
+collections:
+  sheets:
+    output: true
+    permalink: /:collection/:path
 
 
 

@@ -67,8 +67,8 @@ w3.includeHTML();
 |      | [Lazy Constraints for TSP][54]                                       | [Sheet 3][13];   [sol][83]                                    |
 |      | [Dantzig Wolfe decomposition and Column Generation][58]              | [BGLMS, sc 3];  **[Wo ch 11 in LMS]**; [LD]                   |
 |------+----------------------------------------------------------------------+---------------------------------------------------------------|
-|   17 | Dual Bound in Column Generation                                      |                                                               |
-|      | Practice on CG                                                       |                                                               |
+|   17 | [Dual Bounds in Column Generation][59]                               |                                                               |
+|      | Practice on CG                                                       | [Sheet 4][14];                                                |
 |      | Vehicle Routing: Compact models; Set Partitioning formulation and CG | Assignment 1                                                  |
 |------+----------------------------------------------------------------------+---------------------------------------------------------------|
 |   18 | Vehicle Routing: Cutting and Branching; Notes on Branching           |                                                               |
@@ -335,7 +335,7 @@ w3.includeHTML();
 [84]: {{ "/assets/Notes_220427_155254.pdf" | absolute_url }}
 
 [133]: {{ "https://github.com/DM872/Material/blob/master/TSP/tsp.ipynb" | absolute_url }}
-[14]: {{ site.baseurl }}{% post_url 2021-05-02-colgen %}
+[14]: {{ "/sheets/delcolgen.html" | absolute_url }}
 [15]: {{ site.baseurl }}{% post_url 2022-05-04-bnprice %}
 [16]: {{ site.baseurl }}{% post_url 2021-04-26-lagrangian %}
 [17]: {{ site.baseurl }}{% post_url 2021-05-14-benders %}
