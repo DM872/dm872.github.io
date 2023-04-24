@@ -365,7 +365,7 @@ w3.includeHTML();
 [55]: {{ "/assets/dm872-lagrangian-handout.pdf" | absolute_url }}
 [56]: {{ "/assets/Notes_210428_114528.pdf" | absolute_url }}
 [57]: {{ "/assets/Notes_210429_174511.pdf" | absolute_url }}
-[58]: {{ "/assets/dm872-dantzig_wolfe-handout.pdf" | absolute_url }}
+[58]: {{ "/assets/dm872-slides-dantzig_wolfe.pdf" | absolute_url }}
 [59]: {{ "/assets/Notes_220425_163727.pdf" | absolute_url }}
 [60]: {{ "/assets/dm872-preprocessing-handout.pdf" | absolute_url }}
 
