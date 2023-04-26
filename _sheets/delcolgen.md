@@ -117,4 +117,13 @@ To add columns to your model without resolving from
 scratch see:
 
 - In `gurobipy`, the last example from this doumentation page:
-[Modify a model (gurobi.com)](https://www.gurobi.com/documentation/9.5/examples/modify_a_model.html).
+  [Modify a model (gurobi.com)](https://www.gurobi.com/documentation/10.0/examples/modify_a_model.html)
+
+- In Python MIP see documentation for `Column` and `add_var`.
+
+- In Pyomo see
+  [cutting_stock.py](https://github.com/Pyomo/pyomo/blob/main/examples/pyomo/columngeneration/cutting_stock.py)
+
+- In Pyscipopt there is a different philosophy. See
+  [test_pricer.py](https://github.com/Pyomo/pyomo/blob/main/examples/pyomo/columngeneration/cutting_stock.py). Alternatively
+  it is possible to follow this [example](../assets/cutstock.py).
