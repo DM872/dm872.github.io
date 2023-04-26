@@ -72,8 +72,8 @@ of size $B$. The sizes $0\leq s_i \leq B$ of individual items are assumed to be
 known. The problem is to determine how to pack these $n$ items in bins of
 size $B$ so that the number of required bins is minimum.
 
-Formulate the problem using a compact formulation and an extended
-formulation. Solve the given example using the extended formulation and
+Formulate the problem using a compact formulation and an extensive
+formulation. Solve the given example using the extensive formulation and
 branch and price. 
 
 
@@ -109,10 +109,12 @@ in Python in our git repository [GIT]:
 
 - A template for the compact formulation: `compact.py`.
 
-- A template for the extended formulation with delayed column generation: `extended_template.py`
+- A template for the extended formulation with delayed column generation: `extensive_template.py`
 
 
 
-To add columns to your model without resolving from scratch see the last
-example from this doumentation page:
+To add columns to your model without resolving from
+scratch see:
+
+- In `gurobipy`, the last example from this doumentation page:
 [Modify a model (gurobi.com)](https://www.gurobi.com/documentation/9.5/examples/modify_a_model.html).
