@@ -33,8 +33,7 @@ $$
 \end{align}
 $$
 
-Solve an instance by delayed column generation treating the knapsack
-constraints $\sum_{i=1}^m a_{ij} x_{ij}\leq  b_j$ as the complicating ones
+Solve an instance by delayed column generation treating the constraints $\sum_{j=1}^n x_{ij}= 1 \qquad  i = 1,\ldots, m$ as the complicating ones
 and 
 $m=3,n=2,[a_{ij}]=\begin{bmatrix}5&3\\\\3&8\\\\2&10\end{bmatrix},[c_{ij}]=\begin{bmatrix}20&16\\\\15&19\\\\19&14\end{bmatrix}$
 and $[b_j]=\begin{bmatrix}6\\\\21\end{bmatrix}$.
