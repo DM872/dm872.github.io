@@ -68,10 +68,10 @@ w3.includeHTML();
 |      | [Dantzig Wolfe decomposition and Delayed Column Generation][58]                  | [BGLMS, sc 3];  **[Wo ch 11 in LMS]**; [LD]                   |
 |------+----------------------------------------------------------------------------------+---------------------------------------------------------------|
 |   17 | [Delayed Column Generation][599]; [Dual Bounds in Column Generation][59]         | **[Wo ch 11 in LMS]**                                         |
-|      | Practice on CG                                                                   | [Sheet 4][14];                                                |
+|      | Practice on CG                                                                   | [Sheet 4][14]; [Sol][84]                                      |
 |      | Vehicle Routing: [Compact models][62]; [Set Partitioning formulation and CG][63] | **[Fe]**, [TV]                                                |
 |------+----------------------------------------------------------------------------------+---------------------------------------------------------------|
-|   18 | [Vehicle Routing: Cutting and Branching][64]; [Notes on Branching][65]           | **[Wo sc 11.7 in LMS]**;  [C];  Assignment 1                  |
+|   18 | [Vehicle Routing: Cutting and Branching][64]; [Notes on Branching][65]           | **[Wo sc 11.7 in LMS]**;  [C];  [Assignment 1][100]           |
 |      | Practice on Branch-and-Price;                                                    | **[Wo p 121 in LMS]**                                         |
 |      | Lagrangian Relaxation for MILP                                                   |                                                               |
 |------+----------------------------------------------------------------------------------+---------------------------------------------------------------|
@@ -333,7 +333,9 @@ w3.includeHTML();
 <!-- [13]: {{ site.baseurl }}{% post_url 2021-04-15-tsp_formulations %} -->
 [13]: {{ "/assets/tsp_gurobi.html" | absolute_url }}
 [83]: {{ "/assets/tsp_sol_gurobi.html" | absolute_url }}
-[84]: {{ "/assets/Notes_220427_155254.pdf" | absolute_url }}
+
+[84]: {{ "https://github.com/demirayonur/Column-Generation/blob/main/ColumnGeneration_CuttingStockProblem.ipynb" }}
+<!-- [84]: {{ "/assets/Notes_220427_155254.pdf" | absolute_url }} -->
 
 [133]: {{ "https://github.com/DM872/Material/blob/master/TSP/tsp.ipynb" | absolute_url }}
 [14]: {{ "/sheets/delcolgen.html" | absolute_url }}
@@ -387,7 +389,7 @@ w3.includeHTML();
 [73]: {{ "/assets/dm872-ml-handout.pdf" | absolute_url }}
 [74]: {{ "/assets/dm872-fairness-handout.pdf" | absolute_url }}
 
-[100]: {{ "/assignments/vrptw.pdf" | absolute_url  }}
+[100]: {{ "/assignments/vrptw.html" | absolute_url  }}
 [101]: {{ site.baseurl }}{% post_url 2021-05-28-salt_spreading %}
 [102]: {{ "/assets/kkt.pdf" | absolute_url  }}
 [108]: {{ site.baseurl }}{% post_url 2022-05-30-exams %}

@@ -8,9 +8,10 @@ categories: assignments
 
 **Deadline: Monday, May 22 at 11:59 am.** 
 
+<!--
 For questions on the assignment, use the [Discussion Board in the
 LMS](https://sdu.itslearning.com/ContentArea/ContentArea.aspx?LocationID=17799&LocationType=1).
-
+-->
 
 ## Assignment 1
 
@@ -26,7 +27,6 @@ structure:
 asg1
 |
 +--tex
-|
 +--src
 ```
 
@@ -43,11 +43,10 @@ asg1
 
 #### Problem Description
 
-This assignment is proposed by courtesy of
-[Roberto Roberti](https://research.vu.nl/en/persons/roberto-roberti).
-The *Vehicle Routing Problem with Time Windows* (VRPTW) is a
-generalization of the Capacitated Vehicle Routing Problem (CVRP), where
-each customer must be visited within a given time window.  
+This assignment is proposed by courtesy of Roberto Roberti. The *Vehicle
+Routing Problem with Time Windows* (VRPTW) is a generalization of the
+Capacitated Vehicle Routing Problem (CVRP), where
+each customer must be visited within a given time window.
 
 The VRPTW can be stated as follows. A directed graph $G = (V, A)$ is
 given, where $V$ is the set of vertices and $A$ is the set of
@@ -127,12 +126,13 @@ formulation of the resulting pricing problem.
 #### Task 4: Column Generation by Hand
 
 Starting from the columns defined in the data below, solve the master
-problem manually by finding and adding additional columns to the
-datafile. You can use a solver for the solution of the restricted master problem
-but you must identify promising columns by hand and justify your
-choice. 
+problem by finding by "manual inspection" and adding additional columns
+to the datafile. You can use a solver for the solution of the restricted
+linear master problem but you must identify promising columns by hand
+and justify your choice.
 
-Report in a plot the behaviour of the best dual bound available during the column generation process.
+Report in a plot the behaviour of the best dual bound available during
+the column generation process.
 
 (It is not so important to prove optimality here, you will do that in
  the next task.)
@@ -141,17 +141,18 @@ Report in a plot the behaviour of the best dual bound available during the colum
 
 Starting from the provided data below and a template for column
 generation delivered during the course (the bin packing example),
-implement in Pyhton a Column Generation procedure, computing an
-optimal solution to the linear relaxation of the master problem, by
-adding the route having the most negative reduced cost, at every
-iteration. Use the solution you found in Task 2, as the initial
-columns. Describe, in details the different steps implied by the
-Column Generation Procedure.
+implement in Pyhton a Column Generation procedure, computing an optimal
+solution to the linear relaxation of the master problem, by adding the
+route having the most negative reduced cost, at every iteration. Use the
+solution you found in Task 2, as the initial columns. Describe, in
+details the different steps implied by the Column Generation Procedure
+and report a plot that shows the trend of the value of the pricing
+problem and the derived dual bound to the master problem.
 
 
 [To add columns to your model without resolving from scratch see the
 last example from this doumentation page:
-[Modify a model (gurobi.com)](https://www.gurobi.com/documentation/9.5/examples/modify_a_model.html).]
+[Modify a model (gurobi.com)](https://www.gurobi.com/documentation/10.0/examples/modify_a_model.html).]
 
 
 #### Task 6: Cutting
@@ -180,8 +181,6 @@ implementing it in the code.
 from numpy import *
 import matplotlib
 import matplotlib.pyplot as plt
-
-
 
 class data: 
     cust = 8 #Number of customers
@@ -277,3 +276,31 @@ if __name__ == "__main__":
 ```
 
 
+#### Question and Answers
+
+
+Q: If one has a hard time doing the 4th task, are we then doomed to fail since both task 5, 6 and 7 depends on this task alone?
+
+A: No, you are not doomed to fail if you do task 5, 6 and 7 correct. The
+goal of Task 4 is only to help you to make sure that you have understood
+how to calculate the value of tentative columns.
+
+
+Q: What should I do in Task 6 and 7 if the optimal MP solution I achieved in Task 4 was not fractional.
+
+A: You should revise Task 5 becausedoing that right would allow you to
+discover that the optimal solution in Task 4 is fractional.
+
+
+Q: I am having trouble finding an efficient Cut Separation Problem for
+finding the most violated cuts of my LP solutions to the VRPTW
+instance. Since the instance is rather small one way would simply be to
+bruteforce it, but a more efficient approach I am having trouble
+finding. Is it possible to get a hint on a more efficient approach?
+
+A: We did not look at cut separation procedures for SR cuts. If you want
+you can try to formuate the problem but it is not what is asked in the
+task. Manual or exhaustive procedures as you mention are ok for this
+assignment.  You can find a procedure in this paper: “Subset-Row
+Inequalities Applied to the Vehicle-Routing Problem with Time Windows”
+by Mads Jepsen, Bjørn Petersen, Simon Spoorendonk and David Pisinger
