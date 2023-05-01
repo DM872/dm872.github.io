@@ -387,7 +387,6 @@ w3.includeHTML();
 [73]: {{ "/assets/dm872-ml-handout.pdf" | absolute_url }}
 [74]: {{ "/assets/dm872-fairness-handout.pdf" | absolute_url }}
 
-<!-- [100]: {{ site.baseurl }}{% post_url 2021-05-09-vrptw %} -->
 [100]: {{ "/assignments/vrptw.pdf" | absolute_url  }}
 [101]: {{ site.baseurl }}{% post_url 2021-05-28-salt_spreading %}
 [102]: {{ "/assets/kkt.pdf" | absolute_url  }}
