@@ -54,7 +54,9 @@ collections:
   sheets:
     output: true
     permalink: /:collection/:path
-
+  assignments:
+    output: true
+    permalink: /:collection/:path
 
 
 

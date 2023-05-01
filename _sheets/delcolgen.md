@@ -71,10 +71,12 @@ of size $B$. The sizes $0\leq s_i \leq B$ of individual items are assumed to be
 known. The problem is to determine how to pack these $n$ items in bins of
 size $B$ so that the number of required bins is minimum.
 
-Formulate the problem using a compact formulation and an extensive
-formulation. Solve the given example using the extensive formulation and
-branch and price. 
+1. Formulate the problem using a compact formulation and an extensive
+formulation. 
 
+2. Solve the given example using the extensive formulation. Solve the linear relaxation of the master problem by column generation and draw a plot about the dual bound development during the process. 
+
+3. Continue the process with branch and price if the solution found at the previous point is not integral.
 
 
 
