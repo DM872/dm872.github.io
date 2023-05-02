@@ -68,12 +68,12 @@ w3.includeHTML();
 |      | [Dantzig Wolfe decomposition and Delayed Column Generation][58]                  | [BGLMS, sc 3];  **[Wo ch 11 in LMS]**; [LD]                   |
 |------+----------------------------------------------------------------------------------+---------------------------------------------------------------|
 |   17 | [Delayed Column Generation][599]; [Dual Bounds in Column Generation][59]         | **[Wo ch 11 in LMS]**                                         |
-|      | Practice on CG                                                                   | [Sheet 4][14]; [Sol][84]                                      |
+|      | Practice on CG                                                                   | [Sheet 4][14]; [Sol1][84]; [Sol2][844]; [Sol3][845]           |
 |      | Vehicle Routing: [Compact models][62]; [Set Partitioning formulation and CG][63] | **[Fe]**, [TV]                                                |
 |------+----------------------------------------------------------------------------------+---------------------------------------------------------------|
-|   18 | [Vehicle Routing: Cutting and Branching][64]; [Notes on Branching][65]           | **[Wo sc 11.7 in LMS]**;  [C];  [Assignment 1][100]           |
-|      | Practice on Branch-and-Price;                                                    | **[Wo p 121 in LMS]**                                         |
-|      | Lagrangian Relaxation for MILP                                                   |                                                               |
+|   18 | Practice; [Vehicle Routing: Cutting and Branching][64]; [Notes on Branching][65] | **[Wo sc 11.7 in LMS]**;  [C];  **[Assignment 1][100]**       |
+|      | [Surrogate and Lagrangian Relaxations for MILP][55]                              | **[Wo ch 10 in LMS]**; **[Fi]**                               |
+|      | Practice on Lagrangian Relaxation                                                | [Sheet 5][15]; [Sheet 6][16]                                  |
 |------+----------------------------------------------------------------------------------+---------------------------------------------------------------|
 |   19 | Lagrangian Relaxation and Linear Programming, Multicommodity Flows               |                                                               |
 |      | Lagrangian Relaxation and Integer Programming                                    |                                                               |
@@ -209,15 +209,6 @@ w3.includeHTML();
   Science. University of Copenhagen.
 -->
 
-<!--
-- [BCG] A.A. Bertossi, P. Carraresi and G. Gallo. [On some matching
-  problems arising in vehicle scheduling
-  models](http://dx.doi.org/10.1002/net.3230170303). Networks, Wiley,
-  1987, 17(3), 271-281
-
-- [CG] P. Carraresi and G. Gallo. [Network models for vehicle and crew
-  scheduling](http://dx.doi.org/10.1016/0377-2217(84)90068-7). European
-  Journal of Operational Research , 1984, 16(2) , 139 - 151
 
 - [Fi] M.L. Fisher. [The Lagrangian Relaxation Method for Solving Integer
   Programming
@@ -235,8 +226,15 @@ w3.includeHTML();
 - [JB] J. E. Beasley. [Integer Programming Solution
   Methods](http://people.brunel.ac.uk/~mastjjb/jeb/natcor_ip_rest.pdf). 
 
+<!--
+- [BCG] A.A. Bertossi, P. Carraresi and G. Gallo. [On some matching
+  problems arising in vehicle scheduling
+  models](http://dx.doi.org/10.1002/net.3230170303). Networks, Wiley,
+  1987, 17(3), 271-281
 
-
+- [CG] P. Carraresi and G. Gallo. [Network models for vehicle and crew
+  scheduling](http://dx.doi.org/10.1016/0377-2217(84)90068-7). European
+  Journal of Operational Research , 1984, 16(2) , 139 - 151
 
 - [SGSK] I. Steinzen, V. Gintner, L. Suhl and N. Kliewer. [A Time-Space
   Network Approach for the Integrated Vehicle- and Crew-Scheduling
@@ -335,12 +333,13 @@ w3.includeHTML();
 [83]: {{ "/assets/tsp_sol_gurobi.html" | absolute_url }}
 
 [84]: {{ "https://github.com/demirayonur/Column-Generation/blob/main/ColumnGeneration_CuttingStockProblem.ipynb" }}
-<!-- [84]: {{ "/assets/Notes_220427_155254.pdf" | absolute_url }} -->
+[844]: {{ "/assets/Notes_220427_155254.pdf" | absolute_url }}
+[845]: {{ "https://github.com/DM872/Material/blob/main/BinPacking/extensive.py" }}
 
 [133]: {{ "https://github.com/DM872/Material/blob/master/TSP/tsp.ipynb" | absolute_url }}
 [14]: {{ "/sheets/delcolgen.html" | absolute_url }}
-[15]: {{ site.baseurl }}{% post_url 2022-05-04-bnprice %}
-[16]: {{ site.baseurl }}{% post_url 2021-04-26-lagrangian %}
+[15]: {{ "/sheets/bnprice.html" | absolute_url }}
+[16]: {{ "/sheets/lagrangian.html" | absolute_url }}
 [17]: {{ site.baseurl }}{% post_url 2021-05-14-benders %}
 
 
@@ -365,7 +364,7 @@ w3.includeHTML();
 [53]: {{ "/assets/dm872-TSP_Formulations.pdf" | absolute_url }}
 [54]: {{ "/assets/TSP_210422_111820.pdf" | absolute_url }}
 
-[55]: {{ "/assets/dm872-lagrangian-handout.pdf" | absolute_url }}
+[55]: {{ "/assets/dm872-slides-lagrangian.pdf" | absolute_url }}
 [56]: {{ "/assets/Notes_210428_114528.pdf" | absolute_url }}
 [57]: {{ "/assets/Notes_210429_174511.pdf" | absolute_url }}
 [577]: {{ "https://scipbook.readthedocs.io/en/latest/bpp.html" }}
