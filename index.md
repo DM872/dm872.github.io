@@ -73,11 +73,11 @@ w3.includeHTML();
 |------+----------------------------------------------------------------------------------+----------------------------------------------------------------------------------|
 |   18 | Practice; [Vehicle Routing: Cutting and Branching][64]; [Notes on Branching][65] | **[Wo sc 11.7 in LMS]**;  [C];  **[Assignment 1][100]**                          |
 |      | [Surrogate and Lagrangian Relaxations for MILP][55]                              | **[Wo ch 10 in LMS]**; **[Fi]**                                                  |
-|      | Practice on [Lagrangian Relaxation (Multicommodity flows)][56]                   | [Sheet 5][15]; [Sheet 6][16];  **[AMO ch 16 + 17.4 in LMS]**                     |
+|      | Practice on [Lagrangian Relaxation (Multicommodity flows)][56]                   | [Sheet 5][15]; [Sheet 6][16]; [Sol][85]; **[AMO ch 16 + 17.4 in LMS]**           |
 |------+----------------------------------------------------------------------------------+----------------------------------------------------------------------------------|
 |   19 | [Lagrangian Relaxation and Integer Programming][57]                              | ([IB]; [JB]; [Fi2]); [Fi, sc 8]; [AMO sc 16.4]; [Wo ch 10 in LMS]; [AMO sc 16.5] |
-|      | Applications: Vehicle Scheduling                                                 | [BCG]; [CG];                                                                     |
-|      | Crew Scheduling; RCSP                                                            | [SGSK]; [GM]                                                                     |
+|      | Applications: [Vehicle Scheduling][66]                                           | [BCG]; [CG];                                                                     |
+|      | [Crew Scheduling][67]; RCSP                                                      | [SGSK]; [GM]                                                                     |
 |------+----------------------------------------------------------------------------------+----------------------------------------------------------------------------------|
 |   20 | Stochastic Programming                                                           |                                                                                  |
 |      | Benders' Algorithm                                                               |                                                                                  |
@@ -227,7 +227,7 @@ w3.includeHTML();
 - [JB] J. E. Beasley. [Integer Programming Solution
   Methods](http://people.brunel.ac.uk/~mastjjb/jeb/natcor_ip_rest.pdf). 
 
-<!--
+
 - [BCG] A.A. Bertossi, P. Carraresi and G. Gallo. [On some matching
   problems arising in vehicle scheduling
   models](http://dx.doi.org/10.1002/net.3230170303). Networks, Wiley,
@@ -249,6 +249,7 @@ w3.includeHTML();
   (ed.). CP, Springer, 2012, 7514, 299-315
 
 
+<!--
 
 - [DJ] Dirickx YMI & Jennergren LP (1979). [Systems Analysis by
   Multilevel Methods: With Applications to Economics and
