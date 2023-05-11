@@ -381,7 +381,7 @@ w3.includeHTML();
 [65]: {{ "/assets/Notes_210513_112748.pdf" | absolute_url }}
 
 [66]: {{ "/assets/dm872-slides-vehicle-scheduling.pdf" | absolute_url }}
-[67]: {{ "/assets/dm872-crew-scheduling-handout.pdf" | absolute_url }}
+[67]: {{ "/assets/dm872-slides-crew-scheduling.pdf" | absolute_url }}
 [68]: {{ "/assets/dm872-rcsp-handout.pdf" | absolute_url }}
 [69]: {{ "/assets/Notes_220518_190121.pdf" | absolute_url }}
 [70]: {{ "/assets/dm872-benders-handout.pdf" | absolute_url }}
