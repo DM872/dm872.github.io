@@ -79,8 +79,8 @@ w3.includeHTML();
 |      | Applications: [Vehicle Scheduling][66]                                           | [BCG]; [CG];                                                                     |
 |      | [Crew Scheduling][67]; RCSP                                                      | [SGSK]; [GM]                                                                     |
 |------+----------------------------------------------------------------------------------+----------------------------------------------------------------------------------|
-|   20 | Stochastic Programming                                                           |                                                                                  |
-|      | Benders' Algorithm                                                               |                                                                                  |
+|   20 | [Benders' Algorithm][69]                                                         | **[Wo ch 12 in LMS]**; [DJ]; [Z]; [Sheet 7][17]                                  |
+|      | Stochastic Programming                                                           |                                                                                  |
 |      |                                                                                  |                                                                                  |
 |------+----------------------------------------------------------------------------------+----------------------------------------------------------------------------------|
 |   21 | Integer Programming and Heuristics; Notes                                        |                                                                                  |
@@ -249,7 +249,7 @@ w3.includeHTML();
   (ed.). CP, Springer, 2012, 7514, 299-315
 
 
-<!--
+
 
 - [DJ] Dirickx YMI & Jennergren LP (1979). [Systems Analysis by
   Multilevel Methods: With Applications to Economics and
@@ -258,6 +258,10 @@ w3.includeHTML();
 
 
 - Zhang, Ray Jian, [Benders Decomposition: An Easy Example](https://youtu.be/vQzpydNOWDY). 2016. Video
+
+
+
+<!--
 
 - [FL] M. Fischetti, A. Lodi, [Heuristics in Mixed Integer
   Programming](https://homepages.cwi.nl/~dadush/workshop/discrepancy-ip/papers/heuristics-survey-fischetti-lodi-11.pdf),
@@ -383,7 +387,7 @@ w3.includeHTML();
 [66]: {{ "/assets/dm872-slides-vehicle-scheduling.pdf" | absolute_url }}
 [67]: {{ "/assets/dm872-slides-crew-scheduling.pdf" | absolute_url }}
 [68]: {{ "/assets/dm872-rcsp-handout.pdf" | absolute_url }}
-[69]: {{ "/assets/Notes_220518_190121.pdf" | absolute_url }}
+[69]: {{ "/assets/Notes_230515_095251.pdf" | absolute_url }}
 [70]: {{ "/assets/dm872-benders-handout.pdf" | absolute_url }}
 [71]: {{ "/assets/dm872-cut-n-solve-handout.pdf" | absolute_url }}
 [72]: {{ "/assets/Notes_220524_135358.pdf" | absolute_url }}
