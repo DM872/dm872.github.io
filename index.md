@@ -79,9 +79,9 @@ w3.includeHTML();
 |      | Applications: [Vehicle Scheduling][66]                                           | [BCG]; [CG];                                                                     |
 |      | [Crew Scheduling][67]; RCSP                                                      | [SGSK]; [GM]                                                                     |
 |------+----------------------------------------------------------------------------------+----------------------------------------------------------------------------------|
-|   20 | [Benders' Algorithm][69]                                                         | **[Wo ch 12 in LMS]**; [DJ]; [Z]; [Sheet 7][17]                                  |
+|   20 | [Benders' Algorithm][69]                                                         | **[Wo ch 12 in LMS]**; [DJ]; [Z];                                                |
+|      | Practice on Benders' Algorithm                                                   | [Sheet 7][17]                                                                    |
 |      | Stochastic Programming                                                           |                                                                                  |
-|      |                                                                                  |                                                                                  |
 |------+----------------------------------------------------------------------------------+----------------------------------------------------------------------------------|
 |   21 | Integer Programming and Heuristics; Notes                                        |                                                                                  |
 |      | Integer Programming and Machine Learning                                         |                                                                                  |
