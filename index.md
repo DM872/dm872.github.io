@@ -79,7 +79,7 @@ w3.includeHTML();
 |      | Applications: [Vehicle Scheduling][66]                                           | [BCG]; [CG];                                                                     |
 |      | [Crew Scheduling][67]; [RCSP][68]                                                | [SGSK]; [GM]                                                                     |
 |------+----------------------------------------------------------------------------------+----------------------------------------------------------------------------------|
-|   20 | [Benders' Algorithm][69]                                                         | **[Wo ch 12 in LMS]**; [DJ]; [Z];                                                |
+|   20 | [Benders' Algorithm][69]; [Version 2][699]                                                         | **[Wo ch 12 in LMS]**; [DJ]; [Z];                                                |
 |      | Practice on Benders' Algorithm                                                   | [Sheet 7][17]                                                                    |
 |      | Stochastic Programming                                                           |                                                                                  |
 |------+----------------------------------------------------------------------------------+----------------------------------------------------------------------------------|
@@ -387,6 +387,7 @@ w3.includeHTML();
 [67]: {{ "/assets/dm872-slides-crew-scheduling.pdf" | absolute_url }}
 [68]: {{ "/assets/dm872-rcsp-handout.pdf" | absolute_url }}
 [69]: {{ "/assets/Notes_230515_095251.pdf" | absolute_url }}
+[699]: {{ "/assets/Notes_230516_122803.pdf" | absolute_url }}
 [70]: {{ "/assets/dm872-benders-handout.pdf" | absolute_url }}
 [71]: {{ "/assets/dm872-cut-n-solve-handout.pdf" | absolute_url }}
 [72]: {{ "/assets/Notes_220524_135358.pdf" | absolute_url }}
