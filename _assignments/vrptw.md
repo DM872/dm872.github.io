@@ -131,8 +131,10 @@ to the datafile. You can use a solver for the solution of the restricted
 linear master problem but you must identify promising columns by hand
 and justify your choice.
 
+<s>
 Report in a plot the behaviour of the best dual bound available during
 the column generation process.
+</s>
 
 (It is not so important to prove optimality here, you will do that in
  the next task.)
@@ -143,8 +145,8 @@ Starting from the provided data below and a template for column
 generation delivered during the course (the bin packing example),
 implement in Pyhton a Column Generation procedure, computing an optimal
 solution to the linear relaxation of the master problem, by adding the
-route having the most negative reduced cost, at every iteration. Use the
-solution you found in Task 2, as the initial columns. Describe, in
+route having the most negative reduced cost, at every iteration. As the
+initial columns, use the ones provided in the data below. Describe, in
 details the different steps implied by the Column Generation Procedure
 and report a plot that shows the trend of the value of the pricing
 problem and the derived dual bound to the master problem.
@@ -220,7 +222,7 @@ class data:
         [0,  6,  6,  4,  4,  5,  6,  5,  4,  0]
         ])
   
-    #The initial routes for Task 4
+    #The initial routes for Task 4 and 5
     #Each row describe the customers visited in a route. If the n'th index in a row is '1.0', then the route visits customer n.
     routes = array([
         [0, 0, 0, 1, 0, 1, 1, 0],

@@ -77,7 +77,7 @@ w3.includeHTML();
 |------+----------------------------------------------------------------------------------+----------------------------------------------------------------------------------|
 |   19 | [Lagrangian Relaxation and Integer Programming][57]                              | ([IB]; [JB]; [Fi2]); [Fi, sc 8]; [AMO sc 16.4]; [Wo ch 10 in LMS]; [AMO sc 16.5] |
 |      | Applications: [Vehicle Scheduling][66]                                           | [BCG]; [CG];                                                                     |
-|      | [Crew Scheduling][67]; RCSP                                                      | [SGSK]; [GM]                                                                     |
+|      | [Crew Scheduling][67]; [RCSP][68]                                                | [SGSK]; [GM]                                                                     |
 |------+----------------------------------------------------------------------------------+----------------------------------------------------------------------------------|
 |   20 | [Benders' Algorithm][69]                                                         | **[Wo ch 12 in LMS]**; [DJ]; [Z];                                                |
 |      | Practice on Benders' Algorithm                                                   | [Sheet 7][17]                                                                    |
@@ -312,8 +312,7 @@ w3.includeHTML();
 
 - [OS] [Optimization Software: links to solvers and benachmarks](https://imada.sdu.dk/u/march/Blog/optimization/software/2023/02/12/optsoft.html)
 
-- [Talk] [The Traveling Salesman Problem](https://www.lse.ac.uk/Events/2023/05/202305031830/salesman)
-  public lecture by William Cook on May 3rd 2023 at LSE.
+- [Talk] [The Traveling Salesman Problem](https://www.youtube.com/live/Mpj8vo18W1E?feature=share) public lecture by William Cook on May 3rd 2023 at LSE.
 
 ### Assessment
 
