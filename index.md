@@ -80,8 +80,8 @@ w3.includeHTML();
 |      | [Crew Scheduling][67]; [RCSP][68]                                                | [SGSK]; [GM]                                                                     |
 |------+----------------------------------------------------------------------------------+----------------------------------------------------------------------------------|
 |   20 | [Benders' Algorithm][69]; [Version 2][699]                                       | **[Wo ch 12 in LMS]**; [DJ]; [Z];                                                |
-|      | Practice on Benders' Algorithm                                                   | [Sheet 7][17]                                                                    |
-|      | Stochastic Programming                                                           |                                                                                  |
+|      | Practice on Benders' Algorithm                                                   | [Sheet 7][17];   [Sol][86]                                                       |
+|      | [Stochastic Programming][70]                                                     |                                                                                  |
 |------+----------------------------------------------------------------------------------+----------------------------------------------------------------------------------|
 |   21 | Integer Programming and Heuristics; Notes                                        |                                                                                  |
 |      | Integer Programming and Machine Learning                                         |                                                                                  |
@@ -352,6 +352,8 @@ w3.includeHTML();
 [81]: {{ "/assets/feat_sel.html" | absolute_url }}
 [85]: {{ "/assets/Lagrangian_grp.html" | absolute_url }}
 [86]: {{ "/assets/benders_example.html" | absolute_url }}
+[866]: {{ "https://github.com/DM872/Material/blob/master/Benders/benders_example_2.ipynb" | absolute_url }}
+
 
 [32]: {{ "https://github.com/DM872/Material/blob/master/sheet2/infection.ipynb" }}
 [33]: {{ "https://github.com/DM872/Material/blob/master/TSP/tsp_sol.ipynb" | absolute_url }}
@@ -389,7 +391,7 @@ w3.includeHTML();
 [68]: {{ "/assets/dm872-rcsp-handout.pdf" | absolute_url }}
 [69]: {{ "/assets/Notes_230515_095251.pdf" | absolute_url }}
 [699]: {{ "/assets/Notes_230516_122803.pdf" | absolute_url }}
-[70]: {{ "/assets/dm872-benders-handout.pdf" | absolute_url }}
+[70]: {{ "/assets/dm872-slides-stochastic.pdf" | absolute_url }}
 [71]: {{ "/assets/dm872-cut-n-solve-handout.pdf" | absolute_url }}
 [72]: {{ "/assets/Notes_220524_135358.pdf" | absolute_url }}
 [73]: {{ "/assets/dm872-ml-handout.pdf" | absolute_url }}
