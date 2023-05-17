@@ -80,8 +80,8 @@ w3.includeHTML();
 |      | [Crew Scheduling][67]; [RCSP][68]                                                | [SGSK]; [GM]                                                                     |
 |------+----------------------------------------------------------------------------------+----------------------------------------------------------------------------------|
 |   20 | [Benders' Algorithm][69]; [Version 2][699]                                       | **[Wo ch 12 in LMS]**; [DJ]; [Z];                                                |
-|      | Practice on Benders' Algorithm                                                   | [Sheet 7][17];   [Sol][86]                                                       |
-|      | [Stochastic Programming][70]                                                     |                                                                                  |
+|      | Practice on Benders' Algorithm                                                   | [Sheet 7][17]; [Sol][86]; [Sol1][86]; [Sol2][866]                                |
+|      | [Stochastic Programming][70]                                                     | [B]; **[Wo p 241]**; [SP]                                                        |
 |------+----------------------------------------------------------------------------------+----------------------------------------------------------------------------------|
 |   21 | Integer Programming and Heuristics; Notes                                        |                                                                                  |
 |      | Integer Programming and Machine Learning                                         |                                                                                  |
@@ -257,8 +257,10 @@ w3.includeHTML();
   UK: John Wiley & Sons. ISBN 978-0-471-27626-5
 
 
-- Zhang, Ray Jian, [Benders Decomposition: An Easy Example](https://youtu.be/vQzpydNOWDY). 2016. Video
+- [Z] Zhang, Ray Jian, [Benders Decomposition: An Easy Example](https://youtu.be/vQzpydNOWDY). 2016. Video
 
+- [B] John E Beasley [Stochastic
+  Programming](people.brunel.ac.uk/~mastjjb/jeb/or/sp.html) in OR-Notes
 
 
 <!--
@@ -312,7 +314,12 @@ w3.includeHTML();
 
 - [OS] [Optimization Software: links to solvers and benachmarks](https://imada.sdu.dk/u/march/Blog/optimization/software/2023/02/12/optsoft.html)
 
+- [SP] [Stochastic Programming Society](https://www.stoprog.org/)
+
+### Videos
+
 - [Talk] [The Traveling Salesman Problem](https://www.youtube.com/live/Mpj8vo18W1E?feature=share) public lecture by William Cook on May 3rd 2023 at LSE.
+
 
 ### Assessment
 
@@ -451,7 +458,6 @@ w3.includeHTML();
 [13]: {{ "https://www.imada.sdu.dk/~marco/Teaching/AY2018-2019/DM872/assets/tsp.html" | absolute_url }}
 
 
-[16]: {{ "https://www.youtube.com/watch?v=vQzpydNOWDY" | absolute_url }}
 [17]: {{ site.baseurl }}{% post_url 2020-04-28-timetabling %}
 
 
