@@ -34,9 +34,10 @@ $$
 \end{align*}
 $$
 
-Solve it using Benders’ algorithm.
+Solve it using Benders’ algorithm. A template for the implementation is
+avaialble from the git repository.
 
 After solving it, you are informed that the $y$ variables should also be integer.
 Without starting again from scratch:
 	i. Solve the new problem using a basic branch and bound algorithm (Section 12.5.1)
-	ii. Solve using no-good cuts.
+	ii. Solve using no-good cuts (Section 12.5.2).
