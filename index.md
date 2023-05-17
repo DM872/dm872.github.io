@@ -79,7 +79,7 @@ w3.includeHTML();
 |      | Applications: [Vehicle Scheduling][66]                                           | [BCG]; [CG];                                                                     |
 |      | [Crew Scheduling][67]; [RCSP][68]                                                | [SGSK]; [GM]                                                                     |
 |------+----------------------------------------------------------------------------------+----------------------------------------------------------------------------------|
-|   20 | [Benders' Algorithm][69]; [Version 2][699]                                                         | **[Wo ch 12 in LMS]**; [DJ]; [Z];                                                |
+|   20 | [Benders' Algorithm][69]; [Version 2][699]                                       | **[Wo ch 12 in LMS]**; [DJ]; [Z];                                                |
 |      | Practice on Benders' Algorithm                                                   | [Sheet 7][17]                                                                    |
 |      | Stochastic Programming                                                           |                                                                                  |
 |------+----------------------------------------------------------------------------------+----------------------------------------------------------------------------------|
@@ -345,7 +345,8 @@ w3.includeHTML();
 [14]: {{ "/sheets/delcolgen.html" | absolute_url }}
 [15]: {{ "/sheets/bnprice.html" | absolute_url }}
 [16]: {{ "/sheets/lagrangian.html" | absolute_url }}
-[17]: {{ site.baseurl }}{% post_url 2021-05-14-benders %}
+[17]: {{ "/sheets/benders.html" | absolute_url }}
+
 
 
 [81]: {{ "/assets/feat_sel.html" | absolute_url }}
