@@ -83,10 +83,10 @@ w3.includeHTML();
 |      | Practice on Benders' Algorithm                                                   | [Sheet 7][17]; [Sol][86]; [Sol1][86]; [Sol2][866]                                |
 |      | [Stochastic Programming][70]                                                     | [B]; **[Wo p 241]**; [SP]                                                        |
 |------+----------------------------------------------------------------------------------+----------------------------------------------------------------------------------|
-|   21 | Integer Programming and Heuristics; Notes                                        |                                                                                  |
-|      | Integer Programming and Machine Learning                                         |                                                                                  |
+|   21 | Stochastic Programming; [Integer Programming and Heuristics][71]; [Notes][72]    | **[Wo ch 13]**; **[FL]**;                                                        |
+|      | Integer Programming and Machine Learning                                         | **[Wo sc 14.6 in LMS]**; **[BD]**; **[FJ]**                                      |
 |------+----------------------------------------------------------------------------------+----------------------------------------------------------------------------------|
-|   22 | Formulating Equity and Fairness in Optimization Models                           | Assignment 2                                                                     |
+|   22 | Formulating Equity and Fairness in Optimization Models                           | [CH] Assignment 2                                                                |
 |------+----------------------------------------------------------------------------------+----------------------------------------------------------------------------------|
 
 
@@ -263,7 +263,7 @@ w3.includeHTML();
   Programming](people.brunel.ac.uk/~mastjjb/jeb/or/sp.html) in OR-Notes
 
 
-<!--
+
 
 - [FL] M. Fischetti, A. Lodi, [Heuristics in Mixed Integer
   Programming](https://homepages.cwi.nl/~dadush/workshop/discrepancy-ip/papers/heuristics-survey-fischetti-lodi-11.pdf),
@@ -287,7 +287,6 @@ w3.includeHTML();
   Equity and Fairness in an Optimization
   Model](http://public.tepper.cmu.edu/jnh/equityGuideAOR.pdf). [Video](https://cp2021.lirmm.fr/submissions/2001)
 
--->
 
 ### Python
 
