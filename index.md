@@ -457,7 +457,7 @@ w3.includeHTML();
 [13]: {{ "https://www.imada.sdu.dk/~marco/Teaching/AY2018-2019/DM872/assets/tsp.html" | absolute_url }}
 
 
-[17]: {{ site.baseurl }}{% post_url 2020-04-28-timetabling %}
+
 
 
 -->
