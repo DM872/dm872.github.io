@@ -84,7 +84,7 @@ w3.includeHTML();
 |      | [Stochastic Programming][70]                                                     | [B]; **[Wo p 241]**; [SP]                                                        |
 |------+----------------------------------------------------------------------------------+----------------------------------------------------------------------------------|
 |   21 | Stochastic Programming; [Integer Programming and Heuristics][71]; [Notes][72]    | **[Wo ch 13]**; **[FL]**;                                                        |
-|      | Integer Programming and Machine Learning                                         | **[Wo sc 14.6 in LMS]**; **[BD]**; **[FJ]**                                      |
+|      | [Integer Programming and Machine Learning][73]                                   | **[Wo sc 14.6 in LMS]**; **[BD]**; **[FJ]**                                      |
 |      | Formulating Equity and Fairness in Optimization Models                           | [CH] Assignment 2                                                                |
 |------+----------------------------------------------------------------------------------+----------------------------------------------------------------------------------|
 
@@ -397,9 +397,9 @@ w3.includeHTML();
 [69]: {{ "/assets/Notes_230515_095251.pdf" | absolute_url }}
 [699]: {{ "/assets/Notes_230516_122803.pdf" | absolute_url }}
 [70]: {{ "/assets/dm872-slides-stochastic.pdf" | absolute_url }}
-[71]: {{ "/assets/dm872-cut-n-solve-handout.pdf" | absolute_url }}
-[72]: {{ "/assets/Notes_220524_135358.pdf" | absolute_url }}
-[73]: {{ "/assets/dm872-ml-handout.pdf" | absolute_url }}
+[71]: {{ "/assets/dm872-slides-cut-n-solve.pdf" | absolute_url }}
+[72]: {{ "/assets/Notes_230523_124056.pdf" | absolute_url }}
+[73]: {{ "/assets/dm872-slides-ml.pdf" | absolute_url }}
 [74]: {{ "/assets/dm872-fairness-handout.pdf" | absolute_url }}
 
 [100]: {{ "/assignments/vrptw.html" | absolute_url  }}
