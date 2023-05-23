@@ -2,20 +2,20 @@
 layout: default
 mathjax: true
 title:  Sheet 2
-date:   2020-04-27 09:33:19 +0100
+date:   2023-05-23 09:33:19 +0100
 categories: assignments
 ---
 
 
 
-## Obligatory Assignment 1
+## Obligatory Assignment 2
 
 
-<div style="float: center">
-<span style="color: blue">
-**Deadline: May 20, 2020, at noon**
-</span>
-</div>
+<!--<div style="float: center">
+<span style="color: blue">-->
+**Deadline: June 16, 2023, at noon**
+<!--</span>
+</div>-->
 
 The goal of this assignment is to implement a MILP model for the
 problem of scheduling classes from courses at the faculty of Natural
@@ -29,13 +29,13 @@ The goals of the assignment are to:
 - describe the model in a written report
 - implement the model in Python
 - experiment with the data made available and
-- report the computational results in the report.  
+- report the computational results in the report.
 
 The project has to be carried out individually. The deliverables, to be
 collected in a tar gzip archive and submitted via SDU Assignment in
 BlackBoard, are:
 
-- the report (max 7 pages)
+- the report (max 10 pages)
 - the source code of the implementation.
 
 You do not need to hand in the input data and you should remove large
@@ -44,11 +44,11 @@ organized as in the `CTT` repository made available. The report must
 be placed in a directory called `doc` inside `CTT`. Archive and
 compress everything with `tar czvf` and submit via BlackBoard.
 
-<span style="color: red"> You can choose not to put your name or
+You can choose not to put your name or
 identifier in any of the files submitted, if your prefer to remain
 anonymous during the evaluation. BlackBoard will rename the archive
 file that you submit with your exam number. Thus, you will be finally
-correctly identified by the exam office. </span>
+correctly identified by the exam office. 
 
 ### Problem description
 
@@ -64,14 +64,14 @@ Given:
     $\ell(e)$, $e \in E$ and a week where it has to take place. [File:
     `events.json`.]
 
-- A set of *rooms* $R$. <span style="color: red">Each room has a set
+- A set of *rooms* $R$. Each room has a set
   of timeslots where it is busy (Rooms
   should also have a capacity that makes them suitable or not for a
-  course. This important detail will be ignored in this assignment.) [File: `rooms.json`.]</span>
+  course. This important detail will be ignored in this assignment.) [File: `rooms.json`.]
 
 - A *precedence digraph* $D=(E,A)$ where each arc $uv \in A$
     for $u,v \in E$ represents a precedence constraint that $u$ must be
-    scheduled before $v$. <span style="color: red">[File: `events.json`, the digraph is given as a list associated to every event denoting the incoming arcs, that is, the events that must be scheduled before.]</span> 
+    scheduled before $v$.[File: `events.json`, the digraph is given as a list associated to every event denoting the incoming arcs, that is, the events that must be scheduled before.]
 
 - Two sets of people: a set of *students* $S$, a set of
     *teachers* $T$, together with:
@@ -82,7 +82,7 @@ Given:
     - a collection of *teaching duties* ${\cal D}=\\\{D_t \subset E \mid t \in
   T\\\}$. [File: `teachers.json`.] 
 
-    - teacher *unavailabilites* ${\cal U}=\\\{U_t \subset P \mid t \in  T\\\}$. <span style="color: blue">Not available for this assignment.</span>
+    - teacher *unavailabilites* ${\cal U}=\\\{U_t \subset P \mid t \in  T\\\}$. Not available for this assignment.
 
 
 <!--
@@ -96,9 +96,9 @@ Task:
 A *timetable* is a schedule of events in timeslots and rooms
 throughout the semester.
 
-<span style="color: red">A *conflict* arises if a resource (room,
+A *conflict* arises if a resource (room,
 teacher, student, course) is used by more than one event at a
-time.</span>
+time.
 
 A timetable is feasible if it satisfies all (hard) constraints given
 below.
@@ -114,19 +114,19 @@ Constraints (hard constraints):
 - all events are scheduled
 - forbidden slots are not used
 - resource room: there are no room conflicts
-- resource teacher: there are no teacher conflicts. <span style="color: blue">Note: some event does not have a teacher (they should be attended by instructors which are not included in this assignment).</span>
+- resource teacher: there are no teacher conflicts. Note: some event does not have a teacher (they should be attended by instructors which are not included in this assignment).
 - resource course:
   - the precendences within the weeks are met
   - paired courses are sychronized 
-  - <span style="color: red">there is at most one event per course per day for each student</span>
-  - <span style="color: blue">(the requirement of no course conflicts was withheld: it is implied by no teacher and student conflicts)</span>
+  - there is at most one event per course per day for each student
+  - (the requirement of no course conflicts was withheld: it is implied by no teacher and student conflicts)
 
 Desirability criteria (soft constraints):
 
 - resource student: student conflicts are minimized 
 - resource course: weekly stability is promoted
 - resource teacher: the number of events per day per teacher is minimized 
-- <span style="color: red">bad slots are avoided in a way proportional to their degree of discomfort (in the figure below, darker shades of green indicate higher undesirability/discomfort).</span>
+- bad slots are avoided in a way proportional to their degree of discomfort (in the figure below, darker shades of green indicate higher undesirability/discomfort).
 
 
 ![trends]({{ "/assets/bad_slots.jpg" | absolute_url }}){:width="60%" .center-image}
