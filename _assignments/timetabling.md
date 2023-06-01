@@ -2,7 +2,7 @@
 layout: default
 mathjax: true
 title:  Sheet 2
-comments: true
+comments: false
 date:   2023-05-23 09:33:19 +0100
 categories: assignments
 ---
