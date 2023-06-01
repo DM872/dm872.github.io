@@ -2,6 +2,7 @@
 layout: default
 mathjax: true
 title:  Sheet 2
+comments: true
 date:   2023-05-23 09:33:19 +0100
 categories: assignments
 ---
@@ -53,7 +54,7 @@ Given:
 
 - A set of hourly *timeslots* (aka, time periods) $P=\\\{(h,d,w) \mid
     h\in \mbox{Hours}, d\in \mbox{Days}, w\in \mbox{Weeks}\\\}$, that
-    is, 10 slots of one hour per day $\times$ 5 days $\times$ 17
+    is, <span style="color: blue">12</span> slots of one hour per day $\times$ 5 days $\times$ 17
     weeks). [File: `timeslots.json`.] The file also contains a set of forbidden (`banned`) slots.
 
 - A set of *events* (aka, classes) $E$. Events are derived from
