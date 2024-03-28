@@ -2,7 +2,7 @@
 # You don't need to edit this file, it's empty on purpose.
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-title: "DM872 (S23) -- Mathematical Optimization at Work"
+title: "DM872 (S24) -- Mathematical Optimization at Work"
 layout: default
 excerpt: "Main Page"
 sitemap: false
@@ -15,7 +15,7 @@ permalink: /
 
 - [Official course description](https://odinlister.sdu.dk/fagbesk/internkode/DM872/){:target="_blank"}
   
-- [ItsLearning](https://sdu.itslearning.com/main.aspx?CourseID=25676){:target="_blank"}
+- [ItsLearning](https://sdu.itslearning.com/main.aspx?CourseID=31891){:target="_blank"}
 
 - Teacher: [Marco Chiarandini](https://imada.sdu.dk/u/march){:target="_blank"}
 
@@ -25,11 +25,11 @@ permalink: /
 
 
 <p>
-<a href="https://skemaplan.sdu.dk/N340032101/f23" target="_blank">Odin</a>
+<a href="https://skemaplan.sdu.dk/N340032101/f24" target="_blank">Odin</a>
 <!-- <a href="https://mitsdu.sdu.dk/skema/activity/N340032101/f22">MitSDU</a> -->
 </p>
 
-<!--
+
 
 <button onclick="myFunction('h1')" class="w3-btn w3-cell
 w3-left-align">Overall view <i class="fa fa-caret-down"></i></button>
@@ -37,14 +37,14 @@ w3-left-align">Overall view <i class="fa fa-caret-down"></i></button>
 
 <div class="w3-responsive">
 
-<div w3-include-html="./assets/dm872.html"></div>
+<div w3-include-html="./assets/dm872_h1.html"></div>
 <script>
 w3.includeHTML();
 </script>
 </div>
 </div>
 
--->
+
 
 
 
@@ -54,39 +54,40 @@ w3.includeHTML();
 
 
 
-| Week | Topics and Slides                                                                | Resources                                                                        |
-|------+----------------------------------------------------------------------------------+----------------------------------------------------------------------------------|
-|   13 | [Introduction][51], [Farkas][512], [Interior Point Methods][511]                 | [GRB], [HL, sc 8.4], [MG, sc 7.2], [NW]                                          |
-|      | [LP Practical Guidelines][104],  Sifting, KKT                                    | **[KN1]**,   [BGLMS, sc 3]                                                       |
-|      | Practice                                                                         | [Sheet 1][11]; [sol][81]                                                         |
-|------+----------------------------------------------------------------------------------+----------------------------------------------------------------------------------|
-|   15 | [MILP Practical Guidelines][105]; [Presolving][60]; [Modeling][7]                | **[KN2]**, *[ABGRW]*, **[Wi, ch7,9,10] or [GRB, modeling 2]**                    |
-|      | [MILP Formulations for Traveling Salesman Problem][144]                          | [P] or [DFJ] or [MTZ] or [A] or [ABCC] or [OAL]; [OS] [Talk]                     |
-|------+----------------------------------------------------------------------------------+----------------------------------------------------------------------------------|
-|   16 | Practice on TSP                                                                  | [Sheet 2][12];   [sol][82]                                                       |
-|      | [Lazy Constraints for TSP][54]                                                   | [Sheet 3][13];   [sol][83]                                                       |
-|      | [Dantzig Wolfe decomposition and Delayed Column Generation][58]                  | [BGLMS, sc 3];  **[Wo ch 11 in LMS]**; [LD]                                      |
-|------+----------------------------------------------------------------------------------+----------------------------------------------------------------------------------|
-|   17 | [Delayed Column Generation][599]; [Dual Bounds in Column Generation][59]         | **[Wo ch 11 in LMS]**                                                            |
-|      | Practice on CG                                                                   | [Sheet 4][14]; [Sol1][84]; [Sol2][844]; [Sol3][845]                              |
-|      | Vehicle Routing: [Compact models][62]; [Set Partitioning formulation and CG][63] | **[Fe]**, [TV]                                                                   |
-|------+----------------------------------------------------------------------------------+----------------------------------------------------------------------------------|
-|   18 | Practice; [Vehicle Routing: Cutting and Branching][64]; [Notes on Branching][65] | **[Wo sc 11.7 in LMS]**;  [C];  **[Assignment 1][100]**                          |
-|      | [Surrogate and Lagrangian Relaxations for MILP][55]                              | **[Wo ch 10 in LMS]**; **[Fi]**                                                  |
-|      | Practice on [Lagrangian Relaxation (Multicommodity flows)][56]                   | [Sheet 5][15]; [Sheet 6][16]; [Sol][85]; **[AMO ch 16 + 17.4 in LMS]**           |
-|------+----------------------------------------------------------------------------------+----------------------------------------------------------------------------------|
-|   19 | [Lagrangian Relaxation and Integer Programming][57]                              | ([IB]; [JB]; [Fi2]); [Fi, sc 8]; [AMO sc 16.4]; [Wo ch 10 in LMS]; [AMO sc 16.5] |
-|      | Applications: [Vehicle Scheduling][66]                                           | [BCG]; [CG];                                                                     |
-|      | [Crew Scheduling][67]; [RCSP][68]                                                | [SGSK]; [GM]                                                                     |
-|------+----------------------------------------------------------------------------------+----------------------------------------------------------------------------------|
-|   20 | [Benders' Algorithm][69]; [Version 2][699]                                       | **[Wo ch 12 in LMS]**; [DJ]; [Z];                                                |
-|      | Practice on Benders' Algorithm                                                   | [Sheet 7][17]; [Sol][86]; [Sol1][86]; [Sol2][866]                                |
-|      | [Stochastic Programming][70]                                                     | [B]; **[Wo p 241]**; [SP]                                                        |
-|------+----------------------------------------------------------------------------------+----------------------------------------------------------------------------------|
-|   21 | Stochastic Programming; [Integer Programming and Heuristics][71]; [Notes][72]    | **[Wo ch 13]**; **[FL]**;                                                        |
-|      | [Integer Programming and Machine Learning][73]                                   | **[Wo sc 14.6 in LMS]**; **[BD]**; **[FJ]**                                      |
-|      | [Formulating Equity and Fairness in Optimization Models][74]                     | [CH] **[Assignment 2][109]**                                                                |
-|------+----------------------------------------------------------------------------------+----------------------------------------------------------------------------------|
+| Week | Topics and Slides                                                    | Resources                               |
+|------+----------------------------------------------------------------------+-----------------------------------------|
+|   14 | [Introduction][51], [Farkas][512], [Interior Point Methods][511]     | [GRB], [HL, sc 8.4], [MG, sc 7.2], [NW] |
+|      | [LP Practical Guidelines][104],  Sifting, KKT                        | **[KN1]**,   [BGLMS, sc 3]              |
+|      | Practice                                                             | [Sheet 1][11]                           |
+|------+----------------------------------------------------------------------+-----------------------------------------|
+|   15 | MILP Practical Guidelines; [Modeling                                 |                                         |
+|      | MILP Formulations for Traveling Salesman Problem                     |                                         |
+|      | Practice on TSP                                                      |                                         |
+|------+----------------------------------------------------------------------+-----------------------------------------|
+|   16 | Lazy Constraints for TSP                                             |                                         |
+|      | Presolving                                                           |                                         |
+|      | Dantzig Wolfe decomposition and Delayed Column Generation            |                                         |
+|------+----------------------------------------------------------------------+-----------------------------------------|
+|   17 | Delayed Column Generation; Dual Bounds in Column Generation          |                                         |
+|      | Practice on CG                                                       |                                         |
+|      | Vehicle Routing: Compact models; Set Partitioning formulation and CG |                                         |
+|------+----------------------------------------------------------------------+-----------------------------------------|
+|   18 | Practice; Vehicle Routing: Cutting and Branching; Notes on Branching |                                         |
+|      | Surrogate and Lagrangian Relaxations for MILP                        |                                         |
+|      | Practice on Lagrangian Relaxation (Multicommodity flows)             |                                         |
+|------+----------------------------------------------------------------------+-----------------------------------------|
+|   19 | Lagrangian Relaxation and Integer Programming                        |                                         |
+|      | Applications: Vehicle Scheduling                                     |                                         |
+|      | Crew Scheduling; RCSP                                                |                                         |
+|------+----------------------------------------------------------------------+-----------------------------------------|
+|   20 | Benders' Algorithm; Version 2                                        |                                         |
+|      | Practice on Benders' Algorithm                                       |                                         |
+|      | Stochastic Programming                                               |                                         |
+|------+----------------------------------------------------------------------+-----------------------------------------|
+|   21 | Stochastic Programming; Integer Programming and Heuristics; Notes    |                                         |
+|      | Integer Programming and Machine Learning                             |                                         |
+|      | Formulating Equity and Fairness in Optimization Models               |                                         |
+|------+----------------------------------------------------------------------+-----------------------------------------|
 
 
 
@@ -131,6 +132,7 @@ w3.includeHTML();
   Operations Research and Management Science Volume 18, Issues 1–2,
   October 2013, Pages 18-32
 
+<!--  
  
 - [ABGRW] Tobias Achterberg, Robert E. Bixby, Zonghao Gu, Edward
   Rothberg, Dieter Weninger. [Presolve Reductions in Mixed Integer
@@ -202,6 +204,8 @@ w3.includeHTML();
   and Applications, Second Edition, Society for Industrial and Applied
   Mathematics, 2014
 
+-->  
+
 <!--
 
 - [C] J. Clausen. [Branch and Bound Algorithms-Principles and
@@ -210,6 +214,7 @@ w3.includeHTML();
   Science. University of Copenhagen.
 -->
 
+<!--
 
 - [Fi] M.L. Fisher. [The Lagrangian Relaxation Method for Solving Integer
   Programming
@@ -287,11 +292,13 @@ w3.includeHTML();
   Equity and Fairness in an Optimization
   Model](http://public.tepper.cmu.edu/jnh/equityGuideAOR.pdf). [Video](https://cp2021.lirmm.fr/submissions/2001)
 
+-->
+
 
 ### Python
 
 
-- See references in [DM871](https://dm871.github.io/)
+- See Tutorials "Python Review" and "MILP Software" in [DM871](https://dm871.github.io/)
 
 <!--
 - Python tutorial from DM561: 
@@ -313,18 +320,22 @@ w3.includeHTML();
 
 - [OS] [Optimization Software: links to solvers and benachmarks](https://imada.sdu.dk/u/march/Blog/optimization/software/2023/02/12/optsoft.html)
 
+<!--  
 - [SP] [Stochastic Programming Society](https://www.stoprog.org/)
+
+-->
 
 ### Videos
 
+<!--
 - [Talk] [The Traveling Salesman Problem](https://www.youtube.com/live/Mpj8vo18W1E?feature=share) public lecture by William Cook on May 3rd 2023 at LSE.
-
+-->
 
 ### Assessment
 
-- Ordinary exam: the two assignments linked above
+- Ordinary exam: two assignments during the course
 
-- Reexam: assignments in August 2023
+- Reexam: assignments in August 2024
 
 
 
