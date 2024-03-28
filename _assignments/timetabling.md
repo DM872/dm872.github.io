@@ -28,7 +28,7 @@ The goals of the assignment are to:
 - model the problem in MILP terms
 - implement the model in Python
 - experiment with the data made available and determine whether the model is computationally practicable
-- repeat the previous steps improving the computational aspects of the model using some of the tecnuqies saw during the course 
+- repeat the previous steps improving the computational aspects of the model using some of the techniques saw during the course 
 - describe the models and the implementations in a written report
 - report the computational results in the report.
 
@@ -55,7 +55,7 @@ Given:
 - A set of hourly *timeslots* (aka, time periods) $P=\\\{(h,d,w) \mid
     h\in \mbox{Hours}, d\in \mbox{Days}, w\in \mbox{Weeks}\\\}$, that
     is, <span style="color: blue">12</span> slots of one hour per day $\times$ 5 days $\times$ 17
-    weeks). [File: `timeslots.json`.] The file also contains a set of forbidden (`banned`) slots.
+    weeks. [File: `timeslots.json`.] The file also contains a set of forbidden (`banned`) slots.
 
 - A set of *events* (aka, classes) $E$. Events are derived from
     courses, weeks, sessions and sections.  Each event has an
@@ -70,7 +70,8 @@ Given:
 
 - A *precedence digraph* $D=(E,A)$ where each arc $uv \in A$
     for $u,v \in E$ represents a precedence constraint that $u$ must be
-    scheduled before $v$.[File: `events.json`, the digraph is given as a list event identifiers associated to every event, denoting the incoming arcs, that is, the events that must be scheduled before the current one.]
+    scheduled before
+    $v$.[File: `events.json`, the digraph is given as a list of event identifiers associated to every event, denoting the incoming arcs, that is, the events that must be scheduled before the current one.]
 
 - Two sets of people: a set of *students* $S$, a set of
     *teachers* $T$, together with:
