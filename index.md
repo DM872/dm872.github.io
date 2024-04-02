@@ -56,7 +56,7 @@ w3.includeHTML();
 
 | Week | Topics and Slides                                                    | Resources                               |
 |------+----------------------------------------------------------------------+-----------------------------------------|
-|   14 | Introduction, Farkas, Interior Point Methods     | [GRB], [HL, sc 8.4], [MG, sc 7.2], [NW] |
+|   14 | [Introduction][51], [Farkas][512], [Interior Point Methods][511]     | [GRB], [HL, sc 8.4], [MG, sc 7.2], [V, ch 21]; [NW] |
 |      | LP Practical Guidelines,  Sifting, KKT                        | **[KN1]**,   [BGLMS, sc 3]              |
 |      | Practice                                                             | [Sheet 1][11]                           |
 |------+----------------------------------------------------------------------+-----------------------------------------|
@@ -119,6 +119,8 @@ w3.includeHTML();
   Berlin Heidelberg, 2007
 
 - [NW] J. Nocedal and S. J. Wright, Numerical Optimization, Second Edition. Springer Series in Operations Research, 2006.
+
+- [V] Robert J. Vanderbei, Linear Programming: Foundations and Extensions, Fourth Edition, Springer. 2014.
 
 - [BGLMS] Bixby, R. E., Gregory, J. W., Lustig, I. J., Marsten, R. E.,
   & Shanno, D. F. (1992). [Very large-scale linear programming: A case
