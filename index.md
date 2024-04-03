@@ -57,10 +57,10 @@ w3.includeHTML();
 | Week | Topics and Slides                                                    | Resources                               |
 |------+----------------------------------------------------------------------+-----------------------------------------|
 |   14 | [Introduction][51], [Farkas][512], [Interior Point Methods][511]     | [GRB], [HL, sc 8.4], [MG, sc 7.2], [V, ch 21]; [NW] |
-|      | LP Practical Guidelines,  Sifting, KKT                        | **[KN1]**,   [BGLMS, sc 3]              |
+|      | [LP Practical Guidelines][105],  Sifting, KKT                        | **[KN1]**,   [BGLMS, sc 3]              |
 |      | Practice                                                             | [Sheet 1][11]                           |
 |------+----------------------------------------------------------------------+-----------------------------------------|
-|   15 | MILP Practical Guidelines; [Modeling                                 |                                         |
+|   15 | MILP Practical Guidelines; Modeling                                 |                                         |
 |      | MILP Formulations for Traveling Salesman Problem                     |                                         |
 |      | Practice on TSP                                                      |                                         |
 |------+----------------------------------------------------------------------+-----------------------------------------|
