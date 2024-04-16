@@ -62,7 +62,7 @@ w3.includeHTML();
 |------+----------------------------------------------------------------------+---------------------------------------------------------------|
 |   15 | [MILP Practical Guidelines][105]; [Presolving][60]; [Modeling][7]    | **[KN2]**, *[ABGRW]*, **[Wi, ch7,9,10] or [GRB, modeling 2]** |
 |      | [MILP Formulations for Traveling Salesman Problem][144]              | [P] or [DFJ] or [MTZ] or [A] or [ABCC] or [OAL]; [OS] [Talk]  |
-|      | Practice on TSP                                                      | [Sheet 2][12];                                                |
+|      | Practice on TSP                                                      | [Sheet 2][12]; [sol][82]                                                |
 |------+----------------------------------------------------------------------+---------------------------------------------------------------|
 |   16 | Lazy Constraints for TSP                                             | [Sheet 3][13];                                                              |
 |      | Presolving                                                           |                                                               |
