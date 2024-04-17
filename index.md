@@ -188,15 +188,15 @@ w3.includeHTML();
   Generation](https://doi.org/10.1287/opre.1050.0234). Operations
   Research. Vol. 53, No. 6, 2005
 
-<!--
 - [Fe] Feillet, D. [A tutorial on column generation and branch-and-price for
   vehicle routing
   problems](https://doi.org/10.1007/s10288-010-0130-z). 4OR-Q J Oper Res
   (2010) 8: 407.
 
-- [Wo] L.A. Wolsey. Integer programming. John Wiley & Sons, New York, USA, 2021
+- [Wo] L.A. Wolsey. Integer programming. John Wiley & Sons, New York, USA, 2021. Extract available from ItsLearning.
 
 
+<!--
 
 - [TV] Toth P. and Vigo D. (eds) Vehicle routing: Problems, Methods
   and Applications, Second Edition, Society for Industrial and Applied
