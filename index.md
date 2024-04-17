@@ -64,7 +64,7 @@ w3.includeHTML();
 |      | [MILP Formulations for Traveling Salesman Problem][144]              | [P] or [DFJ] or [MTZ] or [A] or [ABCC] or [OAL]; [OS] [Talk]  |
 |      | Practice on TSP                                                      | [Sheet 2][12]; [sol][82]                                                |
 |------+----------------------------------------------------------------------+---------------------------------------------------------------|
-|   16 | Lazy Constraints for TSP                                             | [Sheet 3][13];                                                              |
+|   16 | [Lazy Constraints for TSP][54]                                       | [Sheet 3][13];                                                              |
 |      | Presolving                                                           |                                                               |
 |      | Dantzig Wolfe decomposition and Delayed Column Generation            |                                                               |
 |------+----------------------------------------------------------------------+---------------------------------------------------------------|
