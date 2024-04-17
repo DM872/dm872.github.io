@@ -62,13 +62,13 @@ w3.includeHTML();
 |------+----------------------------------------------------------------------+---------------------------------------------------------------|
 |   15 | [MILP Practical Guidelines][105]; [Presolving][60]; [Modeling][7]    | **[KN2]**, *[ABGRW]*, **[Wi, ch7,9,10] or [GRB, modeling 2]** |
 |      | [MILP Formulations for Traveling Salesman Problem][144]              | [P] or [DFJ] or [MTZ] or [A] or [ABCC] or [OAL]; [OS] [Talk]  |
-|      | Practice on TSP                                                      | [Sheet 2][12]; [sol][82]                                                |
+|      | Practice on TSP                                                      | [Sheet 2][12]; [sol][82]                                      |
 |------+----------------------------------------------------------------------+---------------------------------------------------------------|
-|   16 | [Lazy Constraints for TSP][54]                                       | [Sheet 3][13];                                                              |
-|      | Presolving                                                           |                                                               |
-|      | Dantzig Wolfe decomposition and Delayed Column Generation            |                                                               |
+|   16 | [Lazy Constraints for TSP][54]                                       | [Sheet 3][13]; [sol][83]                                      |
+|      | Practice on TSP + Dantzig Wolfe                                      |                                                               |
+|      | [Dantzig Wolfe decomposition and Delayed Column Generation][58]      | [BGLMS, sc 3];  **[Wo ch 11 in LMS]**; [LD]                   |
 |------+----------------------------------------------------------------------+---------------------------------------------------------------|
-|   17 | Delayed Column Generation; Dual Bounds in Column Generation          |                                                               |
+|   17 | Delayed Column Generation; Dual Bounds in Column Generation          | **[Wo ch 11 in LMS]**                                         |
 |      | Practice on CG                                                       |                                                               |
 |      | Vehicle Routing: Compact models; Set Partitioning formulation and CG |                                                               |
 |------+----------------------------------------------------------------------+---------------------------------------------------------------|
@@ -177,7 +177,7 @@ w3.includeHTML();
   analysis of several asymmetric traveling salesman problem
   formulations](https://doi.org/10.1016/j.cor.2007.11.008) Computers & Operations Research 36 (2009) 
 
-<!--
+
 
 - [AMO] R.K. Ahuja, T.L. Magnanti and J.B. Orlin. Network Flows: Theory,
   Algorithms, and Applications. Chapters 16 and 17. Prentice Hall, 1993 
@@ -188,7 +188,7 @@ w3.includeHTML();
   Generation](https://doi.org/10.1287/opre.1050.0234). Operations
   Research. Vol. 53, No. 6, 2005
 
-
+<!--
 - [Fe] Feillet, D. [A tutorial on column generation and branch-and-price for
   vehicle routing
   problems](https://doi.org/10.1007/s10288-010-0130-z). 4OR-Q J Oper Res
