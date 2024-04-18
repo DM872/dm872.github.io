@@ -66,7 +66,7 @@ w3.includeHTML();
 |------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------|
 |   16 | [Lazy Constraints for TSP][54]                                                                     | [Sheet 3][13]; [sol][83]                                      |
 |      | Rounding up the practice on TSP +  [Dantzig Wolfe decomposition and Delayed Column Generation][58] | [GIT]; [BGLMS, sc 3];  **[Wo ch 11 in LMS]**; [LD]            |
-|      | [Delayed Column Generation][599]; Dual Bounds in Column Generation][59]                                  | **[Wo ch 11 in LMS]**                                         |
+|      | [Delayed Column Generation][599]; [Dual Bounds in Column Generation][59]                                  | **[Wo ch 11 in LMS]**                                         |
 |------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------|
 |   17 | Practice on CG                                                                                     | [Sheet 4][14];                                                |
 |      | Vehicle Routing: Compact models; Set Partitioning formulation and CG                               | **[Fe]**, [TV];  Assignment 1                                 |
