@@ -102,7 +102,7 @@ w3.includeHTML();
 ### References
 
 
-- [LMS] [Our learning management system](https://sdu.itslearning.com/main.aspx?CourseID=25676)
+- [LMS] [Our learning management system](https://sdu.itslearning.com/main.aspx?CourseID=31891)
 
 - [KN1] Ed Klotz, Alexandra M. Newman. [Practical guidelines for solving
   difficult linear
