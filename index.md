@@ -66,11 +66,11 @@ w3.includeHTML();
 |------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------|
 |   16 | [Lazy Constraints for TSP][54]                                                                     | [Sheet 3][13]; [sol][83]                                      |
 |      | Rounding up the practice on TSP +  [Dantzig Wolfe decomposition and Delayed Column Generation][58] | [GIT]; [BGLMS, sc 3];  **[Wo ch 11 in LMS]**; [LD]            |
-|      | [Delayed Column Generation][599]; [Dual Bounds in Column Generation][59]                                  | **[Wo ch 11 in LMS]**                                         |
+|      | [Delayed Column Generation][599]; [Dual Bounds in Column Generation][59]                           | **[Wo ch 11 in LMS]**                                         |
 |------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------|
 |   17 | Practice on CG                                                                                     | [Sheet 4][14];                                                |
-|      | Vehicle Routing: Compact models; Set Partitioning formulation and CG                               | **[Fe]**, [TV];  Assignment 1                                 |
-|      | Practice; Vehicle Routing: Cutting and Branching; Notes on Branching                               | **[Wo sc 11.7 in LMS]**;  [C];                                |
+|      | Vehicle Routing: [Compact models][62]; [Set Partitioning formulation and CG][63]                   | **[Fe]**, [TV];  Assignment 1                                 |
+|      | [Vehicle Routing: Cutting and Branching][64]; [Notes on Branching][65]                             | **[Wo sc 11.7 in LMS]**;  [C];                                |
 |------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------|
 |   18 |                                                                                                    |                                                               |
 |      | Surrogate and Lagrangian Relaxations for MILP                                                      |                                                               |
@@ -196,13 +196,10 @@ w3.includeHTML();
 - [Wo] L.A. Wolsey. Integer programming. John Wiley & Sons, New York, USA, 2021. Extract available from ItsLearning.
 
 
-<!--
-
 - [TV] Toth P. and Vigo D. (eds) Vehicle routing: Problems, Methods
   and Applications, Second Edition, Society for Industrial and Applied
   Mathematics, 2014
-
--->  
+  
 
 <!--
 
@@ -396,9 +393,9 @@ w3.includeHTML();
 [599]: {{ "/assets/dm872-slides-solving_lmp.pdf" | absolute_url }}
 [60]: {{ "/assets/dm872-preprocessing-handout.pdf" | absolute_url }}
 
-[62]: {{ "https://sdu.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=649901" }}
-[63]: {{ "https://sdu.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=649902" }}
-[64]: {{ "https://sdu.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=649903" }}
+[62]: {{ "https://sdu.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=1471369" }}
+[63]: {{ "https://sdu.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=1471370" }}
+[64]: {{ "https://sdu.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=1471371" }}
 [65]: {{ "/assets/Notes_210513_112748.pdf" | absolute_url }}
 
 [66]: {{ "/assets/dm872-slides-vehicle-scheduling.pdf" | absolute_url }}
