@@ -1,11 +1,3 @@
----
-layout: default
-mathjax: true
-title:  Sheet 4
-date:   2023-04-24 09:33:19 +0100
-categories: sheets
----
-
 ## Sheet 4
 
 
@@ -41,15 +33,6 @@ and $[b_j]=\begin{bmatrix}6\\\\21\end{bmatrix}$.
 {% if page.solution %}
 <font color="blue">
 Solution:
-
-<!--
-{% highlight python %}
-{% include_relative full/affine.py %}
-{% endhighlight %}
-
-{% highlight python %}
-{% endhighlight %}
--->
 
 
 This is an example of unrelated parallel machine scheduling problem, where machines are indexed by $j$ and jobs (activities, tasks) by $i$.
