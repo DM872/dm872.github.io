@@ -130,7 +130,7 @@ def FFD(s, B):
 You find these data and some starting templates for your implementations
 in Python in our git repository [GIT]:
 
-- A template for the compact formulation: `compact.py`.
+- A template for the compact formulation: `compact_template.py`.
 
 - A template for the extended formulation with delayed column generation: `extensive_template.py`
 
