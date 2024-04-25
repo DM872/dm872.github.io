@@ -10,7 +10,6 @@ comments: true
 categories: assignments
 ---
 
-**Deadline: Monday, May 15 at noon** 
 
 <!--
 For questions on the assignment, use the [Discussion Board in the
@@ -39,7 +38,7 @@ LMS](https://sdu.itslearning.com/ContentArea/ContentArea.aspx?LocationID=17799&L
 
     - `src` must contain the Python code for the calculations.
 
-
+- **Deadline: Monday, May 15 at noon** 
 
 #### Problem Description
 
