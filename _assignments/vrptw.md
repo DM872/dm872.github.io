@@ -1,5 +1,5 @@
 ---
-layout: assignment
+layout: assignment_plain
 title:  "Assignment 1"
 date: 2024-04-24 11:00:00 +0100
 date_show: 2024-04-23 08:27:19 +0100
@@ -38,7 +38,7 @@ LMS](https://sdu.itslearning.com/ContentArea/ContentArea.aspx?LocationID=17799&L
 
     - `src` must contain the Python code for the calculations.
 
-- **Deadline: Monday, May 15 at noon** 
+- **Deadline: Wednesday, May 15, 2024, at noon** 
 
 #### Problem Description
 
