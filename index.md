@@ -69,8 +69,8 @@ w3.includeHTML();
 |      | [Delayed Column Generation][599]; [Dual Bounds in Column Generation][59]                           | **[Wo ch 11 in LMS]**                                         |
 |------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------|
 |   17 | Practice on CG                                                                                     | [Sheet 4][14];                                                |
-|      | Vehicle Routing: [Compact models][62]; [Set Partitioning formulation and CG][63]                   | **[Fe]**, [TV];  Assignment 1                                 |
-|      | [Vehicle Routing: Cutting and Branching][64]; [Notes on Branching][65]                             | **[Wo sc 11.7 in LMS]**;  [C];                                |
+|      | Vehicle Routing: [Compact models][62]; [Set Partitioning formulation and CG][63]                   | **[Fe]**, [TV];                                               |
+|      | [Vehicle Routing: Cutting and Branching][64]; [Notes on Branching][65]                             | **[Wo sc 11.7 in LMS]**;  [C];  **[Assignment 1][100]**       |
 |------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------|
 |   18 |                                                                                                    |                                                               |
 |      | Surrogate and Lagrangian Relaxations for MILP                                                      |                                                               |

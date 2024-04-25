@@ -55,6 +55,13 @@ $$
 &\lambda_k^j\in \{0,1\}, \qquad j=1,\ldots,nk=1,\ldots,k
 \end{aling}
 $$
+To solve the problem by branch and bound we need to find the solutions of the linear relaxation. Let LMP be the linear relaxation of the problem. 
+Since we have exponentially many variables, we solve the problem by (delayed) column generation. Let RLMP be the problem restricted to a subset of variables.
+The pricing of a variable (reduced cost) is given by:
+$$
+
+$$ 
+
 
 
 </font>

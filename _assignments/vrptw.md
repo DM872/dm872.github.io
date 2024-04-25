@@ -1,49 +1,49 @@
 ---
-layout: default
+layout: assignment
+title:  "Assignment 1"
+date: 2024-04-24 11:00:00 +0100
+date_show: 2024-04-23 08:27:19 +0100
 mathjax: true
-title:  Assignment 1
-date:   2023-04-30 08:33:19 +0100
-categories: assignments 
+week: 17
+sol_url: ""
+comments: true
+categories: assignments
 ---
 
-**Deadline: Monday, May 22 at 11:59 am.** 
+**Deadline: Monday, May 15 at noon** 
 
 <!--
 For questions on the assignment, use the [Discussion Board in the
 LMS](https://sdu.itslearning.com/ContentArea/ContentArea.aspx?LocationID=17799&LocationType=1).
 -->
 
-## Assignment 1
+## Obligatory Assignment 1
 
-This assignment will be graded and will contribute to your final
-assessment in the course. Overall there will be two assignments.
+- This assignment will be graded and will contribute to your final
+  assessment in DM872. Overall there will be two assignments.
 
-The assignment has to be carried out individually.
+- The assignment has to be carried out individually.
 
-To complete the assignment you have to submit in [LMS] a `.tgz` or `.zip` archive
-named `asg1.tgz` or `asg1.zip` that decompress in the following
-structure:
-```
-asg1
-|
-+--tex
-+--src
-```
+- To complete the assignment you have to submit in ItsLearning a `.tgz` or `.zip` archive
+  named `asg1.tgz` or `asg1.zip` that decompress in the following structure:
+    ```
+    asg1
+    |
+    +--tex
+    +--src
+    ```
 
-- `tex` must contain a report in pdf format as concise as possible (by no way more than 10
-  pages) with the answers to the tasks. The report should be written
-  preferably in Latex using this [template]({{ "/assets/template_answers.tex" | absolute_url }}).
+    - `tex` must contain a report in pdf format as concise as possible (by no way more than 10
+    pages) with the answers to the tasks. The report should be written
+    preferably in Latex using this [template]({{ "/assets/template_answers.tex" | absolute_url }}).
 
-- `src` must contain the Python code for the calculations.
-
-
-
+    - `src` must contain the Python code for the calculations.
 
 
 
 #### Problem Description
 
-This assignment is proposed by courtesy of Roberto Roberti. The *Vehicle
+This assignment is courtesy of Roberto Roberti. The *Vehicle
 Routing Problem with Time Windows* (VRPTW) is a generalization of the
 Capacitated Vehicle Routing Problem (CVRP), where
 each customer must be visited within a given time window.
@@ -120,24 +120,17 @@ solution.
 
 Describe the Master Problem (MP) and the Restricted Master Problem (RMP)
 derived from the SP formulation, present and describe a mathematical
-formulation of the resulting pricing problem.
+formulation of the associated pricing problem.
 
 
 #### Task 4: Column Generation by Hand
 
-Starting from the columns defined in the data below, solve the master
-problem by finding by "manual inspection" and adding additional columns
+Starting from the columns defined in the data below, carry out a couple of generations of missing columns for the master
+problem by "manual inspection" and add the additional columns
 to the datafile. You can use a solver for the solution of the restricted
 linear master problem but you must identify promising columns by hand
 and justify your choice.
 
-<s>
-Report in a plot the behaviour of the best dual bound available during
-the column generation process.
-</s>
-
-(It is not so important to prove optimality here, you will do that in
- the next task.)
  
 #### Task 5: Describe and Implement a Column Generation Procedure for the VRPTW
 
@@ -171,7 +164,7 @@ in the code.
 
 If the optimal MP solution you achieved in Task 4 is fractional, find an
 optimal SP solution by generating a branch-and-bound tree. Describe the
-process in detail, visualise the branch-and- bound tree, and comment on
+process in detail, visualise the branch-and-bound tree, and comment on
 the results.  You can either do this manually (similar to Task 4), or by
 implementing it in the code.
 
@@ -290,9 +283,7 @@ how to calculate the value of tentative columns.
 
 Q: What should I do in Task 6 and 7 if the optimal MP solution I achieved in Task 4 was not fractional.
 
-A: You should revise Task 5 becausedoing that right would allow you to
-discover that the optimal solution in Task 4 is fractional.
-
+A: You should revise Task 5 because the optimal solution to that task is fractional.
 
 Q: I am having trouble finding an efficient Cut Separation Problem for
 finding the most violated cuts of my LP solutions to the VRPTW
@@ -300,9 +291,7 @@ instance. Since the instance is rather small one way would simply be to
 bruteforce it, but a more efficient approach I am having trouble
 finding. Is it possible to get a hint on a more efficient approach?
 
-A: We did not look at cut separation procedures for SR cuts. If you want
-you can try to formuate the problem but it is not what is asked in the
-task. Manual or exhaustive procedures as you mention are ok for this
-assignment.  You can find a procedure in this paper: “Subset-Row
+A: Manual or exhaustive (brute force) approaches as you mention are ok for this
+assignment. We did not treat cut separation procedures for SR cuts in class. You are however welcome to try to formulate the problem or read this paper: “Subset-Row
 Inequalities Applied to the Vehicle-Routing Problem with Time Windows”
-by Mads Jepsen, Bjørn Petersen, Simon Spoorendonk and David Pisinger
+by Mads Jepsen, Bjørn Petersen, Simon Spoorendonk and David Pisinger.
