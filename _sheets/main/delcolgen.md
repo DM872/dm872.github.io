@@ -83,7 +83,7 @@ problem by (delayed) column generation. Let RLMP be the problem
 restricted to a subset of variables.  The pricing of a variable
 (reduced cost) is given by:
 $$
-\overline{c}_{j}=p_{ij}y_{i}^j-y^j_{ik}\alpha_i-\beta_j
+\overline{c}_{j}=\sum_{i=1}^mp_{ij}y_{i}^j-\sum_{i=1}^my^j_{i}\alpha_i-\beta_j
 $$
 
 
