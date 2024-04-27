@@ -69,7 +69,7 @@ Any solution to this problem, indexed by $k=1,\ldots,K_j$, i.e. $\vec y^j_k=(y^j
 The master problem becomes:
 $$
 \begin{align}
-\max &\sum_{1\leq j\leq n}\sum_{1\leq  k\leq K_j}\left(\sum_{1\leq i\leq m} p_{ij}y^j_{ik}\right)\lambda_k^j\\
+z_{RLMP}=\max &\sum_{1\leq j\leq n}\sum_{1\leq  k\leq K_j}\left(\sum_{1\leq i\leq m} p_{ij}y^j_{ik}\right)\lambda_k^j\\
 \label{alphas}&\sum_{1\leq j\leq n}\sum_{1\leq  k\leq K_j}y^j_{ik}\lambda_k^j=1,\qquad i=1,\ldots,m\\
 \label{betas}&\sum_{1\leq  k\leq K_j}\lambda_k^j=1,\qquad j=1,\ldots,n\\
 &\lambda_k^j\in \{0,1\}, \qquad j=1,\ldots,nk=1,\ldots,k
@@ -83,9 +83,20 @@ problem by (delayed) column generation. Let RLMP be the problem
 restricted to a subset of variables and let $\alpha_i$ and $\beta_j$
 be the dual variables associated with constraint \eqref{alphas} and
 \eqref{beta}, respectively.  The pricing (reduced cost) of a variable
-is given by: $$
-\overline{c}_{j}=\sum_{i=1}^mp_{ij}y_{i}^j-\sum_{i=1}^my^j_{i}\alpha_i-\beta_j
+is given by: 
 $$
+\overline{c}_{j}=\sum_{i=1}^mp_{ij}y_{i}^j-\sum_{i=1}^my^j_{i}\alpha_i-\beta_j.
+$$ 
+In the pricing problems (one for each machine $j$) we maximize $\overline{c}_{j}$ looking for
+columns with positive reduced cost. Note that for a given machine $j$, $\beta_j$ is fixed and can be removed from the objective function of the pricing problem. Hence, the subproblems become:
+$$
+\begin{align}
+z^j_{PP}=\max&\sum_{i=1}^mp_{ij}y_{i}^j-\sum_{i=1}^my^j_{i}\alpha_i
+&\sum_{1\leq i\leq m}w_{ij}y^j_i\leq d_j\\
+&y^j_i\in \{0,1\}, \quad  i=1,\ldots,m
+\end{align}
+$$
+If $z^j_{PP}-\beta_j>0$, then the column found must be added to the RLMP. Otherwise, we have solved the problem.
 
 
 Example taken from:
