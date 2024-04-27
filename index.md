@@ -68,7 +68,7 @@ w3.includeHTML();
 |      | Rounding up the practice on TSP +  [Dantzig Wolfe decomposition and Delayed Column Generation][58] | [GIT]; [BGLMS, sc 3];  **[Wo ch 11 in LMS]**; [LD]            |
 |      | [Delayed Column Generation][599]; [Dual Bounds in Column Generation][59]                           | **[Wo ch 11 in LMS]**                                         |
 |------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------|
-|   17 | Practice on CG                                                                                     | [Sheet 4][14]; [Sol2][844]; [Sol][846]; [Sol1][84]; [Sol3][845] |
+|   17 | Practice on CG                                                                                     | [Sheet 4][14]; [Sol][846]                                       |
 |      | Vehicle Routing: [Compact models][62]; [Set Partitioning formulation and CG][63]                   | **[Fe]**, [TV];                                               |
 |      | [Vehicle Routing: Cutting and Branching][64]; [Notes on Branching][65]                             | **[Wo sc 11.7 in LMS]**;  [C];  **[Assignment 1][100]**       |
 |------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------|
