@@ -96,7 +96,7 @@ z^j_{PP}=\max&\sum_{i=1}^mp_{ij}y_{i}^j-\sum_{i=1}^m\alpha_iy^j_{i}\\
 &y^j_i\in \{0,1\}, \quad  i=1,\ldots,m
 \end{align}
 $$
-If $z^j_{PP}-\beta_j>0$, then the column found must be added to the RLMP. Otherwise, we have solved the problem.
+If $z^j_{PP}-\beta_j>0$, then the column found must be added to the RLMP. Otherwise, if no such a column is found in none of the machines, we have solved the problem.
 
 
 Example taken from:
