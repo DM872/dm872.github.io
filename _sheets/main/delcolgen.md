@@ -59,8 +59,10 @@ the block constraints defining the subproblems.
 
 Let $K_j$ be the number of solutions to the knapsack subproblem:
 $$
-\sum_{1\leq i\leq m}w_{ij}y^j_i\leq d_j\\
-y^j_i\in \{0,1\}, \quad  i=1,\ldots,m
+\begin{align}
+&\sum_{1\leq i\leq m}w_{ij}y^j_i\leq d_j\\
+&y^j_i\in \{0,1\}, \quad  i=1,\ldots,m
+\end{align}
 $$
 Any solution to this problem, indexed by $k=1,\ldots,K_j$, i.e. $\vec y^j_k=(y^j_{1k},y^j_{2k},\ldots,y^j_{mk})$, represents a feasible assignment of tasks to a machine $j$.
 
@@ -80,12 +82,16 @@ problem.  Since we have exponentially many variables, we solve the
 problem by (delayed) column generation. Let RLMP be the problem
 restricted to a subset of variables.  The pricing of a variable
 (reduced cost) is given by:
+$$
+\overline{c}_{j}=p_{ij}y_{i}^j-y^j_{ik}\alpha_i-\beta_j
+$$
 
 
 Example taken from:
+
 - "Branch-And-Price: Column Generation For Solving Huge Integer
-Programs". Cynthia Barnhart, Ellis L. Johnson, George L. Nemhauser,
-Martin W. P. Savelsbergh, And Pamela H. Vance. OR, 1998.
+  Programs". Cynthia Barnhart, Ellis L. Johnson, George L. Nemhauser,
+  Martin W. P. Savelsbergh, And Pamela H. Vance. OR, 1998.
 - ex 3 p 233 of reference [Wo].
 
 </font>
