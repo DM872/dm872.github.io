@@ -82,16 +82,16 @@ problem.  Since we have exponentially many variables, we solve the
 problem by (delayed) column generation. Let RLMP be the problem
 restricted to a subset of variables and let $\alpha_i$ and $\beta_j$
 be the dual variables associated with constraint \eqref{alphas} and
-\eqref{beta}, respectively.  The pricing (reduced cost) of a variable
+\eqref{betas}, respectively.  The pricing (reduced cost) of a variable
 is given by: 
 $$
-\overline{c}_{j}=\sum_{i=1}^mp_{ij}y_{i}^j-\sum_{i=1}^my^j_{i}\alpha_i-\beta_j.
+\overline{c}_{j}=\sum_{i=1}^mp_{ij}y_{i}^j-\sum_{i=1}^m\alpha_iy^j_{i}-\beta_j.
 $$ 
 In the pricing problems (one for each machine $j$) we maximize $\overline{c}_{j}$ looking for
 columns with positive reduced cost. Note that for a given machine $j$, $\beta_j$ is fixed and can be removed from the objective function of the pricing problem. Hence, the subproblems become:
 $$
 \begin{align}
-z^j_{PP}=\max&\sum_{i=1}^mp_{ij}y_{i}^j-\sum_{i=1}^my^j_{i}\alpha_i
+z^j_{PP}=\max&\sum_{i=1}^mp_{ij}y_{i}^j-\sum_{i=1}^m\alpha_iy^j_{i}\\
 &\sum_{1\leq i\leq m}w_{ij}y^j_i\leq d_j\\
 &y^j_i\in \{0,1\}, \quad  i=1,\ldots,m
 \end{align}
