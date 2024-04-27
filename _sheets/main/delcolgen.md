@@ -17,8 +17,8 @@ previously seen (compact) arc flow formulation.
 Solution:
 <br>
 
-<a href={{ "/assets/Notes_220427_155254.pdf" | absolute_url
-}}>[Handwritten notes]</a> taken from reference [AMO].
+<a href="{{ "/assets/Notes_220427_155254.pdf" | absolute_url
+}}">Handwritten notes</a> taken from reference [AMO].
 
 
 </font>
@@ -190,8 +190,8 @@ Solution:
 <br>
 
 See the <a
-href="https://github.com/DM872/Material/blob/main/BinPacking/extensive.py">[source
-code in github]</a> or this <a
+href="https://github.com/DM872/Material/blob/main/BinPacking/extensive.py">source
+code in github</a> or this <a
 href="https://github.com/demirayonur/Column-Generation/blob/main/ColumnGeneration_CuttingStockProblem.ipynb">external
 notebook</a>.
 
