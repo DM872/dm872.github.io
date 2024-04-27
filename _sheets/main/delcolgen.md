@@ -69,7 +69,7 @@ $$
 &\sum_{1\leq j\leq n}\sum_{1\leq  k\leq K_j}y^j_{ik}\lambda_k^j=1,\qquad i=1,\ldots,m\\
 &\sum_{1\leq  k\leq K_j}\lambda_k^j=1,\qquad j=1,\ldots,n\\
 &\lambda_k^j\in \{0,1\}, \qquad j=1,\ldots,nk=1,\ldots,k
-\end{aling}
+\end{align}
 $$
 To solve the problem by branch and bound we need to find the solutions of the linear relaxation. Let LMP be the linear relaxation of the problem. 
 Since we have exponentially many variables, we solve the problem by (delayed) column generation. Let RLMP be the problem restricted to a subset of variables.
