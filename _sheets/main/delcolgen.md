@@ -67,7 +67,7 @@ Any solution to this problem, indexed by $k=1,\ldots,K_j$, i.e. $\vec y^j_k=(y^j
 The master problem becomes:
 $$
 \begin{align}
-\max &\sum_{1\leq j\leq n}\sum_{1\leq  k\leq K_j}\left(\sum_{1\leq i\leq m} p_{ij}y^j_{ik}\right)\lambda_k^j}\\
+\max &\sum_{1\leq j\leq n}\sum_{1\leq  k\leq K_j}\left(\sum_{1\leq i\leq m} p_{ij}y^j_{ik}\right)\lambda_k^j\\
 &\sum_{1\leq j\leq n}\sum_{1\leq  k\leq K_j}y^j_{ik}\lambda_k^j=1,\qquad i=1,\ldots,m\\
 &\sum_{1\leq  k\leq K_j}\lambda_k^j=1,\qquad j=1,\ldots,n\\
 &\lambda_k^j\in \{0,1\}, \qquad j=1,\ldots,nk=1,\ldots,k
