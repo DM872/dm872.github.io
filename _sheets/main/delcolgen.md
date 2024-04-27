@@ -35,9 +35,13 @@ and $[b_j]=\begin{bmatrix}6\\\\21\end{bmatrix}$.
 Solution:
 
 
-This is an example of unrelated parallel machine scheduling problem, where machines are indexed by $j$ and jobs (activities, tasks) by $i$.
+This is an example of unrelated parallel machine scheduling problem,
+where machines are indexed by $j$ and jobs (activities, tasks) by $i$.
 
-We can apply Dantzig-Wolfe decomposition to GAP treating the assignment constraints as the linking and complicating constraints defining the master problem and the machine capacity constraints as the block constraints defining the subproblems.
+We can apply Dantzig-Wolfe decomposition to GAP treating the
+assignment constraints as the linking and complicating constraints
+defining the master problem and the machine capacity constraints as
+the block constraints defining the subproblems.
 
 Let $K_j$ be the number of solutions to the knapsack subproblem:
 $$
@@ -46,7 +50,7 @@ y^j_i\in \{0,1\}, \quad  i=1,\ldots,m
 $$
 Any solution to this problem, indexed by $k=1,\ldots,K_j$, i.e. $\vec y^j_k=(y^j_{1k},y^j_{2k},\ldots,y^j_{mk})$, represents a feasible assignment of tasks to a machine $j$.
 
-The master problem becomes:  
+The master problem becomes:
 $$
 \begin{align}
 \max &\sum_{1\leq j\leq n}\sum_{1\leq  k\leq K_j}\left(\sum_{1\leqi\leq m} p_{ij}y^j_{ik}\right)\lambda_k^j}\\
@@ -157,3 +161,20 @@ scratch see:
 - In Pyscipopt there is a different philosophy. See
   [test_pricer.py](https://github.com/Pyomo/pyomo/blob/main/examples/pyomo/columngeneration/cutting_stock.py). Alternatively
   it is possible to follow this [example](../assets/cutstock.py).
+
+
+
+{% if page.solution %}
+<font color="blue">
+Solution:
+
+See the [source code in
+github](https://github.com/DM872/Material/blob/main/BinPacking/extensive.py)
+or this external
+[notebook](https://github.com/demirayonur/Column-Generation/blob/main/ColumnGeneration_CuttingStockProblem.ipynb)
+
+
+
+
+</font>
+{% endif %}

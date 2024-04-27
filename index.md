@@ -68,13 +68,13 @@ w3.includeHTML();
 |      | Rounding up the practice on TSP +  [Dantzig Wolfe decomposition and Delayed Column Generation][58] | [GIT]; [BGLMS, sc 3];  **[Wo ch 11 in LMS]**; [LD]            |
 |      | [Delayed Column Generation][599]; [Dual Bounds in Column Generation][59]                           | **[Wo ch 11 in LMS]**                                         |
 |------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------|
-|   17 | Practice on CG                                                                                     | [Sheet 4][14]; [Sol1][84]; [Sol2][144]; [Sol3][845]                   |
+|   17 | Practice on CG                                                                                     | [Sheet 4][14]; [Sol2][844]; [Sol][846]; [Sol1][84]; [Sol3][845] |
 |      | Vehicle Routing: [Compact models][62]; [Set Partitioning formulation and CG][63]                   | **[Fe]**, [TV];                                               |
 |      | [Vehicle Routing: Cutting and Branching][64]; [Notes on Branching][65]                             | **[Wo sc 11.7 in LMS]**;  [C];  **[Assignment 1][100]**       |
 |------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------|
-|   18 |                                                                                                    |                                                               |
-|      | Surrogate and Lagrangian Relaxations for MILP                                                      |                                                               |
-|      | Practice on Lagrangian Relaxation (Multicommodity flows)                                           |                                                               |
+|   18 | Surrogate and Lagrangian Relaxations for MILP                                                      | **[Wo ch 10 in LMS]**; **[Fi]**                               |
+|      | Practice on Lagrangian Relaxation (Multicommodity flows)                                           | [Sheet 5][15]                                                 |
+|      |                                                                                                    |                                                               |
 |------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------|
 |   19 | Lagrangian Relaxation and Integer Programming                                                      |                                                               |
 |      | Applications: Vehicle Scheduling                                                                   |                                                               |
@@ -355,7 +355,7 @@ w3.includeHTML();
 
 [133]: {{ "https://github.com/DM872/Material/blob/master/TSP/tsp.ipynb" | absolute_url }}
 [14]: {{ "/sheets/delcolgen.html" | absolute_url }}
-[144]: {{ "/sheets/delcolgen_sol.html" | absolute_url }}
+[846]: {{ "/sheets/delcolgen_sol.html" | absolute_url }}
 [15]: {{ "/sheets/bnprice.html" | absolute_url }}
 [16]: {{ "/sheets/lagrangian.html" | absolute_url }}
 [17]: {{ "/sheets/benders.html" | absolute_url }}
