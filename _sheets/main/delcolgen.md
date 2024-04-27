@@ -15,6 +15,7 @@ previously seen (compact) arc flow formulation.
 {% if page.solution %}
 <font color="blue">
 Solution:
+<br>
 
 [Handwritten notes]({{ "/assets/Notes_220427_155254.pdf" | absolute_url }}) taken from reference [AMO].
 
@@ -45,7 +46,7 @@ and $[b_j]=\begin{bmatrix}6\\\\21\end{bmatrix}$.
 {% if page.solution %}
 <font color="blue">
 Solution:
-
+<br>
 
 This is an example of unrelated parallel machine scheduling problem,
 where machines are indexed by $j$ and jobs (activities, tasks) by $i$.
@@ -65,18 +66,26 @@ Any solution to this problem, indexed by $k=1,\ldots,K_j$, i.e. $\vec y^j_k=(y^j
 The master problem becomes:
 $$
 \begin{align}
-\max &\sum_{1\leq j\leq n}\sum_{1\leq  k\leq K_j}\left(\sum_{1\leqi\leq m} p_{ij}y^j_{ik}\right)\lambda_k^j}\\
+\max &\sum_{1\leq j\leq n}\sum_{1\leq  k\leq K_j}\left(\sum_{1\leq i\leq m} p_{ij}y^j_{ik}\right)\lambda_k^j}\\
 &\sum_{1\leq j\leq n}\sum_{1\leq  k\leq K_j}y^j_{ik}\lambda_k^j=1,\qquad i=1,\ldots,m\\
 &\sum_{1\leq  k\leq K_j}\lambda_k^j=1,\qquad j=1,\ldots,n\\
 &\lambda_k^j\in \{0,1\}, \qquad j=1,\ldots,nk=1,\ldots,k
 \end{align}
 $$
-To solve the problem by branch and bound we need to find the solutions of the linear relaxation. Let LMP be the linear relaxation of the problem. 
-Since we have exponentially many variables, we solve the problem by (delayed) column generation. Let RLMP be the problem restricted to a subset of variables.
-The pricing of a variable (reduced cost) is given by:
+
+To solve the problem by branch and bound we need to find the solutions
+of the linear relaxation. Let LMP be the linear relaxation of the
+problem.  Since we have exponentially many variables, we solve the
+problem by (delayed) column generation. Let RLMP be the problem
+restricted to a subset of variables.  The pricing of a variable
+(reduced cost) is given by:
 
 
-
+Example taken from:
+- "Branch-And-Price: Column Generation For Solving Huge Integer
+Programs". Cynthia Barnhart, Ellis L. Johnson, George L. Nemhauser,
+Martin W. P. Savelsbergh, And Pamela H. Vance. OR, 1998.
+- ex 3 p 233 of reference [Wo].
 
 </font>
 {% endif %}
@@ -177,6 +186,7 @@ scratch see:
 {% if page.solution %}
 <font color="blue">
 Solution:
+<br>
 
 See the [source code in
 github](https://github.com/DM872/Material/blob/main/BinPacking/extensive.py)
