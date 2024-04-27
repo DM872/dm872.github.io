@@ -12,6 +12,18 @@ previously seen (compact) arc flow formulation.
 
 
 
+{% if page.solution %}
+<font color="blue">
+Solution:
+
+[Handwritten notes]({{ "/assets/Notes_220427_155254.pdf" | absolute_url }}) taken from reference [AMO].
+
+
+</font>
+{% endif %}
+
+
+
 ### Task 2
 
 Consider generalized assignment problem with equality constraints:
@@ -62,9 +74,7 @@ $$
 To solve the problem by branch and bound we need to find the solutions of the linear relaxation. Let LMP be the linear relaxation of the problem. 
 Since we have exponentially many variables, we solve the problem by (delayed) column generation. Let RLMP be the problem restricted to a subset of variables.
 The pricing of a variable (reduced cost) is given by:
-$$
 
-$$ 
 
 
 
