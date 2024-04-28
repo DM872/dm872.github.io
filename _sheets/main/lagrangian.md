@@ -1,10 +1,4 @@
----
-layout: default
-mathjax: true
-title:  Lagrangian Relaxation - Exercises
-date:   2022-04-26 09:33:19 +0100
-categories: exercises 
----
+
 
 ## Sheet 6
 

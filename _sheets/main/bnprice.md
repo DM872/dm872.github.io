@@ -1,10 +1,3 @@
----
-layout: default
-mathjax: true
-title:  Sheet 5
-date:   2022-05-04 09:33:19 +0100
-categories: exercises 
----
 
 ## Sheet 5
 
