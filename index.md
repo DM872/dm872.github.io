@@ -70,10 +70,10 @@ w3.includeHTML();
 |------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------|
 |   17 | Practice on CG                                                                                     | [Sheet 4][14]; [Sol][846]                                       |
 |      | Vehicle Routing: [Compact models][62]; [Set Partitioning formulation and CG][63]                   | **[Fe]**, [TV];                                               |
-|      | [Vehicle Routing: Cutting and Branching][64]; [Notes on Branching][65]                             | **[Wo sc 11.7 in LMS]**;  [C];  **[Assignment 1][100]**       |
+|      | [Vehicle Routing: Cutting and Branching][64]; [Notes on Branching][65]                             | **[Wo sc 11.7 in LMS]**;  [C];  [Sheet 5][15]; **[Assignment 1][100]**       |
 |------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------|
 |   18 | Surrogate and Lagrangian Relaxations for MILP                                                      | **[Wo ch 10 in LMS]**; **[Fi]**                               |
-|      | Practice on Lagrangian Relaxation (Multicommodity flows)                                           | [Sheet 5][15]                                                 |
+|      | Practice on Lagrangian Relaxation (Multicommodity flows)                                           | [Sheet 6][16]                                                 |
 |      |                                                                                                    |                                                               |
 |------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------|
 |   19 | Lagrangian Relaxation and Integer Programming                                                      |                                                               |
