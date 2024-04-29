@@ -73,24 +73,29 @@ w3.includeHTML();
 |      | [Vehicle Routing: Cutting and Branching][64]; [Notes on Branching][65]                             | **[Wo sc 11.7 in LMS]**;  [C];  [Sheet 5][15]; **[Assignment 1][100]** |
 |------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------|
 |   18 | [Surrogate and Lagrangian Relaxations for MILP][55]                                                | **[Wo ch 10 in LMS]**; **[Fi]**                                        |
-|      | Practice on Lagrangian Relaxation (Multicommodity flows)                                           | [Sheet 6][16]                                                          |
-|      | Lagrangian Relaxation and Integer Programming                                                      |                                                                        |
+|      | Practice on Lagrangian Relaxation (Multicommodity flows)                                           | [Sheet 6][16];  **[AMO ch 16 + 17.4 in LMS]**                          |
+|      | Lagrangian Relaxation and Integer Programming                                                      | ([IB]; [JB]; [Fi2]); [Fi, sc 8]; [AMO sc 16.4-16.5]; [Wo ch 10 in LMS] |
 |------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------|
-|   19 |                                                                                                    |                                                                        |
-|      | Applications: Vehicle Scheduling                                                                   |                                                                        |
+|   19 | Applications: Vehicle Scheduling                                                                   |                                                                        |
 |      | Crew Scheduling; RCSP                                                                              |                                                                        |
+|      |                                                                                                    |                                                                        |
 |------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------|
-|   20 | Benders' Algorithm; Version 2                                                                      |                                                                        |
-|      | Practice on Benders' Algorithm                                                                     |                                                                        |
+|   20 | Integer Programming and Heuristics; Notes                                                          |                                                                        |
 |      | Stochastic Programming                                                                             |                                                                        |
-|------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------|
-|   21 | Stochastic Programming; Integer Programming and Heuristics; Notes                                  |                                                                        |
-|      | Integer Programming and Machine Learning                                                           |                                                                        |
 |      | Formulating Equity and Fairness in Optimization Models                                             |                                                                        |
 |------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------|
+|   21 |                                                                                                    |                                                                        |
+|------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------|
 
 
+Further Topics out of curriculum
 
+|   |                                          |   |
+|---+------------------------------------------+---|
+|   | Benders' Algorithm; Version 2            |   |
+|   | Practice on Benders' Algorithm           |   |
+|   | Integer Programming and Machine Learning |   |
+|---+------------------------------------------+---|
 
 ### Code and Data
 
