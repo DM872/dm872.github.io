@@ -72,11 +72,11 @@ w3.includeHTML();
 |      | Vehicle Routing: [Compact models][62]; [Set Partitioning formulation and CG][63]                   | **[Fe]**, [TV];                                               |
 |      | [Vehicle Routing: Cutting and Branching][64]; [Notes on Branching][65]                             | **[Wo sc 11.7 in LMS]**;  [C];  [Sheet 5][15]; **[Assignment 1][100]**       |
 |------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------|
-|   18 | Surrogate and Lagrangian Relaxations for MILP                                                      | **[Wo ch 10 in LMS]**; **[Fi]**                               |
-|      | Practice on Lagrangian Relaxation (Multicommodity flows)                                           | [Sheet 6][16]                                                 |
-|      |                                                                                                    |                                                               |
+|   18 | [Surrogate and Lagrangian Relaxations for MILP][55]                                                      | **[Wo ch 10 in LMS]**; **[Fi]**                               |
+|      | [Practice on Lagrangian Relaxation (Multicommodity flows)][56]                                           | [Sheet 6][16]                                                 |
+|      | Lagrangian Relaxation and Integer Programming                                                      |                                                               |
 |------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------|
-|   19 | Lagrangian Relaxation and Integer Programming                                                      |                                                               |
+|   19 |  | |
 |      | Applications: Vehicle Scheduling                                                                   |                                                               |
 |      | Crew Scheduling; RCSP                                                                              |                                                               |
 |------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------|
