@@ -54,43 +54,48 @@ w3.includeHTML();
 
 
 
-| Week | Topics and Slides                                                                                  | Resources                                                     |
-|------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------|
-|   14 | [Introduction][51], [Farkas][512], [Interior Point Methods][511]                                   | [GRB], [HL, sc 8.4], [MG, sc 7.2], [V, ch 21]; [NW]           |
-|      | [LP Practical Guidelines][104],  Sifting                                                           | **[KN1]**,   [BGLMS, sc 3]                                    |
-|      | Practice                                                                                           | [Sheet 1][11]; [sol][81]                                      |
-|------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------|
-|   15 | [MILP Practical Guidelines][105]; [Presolving][60]; [Modeling][7]                                  | **[KN2]**, *[ABGRW]*, **[Wi, ch7,9,10] or [GRB, modeling 2]** |
-|      | [MILP Formulations for Traveling Salesman Problem][144]                                            | [P] or [DFJ] or [MTZ] or [A] or [ABCC] or [OAL]; [OS] [Talk]  |
-|      | Practice on TSP                                                                                    | [Sheet 2][12]; [sol][82]                                      |
-|------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------|
-|   16 | [Lazy Constraints for TSP][54]                                                                     | [Sheet 3][13]; [sol][83]                                      |
-|      | Rounding up the practice on TSP +  [Dantzig Wolfe decomposition and Delayed Column Generation][58] | [GIT]; [BGLMS, sc 3];  **[Wo ch 11 in LMS]**; [LD]            |
-|      | [Delayed Column Generation][599]; [Dual Bounds in Column Generation][59]                           | **[Wo ch 11 in LMS]**                                         |
-|------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------|
-|   17 | Practice on CG                                                                                     | [Sheet 4][14]; [Sol][846]                                       |
-|      | Vehicle Routing: [Compact models][62]; [Set Partitioning formulation and CG][63]                   | **[Fe]**, [TV];                                               |
-|      | [Vehicle Routing: Cutting and Branching][64]; [Notes on Branching][65]                             | **[Wo sc 11.7 in LMS]**;  [C];  [Sheet 5][15]; **[Assignment 1][100]**       |
-|------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------|
-|   18 | [Surrogate and Lagrangian Relaxations for MILP][55]                                                      | **[Wo ch 10 in LMS]**; **[Fi]**                               |
-|      | Practice on Lagrangian Relaxation (Multicommodity flows)                                          | [Sheet 6][16]                                                 |
-|      | Lagrangian Relaxation and Integer Programming                                                      |                                                               |
-|------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------|
-|   19 |  | |
-|      | Applications: Vehicle Scheduling                                                                   |                                                               |
-|      | Crew Scheduling; RCSP                                                                              |                                                               |
-|------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------|
-|   20 | Benders' Algorithm; Version 2                                                                      |                                                               |
-|      | Practice on Benders' Algorithm                                                                     |                                                               |
-|      | Stochastic Programming                                                                             |                                                               |
-|------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------|
-|   21 | Stochastic Programming; Integer Programming and Heuristics; Notes                                  |                                                               |
-|      | Integer Programming and Machine Learning                                                           |                                                               |
-|      | Formulating Equity and Fairness in Optimization Models                                             |                                                               |
-|------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------|
+| Week | Topics and Slides                                                                                  | Resources                                                              |
+|------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------|
+|   14 | [Introduction][51], [Farkas][512], [Interior Point Methods][511]                                   | [GRB], [HL, sc 8.4], [MG, sc 7.2], [V, ch 21]; [NW]                    |
+|      | [LP Practical Guidelines][104],  Sifting                                                           | **[KN1]**,   [BGLMS, sc 3]                                             |
+|      | Practice                                                                                           | [Sheet 1][11]; [sol][81]                                               |
+|------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------|
+|   15 | [MILP Practical Guidelines][105]; [Presolving][60]; [Modeling][7]                                  | **[KN2]**, *[ABGRW]*, **[Wi, ch7,9,10] or [GRB, modeling 2]**          |
+|      | [MILP Formulations for Traveling Salesman Problem][144]                                            | [P] or [DFJ] or [MTZ] or [A] or [ABCC] or [OAL]; [OS] [Talk]           |
+|      | Practice on TSP                                                                                    | [Sheet 2][12]; [sol][82]                                               |
+|------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------|
+|   16 | [Lazy Constraints for TSP][54]                                                                     | [Sheet 3][13]; [sol][83]                                               |
+|      | Rounding up the practice on TSP +  [Dantzig Wolfe decomposition and Delayed Column Generation][58] | [GIT]; [BGLMS, sc 3];  **[Wo ch 11 in LMS]**; [LD]                     |
+|      | [Delayed Column Generation][599]; [Dual Bounds in Column Generation][59]                           | **[Wo ch 11 in LMS]**                                                  |
+|------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------|
+|   17 | Practice on CG                                                                                     | [Sheet 4][14]; [Sol][846]                                              |
+|      | Vehicle Routing: [Compact models][62]; [Set Partitioning formulation and CG][63]                   | **[Fe]**, [TV];                                                        |
+|      | [Vehicle Routing: Cutting and Branching][64]; [Notes on Branching][65]                             | **[Wo sc 11.7 in LMS]**;  [C];  [Sheet 5][15]; **[Assignment 1][100]** |
+|------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------|
+|   18 | [Surrogate and Lagrangian Relaxations for MILP][55]                                                | **[Wo ch 10 in LMS]**; **[Fi]**                                        |
+|      | Practice on Lagrangian Relaxation (Multicommodity flows)                                           | [Sheet 6][16];  **[AMO ch 16 + 17.4 in LMS]**                          |
+|      | Lagrangian Relaxation and Integer Programming                                                      | ([IB]; [JB]; [Fi2]); [Fi, sc 8]; [AMO sc 16.4-16.5]; [Wo ch 10 in LMS] |
+|------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------|
+|   19 | Applications: Vehicle Scheduling                                                                   |                                                                        |
+|      | Crew Scheduling; RCSP                                                                              |                                                                        |
+|      |                                                                                                    |                                                                        |
+|------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------|
+|   20 | Integer Programming and Heuristics; Notes                                                          |                                                                        |
+|      | Stochastic Programming                                                                             |                                                                        |
+|      | Formulating Equity and Fairness in Optimization Models                                             |                                                                        |
+|------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------|
+|   21 |                                                                                                    |                                                                        |
+|------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------|
 
 
+Further Topics out of curriculum
 
+|   |                                          |   |
+|---+------------------------------------------+---|
+|   | Benders' Algorithm; Version 2            |   |
+|   | Practice on Benders' Algorithm           |   |
+|   | Integer Programming and Machine Learning |   |
+|---+------------------------------------------+---|
 
 ### Code and Data
 
@@ -209,7 +214,7 @@ w3.includeHTML();
   Science. University of Copenhagen.
 -->
 
-<!--
+
 
 - [Fi] M.L. Fisher. [The Lagrangian Relaxation Method for Solving Integer
   Programming
@@ -227,6 +232,8 @@ w3.includeHTML();
 - [JB] J. E. Beasley. [Integer Programming Solution
   Methods](http://people.brunel.ac.uk/~mastjjb/jeb/natcor_ip_rest.pdf). 
 
+
+<!--
 
 - [BCG] A.A. Bertossi, P. Carraresi and G. Gallo. [On some matching
   problems arising in vehicle scheduling
