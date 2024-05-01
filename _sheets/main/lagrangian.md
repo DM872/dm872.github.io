@@ -92,7 +92,7 @@ Consider the following problem: <!--  from [Fi2]: -->
 $$
 \begin{array}{lllll}
 z_{IP}=&\text{max} &16x_1+10x_2+4x_4\\
-&\text{s.t.}&8x_1+2x_2+x_3+x_4\leq 10\\
+&\text{s.t.}&8x_1+2x_2+x_3+4x_4\leq 10\\
 &&x_1+x_2\leq 1\\
 &&x_3+x_4\leq 1\\
 &&0\leq x\leq 1 \qquad \text{and integer}
