@@ -13,7 +13,7 @@ Design a Lagrangian relaxation algorithm for the Multicommodity flow problem.
 Solution:
 <br>
 
-See **[AMO ch 16 + 17.4 in LMS]** or these [handwritten notes]({{ "/assets/Notes_210428_114528.pdf" | absolute_url }}).
+See [AMO ch 16 + 17.4 in LMS] or these <a href="{{ "/assets/Notes_210428_114528.pdf" | absolute_url }}">handwritten notes</a>.
 
 </font>
 {% endif %}
@@ -50,7 +50,7 @@ $$
 Solution:
 <br>
 
-See [python notebook]({{ "/assets/Lagrangian_fisher.html" | absolute_url }}).
+See <a href="{{ "/assets/Lagrangian_fisher.html" | absolute_url }}">handwritten notes</a>.
 
 </font>
 {% endif %}
@@ -139,7 +139,7 @@ $$
 Solution:
 <br>
 
-See [python notebook]({{ "/assets/Lagrangian_scp.html" | absolute_url }}).
+See <a href="{{ "/assets/Lagrangian_scp.html" | absolute_url }}">python notebook</a>.
 
 </font>
 {% endif %}
