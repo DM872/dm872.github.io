@@ -7,6 +7,56 @@
 
 Design a Lagrangian relaxation algorithm for the Multicommodity flow problem.
 
+
+{% if page.solution %}
+<font color="blue">
+Solution:
+<br>
+
+See **[AMO ch 16 + 17.4 in LMS]** or these [handwritten notes]({{ "/assets/Notes_210428_114528.pdf" | absolute_url }}).
+
+</font>
+{% endif %}
+
+
+
+
+### Task 3
+
+Consider the following problem: <!--  from [Fi2]: -->
+
+$$
+\begin{array}{lllll}
+z_{IP}=&\text{max} &16x_1+10x_2+4x_4\\
+&\text{s.t.}&8x_1+2x_2+x_3+4x_4\leq 10\\
+&&x_1+x_2\leq 1\\
+&&x_3+x_4\leq 1\\
+&&0\leq x\leq 1 \qquad \text{and integer}
+\end{array}
+$$
+
+1. Relax only the first constraint and calculate the Lagrangian dual
+   bound.
+   
+2. Relax the second and third constraints and calculate the Lagrangian
+   dual bound. Which among the two relaxations provides the best dual
+   bound and how do they compare with respect to the dual bound given by
+   the linear relaxation of the original problem IP? 
+
+
+
+{% if page.solution %}
+<font color="blue">
+Solution:
+<br>
+
+See [python notebook]({{ "/assets/Lagrangian_fisher.html" | absolute_url }}).
+
+</font>
+{% endif %}
+
+
+
 ### Task 2
 
 <!-- 
@@ -84,25 +134,12 @@ $$
 
 
 
+{% if page.solution %}
+<font color="blue">
+Solution:
+<br>
 
-### Task 3
+See [python notebook]({{ "/assets/Lagrangian_scp.html" | absolute_url }}).
 
-Consider the following problem: <!--  from [Fi2]: -->
-
-$$
-\begin{array}{lllll}
-z_{IP}=&\text{max} &16x_1+10x_2+4x_4\\
-&\text{s.t.}&8x_1+2x_2+x_3+4x_4\leq 10\\
-&&x_1+x_2\leq 1\\
-&&x_3+x_4\leq 1\\
-&&0\leq x\leq 1 \qquad \text{and integer}
-\end{array}
-$$
-
-1. Relax only the first constraint and calculate the Lagrangian dual
-   bound.
-   
-2. Relax the second and third constraints and calculate the Lagrangian
-   dual bound. Which among the two relaxations provides the best dual
-   bound and how do they compare with respect to the dual bound given by
-   the linear relaxation of the original problem IP? 
+</font>
+{% endif %}

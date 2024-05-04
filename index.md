@@ -73,7 +73,7 @@ w3.includeHTML();
 |      | [Vehicle Routing: Cutting and Branching][64]; [Notes on Branching][65]                             | **[Wo sc 11.7 in LMS]**;  [C];  [Sheet 5][15]; **[Assignment 1][100]** |
 |------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------|
 |   18 | [Surrogate and Lagrangian Relaxations for MILP][55]                                                | **[Wo ch 10 in LMS]**; **[Fi]**                                        |
-|      | Practice on Lagrangian Relaxation (Multicommodity flows)                                           | [Sheet 6][16];  **[AMO ch 16 + 17.4 in LMS]**                          |
+|      | Practice on Lagrangian Relaxation (Multicommodity flows)                                           | [Sheet 6][16]; [Sol][85] **[AMO ch 16 + 17.4 in LMS]**                          |
 |      | Lagrangian Relaxation and Integer Programming                                                      | ([IB]; [JB]; [Fi2]); [Fi, sc 8]; [AMO sc 16.4-16.5]; [Wo ch 10 in LMS] |
 |------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------|
 |   19 | Applications: Vehicle Scheduling                                                                   |                                                                        |
@@ -370,7 +370,8 @@ Further Topics out of curriculum
 
 
 [81]: {{ "/assets/feat_sel.html" | absolute_url }}
-[85]: {{ "/assets/Lagrangian_grp.html" | absolute_url }}
+[85]: {{ "/sheets/lagrangian_sol.html" | absolute_url }}
+
 [86]: {{ "/assets/benders_example.html" | absolute_url }}
 [866]: {{ "https://github.com/DM872/Material/blob/master/Benders/benders_example_2.ipynb" | absolute_url }}
 
