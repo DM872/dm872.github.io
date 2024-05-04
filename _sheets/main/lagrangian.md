@@ -50,7 +50,7 @@ $$
 Solution:
 <br>
 
-See <a href="{{ "/assets/Lagrangian_fisher.html" | absolute_url }}">handwritten notes</a>.
+See <a href="{{ "/assets/Lagrangian_fisher.html" | absolute_url }}">python notebook</a>.
 
 </font>
 {% endif %}
