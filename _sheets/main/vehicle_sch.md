@@ -1,12 +1,5 @@
----
-layout: default
-mathjax: true
-title:  Sheet 6
-date:   2019-05-15 09:33:19 +0100
-categories: exercises 
----
 
-## Sheet 6
+## Sheet 7
 
 ### Multi Depot Vehicle Scheduling
 
@@ -138,7 +131,6 @@ method: `lagrangian_heuristic` in `lagrangian-template.py` and complete it
 with the missing parts. You will need a model used earlier in this
 exercise.
 
-<!--
 
 #### Task 8
 
@@ -154,4 +146,3 @@ defined only on the set of generated columns. How large is the gap from
 the LP solution and the integer solution?
 
 
--->
