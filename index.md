@@ -73,18 +73,18 @@ w3.includeHTML();
 |      | [Vehicle Routing: Cutting and Branching][64]; [Notes on Branching][65]                             | **[Wo sc 11.7 in LMS]**;  [C];  [Sheet 5][15]; **[Assignment 1][100]** |
 |------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------|
 |   18 | [Surrogate and Lagrangian Relaxations for MILP][55]                                                | **[Wo ch 10 in LMS]**; **[Fi]**                                        |
-|      | Practice on Lagrangian Relaxation                                           | [Sheet 6][16]; [Sol][85] **[AMO ch 16 + 17.4 in LMS]**                          |
-|      | [Further Notes on Lagrangian Relaxation][57]                                                      | ([IB]; [JB]; [Fi2]); [Fi, sc 8]; [AMO sc 16.4-16.5]; [Wo ch 10 in LMS] |
+|      | Practice on Lagrangian Relaxation                                                                  | [Sheet 6][16]; [Sol][85] **[AMO ch 16 + 17.4 in LMS]**                 |
+|      | [Further Notes on Lagrangian Relaxation][57]                                                       | ([IB]; [JB]; [Fi2]); [Fi, sc 8]; [AMO sc 16.4-16.5]; [Wo ch 10 in LMS] |
 |------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------|
-|   19 | Applications: [Vehicle Scheduling][66]                                                                   |      [BCG]; [CG]                                                                   |
-|      | [Crew Scheduling][67]; [RCSP][68]                                                                              |    [SGSK]; [GM]                                                                    |
+|   19 | Applications: [Vehicle Scheduling][66]                                                             | [BCG]; [CG]                                                            |
+|      | [Crew Scheduling][67]; [RCSP][68]                                                                  | [SGSK]; [GM]                                                           |
+|      | [Integer Programming and Heuristics][71]; [Notes][72]                                              | **[Wo ch 13]**; **[FL]**                                               |
+|------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------|
+|   20 | Stochastic Programming                                                                             |                                                                        |
+|      | Formulating Equity and Fairness in Optimization Models                                             |                                                                        |
 |      |                                                                                                    |                                                                        |
 |------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------|
-|   20 | Integer Programming and Heuristics; Notes                                                          |                                                                        |
-|      | Stochastic Programming                                                                             |                                                                        |
-|      | Formulating Equity and Fairness in Optimization Models                                             |                                                                        |
-|------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------|
-|   21 |                                                                                                    |                                                                        |
+|   21 | Multiobjective optimization                                                                        |                                                                        |
 |------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------|
 
 
