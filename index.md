@@ -77,7 +77,7 @@ w3.includeHTML();
 |      | [Further Notes on Lagrangian Relaxation][57]                                                       | ([IB]; [JB]; [Fi2]); [Fi, sc 8]; [AMO sc 16.4-16.5]; [Wo ch 10 in LMS] |
 |------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------|
 |   19 | Applications: [Vehicle Scheduling][66]                                                             | [BCG]; [CG]                                                            |
-|      | [Crew Scheduling][67]; [RCSP][68]                                                                  | [SGSK]; [GM]                                                           |
+|      | [Crew Scheduling][67]; [RCSP][68]                                                                  | [SGSK]; [GM]; [sheet 7][17]                                            |
 |      | [Integer Programming and Heuristics][71]; [Notes][72]                                              | **[Wo ch 13]**; **[FL]**                                               |
 |------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------|
 |   20 | Stochastic Programming                                                                             |                                                                        |
@@ -365,6 +365,7 @@ Further Topics out of curriculum
 [846]: {{ "/sheets/delcolgen_sol.html" | absolute_url }}
 [15]: {{ "/sheets/bnprice.html" | absolute_url }}
 [16]: {{ "/sheets/lagrangian.html" | absolute_url }}
+[18]: {{ "/sheets/vehicle_sch.html" | absolute_url }}
 [17]: {{ "/sheets/benders.html" | absolute_url }}
 
 
