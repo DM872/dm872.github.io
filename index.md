@@ -254,6 +254,11 @@ Further Topics out of curriculum
   Paths with a Super Additive Objective
   Function](http://dx.doi.org/10.1007/978-3-642-33558-7_24). M. Milano
   (ed.). CP, Springer, 2012, 7514, 299-315
+ 
+- [FL] M. Fischetti, A. Lodi, [Heuristics in Mixed Integer
+  Programming](https://homepages.cwi.nl/~dadush/workshop/discrepancy-ip/papers/heuristics-survey-fischetti-lodi-11.pdf),
+  Wiley Encyclopedia of Operations Research and Management Science
+  (James J. Cochran ed.), John Wiley & Sons, Vol. 8, 738-747, 2011.
 
 
 <!--
@@ -271,11 +276,6 @@ Further Topics out of curriculum
 
 
 
-
-- [FL] M. Fischetti, A. Lodi, [Heuristics in Mixed Integer
-  Programming](https://homepages.cwi.nl/~dadush/workshop/discrepancy-ip/papers/heuristics-survey-fischetti-lodi-11.pdf),
-  Wiley Encyclopedia of Operations Research and Management Science
-  (James J. Cochran ed.), John Wiley & Sons, Vol. 8, 738-747, 2011.
 
 
 - [BD] Bertsimas, D. and Dunn, J. (2017). [Optimal classification
