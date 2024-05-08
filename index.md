@@ -78,7 +78,7 @@ w3.includeHTML();
 |------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------|
 |   19 | Applications: [Vehicle Scheduling][66]                                                             | [BCG]; [CG]                                                            |
 |      | [Crew Scheduling][67]; [RCSP][68]                                                                  | [SGSK]; [GM]; [sheet 7][17]                                            |
-|      | [Integer Programming and Heuristics][71]; [Notes][72]                                              | **[Wo ch 13]**; **[FL]**                                               |
+|      | [Integer Programming and Heuristics][71]                                             | **[Wo ch 13]**; **[FL]**                                               |
 |------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------|
 |   20 | Stochastic Programming                                                                             |                                                                        |
 |      | Formulating Equity and Fairness in Optimization Models                                             |                                                                        |
