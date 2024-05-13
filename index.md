@@ -80,7 +80,7 @@ w3.includeHTML();
 |      | [Crew Scheduling][67]; [RCSP][68]                                                                  | [SGSK]; [GM]; [sheet 7][17]                                            |
 |      | [Integer Programming and Heuristics][71]                                             | **[Wo ch 13]**; **[FL]**                                               |
 |------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------|
-|   20 | Stochastic Programming                                                                             |                                                                        |
+|   20 | [Stochastic Programming][70]                                                                             |  [B]; **[Wo p 241]**; [SP]                                                            |
 |      | Formulating Equity and Fairness in Optimization Models                                             |                                                                        |
 |      |                                                                                                    |                                                                        |
 |------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------|
@@ -263,6 +263,10 @@ Further Topics out of curriculum
 
 <!--
 
+- [B] John E Beasley [Stochastic
+  Programming](people.brunel.ac.uk/~mastjjb/jeb/or/sp.html) in OR-Notes
+
+
 - [DJ] Dirickx YMI & Jennergren LP (1979). [Systems Analysis by
   Multilevel Methods: With Applications to Economics and
   Management](http://pure.iiasa.ac.at/id/eprint/1017/1/XB-79-106.pdf). Chichester,
@@ -270,9 +274,6 @@ Further Topics out of curriculum
 
 
 - [Z] Zhang, Ray Jian, [Benders Decomposition: An Easy Example](https://youtu.be/vQzpydNOWDY). 2016. Video
-
-- [B] John E Beasley [Stochastic
-  Programming](people.brunel.ac.uk/~mastjjb/jeb/or/sp.html) in OR-Notes
 
 
 
@@ -322,14 +323,14 @@ Further Topics out of curriculum
 
 - [OS] [Optimization Software: links to solvers and benachmarks](https://imada.sdu.dk/u/march/Blog/optimization/software/2023/02/12/optsoft.html)
 
-<!--  
+
 - [SP] [Stochastic Programming Society](https://www.stoprog.org/)
 
--->
 
-### Videos
+
 
 <!--
+### Videos
 - [Talk] [The Traveling Salesman Problem](https://www.youtube.com/live/Mpj8vo18W1E?feature=share) public lecture by William Cook on May 3rd 2023 at LSE.
 -->
 
