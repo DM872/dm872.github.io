@@ -81,7 +81,7 @@ w3.includeHTML();
 |      | [Integer Programming and Heuristics][71]                                             | **[Wo ch 13]**; **[FL]**                                               |
 |------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------|
 |   20 | [Stochastic Programming][70]                                                                             |  [B]; **[Wo p 241]**; [SP]                                                            |
-|      | Formulating Equity and Fairness in Optimization Models                                             |                                                                        |
+|      | [Formulating Equity and Fairness in Optimization Models][74]                     | [CH] |
 |      |                                                                                                    |                                                                        |
 |------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------|
 |   21 | Multiobjective optimization                                                                        |                                                                        |
