@@ -92,8 +92,8 @@ Further Topics out of curriculum
 
 |   |                                          |   |
 |---+------------------------------------------+---|
-|   | Benders' Algorithm; Version 2            |   |
-|   | Practice on Benders' Algorithm           |   |
+|   20 | [Benders' Algorithm][69]; [Version 2][699]                                       | **[Wo ch 12 in LMS]**; [DJ]; [Z];                                                |
+|      | Practice on Benders' Algorithm                                                   | [Sheet 7][17]; [Sol][86]; [Sol1][86]; [Sol2][866]                                |
 |   | Integer Programming and Machine Learning |   |
 |---+------------------------------------------+---|
 
