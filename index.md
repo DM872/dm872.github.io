@@ -261,8 +261,6 @@ Further Topics out of curriculum
   (James J. Cochran ed.), John Wiley & Sons, Vol. 8, 738-747, 2011.
 
 
-<!--
-
 - [B] John E Beasley [Stochastic
   Programming](people.brunel.ac.uk/~mastjjb/jeb/or/sp.html) in OR-Notes
 
@@ -277,7 +275,7 @@ Further Topics out of curriculum
 
 
 
-
+<!--
 
 - [BD] Bertsimas, D. and Dunn, J. (2017). [Optimal classification
   trees](https://dx.doi.org/10.1007/s10994-017-5633-9). Machine
@@ -291,11 +289,13 @@ Further Topics out of curriculum
   optimization](https://doi.org/10.1007/s10601-018-9285-6). Constraints
   23: 296–309.
 
+-->
+
 - [CH] Violet (Xinying) Chen and J. N. Hooker. [A Guide to Formulating
   Equity and Fairness in an Optimization
   Model](http://public.tepper.cmu.edu/jnh/equityGuideAOR.pdf). [Video](https://cp2021.lirmm.fr/submissions/2001)
 
--->
+
 
 
 ### Python
