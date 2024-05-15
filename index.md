@@ -82,7 +82,7 @@ w3.includeHTML();
 |------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------|
 |   20 | [Stochastic Programming][70]                                                                       | [B]; **[Wo p 241]**; [SP]                                              |
 |      | [Formulating Equity and Fairness in Optimization Models][74]                                       | [CH]                                                                   |
-|      | Practice on Stochastic Programming                                                                 |                                                                        |
+|      | Practice on Stochastic Programming                                                                 | [TV], [E]                                                              |
 |------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------|
 |   21 | Multiobjective optimization                                                                        | Assignment 2                                                           |
 |------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------|
@@ -206,6 +206,9 @@ Further Topics out of curriculum
   Mathematics, 2014
   
 
+- [E] Matthias Ehrgott. (2005) [Multicriteria Optimization](https://doi.org/10.1007/3-540-27659-9), Second
+  Edition. Springer Berlin.
+
 <!--
 
 - [C] J. Clausen. [Branch and Bound Algorithms-Principles and
@@ -267,7 +270,10 @@ Further Topics out of curriculum
   Equity and Fairness in an Optimization
   Model](http://public.tepper.cmu.edu/jnh/equityGuideAOR.pdf). [Video](https://cp2021.lirmm.fr/submissions/2001)
 
-
+- [TV] Satya Tamby, Daniel Vanderpooten. (2021) [Enumeration of the
+  Nondominated Set of Multiobjective Discrete Optimization
+  Problems](https://doi.org/10.1287/ijoc.2020.0953). INFORMS Journal on
+  Computing 33(1):72-85
 
 
 
