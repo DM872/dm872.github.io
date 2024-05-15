@@ -78,24 +78,24 @@ w3.includeHTML();
 |------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------|
 |   19 | Applications: [Vehicle Scheduling][66]                                                             | [BCG]; [CG]                                                            |
 |      | [Crew Scheduling][67]; [RCSP][68]                                                                  | [SGSK]; [GM]; [sheet 7][17]                                            |
-|      | [Integer Programming and Heuristics][71]                                             | **[Wo ch 13]**; **[FL]**                                               |
+|      | [Integer Programming and Heuristics][71]                                                           | **[Wo ch 13]**; **[FL]**                                               |
 |------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------|
-|   20 | [Stochastic Programming][70]                                                                             |  [B]; **[Wo p 241]**; [SP]                                                            |
-|      | [Formulating Equity and Fairness in Optimization Models][74]                     | [CH] |
-|      |  Practice on Stochastic Programming                                                                                                  |                                                                        |
+|   20 | [Stochastic Programming][70]                                                                       | [B]; **[Wo p 241]**; [SP]                                              |
+|      | [Formulating Equity and Fairness in Optimization Models][74]                                       | [CH]                                                                   |
+|      | Practice on Stochastic Programming                                                                 |                                                                        |
 |------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------|
-|   21 | Multiobjective optimization                                                                        |                                                                        |
+|   21 | Multiobjective optimization                                                                        | Assignment 2                                                           |
 |------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------|
 
 
 Further Topics out of curriculum
 
-|   |                                          |   |
-|---+------------------------------------------+---|
-|   20 | [Benders' Algorithm][69]; [Version 2][699]                                       | **[Wo ch 12 in LMS]**; [DJ]; [Z];                                                |
-|      | Practice on Benders' Algorithm                                                   | [Sheet 7][17]; [Sol][86]; [Sol1][86]; [Sol2][866]                                |
-|   | Integer Programming and Machine Learning |   |
-|---+------------------------------------------+---|
+|   |                                                |                                                   |
+|---+------------------------------------------------+---------------------------------------------------|
+|   | [Benders' Algorithm][69]; [Version 2][699]     | **[Wo ch 12 in LMS]**; [DJ]; [Z];                 |
+|   | Practice on Benders' Algorithm                 | [Sheet 7][17]; [Sol][86]; [Sol1][86]; [Sol2][866] |
+|   | [Integer Programming and Machine Learning][73] | **[Wo sc 14.6 in LMS]**; **[BD]**; **[FJ]**       |
+|---+------------------------------------------------+---------------------------------------------------|
 
 ### Code and Data
 
@@ -260,9 +260,15 @@ Further Topics out of curriculum
   Wiley Encyclopedia of Operations Research and Management Science
   (James J. Cochran ed.), John Wiley & Sons, Vol. 8, 738-747, 2011.
 
-
 - [B] John E Beasley [Stochastic
   Programming](people.brunel.ac.uk/~mastjjb/jeb/or/sp.html) in OR-Notes
+
+- [CH] Violet (Xinying) Chen and J. N. Hooker. [A Guide to Formulating
+  Equity and Fairness in an Optimization
+  Model](http://public.tepper.cmu.edu/jnh/equityGuideAOR.pdf). [Video](https://cp2021.lirmm.fr/submissions/2001)
+
+
+
 
 
 - [DJ] Dirickx YMI & Jennergren LP (1979). [Systems Analysis by
@@ -273,9 +279,6 @@ Further Topics out of curriculum
 
 - [Z] Zhang, Ray Jian, [Benders Decomposition: An Easy Example](https://youtu.be/vQzpydNOWDY). 2016. Video
 
-
-
-<!--
 
 - [BD] Bertsimas, D. and Dunn, J. (2017). [Optimal classification
   trees](https://dx.doi.org/10.1007/s10994-017-5633-9). Machine
@@ -289,11 +292,6 @@ Further Topics out of curriculum
   optimization](https://doi.org/10.1007/s10601-018-9285-6). Constraints
   23: 296–309.
 
--->
-
-- [CH] Violet (Xinying) Chen and J. N. Hooker. [A Guide to Formulating
-  Equity and Fairness in an Optimization
-  Model](http://public.tepper.cmu.edu/jnh/equityGuideAOR.pdf). [Video](https://cp2021.lirmm.fr/submissions/2001)
 
 
 
