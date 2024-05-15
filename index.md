@@ -77,12 +77,12 @@ w3.includeHTML();
 |      | [Further Notes on Lagrangian Relaxation][57]                                                       | ([IB]; [JB]; [Fi2]); [Fi, sc 8]; [AMO sc 16.4-16.5]; [Wo ch 10 in LMS] |
 |------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------|
 |   19 | Applications: [Vehicle Scheduling][66]                                                             | [BCG]; [CG]                                                            |
-|      | [Crew Scheduling][67]; [RCSP][68]                                                                  | [SGSK]; [GM]; [sheet 7][17]                                            |
+|      | [Crew Scheduling][67]; [RCSP][68]                                                                  | [SGSK]; [GM]; [Sheet 7][17]                                            |
 |      | [Integer Programming and Heuristics][71]                                                           | **[Wo ch 13]**; **[FL]**                                               |
 |------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------|
 |   20 | [Stochastic Programming][70]                                                                       | [B]; **[Wo p 241]**; [SP]                                              |
 |      | [Formulating Equity and Fairness in Optimization Models][74]                                       | [CH]                                                                   |
-|      | Practice on Stochastic Programming                                                                 |                                                                        |
+|      | Practice on Stochastic Programming                                                                 | [Sheet 8][18]                                                          |
 |------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------|
 |   21 | Multiobjective optimization                                                                        | [TV], [E] Assignment 2                                                 |
 |------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------|
@@ -93,7 +93,7 @@ Further Topics out of curriculum
 |   |                                                |                                                   |
 |---+------------------------------------------------+---------------------------------------------------|
 |   | [Benders' Algorithm][69]; [Version 2][699]     | **[Wo ch 12 in LMS]**; [DJ]; [Z];                 |
-|   | Practice on Benders' Algorithm                 | [Sheet 7][17]; [Sol][86]; [Sol1][86]; [Sol2][866] |
+|   | Practice on Benders' Algorithm                 | [Sheet 9][19]; [Sol][86]; [Sol1][86]; [Sol2][866] |
 |   | [Integer Programming and Machine Learning][73] | **[Wo sc 14.6 in LMS]**; **[BD]**; **[FJ]**       |
 |---+------------------------------------------------+---------------------------------------------------|
 
@@ -370,8 +370,9 @@ Further Topics out of curriculum
 [846]: {{ "/sheets/delcolgen_sol.html" | absolute_url }}
 [15]: {{ "/sheets/bnprice.html" | absolute_url }}
 [16]: {{ "/sheets/lagrangian.html" | absolute_url }}
-[18]: {{ "/sheets/vehicle_sch.html" | absolute_url }}
-[17]: {{ "/sheets/benders.html" | absolute_url }}
+[17]: {{ "/sheets/vehicle_sch.html" | absolute_url }}
+[18]: {{ "/sheets/stoch.html" | absolute_url }}
+[19]: {{ "/sheets/benders.html" | absolute_url }}
 
 
 
