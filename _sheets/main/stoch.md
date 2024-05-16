@@ -37,7 +37,7 @@ vehicle capacity
 - Objective: Minimize the expected cost of
 the solution.
 
-\[
+$$
 \begin{array}{rrr}
 X& Y &\lambda_i\\
 0 &50 &50 &0\\
@@ -50,7 +50,7 @@ X& Y &\lambda_i\\
 7 &32 &88 &5\\
 8 &77 &22 &5
 \end{array}
-\]
+$$
 
 ### Task 3
 
