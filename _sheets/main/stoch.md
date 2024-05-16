@@ -1,11 +1,8 @@
 
 ## Sheet 7
 
+
 ### Task 1
-
-Yield management
-
-### Task 2
 
 Vehicle Routing with Stochastic Demand (VRPSD)
 
@@ -52,7 +49,9 @@ $$
 \end{array}
 $$
 
-### Task 3
+Vehicle capacity 30.
+
+### Task 2
 
 Vehicle Routing with Time Windows and Stochastic Travel Times 
 
