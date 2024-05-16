@@ -39,7 +39,7 @@ the solution.
 
 $$
 \begin{array}{rrr}
-X& Y &\lambda_i\\
+&X& Y &\lambda_i\\
 0 &50 &50 &0\\
 1 &1 &18 &12\\
 2 &62 &80 &8\\
