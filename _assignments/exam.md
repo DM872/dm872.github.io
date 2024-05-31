@@ -188,7 +188,7 @@ days available and the number of students.
 | bmb     |    21 |        22 |      2850 |      592 |
 | samf    |    24 |        33 |      2850 |      581 |
 | fkf     |    51 |        59 |      2850 |      692 |
-| imada   |    60 | 101  2850 |       861 |          |
+| imada   |    60 | 101 | 2850 |       861 |         
 | all     |   179 |       249 |      2850 |     2428 |
 ```
 
