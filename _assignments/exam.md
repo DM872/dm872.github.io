@@ -82,9 +82,6 @@ is, it is a function $\sigma : E \to 2^{D\times R}$. For example, an exam $i$ sc
 3.  Exams with exam duration more than one day receive consecutive days.
     No holes due to weekend or holidays are allowed within an exam
     schedule.
-<!--
-4.  Exams with duration longer than one day, e.g. oral exams, are scheduled all days in the same room.
--->
 
 4.  Exams with preassigned dates and rooms must respect those preassignments and need not necessarily to satisfy the previous three constraints.
 
@@ -109,6 +106,10 @@ is, it is a function $\sigma : E \to 2^{D\times R}$. For example, an exam $i$ sc
     be found. Exams with preassigned dates do not count in this
     constraint.
 -->
+
+
+9.  **Optional:** *Room stability.* Exams with duration longer than one day, e.g. oral exams, are scheduled all days in the same room.
+
 
 If a schedule that satisfies all the above constraints is found, then
 one must maximize the distance between the starting times of exams that
@@ -142,13 +143,13 @@ Formulate the problem in MILP terms, implement the model and solve the instances
 ### Stochastic elements
 
 During the scheduling process rooms can change their status, from available to unavailable. Hence, the availability of a room is a stochastic variable. 
-If an exam is scheduled in a room that becomes unavailable one of two repair actions must be undertaken: i) moving the exam to another room with enough capacity without changing the days; ii) rescheduling the exam to different day(s) and room(s). We can assume that action i) has no cost. Action ii) has instead a cost and we would like to minimize it.
+If an exam is scheduled in a room that becomes unavailable one of two repair actions must be undertaken: i) moving the exam to another room with enough capacity without changing the days; ii) rescheduling the exam to different day(s) and room(s). We can assume that action i) has no cost. Action ii) has instead a cost and we would like to minimize it. The presence of the optional constraint about room stability may increase the need for actions ii). It is up to you whether to include or not this optional but realistic constraint. 
 
 
 Rather than through a theoretical expression, we approximate the description of the random variables for the room availability through a finite number of
 future scenarios of room availability, each scenario occurring with equal probability.
 
-It is your task to address this 
+
 
 
 ** Your Task **
