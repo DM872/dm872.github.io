@@ -84,7 +84,7 @@ w3.includeHTML();
 |      | [Formulating Equity and Fairness in Optimization Models][74]                                       | [CH]                                                                   |
 |      | Practice on Stochastic Programming                                                                 | [Sheet 8][18]; sol in [LMS] under Resources                            |
 |------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------|
-|   21 | [Multiobjective optimization][75]                                                                  | [TV], [E] Assignment 2                                                 |
+|   21 | [Multiobjective optimization][75]                                                                  | [TV], [E] **[Assignment 2][101]**                                                 |
 |------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------|
 
 
@@ -427,7 +427,8 @@ Further Topics out of curriculum
 [75]: {{ "/assets/dm872-slides-multiobj.pdf" | absolute_url }}
 
 [100]: {{ "/assignments/vrptw.html" | absolute_url  }}
-[101]: {{ site.baseurl }}{% post_url 2021-05-28-salt_spreading %}
+[101]: {{ "/assignments/exams.html" | absolute_url  }}
+[103]: {{ site.baseurl }}{% post_url 2021-05-28-salt_spreading %}
 [102]: {{ "/assets/kkt.pdf" | absolute_url  }}
 [108]: {{ site.baseurl }}{% post_url 2022-05-30-exams %}
 [109]: {{ "/assignments/timetabling.html" | absolute_url }}
