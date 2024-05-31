@@ -427,7 +427,7 @@ Further Topics out of curriculum
 [75]: {{ "/assets/dm872-slides-multiobj.pdf" | absolute_url }}
 
 [100]: {{ "/assignments/vrptw.html" | absolute_url  }}
-[101]: {{ "/assignments/exams.html" | absolute_url  }}
+[101]: {{ "/assignments/exam.html" | absolute_url  }}
 [103]: {{ site.baseurl }}{% post_url 2021-05-28-salt_spreading %}
 [102]: {{ "/assets/kkt.pdf" | absolute_url  }}
 [108]: {{ site.baseurl }}{% post_url 2022-05-30-exams %}
