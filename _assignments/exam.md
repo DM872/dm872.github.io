@@ -70,7 +70,7 @@ Exams may share students. The number of students each pair of courses share is d
 Further, exams may be $joined$, that is, they need to have the same starting date. For an exam $i$ from $E$, the set of exams that must be "joined" with it is denoted $J_i$.  
 
 An *exam schedule* is an assignment of exams to days and rooms, that
-is, it is a function $\sigma : E \to 2^{D\times R}$. For example, an exam $i$ scheduled in days $1$ and $2$ in rooms $a$ and $b$, respectively, can be represented by $\sigma: i \mapto \{(1,a),(2,b)\}. An exam schedule is
+is, it is a function $\sigma : E \to 2^{D\times R}$. For example, an exam $i$ scheduled in days $1$ and $2$ in rooms $a$ and $b$, respectively, can be represented by $\sigma: i \mapto \{(1,a),(2,b)\}$. An exam schedule is
 *feasible* if it satisfies the following constraints:
 
 1.  Each exam in input is scheduled to start and finish in the days
@@ -83,7 +83,8 @@ is, it is a function $\sigma : E \to 2^{D\times R}$. For example, an exam $i$ sc
     No holes due to weekend or holidays are allowed within an exam
     schedule.
 
-4.  Exams with preassigned dates and rooms must respect those preassignments and need not necessarily to satisfy the previous three constraints.
+4.  Exams with preassigned dates <s>and rooms</s> must respect those preassignments and need not necessarily to satisfy the previous three constraints.
+    <p style="color:blue;">If present, preassignments are specified in the field `schedule` of each exam.</p>
 
 5.  Exams that are *joined* must have schedules starting on the same
     day. (The duration for both should be the sum of the duration of the
