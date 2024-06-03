@@ -227,6 +227,7 @@ should be safe.
 
 <p style="color:blue;">
 The data you will need are:
+
 - `instance.config` a dictionary containins `days`, a list of days available for scheduling exams
 - `instance.exams` a dictionary of exams containing deatils for each exams, including the number of days required and the type `s`, `m`. 
 - `instance.room_scenarios` a dictionary with keys the number of scenario. Then for each scenario a dictionary with keys the days and values a list of avaialble rooms. Use `instance.room_capacity(room_id)` to find the capacity of each room. Use `instance.room_scenarios[0]` for the deterministic case. Do not use instance.room_details.
