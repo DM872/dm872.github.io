@@ -70,7 +70,7 @@ Exams may share students. The number of students each pair of courses share is d
 Further, exams may be $joined$, that is, they need to have the same starting date. For an exam $i$ from $E$, the set of exams that must be "joined" with it is denoted $J_i$.  
 
 An *exam schedule* is an assignment of exams to days and rooms, that
-is, it is a function $\sigma : E \to 2^{D\times R}$. For example, an exam $i$ scheduled in days $1$ and $2$ in rooms $a$ and $b$, respectively, can be represented by $\sigma: i \mapsto \{(1,a),(2,b)\}$. An exam schedule is
+is, it is a function $\sigma : E \to 2^{D\times R}$. For example, an exam $i$ scheduled in days $1$ and $2$ in rooms $a$ and $b$, respectively, can be represented by $\sigma: i \mapsto \\{(1,a),(2,b)\\}$. An exam schedule is
 *feasible* if it satisfies the following constraints:
 
 1.  Each exam in input is scheduled to start and finish in the days
@@ -83,8 +83,8 @@ is, it is a function $\sigma : E \to 2^{D\times R}$. For example, an exam $i$ sc
     No holes due to weekend or holidays are allowed within an exam
     schedule.
 
-4.  Exams with preassigned dates <s>and rooms</s> must respect those preassignments and need not necessarily to satisfy the previous three constraints.
-    <p style="color:blue;">If present, preassignments are specified in the field `schedule` of each exam.</p>
+4.  <s>Exams with preassigned dates and rooms must respect those preassignments and need not necessarily to satisfy the previous three constraints.
+    If present, preassignments are specified in the field `schedule` of each exam.</s>
 
 5.  Exams that are *joined* must have schedules starting on the same
     day. (The duration for both should be the sum of the duration of the
@@ -96,6 +96,8 @@ is, it is a function $\sigma : E \to 2^{D\times R}$. For example, an exam $i$ sc
 7. *Written* exams (`type=='s'`) must be scheduled in rooms with enough capacity (`seats`) to accommodate all the students registered to the exams (ideally, there should be a capacity reduction factor to ensure enough distance between students but we will ignore this here, or assume the reduction has already been done).
 
 8. *Oral* exams (`type=='m'`) must be scheduled in rooms with capacity less than 10.
+
+9.  **Optional:** *Room stability.* Exams with duration longer than one day, e.g. oral exams, are scheduled all days in the same room.
 
 <!--
 9.  The total number of students having *written* exams in a day must be
@@ -109,7 +111,7 @@ is, it is a function $\sigma : E \to 2^{D\times R}$. For example, an exam $i$ sc
 -->
 
 
-9.  **Optional:** *Room stability.* Exams with duration longer than one day, e.g. oral exams, are scheduled all days in the same room.
+
 
 
 If a schedule that satisfies all the above constraints is found, then
@@ -134,7 +136,7 @@ importance between avoiding overlaps for conflicting courses and
 avoiding overlaps for courses that only share students.
 -->
 
-** Your Task **
+### Your Task (Deterministic Case)
 
 Formulate the problem in MILP terms, implement the model and solve the instances of the problems made available for E23. 
 
@@ -153,7 +155,7 @@ future scenarios of room availability, each scenario occurring with equal probab
 
 
 
-** Your Task **
+### Your Task (Stochastic Case)
 
 Formulate the problem as a stochastic programming problem using one of the techniques seen in class, implement the model and solve the instances of the problems made available for E23. 
 
@@ -222,6 +224,15 @@ rooms.
 Important: there might come updates to the files of the starting
 package, hence you should not modify them. Importing them in your code
 should be safe.
+
+<p style="color:blue;">
+The data you will need are:
+- `instance.config` a dictionary containins `days`, a list of days available for scheduling exams
+- `instance.exams` a dictionary of exams containing deatils for each exams, including the number of days required and the type `s`, `m`. 
+- `instance.room_scenarios` a dictionary with keys the number of scenario. Then for each scenario a dictionary with keys the days and values a list of avaialble rooms. Use `instance.room_capacity(room_id)` to find the capacity of each room. Use `instance.room_scenarios[0]` for the deterministic case. Do not use instance.room_details.
+- `instance.shared` a dictionary with keys the pairs of exams and values the list of shared students 
+- `instance.adj` a dictionary with keys the pairs of exams and values the number of shared students 
+</p>
 
 
 ### Output Format 
