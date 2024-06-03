@@ -185,15 +185,15 @@ number of exams, the number of exam days to allocate, the number of room
 days available and the number of students.
 
 ```
-|         | exams | exam days | room days | students |
-|---------+-------+-----------+-----------+----------|
-| sund    |     9 |        17 |      2850 |      285 |
-| biologi |    14 |        17 |      2850 |      210 |
-| bmb     |    21 |        22 |      2850 |      592 |
-| samf    |    24 |        33 |      2850 |      581 |
-| fkf     |    51 |        59 |      2850 |      692 |
-| imada   |    60 | 101 | 2850 |       861 |         
-| all     |   179 |       249 |      2850 |     2428 |
+|         | exams | exam days | students |
+|---------+-------+-----------+----------|
+| sund    |     9 |        17 |      285 |
+| biologi |    14 |        17 |      210 |
+| bmb     |    21 |        22 |      592 |
+| samf    |    24 |        33 |      581 |
+| fkf     |    51 |        59 |      692 |
+| imada   |    60 |       101 |      861 |
+| all     |   179 |       249 |     2428 |
 ```
 
 
