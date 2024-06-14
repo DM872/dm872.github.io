@@ -26,14 +26,21 @@ categories: assignments
     - The pdf file must contain the report as concise as possible (by no way more than 10
     pages) with the answers to the tasks. The report should be written
     preferably in Latex using this [template]({{ "/assets/template_answers.tex" | absolute_url }}).
+    <div style="color:blue;">
+    The file must be called `report.pdf`.
+    <div style="color:black;">
 
-    - The archive must decompress in the following structure:
+    - The archive `asg2.tgz` or `asg2.zip` must decompress in the following structure:
         ```
         asg2
         |
         +--src
         ```
         `src` must contain the Python code for the calculations.
+
+<div style="color:blue;">
+- It is very important that the submission instructions described in the previous point are followed meticulously because the submission will be handled by the secretary.
+<div style="color:black;">
 
 - **Deadline: Wednesday, June 28, 2024, at noon** 
 
