@@ -25,7 +25,11 @@ categories: assignments
 
     - The pdf file must contain the report as concise as possible (by no way more than 10
     pages) with the answers to the tasks. The report should be written
-    preferably in Latex using this [template]({{ "/assets/template_answers.tex" | absolute_url }}). <div style="color:blue;">The file must be called `report.pdf`.<div style="color:black;">
+    preferably in Latex using this [template]({{ "/assets/template_answers.tex" | absolute_url }}). 
+    
+    <div style="color:blue;">
+    - The pdf file must be called `report.pdf`.
+    <div style="color:black;">
 
     - The archive `asg2.tgz` or `asg2.zip` must decompress in the following structure:
         ```
