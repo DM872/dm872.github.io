@@ -380,7 +380,7 @@ Further Topics out of curriculum
 [85]: {{ "/sheets/lagrangian_sol.html" | absolute_url }}
 
 [86]: {{ "/assets/benders_example.html" | absolute_url }}
-[866]: {{ "https://github.com/DM872/Material/blob/master/Benders/benders_example_2.ipynb" | absolute_url }}
+[866]: {{ "https://github.com/DM872/Material/tree/main/Benders" | absolute_url }}
 
 
 [32]: {{ "https://github.com/DM872/Material/blob/master/sheet2/infection.ipynb" }}
