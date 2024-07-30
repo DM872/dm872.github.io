@@ -59,14 +59,13 @@ categories: assignments
 You have to use Mathematical Programming to schedule the exams at the Faculty
 of Science at SDU.
 
-A starting package for the implementation is available in the course git repository [GIT]. The description of the instances has been moved
+A starting package for the implementation is available in the course git repository [GIT]. The description of the instances is available
 there in the `README.md` file of the `data/` directory.
 
-Let $E$ be the set of exams for courses that need to have a date
-scheduled. Let $D$ be the set of days and $R$ the set of rooms that are
-available for scheduling exams. Each exam $e$ from $E$ has a set of
-enrolled students $S_e$ and requires a number of days depending on
-whether it is written or oral.
+Let $E$ be the set of course exams that need to be scheduled, that is, have a date and room assigned. Let $D$ be the set of days and $R$ the set of rooms that are
+available for scheduling exams. Each exam $i$ from $E$ has a set of
+enrolled students $S_i$ and requires a number of days depending on
+whether the exam is written or oral.
 
 Exams that for some reason cannot have overlapping schedules are
 called *conflicting* exams. In particular, exams with the same teacher
