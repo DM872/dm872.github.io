@@ -188,8 +188,7 @@ In your git repository you will find input instances for E23. You should
 start experimenting with the smallest instances and grow to the largest.
 
 In the following table for each instance it is given in the order: the
-number of exams, the number of exam days to allocate, the number of room
-days available and the number of students.
+number of exams, the number of exam days to allocatex and the number of students.
 
 ```
 |         | exams | exam days | students |
@@ -235,11 +234,11 @@ should be safe.
 <div style="color:blue;">
 The data you will need are:
 
-* `instance.config` a dictionary containins `days`, a list of days available for scheduling exams
+* `instance.config` a dictionary containing `days`, a list of days available for scheduling exams
 
 * `instance.exams` a dictionary of exams containing deatils for each exams, including the number of days required and the type `s`, `m`. 
 
-* `instance.room_scenarios` a dictionary with keys the number of scenario. Then for each scenario a dictionary with keys the days and values a list of avaialble rooms. Use `instance.room_capacity(room_id)` to find the capacity of each room. Use `instance.room_scenarios[0]` for the deterministic case. Do not use instance.room_details.
+* `instance.room_scenarios` a dictionary with keys the number of scenario. Then for each scenario a dictionary with keys the days and values a list of avaialble rooms. Use `instance.room_capacity(room_id)` to find the capacity of each room. Use `instance.room_scenarios[0]` for the deterministic case. Do not use `instance.room_details`.
 
 * `instance.shared` a dictionary with keys the pairs of exams and values the list of shared students 
 
