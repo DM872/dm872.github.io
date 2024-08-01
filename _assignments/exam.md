@@ -261,9 +261,9 @@ The output file contains a solution in json format as shown below:
         (160, "room.U148") 
     ],
     "N100038102": [
-        (163,"room.U141")
-        (164,"room.U141")
-        (165,"room.U141")
+        (163,"room.U141"),
+        (164,"room.U141"),
+        (165,"room.U141"),
         (166,"room.U141")
     ],
     "N100040102": [
@@ -273,7 +273,7 @@ The output file contains a solution in json format as shown below:
         (170, "room.U148") 
     ],
     "N110028102": [
-        (163, "room.U148") 
+        (163, "room.U148"), 
         (164, "room.U25A") 
     ],
 ...
