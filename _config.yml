@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: DM872 (S24) @ SDU - Mathematical Optimization at Work
+title: DM872 (S25) @ SDU - Mathematical Optimization at Work
 email: marco@imada.sdu.dk
 description: Course on Mathematical Programming at Master Level in Computer Science at University of Southern Denmark
 # >- # this means to ignore newlines until "baseurl:"
@@ -22,9 +22,10 @@ description: Course on Mathematical Programming at Master Level in Computer Scie
 #  Google search results) and in your feed.xml site description.
 # baseurl: "" # the subpath of your site, e.g. /blog
 # url: "https://dm561.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-# url: "https://dm872.github.io"
-url: "https://imada.sdu.dk"
-baseurl: "/u/marco/Teaching/AY2023-2024/DM872"
+url: "https://dm872.github.io"
+baseurl: ""
+# url: "https://imada.sdu.dk"
+# baseurl: "/u/marco/Teaching/AY2023-2024/DM872"
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
