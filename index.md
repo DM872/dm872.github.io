@@ -54,38 +54,48 @@ w3.includeHTML();
 
 
 
-| Week | Topics and Slides                                                                                  | Resources                                                              |
-|------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------|
-|   14 | [Introduction][51], [Farkas][512], [Interior Point Methods][511]                                   | [GRB], [HL, sc 8.4], [MG, sc 7.2], [V, ch 21]; [NW]                    |
-|      | [LP Practical Guidelines][104],  Sifting                                                           | **[KN1]**,   [BGLMS, sc 3]                                             |
-|      | Practice                                                                                           | [Sheet 1][11]; [sol][81]                                               |
-|------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------|
-|   15 | [MILP Practical Guidelines][105]; [Presolving][60]; [Modeling][7]                                  | **[KN2]**, *[ABGRW]*, **[Wi, ch7,9,10] or [GRB, modeling 2]**          |
-|      | [MILP Formulations for Traveling Salesman Problem][144]                                            | [P] or [DFJ] or [MTZ] or [A] or [ABCC] or [OAL]; [OS] [Talk]           |
-|      | Practice on TSP                                                                                    | [Sheet 2][12]; [sol][82]                                               |
-|------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------|
-|   16 | [Lazy Constraints for TSP][54]                                                                     | [Sheet 3][13]; [sol][83]                                               |
-|      | Rounding up the practice on TSP +  [Dantzig Wolfe decomposition and Delayed Column Generation][58] | [GIT]; [BGLMS, sc 3];  **[Wo ch 11 in LMS]**; [LD]                     |
-|      | [Delayed Column Generation][599]; [Dual Bounds in Column Generation][59]                           | **[Wo ch 11 in LMS]**                                                  |
-|------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------|
-|   17 | Practice on CG                                                                                     | [Sheet 4][14]; [Sol][846]                                              |
+| Week | Topics and Slides                                                        | Teach | Resources                                                              |
+|------+--------------------------------------------------------------------------+-------+------------------------------------------------------------------------|
+|   6  | [Introduction][51], [Farkas][512], [Interior Point Methods][511]         | MC    | [GRB], [HL, sc 8.4], [MG, sc 7.2], [V, ch 21]; [NW]                    |
+|      | [LP Practical Guidelines][104],  Sifting                                 | MC    | **[KN1]**,   [BGLMS, sc 3]                                             |
+|   7  | Practice                                                                 | MC    | [Sheet 1][11]; [sol][81]                                               |
+|      | [MILP Practical Guidelines][105]; [Presolving][60]; [Modeling][7]        | MC    | **[KN2]**, *[ABGRW]*, **[Wi, ch7,9,10] or [GRB, modeling 2]**          |
+|------+--------------------------------------------------------------------------+-------+------------------------------------------------------------------------|
+|  8   | [MILP Formulations for Traveling Salesman Problem][144]                  | KP    | [P] or [DFJ] or [MTZ] or [A] or [ABCC] or [OAL]; [OS] [Talk]           |
+|      | [Cutting planes for TSP][54]                                             | KP    | [Sheet 3][13]; [sol][83]                                               |
+|  9   | Practice on TSP                                                          | KP    | [Sheet 2][12]; [sol][82]                                               |
+|------+--------------------------------------------------------------------------+-------+------------------------------------------------------------------------|
+|      | VRP Formulations and Valid Inequalities                                  | KP    |                                                                        |
+|  10  | VRP Formulations and Valid Inequalities                                  | KP    |                                                                        |
+|      | Practice on CVRP                                                         | KP    | Assignment 1                                                           |
+|------+--------------------------------------------------------------------------+-------+------------------------------------------------------------------------|
+|  11  | [Surrogate and Lagrangian Relaxations for MILP][55]                      | MC    | **[Wo ch 10 in LMS]**; **[Fi]**                                        |
+|      | Practice on Lagrangian Relaxation                                        | MC    | [Sheet 6][16]; [Sol][85] **[AMO ch 16 + 17.4 in LMS]**                 |
+|  12  | [Further Notes on Lagrangian Relaxation][57]                             | MC    | ([IB]; [JB]; [Fi2]); [Fi, sc 8]; [AMO sc 16.4-16.5]; [Wo ch 10 in LMS] |
+|------+--------------------------------------------------------------------------+-------+------------------------------------------------------------------------|
+|      | [Dantzig Wolfe decomposition and Delayed Column Generation][58]          | MC    | [GIT]; [BGLMS, sc 3];  **[Wo ch 11 in LMS]**; [LD]                     |
+|  13  | [Delayed Column Generation][599]; [Dual Bounds in Column Generation][59] | MC    | **[Wo ch 11 in LMS]**                                                  |
+|      | Practice on CG                                                           | MC    | [Sheet 4][14]; [Sol][846]                                              |
+|------+--------------------------------------------------------------------------+-------+------------------------------------------------------------------------|
+|  14  | Applications: [Vehicle Scheduling][66]                                   | MC    | [BCG]; [CG]                                                            |
+|      | [Crew Scheduling][67]; [RCSP][68]                                        | MC    | [SGSK]; [GM]; [Sheet 7][17]                                            |
+|  15  | [Integer Programming and Heuristics][71]                                 | MC    | **[Wo ch 13]**; **[FL]**                                               |
+|------+--------------------------------------------------------------------------+-------+------------------------------------------------------------------------|
+|      | [Stochastic Programming][70]                                             | MC    | [B]; **[Wo p 241]**; [SP]                                              |
+|  18  | Stochastic Programming                                                   | MC    | [B]; **[Wo p 241]**; [SP]                                              |
+|      | Practice on Stochastic Programming                                       | MC    | [Sheet 8][18]; sol in [LMS] under Resources                            |
+|------+--------------------------------------------------------------------------+-------+------------------------------------------------------------------------|
+|  19  | [Formulating Equity and Fairness in Optimization Models][74]             | MC    | [CH]                                                                   |
+|------+--------------------------------------------------------------------------+-------+------------------------------------------------------------------------|
+
+
+
+
+<!--
 |      | Vehicle Routing: [Compact models][62]; [Set Partitioning formulation and CG][63]                   | **[Fe]**, [TV];                                                        |
 |      | [Vehicle Routing: Cutting and Branching][64]; [Notes on Branching][65]                             | **[Wo sc 11.7 in LMS]**;  [C];  [Sheet 5][15]; **[Assignment 1][100]** |
-|------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------|
-|   18 | [Surrogate and Lagrangian Relaxations for MILP][55]                                                | **[Wo ch 10 in LMS]**; **[Fi]**                                        |
-|      | Practice on Lagrangian Relaxation                                                                  | [Sheet 6][16]; [Sol][85] **[AMO ch 16 + 17.4 in LMS]**                 |
-|      | [Further Notes on Lagrangian Relaxation][57]                                                       | ([IB]; [JB]; [Fi2]); [Fi, sc 8]; [AMO sc 16.4-16.5]; [Wo ch 10 in LMS] |
-|------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------|
-|   19 | Applications: [Vehicle Scheduling][66]                                                             | [BCG]; [CG]                                                            |
-|      | [Crew Scheduling][67]; [RCSP][68]                                                                  | [SGSK]; [GM]; [Sheet 7][17]                                            |
-|      | [Integer Programming and Heuristics][71]                                                           | **[Wo ch 13]**; **[FL]**                                               |
-|------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------|
-|   20 | [Stochastic Programming][70]                                                                       | [B]; **[Wo p 241]**; [SP]                                              |
-|      | [Formulating Equity and Fairness in Optimization Models][74]                                       | [CH]                                                                   |
-|      | Practice on Stochastic Programming                                                                 | [Sheet 8][18]; sol in [LMS] under Resources                            |
-|------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------|
-|   21 | [Multiobjective optimization][75]                                                                  | [TV], [E] **[Assignment 2][101]**                                                 |
-|------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------|
+|      | [Multiobjective optimization][75]                                        |       | [TV], [E] **[Assignment 2][101]**                                      |
+-->
 
 
 Further Topics out of curriculum
